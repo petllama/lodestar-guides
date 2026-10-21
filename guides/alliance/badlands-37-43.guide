@@ -1,0 +1,354 @@
+guide lodestar/alliance/badlands-37-43
+title "Badlands (37-43)"
+levels 37-43
+zone map 1418
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/stranglethorn-vale-43-51
+step
+  level 36
+step
+  accept 719
+step
+  accept 718
+step
+  interact 2868
+  accept 720
+step
+  tip Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site.
+  collect 4616 quest 719.1 @53.33,32.7 map 1418 -- Drops from: Shadowforge Tunneler, Shadowforge Darkweaver, Shadowforge Chanter
+step
+  tip Retrieve the Supply Crate for Sigrun Ironhew.
+  collect 4629 quest 718.1 @66.6,22 map 1418 -- Drops from: Excavation Supply Crate
+step
+  turnin 718
+step
+  turnin 719
+step
+  tip Find Prospector Ryedol and let him know Hammertoe Grez is alive.
+  turnin 720
+step
+  accept 721
+step
+  when level>=36
+  accept 2418
+step
+  accept 705
+step
+  when turnedin 1106
+  accept 1108
+step
+  accept 710
+step
+  when turnedin 713
+  accept 714
+step
+  zone map 1455
+  when turnedin 713
+  tip Bring a Gyrochronatom to Lotwil Veriatus in the Badlands.
+  talk 5175
+  buy 4389 npc 5175
+step
+  zone map 1418
+  when turnedin 713
+  turnin 714
+step
+  tip Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands.
+  collect 4626 x10 quest 710.1 @18.81,42.99 map 1418 -- Drops from: Lesser Rock Elemental
+step
+  turnin 710
+step
+  accept 711
+step
+  when onquest 738
+  tip Find Agmond.
+  turnin 738
+step
+  when turnedin 1106
+  tip Bring 10 Indurium Flakes to Martek the Exiled in the Badlands.
+  collect 5797 x10 quest 1108.1 @51.35,69.72 map 1418 -- Drops from: Stonevault Bonesnapper, Stonevault Basher, Stonevault Seer
+step
+  tip Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands.
+  collect 4627 x3 quest 711.1 @40.51,78.29 map 1418 -- Drops from: Rock Elemental
+step
+  when turnedin 1106
+  turnin 1108
+step
+  accept 703
+step
+  accept 733
+step
+  tip Get 7 pieces of Scrap Metal for Sigrun.
+  collect 4630 x7 quest 733.1 @62.52,68.44 map 1418 -- Drops from: Dustbelcher Ogre, Dustbelcher Brute, Dustbelcher Wyrmhunter
+step
+  accept 709
+step
+  turnin 733
+step
+  tip Bring 4 Buzzard Wings to Rigglefuzz.
+  collect 3404 x4 quest 703.1 @57.46,28.59 map 1418 -- Drops from: Starving Buzzard, Buzzard, Giant Buzzard
+step
+  when onquest 2418
+  tip Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands.
+  collect 8009 x8 quest 2418.1 @48.2,11 map 1418 optional -- Shadowforge Surveyor is elite: grouping up is advised.
+  collect 8052 x8 quest 2418.2 @48.2,11 map 1418 optional -- Shadowforge Surveyor is elite: grouping up is advised.
+step
+  tip Find Hammertoe Grez in Uldaman.
+  turnin 721
+step
+  when level>=40
+  accept 722
+step
+  turnin 711
+step
+  turnin 703
+step
+  when onquest 2418
+  turnin 2418
+step
+  tip Bring the Tablet of Ryun'eh to Theldurin the Lost.
+  collect 4631 quest 709.1 @39.34,18.82 map 1418 -- Drops from: Ancient Chest
+step
+  when onquest 722
+  tip Find Hammertoe's Amulet and return it to him in Uldaman.
+  collect 4635 quest 722.1 @38.99,19.73 map 1418 optional -- Magregan Deepshadow is elite: grouping up is advised.
+step
+  when onquest 722
+  turnin 722
+step
+  when turnedin 722
+  accept 723
+step
+  when level>=37
+  kill 4844 @48.2,11 map 1418 optional -- Shadowforge Surveyor is elite: grouping up is advised.
+  accept 2198 @48.2,11 map 1418
+step
+  when onquest 723
+  tip Take Hammertoe's Amulet to Prospector Ryedol in the Badlands.
+  turnin 723
+step
+  when turnedin 723
+  accept 724
+step
+  turnin 709
+step
+  accept 727
+step
+  when turnedin 738
+  interact 2875
+  accept 739
+step
+  when turnedin 738
+  tip Slay Agmond's killer, Murdaloc.
+  kill 2945 quest 739.1 @49.63,66.31 map 1418
+  kill 2945 quest 739.1
+  kill 2893 x12 quest 739.2 @51.35,69.72 map 1418
+step
+  accept 712
+step
+  tip Bring 5 Bracers of Rock Binding to Lotwil Veriatus in the Badlands.
+  collect 4628 x5 quest 712.1 @5.48,82.27 map 1418 -- Drops from: Greater Rock Elemental
+step
+  turnin 712
+step
+  when turnedin 713
+  accept 734
+step
+  when turnedin 713
+  tip Speak to Lucien Tosselwrench in the Badlands.
+  turnin 734
+step
+  when turnedin 713
+  accept 777
+step
+  when turnedin 713
+  tip Bring Cog #5 to Lotwil Veriatus.
+  turnin 777
+step
+  when level>=40
+  accept 732
+step
+  when onquest 732
+  tip Retrieve the Sign of the Earth for Garek.
+  collect 4640 quest 732.1 @12.62,75.49 map 1418 -- Drops from: Boss Tho'grun
+step
+  when onquest 732
+  turnin 732
+step
+  when level>=40
+  accept 706
+step
+  when onquest 706
+  tip Acquire a Black Drake's Heart for Sigrun Ironhew.
+  collect 4612 quest 706.1 @80.66,37.38 map 1418 -- Drops from: Scalding Whelp, Scorched Guardian
+step
+  when onquest 706
+  turnin 706
+step
+  when turnedin 713
+  accept 778
+step
+  when turnedin 713
+  tip Defeat the Fam'retor Guardian and bring Lotwil's Shackles of Elemental Binding back to Lotwil Veriatus.
+  collect 4847 quest 778.1 @26.01,45.78 map 1418 -- Drops from: Fam'retor Guardian
+step
+  when turnedin 713
+  turnin 778
+step
+  when turnedin 732
+  when level>=50
+  accept 717
+step
+  when onquest 717
+  tip Use the Sign of the Earth to activate the Pillars of Amethyst, Opal, and Diamond and obtain the Runestones.
+  collect 4615 quest 717.1 @81.88,49.46 map 1418 optional -- Blacklash is elite: grouping up is advised.
+  collect 4615 quest 717.1 @82.03,49.93 map 1418 optional -- Blacklash is elite: grouping up is advised.
+  collect 4645 quest 717.2 @82.03,49.93 map 1418 optional -- Hematus is elite: grouping up is advised.
+step
+  when onquest 717
+  turnin 717
+step
+  zone map 1434
+  tip Bring 9 Blue Pearls to Rigglefuzz in the Badlands.
+  collect 4611 x9 quest 705.1 @26.3,26.1 map 1434 -- Drops from: Giant Clam
+step
+  zone map 1418
+  turnin 705
+step
+  zone map 1455
+  when onquest 2198
+  tip Search for the original creator of the shattered necklace to learn of its potential value.
+  turnin 2198 -- Turn in at Ironforge
+step
+  tip Give the Sigil of the Hammer to Gerrig Bonegrip in the Forlorn Cavern of Ironforge.
+  turnin 727 -- Turn in at Ironforge
+step
+  accept 687 npc 2786
+step
+  accept 737 npc 2786
+step
+  accept 1360
+step
+  when onquest 724
+  tip Take Hammertoe's Amulet to Historian Karnik in Ironforge.
+  turnin 724 -- Turn in at Ironforge
+step
+  when turnedin 724
+  accept 725
+step
+  when onquest 725
+  tip Find Advisor Belgrum and give him his note.
+  turnin 725 -- Turn in at Ironforge
+step
+  when turnedin 725
+  accept 726
+step
+  when onquest 726
+  tip Speak to Historian Karnik.
+  turnin 726 -- Turn in at Ironforge
+step
+  when turnedin 726
+  when level>=44
+  accept 762
+step
+  zone map 1418
+  tip Find Theldurin the Lost.
+  turnin 687
+step
+  tip Bring Yagyin's Digest to Theldurin.
+  turnin 737
+step
+  accept 692
+step
+  tip Bring the Torn Scroll Fragment, the Crumpled Scroll Fragment and the Singed Scroll Fragment to Theldurin the Lost.
+  collect 4518 quest 692.1 @53.87,83.91 map 1418 -- Drops from: Enraged Rock Elemental
+  collect 4519 quest 692.2 @53.87,83.91 map 1418 -- Drops from: Enraged Rock Elemental
+  collect 4520 quest 692.3 @53.87,83.91 map 1418 -- Drops from: Enraged Rock Elemental
+step
+  turnin 692
+step
+  accept 656
+step
+  when onquest 762
+  tip Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge.
+  collect 4621 quest 762.1 @42.1,28.88 map 1418 optional -- Ambassador Infernus is elite: grouping up is advised.
+step
+  tip Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge.
+  collect 8027 quest 1360.1 @35.56,23.51 map 1418 -- Drops from: Krom Stoutarm's Chest
+step
+  zone map 1453
+  when level>=37
+  accept 1363
+step
+  when onquest 1363
+  tip Speak with Acolyte Dellis in Stormwind.
+  turnin 1363 -- Turn in at Stormwind City
+step
+  when turnedin 1363
+  when level>=37
+  accept 1364
+step
+  only Paladin,Human,Dwarf
+  when !turnedin 4485
+  when !turnedin 4486
+  when !onquest 4485
+  when !onquest 4486
+  when level>=40
+  accept 1661
+step
+  only Paladin,Human,Dwarf
+  when !turnedin 4485
+  when !turnedin 4486
+  when !onquest 4485
+  when !onquest 4486
+  when onquest 1661
+  tip Speak to Duthorian Rall in Stormwind.
+  turnin 1661 -- Turn in at Stormwind City
+step
+  zone map 1419
+  when onquest 1425
+  tip Bring the Shipment to Nethergarde to Quartermaster Lungertz in Nethergarde Keep.
+  turnin 1425 -- Turn in at Blasted Lands
+step
+  zone map 1455
+  turnin 1360 -- Turn in at Ironforge
+step
+  when onquest 762
+  turnin 762 -- Turn in at Ironforge
+step
+  zone map 1435
+  when onquest 1364
+  tip Retrieve Khadgar's Essays on Dimensional Convergence and deliver them to Watcher Mahar Ba in Nethergarde Keep.
+  collect 6065 quest 1364.1 @15.81,36.55 map 1435 -- Drops from: Swampwalker, Swampwalker Elder, Tangled Horror
+step
+  zone map 1419
+  when onquest 1364
+  turnin 1364 -- Turn in at Blasted Lands
+step
+  zone map 1432
+  when turnedin 738
+  turnin 739 -- Turn in at Loch Modan
+step
+  when turnedin 738
+  accept 704
+step
+  zone map 1418
+  when turnedin 738
+  tip Bring 4 Carved Stone Urns to Prospector Ironband in Loch Modan.
+  collect 4610 x4 quest 704.1 @35.52,16.36 map 1418
+step
+  zone map 1432
+  when turnedin 738
+  turnin 704 -- Turn in at Loch Modan
+step
+  zone map 1417
+  tip Go to the Shards of Myzrael, summon her and defeat her.
+  collect 4473 quest 656.1 @62.62,34.06 map 1417 optional -- Myzrael is elite: grouping up is advised.
+step
+  turnin 656 -- Turn in at Arathi Highlands
+step
+  zone map 1434
+  tip Zone complete! Travel to Stranglethorn Vale.
+  goto 26.76,76.38 map 1434

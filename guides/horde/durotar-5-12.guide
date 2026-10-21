@@ -1,0 +1,897 @@
+guide lodestar/horde/durotar-5-12
+title "Durotar (5-12)"
+levels 5-12
+zone map 1411
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/the-barrens-12-20
+step
+  accept 4641
+step
+  accept 97279
+step
+  when onquest 4641
+  tip Speak with Gornek. You recall Kaltunk marking your map with his location and mentioning that Gornek resided in the Den, a building to the west.
+  turnin 4641
+step
+  accept 788
+step
+  when onquest 788
+  tip Kill 10 Mottled Boars then return to Gornek at the Den.
+  kill 3098 x10 quest 788.1 @44.49,65.1 map 1411
+step
+  when onquest 97279
+  tip Collect 6 Abandoned Training Weapons, then return to Kzan Thornslash in the Den.
+  collect 277653 x6 quest 97279.1 @44.4,64.6 map 1411
+step
+  when onquest 788
+  turnin 788
+step
+  when onquest 97279
+  turnin 97279
+step
+  when turnedin 788
+  accept 789
+step
+  only Warrior,Orc
+  when turnedin 788
+  accept 2383
+step
+  only Warrior,Troll
+  when turnedin 788
+  accept 3065
+step
+  only Hunter,Troll
+  when turnedin 788
+  accept 3082
+step
+  only Rogue,Troll
+  when turnedin 788
+  accept 3083
+step
+  only Shaman,Troll
+  when turnedin 788
+  accept 3084
+step
+  only Priest,Troll
+  when turnedin 788
+  accept 3085
+step
+  only Mage,Troll
+  when turnedin 788
+  accept 3086
+step
+  only Hunter,Orc
+  when turnedin 788
+  accept 3087
+step
+  only Rogue,Orc
+  when turnedin 788
+  accept 3088
+step
+  only Shaman,Orc
+  when turnedin 788
+  accept 3089
+step
+  only Warlock,Orc
+  when turnedin 788
+  accept 3090
+step
+  when turnedin 788
+  accept 4402
+step
+  only Warlock,Troll
+  when turnedin 788
+  accept 98575
+step
+  only Mage,Orc
+  when turnedin 788
+  accept 98576
+step
+  only Warrior,Paladin,Hunter,Rogue,Priest,Shaman,Mage,Druid
+  accept 792
+step
+  only Warlock
+  when !turnedin 1470
+  when !onquest 1470
+  accept 1485
+step
+  only Warrior,Orc
+  when onquest 2383
+  tip Read the Simple Parchment and speak to Frang in the Valley of Trials.
+  turnin 2383
+step
+  only Warrior,Troll
+  when onquest 3065
+  tip Read the Simple Tablet and speak to Frang in the Valley of Trials.
+  turnin 3065
+step
+  only Hunter,Troll
+  when onquest 3082
+  tip Speak to Jen'shan in the Valley of Trials.
+  turnin 3082
+step
+  only Rogue,Troll
+  when onquest 3083
+  tip Read the Encrypted Tablet and speak to Rwag in the Valley of Trials.
+  turnin 3083
+step
+  only Shaman,Troll
+  when onquest 3084
+  tip Speak to Shikrik in the Valley of Trials.
+  turnin 3084
+step
+  only Priest,Troll
+  when onquest 3085
+  tip Read the Hallowed Tablet and speak to Ken'jai outside the Den in the Valley of Trials.
+  turnin 3085
+step
+  only Mage,Troll
+  when onquest 3086
+  tip Read the Glyphic Tablet and speak with Mai'ah near the entrance to the Den in the Valley of Trials.
+  turnin 3086
+step
+  only Hunter,Orc
+  when onquest 3087
+  tip Read the Etched Parchment and speak to Jen'shan in the Valley of Trials.
+  turnin 3087
+step
+  only Rogue,Orc
+  when onquest 3088
+  tip Read the Encrypted Parchment and speak to Rwag in the Valley of Trials.
+  turnin 3088
+step
+  only Shaman,Orc
+  when onquest 3089
+  tip Read the Rune-Inscribed Parchment and speak to Shikrik in the Valley of Trials.
+  turnin 3089
+step
+  only Warlock,Orc
+  when onquest 3090
+  tip Read the Tainted Parchment and speak to Nartok inside the Den in the Valley of Trials.
+  turnin 3090
+step
+  only Warlock,Troll
+  when onquest 98575
+  tip Read the Tainted Tablet and speak to Nartok inside the Den in the Valley of Trials.
+  turnin 98575
+step
+  only Mage,Orc
+  when onquest 98576
+  tip Read the Glyphic Parchment and speak with Mai'ah near the entrance to the Den in the Valley of Trials.
+  turnin 98576
+step
+  only Warrior,Paladin,Hunter,Rogue,Priest,Shaman,Mage,Druid
+  tip Kill 12 Vile Familiars.
+  kill 3101 x12 quest 792.1 @44.24,55.26 map 1411
+step
+  only Warlock
+  when !turnedin 1470
+  when !onquest 1470
+  tip Bring 6 Vile Familiar Heads to Ruzan.
+  collect 6487 x6 quest 1485.1 @44.24,55.26 map 1411 -- Drops from: Vile Familiar
+step
+  when onquest 789
+  tip Get 10 Scorpid Worker Tails for Gornek in the Den.
+  collect 4862 x10 quest 789.1 @41.37,63.37 map 1411 -- Drops from: Scorpid Worker, Sarkoth
+step
+  when onquest 4402
+  tip Bring Galgar 10 Cactus Apples. You remember him saying that they could be found near cactuses.
+  collect 11583 x10 quest 4402.1 @43.81,62.83 map 1411
+step
+  when onquest 789
+  turnin 789
+step
+  only Warrior,Paladin,Hunter,Rogue,Priest,Shaman,Mage,Druid
+  turnin 792
+step
+  only Warlock
+  when !turnedin 1470
+  when !onquest 1470
+  turnin 1485
+step
+  when onquest 4402
+  turnin 4402
+step
+  only Warlock
+  accept 1499
+step
+  accept 5441
+step
+  only Warlock
+  tip Speak with Zureetha Fargaze.
+  turnin 1499
+step
+  accept 794
+step
+  tip Bring the Burning Blade Medallion to Zureetha Fargaze, outside The Den.
+  collect 4859 quest 794.1 @42.71,52.95 map 1411 -- Drops from: Yarrog Baneshadow
+step
+  accept 790
+step
+  tip Use the Foreman's Blackjack on Lazy Peons when they're sleeping. Wake up 5 peons, then return the Foreman's Blackjack to Foreman Thazz'ril in the Valley of Trials.
+  kill 10556 x5 quest 5441.1 @45.65,65.7 map 1411 -- Use the quest item on them, don't just kill them.
+step
+  turnin 794
+step
+  turnin 5441
+step
+  accept 805
+step
+  accept 6394
+step
+  only Shaman
+  when !turnedin 1519
+  when !turnedin 92466
+  when !onquest 1519
+  when !onquest 92466
+  accept 1516
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96656
+  when !onquest 96659
+  interact 654925
+  accept 96652
+step
+  tip Kill Sarkoth and bring his claw back to Hana'zua.
+  collect 4905 quest 790.1 @40.5,66.83 map 1411 -- Drops from: Sarkoth
+step
+  turnin 790
+step
+  accept 804
+step
+  tip Bring the news of Hana'zua's plight to Gornek at the Den.
+  turnin 804
+step
+  only Shaman
+  when !turnedin 1519
+  when !turnedin 92466
+  when !onquest 1519
+  when !onquest 92466
+  tip Bring 2 Felstalker Hooves to Canaga Earthcaller in the Valley of Trials.
+  collect 6640 x2 quest 1516.1 @44.29,54.19 map 1411 -- Drops from: Felstalker
+step
+  tip Bring Thazz'ril's Pick to Foreman Thazz'ril.
+  collect 16332 quest 6394.1 @43.73,53.79 map 1411
+step
+  only Shaman
+  when !turnedin 1519
+  when !turnedin 92466
+  when !onquest 1519
+  when !onquest 92466
+  turnin 1516
+step
+  turnin 6394
+step
+  only Shaman
+  when !turnedin 92466
+  when !onquest 92466
+  accept 1517
+step
+  only Shaman
+  when !turnedin 92466
+  when !onquest 92466
+  tip Find Spirit Rock and drink the Earth Sapta.
+  turnin 1517
+step
+  tip Speak with Master Gadrin in Sen'jin Village.
+  turnin 805
+step
+  accept 96821
+step
+  tip Kill 6 Ridgeshade Creepers and 6 Ridgeshade Lurkers in southern Durotar, then report to Gar'thok in Razor Hill.
+  kill 266849 x6 quest 96821.2 @51.59,59.21 map 1411
+  kill 266850 x6 quest 96821.1 @51.53,56.63 map 1411
+  kill 266849 x6 quest 96821.2 @51.53,56.63 map 1411
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96656
+  when !onquest 96659
+  tip Bring the journal to Brakk near Razor Hill.
+  turnin 96652
+step
+  turnin 96821
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  accept 96604
+step
+  accept 96822
+step
+  accept 96825
+step
+  accept 784
+step
+  accept 791
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  tip Sit near Brakk's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.
+  interact 460003 quest 96604.1 @52.09,47.39 map 1411
+  interact 460003 quest 96604.2 @52.09,47.39 map 1411
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  turnin 96604
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96658
+  when !onquest 96661
+  accept 96655
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96658
+  when !onquest 96661
+  tip Speak with Cook Torka in Razor Hill to learn to become a cook.
+  talk 3191
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96658
+  when !onquest 96661
+  turnin 96655
+step
+  tip Cook Torka in Razor Hill wants you to collect 8 Prickly Pear Fruit from the Razormane Grounds west of town.
+  collect 275718 x8 quest 96825.1 @47.1,49.9 map 1411
+step
+  collect 3239 @59.26,57.65 map 1411 -- Loot the quest item here — it starts the quest.
+  accept 830 @59.26,57.65 map 1411
+step
+  tip Kill 10 Kul Tiras Sailors, 8 Kul Tiras Marines and Lieutenant Benedict and return to Gar'Thok in Razor Hill.
+  kill 3192 quest 784.3 @59.72,58.27 map 1411
+  kill 3129 x8 quest 784.2 @59.59,56.75 map 1411
+  kill 3128 x10 quest 784.1 @57.11,57.24 map 1411
+  kill 3129 x8 quest 784.2
+  kill 3192 quest 784.3
+step
+  tip Collect the Raider's Battleaxe, Raider's Bow, and Raider's Shield from the Tiragarde Keep outskirts, then return them to Turroc in Razor Hill.
+  collect 275716 quest 96822.2 @57.37,56.43 map 1411
+  collect 275713 quest 96822.1 @59.39,56.41 map 1411
+  collect 275713 quest 96822.1 @56.54,53 map 1411
+  collect 275716 quest 96822.2 @56.54,53 map 1411
+  collect 275717 quest 96822.3 @56.54,53 map 1411
+step
+  turnin 784
+step
+  tip Take Admiral Proudmoore's Orders to Gar'Thok in Razor Hill.
+  turnin 830
+step
+  turnin 96822
+step
+  turnin 96825
+step
+  accept 831
+step
+  accept 815
+step
+  accept 825
+step
+  tip Gar'Thok of Razor Hill wants you to retrieve 3 Gnomish Tools from the wreckage off the coast.
+  collect 4863 x3 quest 825.1 @63.81,53.01 map 1411 -- Drops from: Gnomish Toolbox
+step
+  turnin 825
+step
+  kill 266851 @50.8,56.57 map 1411 optional -- Ukorsbane is elite: grouping up is advised.
+  accept 96876 @50.8,56.57 map 1411
+step
+  only Priest,Troll
+  accept 5649
+step
+  tip Return the pack to Ukor in southern Durotar.
+  turnin 96876
+step
+  accept 2161
+step
+  accept 818
+step
+  accept 823
+step
+  accept 786
+step
+  accept 817
+step
+  accept 97223
+step
+  tip Bring 4 Intact Makrura Eyes and 8 vials of Crawler Mucus to Master Vornal in Sen'jin Village.
+  collect 4887 x4 quest 818.1 @61.06,72.51 map 1411 -- Drops from: Makrura Clacker, Makrura Shellhide, Makrura Elder
+  collect 4887 x4 quest 818.1 @62.67,58.23 map 1411 -- Drops from: Pygmy Surf Crawler, Surf Crawler, Encrusted Surf Crawler
+  collect 4888 x8 quest 818.2 @62.67,58.23 map 1411 -- Drops from: Pygmy Surf Crawler, Surf Crawler, Encrusted Surf Crawler
+step
+  turnin 818
+step
+  accept 808
+step
+  accept 97225
+step
+  tip Lar Prowltusk outside of Sen'jin Village wants you to destroy the 3 sets of Attack Plans held within Kolkar Crag.
+  interact 3190 quest 786.2 @47.66,77.34 map 1411
+  interact 3192 quest 786.3 @46.23,78.94 map 1411
+  interact 3189 quest 786.1 @49.81,81.29 map 1411
+  interact 3190 quest 786.2
+  interact 3192 quest 786.3
+step
+  tip Furl Scornbrow in the Razor Hill watchtower wants 8 Canvas Scraps.
+  collect 4870 x8 quest 791.1 @49.89,80.03 map 1411 -- Drops from: Kolkar Drudge, Kolkar Outrunner, Kul Tiras Sailor
+step
+  accept 99123
+step
+  tip Help Pal'juh escape Kolkar Crag and bring news of your success to Master Vornal in Sen'jin Village.
+  goto 51.41,79.29 "Escort Pal'juh out of Kolkar Crag." map 1411
+step
+  tip Retrieve Minshina's skull from the circle of power on the Echo Isles.
+  collect 4864 quest 808.1 @67.45,87.81 map 1411 -- Drops from: Imprisoned Darkspear
+step
+  tip Bring 3 Taillasher Eggs to Cook Torka in Razor Hill.
+  collect 4890 x3 quest 815.1 @68.01,80.41 map 1411 -- Drops from: Taillasher Eggs
+step
+  tip Bring 4 Durotar Tiger Furs to Vel'rin Fang in Sen'jin Village.
+  collect 4892 x4 quest 817.1 @64.64,84.97 map 1411 -- Drops from: Durotar Tiger, Shal'ma
+step
+  tip Collect 8 Forgotten Loa Idols from the Echo Isles. Bring them to Master Gadrin in Sen'jin Village.
+  collect 277135 x8 quest 97225.1 @67.1,83.5 map 1411
+step
+  tip Bring Eggs of the Bloodtalon Matriarch to Xar'Ti in Sen'jin Village.
+  collect 277128 quest 97223.1 @68.81,71.78 map 1411 -- Drops from: Bloodtalon Matriarch
+step
+  turnin 786
+step
+  turnin 808
+step
+  turnin 817
+step
+  turnin 97223
+step
+  turnin 97225
+step
+  turnin 99123
+step
+  accept 826
+step
+  tip Defeat Zalazane.
+  kill 3207 x8 quest 826.1 @67.7,83.67 map 1411
+  kill 3206 x8 quest 826.2 @67.7,83.67 map 1411
+  collect 4866 quest 826.3
+step
+  turnin 826
+step
+  turnin 791
+step
+  turnin 815
+step
+  tip Speak with Orgnil Soulscar in Razor Hill.
+  turnin 823
+step
+  tip Bring Ukor's Burden to Innkeeper Grosk in Razor Hill.
+  turnin 2161
+step
+  only Priest,Troll
+  tip Speak to Tai'jin in Durotar.
+  turnin 5649
+step
+  only Priest,Troll
+  accept 5648
+step
+  accept 837
+step
+  only Priest,Troll
+  tip Find Grunt Kor'ja and heal her wounds using Lesser Heal (Rank 2). Afterwards, grant her Power Word: Fortitude and then return to Tai'jin at Razor Hill.
+  talk 12430
+step
+  only Priest,Troll
+  turnin 5648
+step
+  tip Kill 4 Razormane Quilboars, 4 Razormane Scouts, 4 Razormane Dustrunners and 4 Razormane Battleguards for Gar'Thok at Razor Hill.
+  kill 3111 x4 quest 837.1 @47.6,48.6 map 1411
+  kill 3112 x4 quest 837.2 @47.4,49.4 map 1411
+  kill 3114 x4 quest 837.4 @42.4,40.6 map 1411
+  kill 3111 x4 quest 837.1
+  kill 3112 x4 quest 837.2
+  kill 3113 x4 quest 837.3 @42,40.4 map 1411
+  kill 3114 x4 quest 837.4 @42,40.4 map 1411
+step
+  turnin 837
+step
+  accept 99048
+step
+  tip Find Heglan Shadeeye north of Tiragarde Keep.
+  turnin 99048
+step
+  accept 99049
+step
+  tip Find signs of what attacked Heglan Shadeeye.
+  collect 286012 quest 99049.1 @58.85,44.35 map 1411 -- Drops from: Abandoned Dagger
+  collect 286010 quest 99049.3 @60.11,44.8 map 1411 -- Drops from: Weapon Piece
+  collect 286012 quest 99049.1 @60.08,42.45 map 1411 -- Drops from: Strange Debris
+  collect 286011 quest 99049.2 @60.08,42.45 map 1411 -- Drops from: Strange Debris
+  collect 286010 quest 99049.3 @60.08,42.45 map 1411 -- Drops from: Strange Debris
+step
+  turnin 99049
+step
+  accept 99051
+step
+  tip Collect 9 Naga Spinefins.
+  collect 286008 x9 quest 99051.1 @58.88,26.19 map 1411 -- Drops from: Spitelash Scout, Spitelash Attendant
+step
+  accept 834
+step
+  accept 97282
+step
+  accept 812
+step
+  accept 816
+step
+  tip Bring 5 Charged Thunder Lizard Organs to Rezlak near Drygulch Ravine.
+  collect 277665 x5 quest 97282.1 @39.15,29.29 map 1411 -- Drops from: Thunder Lizard, Lightning Hide
+step
+  tip Retrieve 5 Sacks of Supplies and return them to Rezlak near Orgrimmar.
+  collect 4918 x5 quest 834.1 @49.63,32.11 map 1411 -- Drops from: Stolen Supply Sack
+step
+  turnin 834
+step
+  turnin 97282
+step
+  accept 835
+step
+  kill 3118 @51.56,21.65 map 1411 -- Loot the quest item here — it starts the quest.
+  accept 97281 @51.56,21.65 map 1411
+step
+  tip Kill 12 Dustwind Savages and 8 Dustwind Storm Witches for Rezlak near Drygulch Ravine.
+  kill 3118 x8 quest 835.2 @51.56,21.65 map 1411
+  kill 3117 x12 quest 835.1 @54.03,23.56 map 1411
+  kill 3118 x8 quest 835.2 @54.03,23.56 map 1411
+step
+  turnin 835
+step
+  tip Bring the Dull Stormy Orb to Rezlak near Drygulch Ravine.
+  turnin 97281
+step
+  kill 266852 @41.77,25.1 map 1411 optional -- Halikor is elite: grouping up is advised.
+  accept 96877 @41.77,25.1 map 1411
+step
+  turnin 99051
+step
+  accept 806
+step
+  accept 840
+step
+  only Warlock
+  accept 1506
+step
+  only Rogue,Orc
+  when !turnedin 1885
+  when !onquest 1885
+  accept 1859
+step
+  only Shaman
+  when !turnedin 1522
+  when !turnedin 1523
+  when !turnedin 2984
+  when !onquest 1522
+  when !onquest 1523
+  when !onquest 2984
+  accept 2983
+step
+  only Priest,Troll
+  when !turnedin 5652
+  when !turnedin 5655
+  when !turnedin 5656
+  when !turnedin 5657
+  when !onquest 5652
+  when !onquest 5655
+  when !onquest 5656
+  when !onquest 5657
+  accept 5654
+step
+  only Hunter,Tauren
+  when !turnedin 6065
+  when !turnedin 6066
+  when !onquest 6065
+  when !onquest 6066
+  accept 6067
+step
+  accept 99052
+step
+  tip Bring a sign of Kron's fate to Misha Tor'kren at the farmstead northwest of Razor Hill.
+  collect 4891 quest 816.1 @34.14,46.04 map 1411 -- Drops from: Dreadmaw Crocolisk, Corrupted Dreadmaw Crocolisk
+step
+  turnin 816
+step
+  tip Bring Fizzle's Claw to Orgnil Soulscar in Razor Hill.
+  collect 4869 quest 806.1 @42.12,26.66 map 1411 -- Drops from: Fizzle Darkstorm
+step
+  turnin 806
+step
+  accept 828
+step
+  tip Speak with Margoz.
+  turnin 828
+step
+  accept 827
+step
+  tip Kill the sea giant along Durotar's north coast and bring back proof of your accomplishment.
+  collect 286009 quest 99052.1 @59.22,17.6 map 1411 optional -- Aggor the Young is elite: grouping up is advised.
+step
+  kill 3204 @52.61,8.82 map 1411 -- Loot the quest item here — it starts the quest.
+  accept 832 @52.61,8.82 map 1411
+step
+  tip Gather Searing Collars from the cultists in Skull Rock.
+  collect 4871 x6 quest 827.1 @53.15,29.14 map 1411 -- Drops from: Burning Blade Thug, Burning Blade Neophyte, Burning Blade Fanatic
+step
+  turnin 827
+step
+  accept 829
+step
+  only Hunter,Orc,Troll
+  when !turnedin 6068
+  when !turnedin 6070
+  when !onquest 6068
+  when !onquest 6070
+  accept 6069
+step
+  only Hunter,Orc,Troll
+  when !turnedin 6068
+  when !turnedin 6070
+  when !onquest 6068
+  when !onquest 6070
+  tip Speak with Thotar at Razor Hill.
+  turnin 6069
+step
+  turnin 99052
+step
+  only Hunter,Orc,Troll
+  accept 6062
+step
+  only Hunter,Orc,Troll
+  tip Use the Taming Rod to tame a Dire Mottled Boar. Practice your skills, then return the Taming Rod to Thotar in Razor Hill.
+  kill 3099 quest 6062.1 @51.71,46.04 map 1411 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Orc,Troll
+  turnin 6062
+step
+  only Hunter,Orc,Troll
+  accept 6083
+step
+  only Hunter,Orc,Troll
+  tip Use the Taming Rod to tame a Surf Crawler. Practice your skills, then return the Taming Rod to Thotar at Razor Hill.
+  kill 3107 quest 6083.1 @64.15,78.85 map 1411 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Orc,Troll
+  turnin 6083
+step
+  only Hunter,Orc,Troll
+  accept 6082
+step
+  only Hunter,Orc,Troll
+  tip Use the Taming Rod to tame an Armored Scorpid. Practice your skills, then return to Thotar at Razor Hill.
+  kill 3126 quest 6082.1 @44.45,33.61 map 1411 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Orc,Troll
+  turnin 6082
+step
+  only Hunter,Orc,Troll
+  accept 6081
+step
+  zone map 1454
+  tip Take this eye to Neeru Fireblade.
+  turnin 832 -- Turn in at Orgrimmar
+step
+  tip Bring an Example Collar to Neeru Fireblade in Orgrimmar.
+  turnin 829 -- Turn in at Orgrimmar
+step
+  tip Find Kor'ghan in Orgrimmar and get the Venomtail Antidote. Then bring the antidote to Rhinag near the northwestern border of Durotar.
+  collect 4904 quest 812.1 @47.24,53.58 map 1454 -- Drops from: Kor'ghan
+step
+  only Rogue,Orc
+  when !turnedin 1885
+  when !onquest 1885
+  tip Speak with Therzok in the Cleft of Shadow in Orgrimmar.
+  turnin 1859 -- Turn in at Orgrimmar
+step
+  only Warlock
+  tip Speak with Gan'rul Bloodeye in Orgrimmar.
+  turnin 1506 -- Turn in at Orgrimmar
+step
+  only Warlock,Orc
+  accept 1501
+step
+  tip Deliver Halikor's Hoof to Orgrimmar.
+  turnin 96877 -- Turn in at Orgrimmar
+step
+  only Druid,Tauren
+  when !turnedin 5926
+  when !turnedin 5928
+  when !onquest 5926
+  when !onquest 5928
+  accept 5927
+step
+  only Mage
+  when !turnedin 1882
+  when !onquest 1882
+  accept 1883 npc 7311
+step
+  only Priest,Troll
+  when !turnedin 5652
+  when !turnedin 5655
+  when !turnedin 5656
+  when !turnedin 5657
+  when !onquest 5652
+  when !onquest 5655
+  when !onquest 5656
+  when !onquest 5657
+  tip Speak to Ur'kyo in Orgrimmar.
+  turnin 5654 -- Turn in at Orgrimmar
+step
+  accept 5726
+step
+  tip Deliver Admiral Proudmoore's Orders to Nazgrel in Thrall's chamber in Orgrimmar.
+  turnin 831 -- Turn in at Orgrimmar
+step
+  only Hunter,Orc,Troll
+  tip Speak with Ormak Grimshot in Orgrimmar.
+  turnin 6081 -- Turn in at Orgrimmar
+step
+  zone map 1411
+  turnin 812
+step
+  only Warlock,Orc
+  tip Retrieve the Tablet of Verga for Gan'rul Bloodeye in Orgrimmar.
+  collect 6535 quest 1501.1 @51.62,9.76 map 1411 -- Drops from: Burning Blade Stash
+step
+  tip Bring a Lieutenant's Insignia to Thrall in Orgrimmar.
+  collect 14544 quest 5726.1 @52.47,9.23 map 1411 -- Drops from: Burning Blade Fanatic, Burning Blade Apprentice
+step
+  only Mage
+  when !turnedin 1882
+  when !onquest 1882
+  tip Speak with Un'thuwa.
+  turnin 1883
+step
+  only Mage,Orc,Troll,Undead
+  when !turnedin 1882
+  when !onquest 1882
+  accept 1884
+step
+  only Mage,Orc,Troll,Undead
+  when !turnedin 1882
+  when !onquest 1882
+  tip Destroy 4 Ju-Ju Heaps, then return to Un'thuwa in Sen'jin Village.
+  interact 102986 quest 1884.1 @67.79,83.37 map 1411
+step
+  only Mage,Orc,Troll,Undead
+  when !turnedin 1882
+  when !onquest 1882
+  turnin 1884
+step
+  zone map 1454
+  turnin 5726 -- Turn in at Orgrimmar
+step
+  accept 5727
+step
+  only Warlock,Orc
+  turnin 1501 -- Turn in at Orgrimmar
+step
+  only Warlock,Orc
+  accept 1504
+step
+  only Warlock,Orc
+  tip Using the Glyphs of Summoning, summon and subdue a voidwalker, then return the Glyphs of Summoning to Gan'rul Bloodeye in Orgrimmar.
+  kill 5676 quest 1504.1 -- Use the quest item on them, don't just kill them.
+step
+  only Warlock,Orc
+  turnin 1504 -- Turn in at Orgrimmar
+step
+  tip Take the Lieutenant's Insignia to Neeru Fireblade and speak to him. Gauge if he believes you are a member of the Burning Blade and then return to Thrall in Orgrimmar.
+  talk 3216
+step
+  turnin 5727 -- Turn in at Orgrimmar
+step
+  zone map 1456
+  only Druid,Tauren
+  when !turnedin 5926
+  when !turnedin 5928
+  when !onquest 5926
+  when !onquest 5928
+  tip Speak with Turak Runetotem on the Elder Rise of Thunder Bluff.
+  turnin 5927 -- Turn in at Thunder Bluff
+step
+  zone map 1412
+  only Hunter,Tauren
+  when !turnedin 6065
+  when !turnedin 6066
+  when !onquest 6065
+  when !onquest 6066
+  tip Speak with Yaw Sharpmane in Bloodhoof Village.
+  turnin 6067 -- Turn in at Mulgore
+step
+  zone map 1413
+  tip Follow the western road from Razor Hill to the Barrens over a bridge.
+  turnin 840 -- Turn in at The Barrens
+step
+  only Shaman
+  when !turnedin 1522
+  when !turnedin 1523
+  when !turnedin 2984
+  when !onquest 1522
+  when !onquest 1523
+  when !onquest 2984
+  tip Find Kranal Fiss in the Barrens.
+  turnin 2983 -- Turn in at The Barrens
+step
+  tip Zone complete! Travel to The Barrens.
+  goto 51.44,30.15 map 1413

@@ -1,0 +1,467 @@
+guide lodestar/alliance/dun-morogh-13-26
+title "Dun Morogh (13-26)"
+levels 13-26
+zone map 1426
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/loch-modan-11-18
+step
+  level 12
+step
+  zone map 1455
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1683
+  accept 1678
+step
+  zone map 1453
+  only Paladin,Human
+  when turnedin 1643
+  when level>=12
+  accept 1644
+step
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1644
+  tip Bring 10 Linen Cloth to Stephanie Turner in Stormwind.
+  collect 2589 x10 quest 1644.1 @63.84,72.21 map 1453 -- Drops from: humanoids
+step
+  zone map 1455
+  only Paladin,Dwarf
+  when turnedin 1647
+  when level>=12
+  accept 1648
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1648
+  tip Bring 10 Linen Cloth to John Turner in Ironforge.
+  collect 2589 x10 quest 1648.1 @23.34,61.86 map 1455 -- Drops from: humanoids
+step
+  zone map 1426
+  when level>=12
+  accept 314
+step
+  when onquest 314
+  tip Rudra Amberstill wants you to slay Vagash and bring his fang to her at the Ram ranch.
+  collect 3627 quest 314.1 @62.62,46.05 map 1426 optional -- Vagash is elite: grouping up is advised.
+step
+  when onquest 314
+  turnin 314
+step
+  accept 96408
+step
+  only Mage,Human,Gnome
+  when level>=15
+  accept 1919 @47.5,52.08 map 1426
+step
+  tip Investigate the campsite overlooking the Gol'Bolar Quarry.
+  turnin 96408
+step
+  accept 96392
+step
+  tip Speak with Earthseer Farsen's and ask him to lend you his farsight to observe the Dark Iron threat.
+  talk 264936
+step
+  turnin 96392
+step
+  accept 96390
+step
+  kill 6123 @77.36,61.31 map 1426 -- Loot the quest item here — it starts the quest.
+  accept 96391 @77.36,61.31 map 1426
+step
+  tip Slay 10 Dark Iron Spies in Dun Morogh.
+  kill 6123 x10 quest 96390.1 @77.36,61.31 map 1426
+  kill 6123 x10 quest 96390.1
+  kill 1117 quest 96390.2 @72.41,52.9 map 1426
+step
+  turnin 96390
+step
+  tip Deliver the Dark Iron Map to Earthseer Farsen in Dun Morogh.
+  turnin 96391
+step
+  only Rogue
+  when level>=16
+  accept 2299
+step
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1683
+  tip Bring Vejrek's Head to Muren Stormpike in Ironforge.
+  collect 6799 quest 1678.1 @27.83,57.96 map 1426 -- Drops from: Vejrek
+step
+  zone map 1455
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1683
+  turnin 1678 -- Turn in at Ironforge
+step
+  only Warrior
+  accept 1680
+step
+  when level>=15
+  accept 2041
+step
+  when level>=20
+  accept 2927
+step
+  when level>=26
+  accept 2922
+step
+  only Warrior
+  tip Speak with Tormus Deepforge.
+  turnin 1680 -- Turn in at Ironforge
+step
+  only Warrior
+  accept 1681
+step
+  only Rogue
+  when onquest 2299
+  tip Travel to Ironforge and speak with Hulfdan Blackbeard.
+  turnin 2299 -- Turn in at Ironforge
+step
+  only Rogue
+  when level>=16
+  accept 2298
+step
+  only Warlock
+  when !turnedin 1716
+  when !onquest 1716
+  when level>=20
+  accept 1717
+step
+  only Priest,Dwarf
+  when !turnedin 5645
+  when !turnedin 5647
+  when !onquest 5645
+  when !onquest 5647
+  when level>=20
+  accept 5641
+step
+  only Priest,Dwarf
+  when !turnedin 5645
+  when !turnedin 5647
+  when !onquest 5645
+  when !onquest 5647
+  when onquest 5641
+  turnin 5641 -- Turn in at Ironforge
+step
+  only Priest,Human
+  when !turnedin 5676
+  when !turnedin 5678
+  when !onquest 5676
+  when !onquest 5678
+  when level>=20
+  accept 5677
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1648
+  turnin 1648 -- Turn in at Ironforge
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when turnedin 1648
+  accept 1778
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1778
+  tip Speak to Tiza Battleforge in Ironforge.
+  turnin 1778 -- Turn in at Ironforge
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when turnedin 1778
+  accept 1779
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1779
+  tip Take the Symbol of Life and speak to Muiredon Battleforge in Ironforge.
+  turnin 1779 -- Turn in at Ironforge
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when turnedin 1779
+  accept 1783
+step
+  zone map 1453
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1644
+  turnin 1644 -- Turn in at Stormwind City
+step
+  only Paladin,Human
+  when turnedin 1643
+  when turnedin 1644
+  accept 1780
+step
+  only Rogue
+  when onquest 2298
+  tip Travel to Stormwind and seek out Renzik "The Shiv."
+  turnin 2298 -- Turn in at Stormwind City
+step
+  only Rogue
+  when level>=20
+  accept 2360
+step
+  only Mage,Human,Gnome
+  when onquest 1919
+  tip Speak with Jennea Cannon in Stormwind.
+  turnin 1919 -- Turn in at Stormwind City
+step
+  only Warlock
+  when !turnedin 1716
+  when !onquest 1716
+  when onquest 1717
+  tip Report to Gakin the Darkbinder in the Mage Quarter of Stormwind.
+  turnin 1717 -- Turn in at Stormwind City
+step
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1780
+  tip Speak to Duthorian Rall in Stormwind.
+  turnin 1780 -- Turn in at Stormwind City
+step
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when level>=20
+  accept 1650
+step
+  only Paladin,Human
+  when turnedin 1643
+  when turnedin 1780
+  accept 1781
+step
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1781
+  tip Take the Symbol of Life to Gazin Tenorm in Stormwind.
+  turnin 1781 -- Turn in at Stormwind City
+step
+  only Paladin,Human
+  when turnedin 1643
+  when turnedin 1781
+  accept 1786
+step
+  only Priest,Human
+  when !turnedin 5676
+  when !turnedin 5678
+  when !onquest 5676
+  when !onquest 5678
+  when onquest 5677
+  tip Speak to High Priestess Laurena in Stormwind.
+  turnin 5677 -- Turn in at Stormwind City
+step
+  when onquest 2041
+  tip Speak with Shoni the Shilent in Stormwind.
+  turnin 2041 -- Turn in at Stormwind City
+step
+  zone map 1436
+  only Rogue
+  when onquest 2360
+  tip Travel to Westfall and find Agent Kearnen for your debriefing.
+  turnin 2360 -- Turn in at Westfall
+step
+  only Rogue
+  when turnedin 2360
+  when level>=20
+  accept 2359
+step
+  only Rogue
+  when onquest 2359
+  tip Steal the Defias Tower Key, break into the Defias Tower and uncover the contents of the Duskwood Chest. Take whatever information you find back to Mathias Shaw in Stormwind. Read Kearnen's Journal to gain insight about the tower.
+  collect 7908 quest 2359.1 @70.41,73.93 map 1436 -- Drops from: Duskwood Chest
+  collect 7908 quest 2359.1 @69.47,73.99 map 1436 -- Drops from: Malformed Defias Drone
+  collect 7923 quest 2359.2 @69.47,73.99 map 1436 -- Drops from: Malformed Defias Drone
+step
+  only Shaman
+  when level>=20
+  interact 619896
+  accept 94503
+step
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when onquest 1650
+  tip Find Daphne Stilwell in Westfall.
+  turnin 1650 -- Turn in at Westfall
+step
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when turnedin 1650
+  when level>=20
+  accept 1651
+step
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when onquest 1651
+  tip Defend Daphne Stilwell from the Defias attack.
+  goto 42.15,88.44 "Protect Daphne Stilwell" map 1436
+step
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when onquest 1651
+  turnin 1651 -- Turn in at Westfall
+step
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when turnedin 1651
+  when level>=20
+  accept 1652
+step
+  zone map 1421
+  only Shaman
+  when onquest 94503
+  tip Speak to the Minor Manifestation of Water in Westfall.
+  turnin 94503 -- Turn in at Silverpine Forest
+step
+  zone map 1426
+  when onquest 2927
+  tip Speak with Ozzie Togglevolt in Kharanos.
+  turnin 2927
+step
+  when level>=27
+  accept 2926
+step
+  when onquest 2926
+  tip Use the Empty Leaden Collection Phial on Irradiated Invaders or Irradiated Pillagers to collect radioactive fallout. Once it is full, take it back to Ozzie Togglevolt in Kharanos.
+  collect 9284 quest 2926.1 @20.9,36.02 map 1426 optional -- Irradiated Invader is elite: grouping up is advised.
+step
+  when onquest 2922
+  tip Bring Techbot's Memory Core to Tinkmaster Overspark in Ironforge.
+  collect 9277 quest 2922.1 @19.78,31.93 map 1426 optional -- Techbot is elite: grouping up is advised.
+step
+  when onquest 2926
+  turnin 2926
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1783
+  tip Take the Symbol of Life and resurrect Narm Faulk in Dun Morogh.
+  talk 6177
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1783
+  turnin 1783
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when turnedin 1783
+  accept 1784
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1784
+  tip Retrieve a Dark Iron Script from the Dark Iron dwarves near Helm's Bed, and return to Muiredon Battleforge in Ironforge.
+  collect 6847 quest 1784.1 @77.36,61.31 map 1426 -- Drops from: Dark Iron Spy
+step
+  only Warrior
+  tip Bring a load of Umbral Ore to Tormus Deepforge in Ironforge.
+  collect 6800 quest 1681.1 @77.96,62.16 map 1426 -- Drops from: Ironband's Strongbox
+step
+  zone map 1455
+  when onquest 2922
+  turnin 2922 -- Turn in at Ironforge
+step
+  only Warrior
+  turnin 1681 -- Turn in at Ironforge
+step
+  only Warrior
+  accept 1682
+step
+  only Warrior
+  turnin 1682 -- Turn in at Ironforge
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1784
+  turnin 1784 -- Turn in at Ironforge
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when turnedin 1784
+  accept 1785
+step
+  only Paladin,Dwarf
+  when turnedin 1647
+  when onquest 1785
+  tip Speak to Tiza Battleforge in Ironforge.
+  turnin 1785 -- Turn in at Ironforge
+step
+  zone map 1453
+  only Rogue
+  when onquest 2359
+  turnin 2359 -- Turn in at Stormwind City
+step
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when onquest 1652
+  tip Speak to Duthorian Rall in Stormwind.
+  turnin 1652 -- Turn in at Stormwind City
+step
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when turnedin 1652
+  when level>=20
+  accept 1653
+step
+  zone map 1429
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1786
+  tip Take the Symbol of Life and resurrect Henze Faulk in Elwynn.
+  talk 6172
+step
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1786
+  turnin 1786 -- Turn in at Elwynn Forest
+step
+  only Paladin,Human
+  when turnedin 1643
+  when turnedin 1786
+  accept 1787
+step
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1787
+  tip Retrieve a Defias Script from the Defias Rogue Wizards in Elwynn, and return to Gazin Tenorm in Stormwind.
+  collect 6846 quest 1787.1 @73.38,52.48 map 1429 -- Drops from: Defias Rogue Wizard, Defias Bodyguard
+step
+  zone map 1426
+  only Paladin,Human,Dwarf
+  when turnedin 1649
+  when onquest 1653
+  tip Speak to Jordan Stilwell in Ironforge
+  turnin 1653
+step
+  zone map 1453
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1787
+  turnin 1787 -- Turn in at Stormwind City
+step
+  only Paladin,Human
+  when turnedin 1643
+  when turnedin 1787
+  accept 1788
+step
+  only Paladin,Human
+  when turnedin 1643
+  when onquest 1788
+  tip Speak to Duthorian Rall in Stormwind.
+  turnin 1788 -- Turn in at Stormwind City
+step
+  zone map 1432
+  tip Zone complete! Travel to Loch Modan.
+  goto 34.83,49.28 map 1432

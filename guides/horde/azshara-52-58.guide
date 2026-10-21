@@ -1,0 +1,318 @@
+guide lodestar/horde/azshara-52-58
+title "Azshara (52-58)"
+levels 52-58
+zone map 1447
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/tanaris-53-54
+step
+  level 51
+step
+  zone map 1456
+  only Hunter
+  accept 8151 npc 3039
+step
+  only Mage
+  accept 8250 npc 3047
+step
+  only Priest
+  accept 8254 @24.56,22.57 map 1456
+step
+  zone map 1454
+  only Warlock
+  when !turnedin 8420
+  when !onquest 8420
+  accept 8419 npc 3326
+step
+  accept 3504
+step
+  zone map 1447
+  accept 5535
+step
+  accept 5536
+step
+  tip Kill 6 Haldarr Satyr, 2 Haldarr Tricksters, 2 Haldarr Felsworn and then return to Loh'atu on the border of Ashenvale.
+  kill 6126 x2 quest 5536.2 @20.27,62.23 map 1447
+  kill 6125 x6 quest 5536.1 @20.99,61.79 map 1447
+  kill 6125 x6 quest 5536.1 @20.54,61.2 map 1447
+  kill 6126 x2 quest 5536.2 @20.54,61.2 map 1447
+  kill 6127 x2 quest 5536.3 @20.54,61.2 map 1447
+step
+  tip Destroy 6 Highborne Apparitions and 6 Highborne Lichlings before returning to Loh'atu in Azshara.
+  kill 6117 x6 quest 5535.2 @17.85,69.96 map 1447
+  kill 6116 x6 quest 5535.1 @17.27,70.71 map 1447
+  kill 6117 x6 quest 5535.2 @17.27,70.71 map 1447
+step
+  turnin 5535
+step
+  turnin 5536
+step
+  only Hunter
+  tip Speak to Ogtinc in Azshara.
+  turnin 8151
+step
+  only Priest
+  tip Seek out Ogtinc in Azshara.
+  turnin 8254
+step
+  only Hunter
+  accept 8153
+step
+  only Priest
+  accept 8255
+step
+  getfp "Valormok, Azshara"
+step
+  tip Deliver the Sealed Letter to Ag'tor Bloodfist in Azshara.
+  turnin 3504
+step
+  only Mage
+  tip Seek out Sanath Lim-yo and gain passage to see Archmage Xylem.
+  turnin 8250
+step
+  accept 3517
+step
+  accept 3505
+step
+  tip Find the Tablet of Beth'Amara, the Tablet of Jin'yael, the Tablet of Markri, and the Tablet of Sael'hai before returning to Jediga in Azshara.
+  collect 10540 quest 3517.3 @35.7,56.51 map 1447
+  collect 10538 quest 3517.1 @36,57.6 map 1447
+  collect 10541 quest 3517.4 @37,54.5 map 1447
+  collect 10538 quest 3517.1
+  collect 10539 quest 3517.2 @39.8,59.7 map 1447
+  collect 10540 quest 3517.3
+  collect 10541 quest 3517.4 @39.8,59.7 map 1447
+step
+  turnin 3517
+step
+  accept 3518
+step
+  accept 3541
+step
+  accept 3542
+step
+  accept 3561
+step
+  only Hunter
+  tip Bring a pair of Perfect Courser Antlers to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast of the Ruins of Eldarath.
+  collect 20017 x2 quest 8153.1 @50.78,75.64 map 1447 -- Drops from: Mosshoof Courser
+step
+  only Priest
+  tip Acquire 4 Healthy Courser Glands and bring them to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath.
+  collect 20027 x4 quest 8255.1 @50.78,75.64 map 1447 -- Drops from: Mosshoof Courser
+step
+  only Hunter
+  turnin 8153
+step
+  only Priest
+  turnin 8255
+step
+  only Hunter
+  accept 8231
+step
+  only Priest
+  accept 8256
+step
+  tip Bring the Tablet of Sael'hai to Archmage Xylem in Azshara.
+  turnin 3561
+step
+  accept 3565
+step
+  only Rogue
+  when turnedin 8234
+  accept 8235
+step
+  only Mage
+  accept 8251
+step
+  tip Kill 10 Blood Elf Reclaimers, and 10 Blood Elf Surveyors before seeking out Magus Rimtori's camp. Once you've found it, look for something that might be important to her that can be used to draw her into a fight.
+  kill 6199 x10 quest 3505.1 @56.39,28.85 map 1447
+  kill 6199 x10 quest 3505.1 @58.02,28.18 map 1447
+  kill 6198 x10 quest 3505.2 @58.02,28.18 map 1447
+step
+  only Mage
+  tip Bring 10 Glittering Dust to Archmage Xylem.
+  collect 20028 x10 quest 8251.1 @58.02,28.18 map 1447 -- Drops from: Blood Elf Surveyor, Blood Elf Reclaimer
+step
+  only Warlock
+  when !turnedin 8420
+  when !onquest 8420
+  tip Bring a piece of felcloth to Impsy in Felwood.
+  collect 14256 quest 8419.1 @61.79,23.59 map 1447 -- Drops from: Legashi Satyr, Legashi Rogue, Legashi Hellcaller
+step
+  turnin 3505
+step
+  only Rogue
+  when turnedin 8234
+  tip Bring 10 Encoded Fragments to Archmage Xylem in Azshara.
+  collect 20023 x10 quest 8235.1 @71.73,29.47 map 1447 -- Drops from: Forest Ooze
+step
+  only Hunter
+  tip Bring 6 Wavethrasher Scales to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath.
+  collect 20087 x6 quest 8231.1 @86.31,12.61 map 1447 -- Drops from: Young Wavethrasher, Wavethrasher, Great Wavethrasher
+step
+  accept 3601
+step
+  tip Search the Thalassian Base Camp for Kim'jael's Compass, Scope, Stuffed Chicken and Wizzlegoober, then return them to him in Azshara.
+  collect 10717 quest 3601.1 @58.9,28.4 map 1447 -- Drops from: Kim'jael's Equipment
+  collect 10715 quest 3601.2 @58.9,28.4 map 1447 -- Drops from: Kim'jael's Equipment
+  collect 10722 quest 3601.3 @58.9,28.4 map 1447 -- Drops from: Kim'jael's Equipment
+  collect 10718 quest 3601.4 @58.9,28.4 map 1447 -- Drops from: Kim'jael's Equipment
+step
+  turnin 3601
+step
+  accept 5534
+step
+  only Rogue
+  when turnedin 8234
+  turnin 8235
+step
+  only Mage
+  turnin 8251
+step
+  only Mage
+  accept 8252
+step
+  tip Deliver Xylem's Note to Jediga in Azshara.
+  turnin 3565
+step
+  only Priest
+  tip Acquire an Ichor of Undeath for Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath.
+  collect 7972 quest 8256.1 @17.27,70.71 map 1447 -- Drops from: Highborne Apparition, Highborne Lichling, Lingering Highborne
+step
+  tip Find Some Rune that the naga have in their possession in the Ruins of Eldarath and return it to Kim'jael in Azshara.
+  collect 13815 quest 5534.1 @44.37,53.93 map 1447 -- Drops from: Spitelash Siren, Spitelash Myrmidon, Spitelash Battlemaster
+step
+  only Mage
+  tip Collect 6 Enchanted Coral and return them to Archmage Xylem.
+  collect 20029 x6 quest 8252.1 @44.37,53.93 map 1447 -- Drops from: Spitelash Siren
+step
+  only Hunter
+  turnin 8231
+step
+  only Priest
+  turnin 8256
+step
+  only Mage
+  turnin 8252
+step
+  turnin 5534
+step
+  interact 151286
+  accept 3506
+step
+  tip Destroy the arcane focusing crystal tied to Magus Rimtori and then slay her. Afterwards, take the Head of Magus Rimtori to Ag'tor Bloodfist in Azshara.
+  collect 10597 quest 3506.1 @59.51,31.37 map 1447 -- Drops from: Magus Rimtori
+step
+  turnin 3506
+step
+  accept 3507
+step
+  when turnedin 2744
+  accept 3141
+step
+  when turnedin 2744
+  tip Listen to Loramus Thalipedes tell his story.
+  talk 7783
+step
+  when turnedin 2744
+  turnin 3141
+step
+  when level>=55
+  accept 6805
+step
+  when turnedin 2744
+  accept 3508
+step
+  when turnedin 2744
+  tip Wait for Loramus to complete the enlightenment spell.
+  turnin 3508
+step
+  when turnedin 2744
+  accept 3509
+step
+  when turnedin 2744
+  tip Speak with Lord Arkkoroc in Azshara. Begin your search at the waters edge to find the Temple of Arkkoran.
+  turnin 3509
+step
+  when turnedin 2744
+  when level>=58
+  accept 3510
+step
+  when turnedin 2744
+  when onquest 3510
+  tip Slay Hetaera and bring back Hetaera's Bloodied Head, Hetaera's Beaten Head, and Hetaera's Bruised Head to Lord Arkkoroc.
+  collect 10599 quest 3510.1 @56.73,44.79 map 1447 optional -- Hetaera is elite: grouping up is advised.
+  collect 10598 quest 3510.2 @56.73,44.79 map 1447 optional -- Hetaera is elite: grouping up is advised.
+  collect 10600 quest 3510.3 @56.73,44.79 map 1447 optional -- Hetaera is elite: grouping up is advised.
+step
+  when turnedin 2744
+  when onquest 3510
+  turnin 3510
+step
+  when turnedin 2744
+  when turnedin 3510
+  accept 3511
+step
+  when turnedin 2744
+  when onquest 3511
+  tip Take the temper back to Loramus Thalipedes.
+  turnin 3511
+step
+  when turnedin 2744
+  when turnedin 3511
+  accept 3602
+step
+  when turnedin 2744
+  when onquest 3602
+  tip Recover twenty Crystallized Azsharite from southern Azshara. You may use the Felhound to assist you in 'sniffing' out the location of cleverly hidden deposits.
+  collect 10714 x20 quest 3602.1 @55.65,83.31 map 1447 -- Drops from: Azsharite Formation
+step
+  when turnedin 2744
+  when onquest 3602
+  turnin 3602
+step
+  zone map 1448
+  only Warlock
+  when !turnedin 8420
+  when !onquest 8420
+  turnin 8419 -- Turn in at Felwood
+step
+  zone map 1451
+  when onquest 6805
+  tip Kill 15 Dust Stormers and 15 Desert Rumblers and then return to Duke Hydraxis in Azshara.
+  kill 11744 x15 quest 6805.1 @21.6,22.4 map 1451
+  kill 11744 x15 quest 6805.1
+  kill 11746 x15 quest 6805.2 @22.6,14.2 map 1451
+step
+  zone map 1447
+  when onquest 6805
+  turnin 6805
+step
+  zone map 1456
+  tip Bring the Tablet of Beth'Amara to Magatha in Thunder Bluff.
+  turnin 3518 -- Turn in at Thunder Bluff
+step
+  accept 3562
+step
+  zone map 1454
+  tip Bring the Tablet of Jin'yael to Jes'rimon in Orgrimmar.
+  turnin 3541 -- Turn in at Orgrimmar
+step
+  accept 3563
+step
+  tip Speak to Belgrom Rockmaul in Orgrimmar.
+  turnin 3507 -- Turn in at Orgrimmar
+step
+  zone map 1447
+  tip Deliver Magatha's Note to Jediga in Azshara.
+  turnin 3562
+step
+  tip Deliver Jes'rimon's Note to Jediga in Azshara.
+  turnin 3563
+step
+  zone map 1446
+  tip Zone complete! Travel to Tanaris.
+  goto 51.57,26.76 map 1446

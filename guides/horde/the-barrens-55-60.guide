@@ -1,0 +1,119 @@
+guide lodestar/horde/the-barrens-55-60
+title "The Barrens (55-60)"
+levels 55-60
+zone map 1413
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/winterspring-54-59
+step
+  level 51
+step
+  zone map 1456
+  only Druid
+  accept 9063 npc 3033
+step
+  when level>=54
+  accept 1123
+step
+  zone map 1413
+  when turnedin 5158
+  accept 5159
+step
+  accept 4502
+step
+  accept 95819 @48.71,29.37 map 1413
+step
+  tip Bring the completed form to Jornah in The Barrens.
+  collect 270897 quest 95819.1 @48.71,29.37 map 1413
+step
+  turnin 95819
+step
+  zone map 1449
+  only Druid
+  tip Speak with Torwa Pathfinder in Un'Goro Crater.
+  turnin 9063 -- Turn in at Un'Goro Crater
+step
+  tip Collect 9 samples of Un'Goro Ash from the fire elementals around the volcano in Un'Goro Crater, and return them to Liv Rizzlefix in Ratchet.
+  collect 11829 x9 quest 4502.1 @55.1,48.83 map 1449 -- Drops from: Scorching Elemental, Living Blaze, Blazing Invader
+step
+  zone map 1448
+  when turnedin 5158
+  tip Take the Purified Moon Well Water to Greta Mosshoof in Felwood.
+  turnin 5159 -- Turn in at Felwood
+step
+  when turnedin 5158
+  accept 5165
+step
+  when turnedin 5158
+  tip Using the Purified Moon Well Water, douse the flames of the four braziers of protection within Shadow Hold in Felwood, then return to Greta Mosshoof in the Emerald Sanctuary.
+  interact 176158 quest 5165.1 @36.27,56.3 map 1448
+  interact 176161 quest 5165.4 @36.48,55.19 map 1448
+  interact 176160 quest 5165.3 @36.73,53.27 map 1448
+  interact 176158 quest 5165.1
+  interact 176159 quest 5165.2 @37.68,52.69 map 1448
+  interact 176160 quest 5165.3
+  interact 176161 quest 5165.4
+step
+  when turnedin 5158
+  turnin 5165 -- Turn in at Felwood
+step
+  when turnedin 5158
+  accept 5242
+step
+  when turnedin 5158
+  tip Kill Moora and Salia, and bring Shadow Lord Fel'dan's Head to Greta Mosshoof in Felwood.
+  kill 9861 quest 5242.1 @38.81,46.87 map 1448
+  kill 9860 quest 5242.2 @38.81,46.87 map 1448
+  collect 13207 quest 5242.3 @38.81,46.87 map 1448
+step
+  when turnedin 5158
+  turnin 5242 -- Turn in at Felwood
+step
+  zone map 1413
+  turnin 4502
+step
+  zone map 1450
+  when onquest 1123
+  tip Speak with Rabine Saturna in the village of Nighthaven, Moonglade. Moonglade lies between Felwood and Winterspring, accessible through a path out of Timbermaw Hold.
+  turnin 1123 -- Turn in at Moonglade
+step
+  when level>=56
+  accept 5527
+step
+  when turnedin 1123
+  when level>=54
+  accept 1124
+step
+  zone map 1451
+  when onquest 1124
+  tip Speak with Layo Starstrike near the Valor's Rest graveyard of Silithus, showing him Rabine's Letter.
+  turnin 1124 -- Turn in at Silithus
+step
+  when onquest 5527
+  tip Travel to Silithus and search for a Reliquary of Purity within the ruins of Southwind Village. If you are able to find it, return with it to Rabine Saturna in Nighthaven, Moonglade.
+  collect 22201 quest 5527.1 @63.23,55.35 map 1451 -- Drops from: Dusty Reliquary
+step
+  zone map 1450
+  when onquest 5527
+  turnin 5527 -- Turn in at Moonglade
+step
+  when turnedin 5527
+  when level>=56
+  accept 5526
+step
+  when onquest 5526
+  tip Find the Felvine in Dire Maul and acquire a shard from it. Chances are you'll only be able to procure one with the demise of Alzzin the Wildshaper. Use the Reliquary of Purity to securely seal the shard inside, and return it to Rabine Saturna in Nighthaven, Moonglade.
+  collect 18540 quest 5526.1 @51.69,45.1 map 1450
+step
+  when onquest 5526
+  turnin 5526 -- Turn in at Moonglade
+step
+  zone map 1454
+  when level>=58
+  accept 8923 npc 16012
+step
+  zone map 1452
+  tip Zone complete! Travel to Winterspring.
+  goto 61.12,38.43 map 1452

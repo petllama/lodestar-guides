@@ -1,0 +1,234 @@
+guide lodestar/horde/hillsbrad-foothills-22-28
+title "Hillsbrad Foothills (22-28)"
+levels 22-28
+zone map 1424
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/thousand-needles-27-33
+step
+  level 21
+step
+  getfp "Tarren Mill, Hillsbrad"
+step
+  when onquest 493
+  tip Deliver Apothecary Renferrel's findings to Apothecary Lydon in the town of Tarren Mill in the Hillsbrad Foothills.
+  turnin 493
+step
+  accept 496
+step
+  accept 498
+step
+  interact 1763
+  accept 549
+step
+  only Rogue
+  when turnedin 2479
+  accept 2480
+step
+  when turnedin 1065
+  accept 1066
+step
+  only Rogue
+  when turnedin 2479
+  tip Wait for Serge Hinott to complete the cure.
+  turnin 2480
+step
+  tip Apothecary Lydon of Tarren Mill wants 10 Gray Bear Tongues and some Creeper Ichor.
+  collect 3476 x10 quest 496.1 @59.07,32.75 map 1424 -- Drops from: Gray Bear, Vicious Gray Bear, Elder Gray Bear
+  collect 3476 x10 quest 496.1 @59.56,35.19 map 1424 -- Drops from: Forest Moss Creeper, Giant Moss Creeper, Elder Moss Creeper
+  collect 3477 quest 496.2 @59.56,35.19 map 1424 -- Drops from: Forest Moss Creeper, Giant Moss Creeper, Elder Moss Creeper
+step
+  turnin 496
+step
+  accept 499
+step
+  when level>=21
+  accept 501
+step
+  accept 527
+step
+  tip Give Umpi the Elixir of Suffering.
+  turnin 499
+step
+  when onquest 501
+  tip Bring 10 vials of Mountain Lion Blood to Apothecary Lydon in Tarren Mill.
+  collect 3496 x10 quest 501.1 @53.42,39.28 map 1424 -- Drops from: Starving Mountain Lion, Feral Mountain Lion, Mountain Lion
+step
+  tip Kill 6 Hillsbrad Farmhands, 6 Hillsbrad Farmers, Farmer Ray and Farmer Getz and report back to Darthalia in Tarren Mill.
+  kill 2403 quest 527.4 @36.4,39.4 map 1424
+  kill 2266 x6 quest 527.1 @34.79,38.52 map 1424
+  kill 2360 x6 quest 527.2 @33.83,40.09 map 1424
+  kill 2266 x6 quest 527.1 @33.22,34.76 map 1424
+  kill 2360 x6 quest 527.2 @33.22,34.76 map 1424
+  kill 232 quest 527.3 @33.22,34.76 map 1424
+  kill 2403 quest 527.4
+step
+  accept 494
+step
+  tip Travel to Tarren Mill to deliver Deathstalker Lesh's message to High Executor Darthalia.
+  turnin 494
+step
+  when onquest 501
+  turnin 501
+step
+  turnin 527
+step
+  when turnedin 501
+  accept 502
+step
+  accept 528
+step
+  accept 546
+step
+  accept 98094
+step
+  tip Krusk in Tarren Mill needs you to free Drull and Tog'thar from Durnholde Keep.
+  interact 1721 quest 498.1 @75.33,41.5 map 1424
+  interact 1721 quest 498.1
+  interact 1722 quest 498.2 @79.79,39.65 map 1424
+step
+  tip Kill 10 Syndicate Rogues and 10 Syndicate Watchmen. Return to High Executor Darthalia in Tarren Mill for your reward.
+  kill 2261 x10 quest 549.2 @78.18,43.19 map 1424
+  kill 2260 x10 quest 549.1 @79.28,46.37 map 1424
+  kill 2261 x10 quest 549.2 @79.28,46.37 map 1424
+step
+  when turnedin 1065
+  tip Bring 5 Vials of Innocent Blood to Apothecary Lydon in Tarren Mill.
+  collect 5620 x5 quest 1066.1 @78.73,43.51 map 1424 -- Drops from: Syndicate Shadow Mage
+step
+  tip High Executor Darthalia wants you to deliver updated orders to Deathstalker Masoj, south of Tarren Mill, outside of Dun Garok.
+  turnin 98094
+step
+  accept 98095
+step
+  tip Deathstalker Masoj needs you to place the three Apothecary Vials on peaks around Hillsbrad Foothills and return to him.
+  turnin 98095
+step
+  tip Kill 15 Hillsbrad Peasants and report back to Darthalia in Tarren Mill.
+  kill 2267 x15 quest 528.1 @34.06,45.69 map 1424
+step
+  when onquest 502
+  tip Feed the Elixir of Pain to Stanley.
+  turnin 502
+step
+  tip Deathguard Samsa of Tarren Mill wants 30 Hillsbrad Human Skulls.
+  collect 3692 x30 quest 546.1 @33.22,34.76 map 1424 -- Drops from: Farmer Ray, Syndicate Shadow Mage, Syndicate Rogue
+step
+  turnin 498
+step
+  turnin 528
+step
+  turnin 546
+step
+  turnin 549
+step
+  when turnedin 1065
+  turnin 1066
+step
+  when turnedin 1065
+  accept 1067
+step
+  accept 529
+step
+  only Paladin,Undead
+  accept 95125
+step
+  only Paladin,Undead
+  accept 95126
+step
+  only Paladin,Undead
+  tip Watch as Ott forges your blade.
+  turnin 95125
+step
+  tip Kill Blacksmith Verringtan and 4 Hillsbrad Apprentice Blacksmiths.
+  kill 2404 quest 529.1 @32.11,44.42 map 1424
+  kill 2265 x4 quest 529.2 @32.11,44.42 map 1424
+  collect 3564 quest 529.3 @32.11,44.42 map 1424
+step
+  turnin 529
+step
+  accept 532
+step
+  when level>=24
+  accept 509
+step
+  interact 2008
+  accept 567
+step
+  tip Kill Magistrate Burnside and 5 Hillsbrad Councilmen. Destroy the Hillsbrad Proclamation. Steal the Hillsbrad Town Registry. Report back to Darthalia in Tarren Mill afterwards.
+  kill 2335 quest 532.1 @29.67,41.64 map 1424
+  kill 2387 x5 quest 532.2 @29.67,41.64 map 1424
+  interact 1761 quest 532.3 @29.67,41.64 map 1424
+  collect 3657 quest 532.4 @29.67,41.64 map 1424
+step
+  tip High Executor Darthalia of Tarren Mill is offering a bounty on Clerk Horrace Whitesteed, Citizen Wilkes, Miner Hackett and Farmer Kalaba.
+  kill 2448 quest 567.1 @29.51,42.41 map 1424
+  kill 2449 quest 567.2 @32.62,39.79 map 1424
+  kill 2451 quest 567.4 @35.88,46.57 map 1424
+  kill 2448 quest 567.1
+  kill 2449 quest 567.2
+  kill 2450 quest 567.3 @31.8,52.7 map 1424
+  kill 2451 quest 567.4
+step
+  turnin 532
+step
+  turnin 567
+step
+  accept 539
+step
+  when onquest 509
+  tip Bring 6 Mudsnout Blossoms to Apothecary Lydon in Tarren Mill.
+  collect 3502 x6 quest 509.1 @64.56,61.25 map 1424 -- Drops from: Mudsnout Blossom
+step
+  tip Kill Foreman Bonds and 10 Hillsbrad Miners and report back to Darthalia in Tarren Mill.
+  kill 2305 quest 539.1 @31.21,56.01 map 1424
+  kill 2305 quest 539.1 @30.44,55.62 map 1424
+  kill 2269 x10 quest 539.2 @30.44,55.62 map 1424
+step
+  when onquest 509
+  turnin 509
+step
+  turnin 539
+step
+  when turnedin 509
+  when level>=24
+  accept 513
+step
+  when turnedin 515
+  when level>=24
+  accept 517
+step
+  when turnedin 515
+  when onquest 517
+  tip Bring a keg of Shindigger Stout to Apothecary Lydon in Tarren Mill.
+  collect 3517 quest 517.1 @72.02,81.16 map 1424
+step
+  when turnedin 515
+  when onquest 517
+  turnin 517
+step
+  when turnedin 515
+  when turnedin 517
+  when level>=24
+  accept 524
+step
+  when turnedin 515
+  when onquest 524
+  tip Place the Tainted Keg on the rug for the captured farmers.
+  turnin 524
+step
+  zone map 1421
+  only Paladin,Undead
+  tip Bring Ott's Masterwork to Trevan Rol in Silverpine Forest.
+  turnin 95126 -- Turn in at Silverpine Forest
+step
+  zone map 1458
+  when onquest 513
+  tip Take the Mudsnout Composite to Master Apothecary Faranell in the Undercity.
+  turnin 513 -- Turn in at Undercity
+step
+  zone map 1441
+  tip Zone complete! Travel to Thousand Needles.
+  goto 53.95,41.49 map 1441

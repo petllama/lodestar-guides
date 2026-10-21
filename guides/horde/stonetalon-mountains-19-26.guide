@@ -1,0 +1,318 @@
+guide lodestar/horde/stonetalon-mountains-19-26
+title "Stonetalon Mountains (19-26)"
+levels 19-26
+zone map 1442
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/the-barrens-23-27
+step
+  level 18
+step
+  getfp "Sun Rock Retreat, Stonetalon Mountains"
+step
+  accept 6421
+step
+  tip Explore deep into the cave at Boulderslide Ravine and bring back 10 Resonite Crystals for Mor'rogal at Sun Rock Retreat to investigate.
+  collect 16581 x10 quest 6421.1 @59.61,90.93 map 1442
+step
+  accept 6461
+step
+  accept 6542
+step
+  accept 6523
+step
+  tip Escort Kaya Flathoof to Camp Aparaje, and then return to Makaba Flathoof near the southeastern edge of Stonetalon.
+  goto 77.1,90.85 "Kaya Escorted to Camp Aparaje" map 1442
+step
+  tip Xen'zilla at Malaka'Jin needs you to kill 10 Deepmoss Creepers and 7 Deepmoss Venomspitters.
+  kill 4005 x10 quest 6461.1 @58.94,75.66 map 1442
+  kill 4005 x10 quest 6461.1
+  kill 4007 x7 quest 6461.2 @53.97,61.45 map 1442
+step
+  turnin 6421
+step
+  when level>=20
+  accept 6481
+step
+  when onquest 6481
+  tip Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc. Return to Mor'rogal with the news and Enchanted Resonite Crystal.
+  kill 11920 quest 6481.1 @57.4,89.4 map 1442 optional -- Goggeroc is elite: grouping up is advised.
+step
+  turnin 6461
+step
+  when level>=21
+  interact 177904
+  accept 6284
+step
+  when onquest 6284
+  tip Kill Besseleth and bring Besseleth's Fang to Maggran at Sun Rock Retreat.
+  collect 16192 quest 6284.1 @52.8,72.6 map 1442 optional -- Besseleth is elite: grouping up is advised.
+step
+  when onquest 6284
+  turnin 6284
+step
+  when onquest 6481
+  turnin 6481
+step
+  accept 6562
+step
+  accept 1093
+step
+  accept 1090
+step
+  tip Get the mysterious ore from Piznik after he finishes mining it.
+  talk 4276
+step
+  turnin 1090
+step
+  accept 1092
+step
+  tip Get the Super Reaper 6000 Blueprints for Ziz Fizziks in the Stonetalon Mountains.
+  collect 5734 quest 1093.1 @71.8,50.03 map 1442 -- Drops from: Venture Co. Operator
+step
+  tip Deliver the Unidentified Ore to Ziz Fizziks in the Stonetalon Mountains.
+  turnin 1092
+step
+  turnin 1093
+step
+  accept 1094
+step
+  accept 6301
+step
+  tip Tammra Windfield at Sun Rock Retreat wants you to gather 10 Gaea Seeds.
+  collect 16205 x10 quest 6301.1 @48.05,39.76 map 1442
+step
+  turnin 6301
+step
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when level>=20
+  accept 1511
+step
+  interact 424005
+  accept 79980
+step
+  tip Find what awaits you.
+  turnin 79980
+step
+  when level>=20
+  accept 1087
+step
+  accept 6381
+step
+  when level>=19
+  accept 6393
+step
+  when onquest 6393
+  tip Bring 10 Incendrites to Tsunaman at Sun Rock Retreat.
+  collect 16312 x10 quest 6393.1 @36.55,51.37 map 1442 -- Drops from: Rogue Flame Spirit, Burning Ravager, Burning Destroyer
+step
+  when onquest 6393
+  turnin 6393
+step
+  accept 6282
+step
+  accept 86576
+step
+  tip Maggran Earthbinder in Sun Rock Retreat wants you to slay 7 Bloodfury Harpies, 7 Bloodfury Ambushers, 7 Bloodfury Slayers and 7 Bloodfury Roguefeathers.
+  kill 4022 x7 quest 6282.1 @32.57,60.66 map 1442
+  kill 4025 x7 quest 6282.2 @30.8,61.32 map 1442
+  kill 4024 x7 quest 6282.3 @30.24,69.58 map 1442
+  kill 4022 x7 quest 6282.1
+  kill 4025 x7 quest 6282.2
+  kill 4024 x7 quest 6282.3 @34.86,69.12 map 1442
+  kill 4023 x7 quest 6282.4 @34.86,69.12 map 1442
+step
+  tip Bring 15 Glittering Sunstones to Mor'rogal.
+  collect 277936 x15 quest 86576.1 @32.57,60.66 map 1442 -- Drops from: Bloodfury Harpy, Bloodfury Roguefeather, Bloodfury Slayer
+step
+  tip Plant 10 Gaea Seeds in Gaea Dirt Mounds, and then return the remaining Enchanted Gaea Seeds to Tammra at Sun Rock Retreat.
+  interact 177929 quest 6381.1 @33.61,68.96 map 1442
+step
+  when level>=20
+  accept 1058
+step
+  when onquest 1058
+  tip Witch Doctor Jin'Zil at Malaka'jin wants 5 portions of Stonetalon Sap, 5 Twilight Whiskers, 30 Courser Eyes and a Fey Dragon Scale.
+  collect 5585 x30 quest 1058.3 @45,21.32 map 1442 -- Drops from: Antlered Courser, Great Courser
+  collect 5583 quest 1058.4 @37.41,20.93 map 1442 -- Drops from: Fey Dragon, Wily Fey Dragon, Nal'taszar
+  collect 5582 x5 quest 1058.1 @34.78,17.41 map 1442 -- Drops from: Sap Beast
+  collect 5582 x5 quest 1058.1 -- Drops from: Twilight Runner
+  collect 5584 x5 quest 1058.2 @33.28,9.93 map 1442 -- Drops from: Twilight Runner
+  collect 5585 x30 quest 1058.3 -- Drops from: Twilight Runner
+  collect 5583 quest 1058.4 -- Drops from: Twilight Runner
+step
+  when onquest 1087
+  tip Kill 4 Sons of Cenarius, 4 Daughters of Cenarius and 4 Cenarion Botanists for Braelyn Firehand near Sun Rock Retreat.
+  kill 4057 x4 quest 1087.1 @35.82,12.59 map 1442
+  kill 4053 x4 quest 1087.2 @36.45,13.09 map 1442
+  kill 4057 x4 quest 1087.1 @35.96,14.57 map 1442
+  kill 4053 x4 quest 1087.2 @35.96,14.57 map 1442
+  kill 4051 x4 quest 1087.3 @35.96,14.57 map 1442
+step
+  when onquest 1087
+  turnin 1087
+step
+  turnin 6282
+step
+  turnin 6381
+step
+  turnin 86576
+step
+  when level>=26
+  accept 6283
+step
+  when onquest 6283
+  tip Maggran at Sun Rock Retreat wishes you to slay Bloodfury Ripper and bring her remains as proof of your deed.
+  collect 16190 quest 6283.1 @30.75,61.91 map 1442 optional -- Bloodfury Ripper is elite: grouping up is advised.
+step
+  when onquest 6283
+  turnin 6283
+step
+  when onquest 1058
+  turnin 1058
+step
+  when level>=23
+  accept 5881
+step
+  when turnedin 1087
+  accept 1088
+step
+  zone map 1413
+  turnin 6523 -- Turn in at The Barrens
+step
+  accept 6401
+step
+  tip Report to Kadrak at the watch tower in northern Barrens.
+  turnin 6542 -- Turn in at The Barrens
+step
+  tip Deliver the Sealed Envelope to Sputtervalve in the Barrens.
+  turnin 1094 -- Turn in at The Barrens
+step
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when onquest 1511
+  tip Bring Ken'zigla's Draught to Grunt Logmar at Camp Taurajo.
+  turnin 1511 -- Turn in at The Barrens
+step
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when turnedin 1511
+  accept 1515
+step
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when onquest 1515
+  tip Bring Ken'zigla's Draught to Dogran in the Barrens.
+  turnin 1515 -- Turn in at The Barrens
+step
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when turnedin 1515
+  accept 1512
+step
+  zone map 1440
+  tip Speak to Je'neu Sancrea in Ashenvale.
+  turnin 6562 -- Turn in at Ashenvale
+step
+  when level>=22
+  kill 4802 @13.55,12.06 map 1440 optional -- Blackfathom Tide Priestess is elite: grouping up is advised.
+  accept 6564 @13.55,12.06 map 1440
+step
+  when onquest 6564
+  tip Bring the Damp Note to Je'neu Sancrea in Ashenvale.
+  turnin 6564 -- Turn in at Ashenvale
+step
+  when onquest 1088
+  tip Bring Ordanus' head to Braelyn Firehand near Sun Rock Retreat.
+  collect 5686 quest 1088.1 @62.05,51.37 map 1440 -- Drops from: Keeper Ordanus
+step
+  zone map 1456
+  accept 97538
+step
+  only Warrior
+  when turnedin 1848
+  accept 1844
+step
+  zone map 1442
+  tip Tell Tammra Windfield in Sun Rock Retreat the good news.
+  turnin 6401
+step
+  when onquest 1088
+  turnin 1088
+step
+  when turnedin 1088
+  accept 1089
+step
+  only Warrior
+  when turnedin 1848
+  tip Bring a Galvanized Horn to Orm Stonehoof in Thunder Bluff.
+  collect 6840 quest 1844.1 @33.64,74.66 map 1442 -- Drops from: Chimaera Matriarch
+step
+  tip Tah Winterhoof in Thunder Bluff wants 30 Mirkweed Pods from Mirkfallon Lake.
+  collect 278201 x30 quest 97538.1 @47.5,41 map 1442 -- Drops from: Mirkweed, Dried Mirkweed Pile
+step
+  when onquest 1089
+  tip Travel to the Den on Stonetalon Peak. Using the Gatekeeper's Key, obtain the druids' hidden items. Use these items to open the Talon Den Hoard.
+  collect 5690 quest 1089.2 @29.55,15.84 map 1442 -- Drops from: Druids' Cache
+  collect 5691 quest 1089.3 @27.96,13.81 map 1442 -- Drops from: Barrow Cache
+  collect 5689 quest 1089.1 @25.55,11.36 map 1442 -- Drops from: Sleepers' Cache
+  collect 5690 quest 1089.2 -- Drops from: Sleepers' Cache
+  collect 5691 quest 1089.3 -- Drops from: Sleepers' Cache
+step
+  when onquest 1089
+  turnin 1089
+step
+  zone map 1456
+  turnin 97538 -- Turn in at Thunder Bluff
+step
+  only Warrior
+  when turnedin 1848
+  turnin 1844 -- Turn in at Thunder Bluff
+step
+  zone map 1454
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when onquest 1512
+  tip Bring the Dirt-caked Pendant to Gan'rul Bloodeye in Orgrimmar.
+  turnin 1512 -- Turn in at Orgrimmar
+step
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when turnedin 1512
+  accept 1513
+step
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when onquest 1513
+  tip Using Dogran's Pendant, summon and subdue a succubus, then return Dogran's Pendant to Gan'rul Bloodeye in Orgrimmar.
+  kill 5677 quest 1513.1 -- Use the quest item on them, don't just kill them.
+step
+  only Warlock
+  when turnedin 1510
+  when !turnedin 1472
+  when !onquest 1472
+  when onquest 1513
+  turnin 1513 -- Turn in at Orgrimmar
+step
+  zone map 1413
+  tip Zone complete! Travel to The Barrens.
+  goto 51.07,29.63 map 1413

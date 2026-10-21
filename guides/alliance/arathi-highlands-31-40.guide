@@ -1,0 +1,370 @@
+guide lodestar/alliance/arathi-highlands-31-40
+title "Arathi Highlands (31-40)"
+levels 31-40
+zone map 1417
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/swamp-of-sorrows-35-42
+step
+  level 30
+step
+  zone map 1453
+  when level>=30
+  accept 690
+step
+  zone map 1455
+  only Shaman
+  when level>=30
+  accept 94789
+step
+  zone map 1417
+  collect 2656 @44.29,92.88 map 1417 -- Loot the quest item here — it starts the quest.
+  accept 637 @44.29,92.88 map 1417
+step
+  accept 647
+step
+  getfp "Refuge Pointe, Arathi"
+step
+  when onquest 690
+  tip Find Skuerto at Refuge Pointe in the Arathi Highlands.
+  turnin 690
+step
+  when level>=30
+  accept 681
+step
+  interact 406918
+  accept 79976
+step
+  when onquest 681
+  tip Kill 10 Syndicate Highwaymen and 6 Syndicate Mercenaries.
+  kill 2589 x6 quest 681.2 @31.02,28.75 map 1417
+  kill 2586 x10 quest 681.1 @30.97,29.79 map 1417
+  kill 2589 x6 quest 681.2 @30.97,29.79 map 1417
+step
+  tip Whoever was here, you just missed them.
+  turnin 79976
+step
+  when onquest 681
+  turnin 681
+step
+  only Shaman
+  when onquest 94789
+  tip Find Veyric Thundervein in Arathi Highlands.
+  turnin 94789
+step
+  when level>=30
+  accept 691
+step
+  when onquest 691
+  tip Find 10 Witherbark Tusks, 4 Witherbark Medicine Pouches and a Shadow Hunter Knife for Apprentice Kryten at Refuge Pointe.
+  collect 4503 x10 quest 691.1 @35.1,46.16 map 1417 -- Drops from: Witherbark Troll, Witherbark Shadowcaster, Witherbark Axe Thrower
+  collect 4522 x4 quest 691.2 @69.34,68.69 map 1417 -- Drops from: Witherbark Witch Doctor
+  collect 4503 x10 quest 691.1 @67.53,80.51 map 1417 -- Drops from: Witherbark Shadow Hunter
+  collect 4522 x4 quest 691.2 @67.53,80.51 map 1417 -- Drops from: Witherbark Shadow Hunter
+  collect 5040 quest 691.3 @67.53,80.51 map 1417 -- Drops from: Witherbark Shadow Hunter
+step
+  when onquest 691
+  turnin 691
+step
+  when turnedin 681
+  when level>=37
+  accept 682
+step
+  when turnedin 659
+  when level>=30
+  accept 658
+step
+  when turnedin 659
+  when onquest 658
+  tip Find the Forsaken Courier and bring back her Sealed Folder to Quae near the Go'Shek Farm.
+  collect 4482 quest 658.1 @52.47,61.53 map 1417 -- Drops from: Forsaken Courier
+step
+  when turnedin 659
+  when onquest 658
+  turnin 658
+step
+  when turnedin 659
+  when turnedin 658
+  when level>=30
+  accept 657
+step
+  when turnedin 659
+  when onquest 657
+  tip Speak to Kinelory.
+  turnin 657
+step
+  when turnedin 659
+  when turnedin 657
+  when level>=30
+  accept 660
+step
+  when turnedin 659
+  when onquest 660
+  tip Protect Kinelory until she returns to Quae.
+  goto 60.1,53.83 "Protect Kinelory" map 1417
+step
+  when turnedin 659
+  when onquest 660
+  turnin 660
+step
+  when turnedin 659
+  when turnedin 660
+  accept 661
+step
+  interact 138492
+  accept 642
+step
+  tip Gather 12 Motes of Myzrael, then bring them to the Iridescent Shards in Drywhisker Gorge.
+  collect 4435 x12 quest 642.1 @78.55,37.77 map 1417 -- Drops from: Drywhisker Kobold, Drywhisker Surveyor, Drywhisker Digger
+step
+  turnin 642
+step
+  interact 2701
+  accept 651
+step
+  tip Gather the Burning Key, the Cresting Key and the Thundering Key from the Stone of West Binding, the Stone of East Binding and the Stone of Outer Binding.
+  collect 4484 quest 651.2 @66.7,29.72 map 1417 -- Drops from: Stone of East Binding
+  collect 4485 quest 651.3 @52.04,50.73 map 1417 -- Drops from: Stone of Outer Binding
+  collect 4483 quest 651.1 @25.46,30.11 map 1417 -- Drops from: Stone of West Binding
+  collect 4484 quest 651.2 -- Drops from: Stone of West Binding
+  collect 4485 quest 651.3 -- Drops from: Stone of West Binding
+step
+  turnin 651
+step
+  when onquest 682
+  tip Bring 7 Stromgarde Badges to Captain Nials at Refuge Pointe.
+  collect 4506 x7 quest 682.1 @28.33,63.36 map 1417 optional -- Syndicate Prowler is elite: grouping up is advised.
+step
+  when onquest 682
+  turnin 682
+step
+  when level>=39
+  interact 2713
+  accept 684
+step
+  when turnedin 691
+  accept 693
+step
+  when onquest 693
+  tip Find Trelane's Wand of Invocation and return it to Skuerto at Refuge Pointe.
+  collect 4525 quest 693.1 @54.75,81.87 map 1417 -- Drops from: Kor'gresh Coldrage
+step
+  when onquest 693
+  turnin 693
+step
+  when turnedin 693
+  when level>=39
+  accept 694
+step
+  when onquest 684
+  tip Bring Marez's head to Captain Nials at Refuge Pointe.
+  collect 4515 quest 684.1 @29.47,64.14 map 1417 optional -- Marez Cowl is elite: grouping up is advised.
+step
+  when onquest 694
+  tip Find an Azure Agate and bring it to Apprentice Kryten at Refuge Pointe.
+  collect 4527 quest 694.1 @19.97,67.51 map 1417 optional -- Boulderfist Shaman is elite: grouping up is advised.
+step
+  when onquest 684
+  turnin 684
+step
+  when onquest 694
+  turnin 694
+step
+  when turnedin 694
+  accept 695
+step
+  when onquest 695
+  tip Speak to Skuerto.
+  turnin 695
+step
+  when turnedin 695
+  accept 696
+step
+  when level>=40
+  interact 2713
+  accept 685
+step
+  when onquest 685
+  tip Bring Otto's Head and Falconcrest's Head to Captain Nials at Refuge Pointe.
+  collect 4516 quest 685.1 @26.22,65.55 map 1417 optional -- Otto is elite: grouping up is advised.
+  collect 4516 quest 685.1 @26.03,65.68 map 1417 optional -- Otto is elite: grouping up is advised.
+  collect 4517 quest 685.2 @26.03,65.68 map 1417 optional -- Lord Falconcrest is elite: grouping up is advised.
+step
+  when onquest 696
+  tip Find Trelane's Phylactery, Trelane's Orb, and Trelane's Ember Agate, and return them to Skuerto at Refuge Pointe.
+  collect 4530 quest 696.1 @18.18,68.14 map 1417 -- Drops from: Trelane's Footlocker
+  collect 4532 quest 696.3 @18.03,67.87 map 1417 -- Drops from: Trelane's Lockbox
+  collect 4530 quest 696.1 @18.17,69.15 map 1417 -- Drops from: Trelane's Chest
+  collect 4531 quest 696.2 @18.17,69.15 map 1417 -- Drops from: Trelane's Chest
+  collect 4532 quest 696.3 @18.17,69.15 map 1417 -- Drops from: Trelane's Chest
+step
+  when level>=35
+  accept 663
+step
+  when onquest 663
+  tip Talk to Captain O'Breen in Faldir's Cove.
+  turnin 663
+step
+  when turnedin 663
+  when level>=35
+  accept 662
+step
+  when turnedin 663
+  when level>=35
+  accept 664
+step
+  when turnedin 663
+  when level>=35
+  accept 665
+step
+  when onquest 665
+  tip Escort Professor Phizzlethorpe to the cave and back.
+  goto 33.87,80.6 "Defend Professor Phizzlethorpe" map 1417
+step
+  when onquest 665
+  turnin 665
+step
+  when turnedin 665
+  when level>=35
+  accept 666
+step
+  when onquest 662
+  tip First Mate Nilzlix wants you to retrieve the Charts and Logs from the Maiden's Folly and the Spirit of Silverpine.
+  collect 4489 quest 662.2 @23.39,85.09 map 1417
+  collect 4487 quest 662.1 @23.05,84.51 map 1417
+  collect 4490 quest 662.4 @20.65,85.1 map 1417
+  collect 4487 quest 662.1
+  collect 4489 quest 662.2
+  collect 4488 quest 662.3 @20.46,85.61 map 1417
+  collect 4490 quest 662.4 @20.46,85.61 map 1417
+step
+  when onquest 664
+  tip Captain Steelgut in Faldir's Cove wants you to kill 10 Daggerspine Raiders and 3 Daggerspine Sorceresses.
+  kill 2596 x3 quest 664.2 @22.45,84.35 map 1417
+  kill 2595 x10 quest 664.1 @22.57,86.91 map 1417
+  kill 2596 x3 quest 664.2
+step
+  when onquest 666
+  tip Doctor Draxlegauge in Faldir's Cove wants you to collect 10 Elven Gems and return the Goggles of Gem Hunting once you are done.
+  collect 4492 x10 quest 666.1 @23,89 map 1417 -- Drops from: Calcified Elven Gem
+step
+  when onquest 662
+  turnin 662
+step
+  when onquest 664
+  turnin 664
+step
+  when onquest 666
+  turnin 666
+step
+  when turnedin 666
+  when level>=35
+  accept 668
+step
+  when onquest 668
+  tip Take the Elven Gems to Captain O'Breen.
+  turnin 668
+step
+  when turnedin 668
+  when level>=35
+  accept 669
+step
+  when onquest 685
+  turnin 685
+step
+  when onquest 696
+  turnin 696
+step
+  when turnedin 696
+  accept 697
+step
+  when level>=42
+  interact 2702
+  accept 652
+step
+  when onquest 652
+  tip Find and kill Fozruk. Bring the Rod of Order to the Keystone in the Arathi Highlands.
+  collect 4469 quest 652.1 @63.9,30 map 1417 optional -- Fozruk is elite: grouping up is advised.
+step
+  when onquest 652
+  turnin 652
+step
+  when turnedin 652
+  interact 2688
+  accept 653
+step
+  zone map 1455
+  tip Deliver Sully Balloo's Letter to Sara Balloo.
+  turnin 637 -- Turn in at Ironforge
+step
+  accept 683
+step
+  tip Take Sara Balloo's note to King Magni Bronzebeard of Ironforge.
+  turnin 683 -- Turn in at Ironforge
+step
+  accept 686
+step
+  tip King Magni Bronzebeard wants you to speak with Grand Mason Marblesten.
+  turnin 686 -- Turn in at Ironforge
+step
+  accept 689
+step
+  when onquest 653
+  tip Speak with Gerrig Bonegrip in the Forlorn Cavern of Ironforge.
+  turnin 653 -- Turn in at Ironforge
+step
+  zone map 1424
+  tip Take MacKreel's Moonshine to Brewmeister Bilger in Southshore.
+  turnin 647 -- Turn in at Hillsbrad Foothills
+step
+  when turnedin 659
+  when onquest 661
+  tip Find Phin Odelic in Southshore.
+  turnin 661 -- Turn in at Hillsbrad Foothills
+step
+  tip Grand Mason Marblesten of Ironforge wants 5 pieces of Alterac Granite.
+  collect 4521 x5 quest 689.1 @43.54,30.19 map 1424
+step
+  zone map 1455
+  turnin 689 -- Turn in at Ironforge
+step
+  accept 700
+step
+  tip Report to King Magni Bronzebeard.
+  turnin 700 -- Turn in at Ironforge
+step
+  zone map 1434
+  when onquest 669
+  tip Take the Sample Elven Gem to Fleet Master Seahorn in Booty Bay.
+  turnin 669 -- Turn in at Stranglethorn Vale
+step
+  when turnedin 669
+  when level>=35
+  accept 670
+step
+  zone map 1417
+  when onquest 670
+  tip Deliver Seahorn's Letter to Shakes O'Breen in Arathi Highlands.
+  turnin 670
+step
+  when turnedin 670
+  when level>=35
+  accept 667
+step
+  when onquest 667
+  tip Protect Shakes O'Breen during the attack.
+  goto 31.93,81.82 "Defend Shakes O'Breen" map 1417
+step
+  when onquest 667
+  turnin 667
+step
+  zone map 1453
+  when onquest 697
+  tip Take the Sealed Letter to Archmage Malin in the Mage Quarter of Stormwind.
+  turnin 697 -- Turn in at Stormwind City
+step
+  zone map 1435
+  tip Zone complete! Travel to Swamp of Sorrows.
+  goto 25.98,31.4 map 1435

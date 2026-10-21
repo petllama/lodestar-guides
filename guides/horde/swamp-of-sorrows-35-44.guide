@@ -1,0 +1,141 @@
+guide lodestar/horde/swamp-of-sorrows-35-44
+title "Swamp of Sorrows (35-44)"
+levels 35-44
+zone map 1435
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/thousand-needles-37-41
+step
+  level 31
+step
+  accept 1389
+step
+  getfp "Stonard, Swamp of Sorrows"
+step
+  accept 1418
+step
+  accept 93663
+step
+  tip Find the missing courier, and ensure Dar's shipment is delivered to the Harborage.
+  collect 260452 quest 93663.1 @44.7,57.21 map 1435
+step
+  tip Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.
+  collect 6071 x6 quest 1389.1 @62.08,22.45 map 1435 -- Drops from: Draenethyst Crystals
+step
+  turnin 1389
+step
+  turnin 93663
+step
+  accept 1393
+step
+  tip Escort Galen out of danger, then find his camp in the Swamp of Sorrows and open his strongbox.
+  goto 53.08,29.55 "Escort Galen out of the Fallow Sanctuary." map 1435
+step
+  turnin 1393
+step
+  kill 5477 @54.9,34.1 map 1435 -- Loot the quest item here — it starts the quest.
+  accept 1392 @54.9,34.1 map 1435
+step
+  tip Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.
+  turnin 1392
+step
+  when level>=35
+  accept 698
+step
+  when onquest 698
+  tip Bring 8 Unprepared Sawtooth Flanks to Tok'Kar in Swamp of Sorrows.
+  collect 6169 x8 quest 698.1 @55.17,41.34 map 1435 -- Drops from: Sawtooth Crocolisk, Sawtooth Snapper
+step
+  when onquest 698
+  turnin 698
+step
+  when turnedin 698
+  when level>=35
+  accept 699
+step
+  when onquest 699
+  tip Bring 6 Sawtooth Snapper Claws to Tok'Kar in the Swamp of Sorrows.
+  collect 6168 x6 quest 699.1 @79.44,26.73 map 1435 -- Drops from: Sawtooth Snapper
+step
+  when onquest 699
+  turnin 699
+step
+  when level>=38
+  accept 1424
+step
+  when onquest 1424
+  tip Fel'zerul in Stonard wants you to gather 10 Atal'ai Artifacts.
+  collect 6175 x10 quest 1424.1 @72.53,53.11 map 1435
+step
+  when onquest 1424
+  turnin 1424
+step
+  when turnedin 1424
+  when level>=38
+  accept 1429
+step
+  when level>=35
+  accept 1430
+step
+  when onquest 1430
+  tip Bring 10 Monstrous Crawler Legs to Dar in the Swamp of Sorrows.
+  collect 6184 x10 quest 1430.1 @94.2,57.8 map 1435 -- Drops from: Monstrous Crawler
+step
+  when onquest 1430
+  turnin 1430
+step
+  when turnedin 699
+  when level>=35
+  accept 1422
+step
+  when onquest 1422
+  tip Speak to Katar in the Swamp of Sorrows.
+  turnin 1422
+step
+  when turnedin 1422
+  when level>=35
+  accept 1426
+step
+  when onquest 1426
+  tip Kill 10 Marsh Murlocs, 10 Marsh Inkspewer, and 10 Marsh Flesheater, then return to Katar in the Swamp of Sorrows.
+  kill 750 x10 quest 1426.2 @88.19,80.18 map 1435
+  kill 747 x10 quest 1426.1 @85.93,84.97 map 1435
+  kill 747 x10 quest 1426.1
+  kill 750 x10 quest 1426.2 @63.22,84.91 map 1435
+  kill 751 x10 quest 1426.3 @63.22,84.91 map 1435
+step
+  when onquest 1426
+  turnin 1426
+step
+  when turnedin 1426
+  when level>=35
+  accept 1427
+step
+  when onquest 1427
+  tip Speak with Tok'Kar in the Swamp of Sorrows.
+  turnin 1427
+step
+  when turnedin 1427
+  when level>=35
+  accept 1428
+step
+  when onquest 1428
+  tip Kill 10 Marsh Inkspewers, 10 Marsh Flesheaters, and 10 Marsh Oracles, then return to Katar in the Swamp of Sorrows.
+  kill 750 x10 quest 1428.1 @88.19,80.18 map 1435
+  kill 751 x10 quest 1428.2 @63.22,84.91 map 1435
+  kill 750 x10 quest 1428.1
+  kill 751 x10 quest 1428.2 @61.41,84.34 map 1435
+  kill 752 x10 quest 1428.3 @61.41,84.34 map 1435
+step
+  when onquest 1428
+  turnin 1428
+step
+  zone map 1418
+  tip Speak with Neeka Bloodscar.
+  turnin 1418 -- Turn in at Badlands
+step
+  zone map 1441
+  tip Zone complete! Travel to Thousand Needles.
+  goto 32.24,22.17 map 1441

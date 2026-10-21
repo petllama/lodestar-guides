@@ -1,0 +1,5 @@
+dist/
+.local/
+lint.json
+lint.err
+playtest.txt

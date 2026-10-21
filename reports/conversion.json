@@ -1,0 +1,414 @@
+{
+ "guides": 86,
+ "counts": {
+  "completed-any-dropped": 73,
+  "note-only-step": 8
+ },
+ "items": [
+  {
+   "guide": "lodestar/alliance/ashenvale-30-32",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1805,1804)"
+  },
+  {
+   "guide": "lodestar/alliance/ashenvale-30-32",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1805,1804)"
+  },
+  {
+   "guide": "lodestar/alliance/ashenvale-30-32",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1805,1804)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(653,688)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(735,736)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(653,688)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(735,736)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(653,688)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(653,688)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(653,688)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(653,688)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(653,688)"
+  },
+  {
+   "guide": "lodestar/alliance/badlands-37-43",
+   "kind": "completed-any-dropped",
+   "detail": "completed(653,688)"
+  },
+  {
+   "guide": "lodestar/alliance/darkshore-13-20",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1683,1678,1639)"
+  },
+  {
+   "guide": "lodestar/alliance/darkshore-13-20",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1683,1678,1639)"
+  },
+  {
+   "guide": "lodestar/alliance/darkshore-13-20",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1683,1678,1639)"
+  },
+  {
+   "guide": "lodestar/alliance/darkshore-13-20",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1683,1678,1639)"
+  },
+  {
+   "guide": "lodestar/alliance/darkshore-13-20",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1683,1678,1639)"
+  },
+  {
+   "guide": "lodestar/alliance/darkshore-13-20",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1683,1678,1639)"
+  },
+  {
+   "guide": "lodestar/alliance/darkshore-13-20",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1683,1678,1639)"
+  },
+  {
+   "guide": "lodestar/alliance/desolace-33-39",
+   "kind": "note-only-step",
+   "detail": "Maintain your reputation with the Gelkis Clan and slay 6 Undead Ravagers, then r"
+  },
+  {
+   "guide": "lodestar/alliance/desolace-33-39",
+   "kind": "note-only-step",
+   "detail": "Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. "
+  },
+  {
+   "guide": "lodestar/alliance/eastern-plaguelands-55-60",
+   "kind": "completed-any-dropped",
+   "detail": "completed(8926,8931,8932,8933,8934,8935,8936,8937)"
+  },
+  {
+   "guide": "lodestar/alliance/eastern-plaguelands-55-60",
+   "kind": "completed-any-dropped",
+   "detail": "completed(8926,8931,8932,8933,8934,8935,8936,8937)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/swamp-of-sorrows-55-57",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2623,2783)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2946,2966)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2946,2966)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2946,2966)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(2946,2966)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(3380,3445)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(3380,3445)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(3380,3445)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/alliance/wetlands-21-29",
+   "kind": "note-only-step",
+   "detail": "Captain Stoutfist in Menethil Keep wants you to destroy the 4 sets of Attack Pla"
+  },
+  {
+   "guide": "lodestar/horde/badlands-37-42",
+   "kind": "completed-any-dropped",
+   "detail": "completed(735,736)"
+  },
+  {
+   "guide": "lodestar/horde/badlands-37-42",
+   "kind": "completed-any-dropped",
+   "detail": "completed(735,736)"
+  },
+  {
+   "guide": "lodestar/horde/desolace-33-39",
+   "kind": "note-only-step",
+   "detail": "Maintain your reputation with the Gelkis Clan and slay 6 Undead Ravagers, then r"
+  },
+  {
+   "guide": "lodestar/horde/desolace-33-39",
+   "kind": "note-only-step",
+   "detail": "Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. "
+  },
+  {
+   "guide": "lodestar/horde/mulgore-4-10",
+   "kind": "note-only-step",
+   "detail": "Defeat 3 other players in duels or Novice Warriors for Tang Stonehoof."
+  },
+  {
+   "guide": "lodestar/horde/mulgore-4-10",
+   "kind": "note-only-step",
+   "detail": "Sneak into the Venture Company mine southeast of Thunder Bluff and collect 5 Sea"
+  },
+  {
+   "guide": "lodestar/horde/mulgore-4-10",
+   "kind": "note-only-step",
+   "detail": "Gather 8 Windfury Cones north of Thunder Bluff, use them with the Mortar and Pes"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(3380,3445)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(3380,3445)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-44-50",
+   "kind": "completed-any-dropped",
+   "detail": "completed(3380,3445)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/tanaris-53-54",
+   "kind": "completed-any-dropped",
+   "detail": "completed(4493,4494)"
+  },
+  {
+   "guide": "lodestar/horde/the-barrens-55-60",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1000,1004,1018)"
+  },
+  {
+   "guide": "lodestar/horde/the-barrens-55-60",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1000,1004,1018)"
+  },
+  {
+   "guide": "lodestar/horde/the-barrens-55-60",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1000,1004,1018)"
+  },
+  {
+   "guide": "lodestar/horde/the-barrens-55-60",
+   "kind": "completed-any-dropped",
+   "detail": "completed(1000,1004,1018)"
+  },
+  {
+   "guide": "lodestar/horde/the-barrens-55-60",
+   "kind": "completed-any-dropped",
+   "detail": "completed(8913,8914,8915,8916,8917,8918,8919,8920)"
+  }
+ ]
+}

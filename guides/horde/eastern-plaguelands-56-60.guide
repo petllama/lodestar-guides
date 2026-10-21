@@ -1,0 +1,408 @@
+guide lodestar/horde/eastern-plaguelands-56-60
+title "Eastern Plaguelands (56-60)"
+levels 56-60
+zone map 1423
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+step
+  level 55
+step
+  zone map 1458
+  accept 5961
+step
+  when onquest 3542
+  tip Bring the Tablet of Markri to Andron Gant in Undercity.
+  turnin 3542 -- Turn in at Undercity
+step
+  zone map 1423
+  accept 5149
+step
+  tip Find Pamela's doll.
+  collect 12885 quest 5149.1 @32.58,79.56 map 1423 -- Combine Pamela's Doll's Head, Pamela's Doll's Left Side, Pamela's Doll's Right Side.
+step
+  turnin 5149
+step
+  accept 5152
+step
+  accept 5241
+step
+  tip Speak with Nathanos Blightcaller in the Eastern Plaguelands. He is said to have taken up residence at the Marris Stead.
+  turnin 5961
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  accept 5742
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  tip Listen to what Tirion Fordring has to say.
+  talk 1855
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  turnin 5742
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  accept 5781
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  tip Travel to the Undercroft - at the southernmost section of the Eastern Plaguelands - and recover Taelan's Hammer. Return to Tirion Fordring upon completion of your objective.
+  collect 14613 quest 5781.1 @23.85,74.22 map 1423 -- Drops from: Mercutio Filthgorger
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  turnin 5781
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  accept 5845
+step
+  accept 6042
+step
+  accept 6022
+step
+  tip Travel to Corin's Crossing to the east and slaughter the Scourge that inhabit the town. Collect 7 pieces of Living Rot in under 10 minutes. Use the Mortar and Pestle to grind the Living Rot into Coagulated Rot.
+  collect 15448 quest 6022.1 @22.23,63.51 map 1423
+step
+  turnin 6022
+step
+  tip Slay 20 Noxious Plaguebats and 10 Monstrous Plaguebats. Return to Nathanos Blightcaller when you are finished.
+  kill 8601 x20 quest 6042.1 @53.15,51.14 map 1423
+  kill 8601 x20 quest 6042.1 @43.93,29.08 map 1423
+  kill 8602 x10 quest 6042.2 @43.93,29.08 map 1423
+step
+  getfp "Light's Hope Chapel, Eastern Plaguelands"
+step
+  tip Find Carlin Redpath.
+  turnin 5241
+step
+  accept 5211
+step
+  when !turnedin 5401
+  when !turnedin 5405
+  when !onquest 5401
+  when !onquest 5405
+  accept 5503
+step
+  accept 6021
+step
+  when turnedin 6026
+  accept 6041
+step
+  when !turnedin 5401
+  when !turnedin 5405
+  when !onquest 5401
+  when !onquest 5405
+  turnin 5503
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  tip Travel to Northdale, in the northeastern region of the Eastern Plaguelands, and recover the Symbol of Lost Honor. Return to Tirion Fordring upon completion of your objective.
+  collect 14625 quest 5845.1 @62.53,26.81 map 1423
+step
+  tip Free 15 Darrowshire Spirits and return to Carlin Redpath.
+  talk 11064
+step
+  when turnedin 6026
+  tip Travel to Plaguewood, northwest of Light's Hope. Destroy 8 Scourge Structures by using Smokey's Special Compound at the Mark of Detonation planted inside each building. Smokey has had the Ziggurats and Slaughterhouses marked.
+  kill 12247 x8 quest 6041.1 @28.01,17.75 map 1423
+step
+  accept 6164
+step
+  tip Bring Augustus' Receipt Book to Augustus the Touched in Terrordale.
+  collect 15884 quest 6164.1 @14.04,24.22 map 1423
+step
+  turnin 6164
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  turnin 5845
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  accept 5846
+step
+  turnin 6042
+step
+  tip Bring Zaeldarr's Head to Caretaker Alen at Light's Hope Chapel.
+  collect 15785 quest 6021.1 @23.07,72.63 map 1423 -- Drops from: Zaeldarr the Outcast
+step
+  turnin 5211
+step
+  turnin 6021
+step
+  when turnedin 6026
+  turnin 6041
+step
+  when level>=55
+  accept 5281
+step
+  when turnedin 5464
+  when level>=57
+  accept 5465
+step
+  when turnedin 5522
+  when level>=57
+  accept 5531
+step
+  when level>=55
+  accept 9124
+step
+  when level>=55
+  accept 9126
+step
+  when level>=55
+  accept 9131
+step
+  when level>=55
+  accept 9665
+step
+  when onquest 9665
+  tip Capture Crown Guard Tower, Eastwall Tower, Northpass Tower and Plaguewood Tower in the Eastern Plaguelands, then return to Emmisary Gormok at Light's Hope Chapel.
+  goto 59.04,39.41 map 1423
+  goto 49.25,18.2 map 1423
+  goto 18.16,25.06 map 1423
+  goto 34.09,64.1 map 1423
+step
+  when turnedin 5522
+  when onquest 5531
+  tip Bring the Frozen Eggs to Betina Bigglezink.
+  turnin 5531
+step
+  when onquest 9665
+  turnin 9665
+step
+  when onquest 9126
+  tip Rohan the Assassin at Light's Hope Chapel in the Eastern Plaguelands wants 30 Bone Fragments.
+  collect 22526 x30 quest 9126.1 @23.27,27.39 map 1423 -- Drops from: Scourge Soldier, Cursed Mage, Scourge Warder
+step
+  when onquest 5281
+  tip Find Egan. You only know that he was last seen around Stratholme.
+  turnin 5281
+step
+  when onquest 9124
+  tip Huntsman Leopold at Light's Hope Chapel in the Eastern Plaguelands wants 30 Crypt Fiend Parts.
+  collect 22525 x30 quest 9124.1 @12.84,25.99 map 1423 -- Drops from: Crypt Fiend, Crypt Walker, Crypt Horror
+step
+  when turnedin 5848
+  accept 5861
+step
+  accept 6133
+step
+  interact 177667
+  accept 6024
+step
+  when onquest 9124
+  turnin 9124
+step
+  when onquest 9126
+  turnin 9126
+step
+  tip Kill Infiltrator Hameya. Use his key on the Mound of Dirt behind the Undercroft.
+  collect 15767 quest 6024.1 @61.96,11.11 map 1423 -- Drops from: Infiltrator Hameya
+step
+  tip Travel to the northern borders of the Eastern Plaguelands and recover the Quel'Thalas Registry. The item is somewhere in the Quel'Lithien lodge.
+  kill 8565 x8 quest 6133.1 @46.74,13.01 map 1423
+  kill 8564 x8 quest 6133.2 @46.74,13.01 map 1423
+  kill 8563 x8 quest 6133.3 @46.74,13.01 map 1423
+  collect 15847 quest 6133.4 @46.74,13.01 map 1423
+step
+  turnin 6133
+step
+  when level>=60
+  accept 6135
+step
+  when level>=60
+  accept 6136
+step
+  when onquest 6135
+  tip Find Duskwing and slay him. From the corpse, recover a Patch of Duskwing's Fur and return it to Nathanos Blightcaller.
+  collect 15850 quest 6135.1 @26.08,59.03 map 1423 optional -- Duskwing is elite: grouping up is advised.
+step
+  when onquest 6135
+  turnin 6135
+step
+  when onquest 6136
+  tip Find Borelgore in the northern wastes of Eastern Plaguelands and destroy him. Return to Nathanos Blightcaller when the mission is complete.
+  kill 11896 quest 6136.1 @47.69,24.87 map 1423 optional -- Borelgore is elite: grouping up is advised.
+step
+  when onquest 6136
+  turnin 6136
+step
+  when turnedin 6135
+  when turnedin 6136
+  when level>=56
+  accept 6144
+step
+  turnin 6024
+step
+  zone map 1422
+  when turnedin 5464
+  when onquest 5465
+  tip Return to Magistrate Marduke in Caer Darrow. Show him the Soulbound Keepsake.
+  turnin 5465 -- Turn in at Western Plaguelands
+step
+  when turnedin 5542
+  when turnedin 5543
+  when turnedin 5544
+  tip Travel to island of Caer Darrow, in the south-central region of the Plaguelands, and look for any clues as to the whereabouts of the painting.
+  turnin 5846 -- Turn in at Western Plaguelands
+step
+  when turnedin 5848
+  tip Travel to Uther's Tomb, located in the southern Plaguelands. Show Myranda the Hag Tirion's Gift.
+  turnin 5861 -- Turn in at Western Plaguelands
+step
+  when turnedin 5848
+  accept 5862
+step
+  tip Speak with Marlene, south of the Ruins of Andorhal.
+  turnin 5152 -- Turn in at Western Plaguelands
+step
+  accept 5153
+step
+  tip Bring Joseph's Wedding Ring to Chromie.
+  collect 12894 quest 5153.1 @49.7,76.76 map 1422 -- Drops from: Joseph Redpath's Monument
+step
+  turnin 5153 -- Turn in at Western Plaguelands
+step
+  accept 5154
+step
+  tip Bring the Annals of Darrowshire to Chromie in Andorhal.
+  collect 12900 quest 5154.1 @43.37,69.51 map 1422 -- Drops from: Musty Tome
+step
+  turnin 5154 -- Turn in at Western Plaguelands
+step
+  accept 5210
+step
+  when turnedin 5848
+  tip Speak to Myranda to gain the Scarlet Illusion. Travel to Hearthglen while under the Scarlet Illusion and deliver Tirion's Gift to Highlord Taelan Fordring.
+  turnin 5862 -- Turn in at Western Plaguelands
+step
+  when turnedin 5848
+  accept 5944
+step
+  when turnedin 5848
+  tip Escort Taelan Fordring out of Hearthglen.
+  goto 53.86,24.32 "Redemption?" map 1422
+step
+  zone map 1427
+  when onquest 9131
+  tip Korfax at Light's Hope Chapel in the Eastern Plaguelands wants 30 Dark Iron Scraps.
+  collect 22528 x30 quest 9131.1 @40.58,49.48 map 1427 -- Drops from: Dark Iron Steamsmith, Dark Iron Slaver, Dark Iron Taskmaster
+step
+  zone map 1423
+  when onquest 9131
+  turnin 9131
+step
+  tip Bring the Extended Annals of Darrowshire to Carlin Redpath in Eastern Plaguelands.
+  turnin 5210
+step
+  accept 5168
+step
+  accept 5181
+step
+  tip Bring the Skull of Horgus and the Shattered Sword of Marduk to Carlin Redpath at Light's Hope Chapel.
+  collect 12957 quest 5181.2 @46.86,55.43 map 1423
+  collect 12956 quest 5181.1 @44.34,41.18 map 1423 -- Drops from: Horgus' Skull
+  collect 12957 quest 5181.2 @44.34,41.18 map 1423 -- Drops from: Horgus' Skull
+step
+  turnin 5181
+step
+  when turnedin 5848
+  turnin 5944 @5.16,35.57 map 1423
+step
+  zone map 1458
+  when onquest 6144
+  tip Travel to the Undercity and speak with Varimathras.
+  turnin 6144 -- Turn in at Undercity
+step
+  when turnedin 6144
+  when level>=60
+  accept 6145
+step
+  zone map 1423
+  when onquest 6145
+  tip Return to Eastern Plaguelands and track down the Crimson Courier. Kill the Courier and recover the Grand Crusader's Command.
+  collect 15868 quest 6145.1 @51.39,30.59 map 1423 optional -- Crimson Courier is elite: grouping up is advised.
+step
+  when onquest 6145
+  turnin 6145
+step
+  when turnedin 6145
+  when level>=56
+  accept 6146
+step
+  when onquest 6146
+  tip Travel to Tyr's Hand, southeast of the Marris Stead. Once there, take a bite of the Rotten Apple. While under the guise of the Scarlet Crusade, deliver the Grand Crusader's Command to Crusader Lord Valdelmar.
+  collect 13852 quest 6146.1 @22.23,63.51 map 1423
+step
+  when onquest 6146
+  turnin 6146
+step
+  when turnedin 6146
+  when level>=56
+  accept 6147
+step
+  when onquest 6147
+  tip Return to Nathanos Blightcaller with the new information.
+  turnin 6147
+step
+  when turnedin 6147
+  when level>=60
+  accept 6148
+step
+  when onquest 6148
+  tip The Scarlet Crusade is on the move. Somewhere along the road from Tyr's Hand to Stratholme you will find the Oracle, Demetria, and her entourage. Hunt her down and slay her. Return to Nathanos Blightcaller should you succeed.
+  kill 12339 quest 6148.1 @63.3,67.22 map 1423 optional -- Demetria is elite: grouping up is advised.
+step
+  when onquest 6148
+  turnin 6148
+step
+  zone map 1422
+  tip Bring Davil's Libram and Redpath's Shield to Carlin Redpath.
+  collect 12954 quest 5168.1 @42.52,18.99 map 1422
+  collect 12954 quest 5168.1
+  collect 12955 quest 5168.2 @63.79,57.19 map 1422
+step
+  zone map 1423
+  turnin 5168
+step
+  accept 5206
+step
+  tip Bring 5 Resonating Skulls and the Mystic Crystal to Carlin Redpath in Eastern Plaguelands.
+  collect 13155 x5 quest 5206.1 @71.7,50.04 map 1423 -- Crafted or bought.
+step
+  turnin 5206
+step
+  accept 5941
+step
+  zone map 1422
+  tip Take the Bundle of Relics to Chromie in Andorhal.
+  turnin 5941 -- Turn in at Western Plaguelands
+step
+  accept 5721
+step
+  zone map 1423
+  tip Place the Relic Bundle at the Darrowshire town square.
+  talk 10936
+step
+  turnin 5721
+step
+  accept 5942
+step
+  tip Bring Joseph's Key to Joseph's Chest.
+  turnin 5942

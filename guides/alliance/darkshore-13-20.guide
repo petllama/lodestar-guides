@@ -1,0 +1,572 @@
+guide lodestar/alliance/darkshore-13-20
+title "Darkshore (13-20)"
+levels 13-20
+zone map 1439
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/the-barrens-14-21
+step
+  level 12
+step
+  zone map 1457
+  only Warrior
+  accept 1686
+step
+  zone map 1439
+  getfp "Auberdine, Darkshore"
+step
+  only Warrior
+  tip Bring 8 loads of Elunite Ore and the Medallion of Elura to Elanaria in Darnassus.
+  collect 6808 x8 quest 1686.1 @32.21,44.42 map 1439 -- Drops from: Crate of Elunite
+  collect 6808 x8 quest 1686.1 @31.64,44.86 map 1439 -- Drops from: Shade of Elura
+  collect 6809 quest 1686.2 @31.64,44.86 map 1439 -- Drops from: Shade of Elura
+step
+  accept 983
+step
+  accept 954
+step
+  accept 958
+step
+  only NightElf
+  when turnedin 6342
+  accept 6343
+step
+  accept 3524
+step
+  interact 175320
+  accept 98025
+step
+  accept 984
+step
+  accept 2118
+step
+  when level>=12
+  accept 4811
+step
+  tip Collect 6 Crawler Legs and place them in Buzzbox 827.
+  collect 5385 x6 quest 983.1 @36.2,44.48 map 1439 -- Drops from: Pygmy Tide Crawler, Young Reef Crawler, Tide Crawler
+step
+  turnin 983
+step
+  interact 17182
+  accept 1001
+step
+  tip Collect 3 Thresher Eyes from Darkshore Threshers in the deep sea near Buzzbox 411.
+  collect 5412 x3 quest 1001.1 @33.77,38.38 map 1439 -- Drops from: Darkshore Thresher, Elder Darkshore Thresher
+step
+  turnin 1001
+step
+  interact 17183
+  accept 1002
+step
+  tip Find the source of the strange blue aura in the ruins of Bashal'Aran.
+  turnin 954
+step
+  accept 955
+step
+  tip Acquire 8 Grell Earrings for Asterion in Bashal'Aran.
+  collect 5336 x8 quest 955.1 @44.75,37.69 map 1439 -- Drops from: Vile Sprite, Wild Grell
+step
+  turnin 955
+step
+  accept 956
+step
+  tip Obtain the Ancient Moonstone Seal and bring it to Asterion in Bashal'Aran.
+  collect 5338 quest 956.1 @47.28,37.68 map 1439 -- Drops from: Deth'ryll Satyr
+step
+  turnin 956
+step
+  accept 957
+step
+  when onquest 4811
+  tip Travel east of Auberdine and look for a large, red crystal along Darkshore's eastern mountain range. Report back what you find to Sentinel Glynda Nal'Shea in Auberdine.
+  interact 175524 quest 4811.1 @47.32,48.68 map 1439
+step
+  tip Recover Sea Creature Bones from the beached sea creature just south of Auberdine, and then return with it to Gwennyth Bly'Leggonde in Auberdine.
+  collect 12242 quest 3524.1 @36.37,50.92 map 1439 -- Drops from: Beached Sea Creature
+step
+  turnin 3524
+step
+  when onquest 4811
+  turnin 4811
+step
+  accept 4681
+step
+  when turnedin 4811
+  accept 4812
+step
+  when onquest 4812
+  tip Fill the Empty Water Tube at the Auberdine moonwell, and then investigate the red crystal along Darkshore's eastern mountain wall.
+  collect 14339 quest 4812.1 @37.78,44.03 map 1439 -- Drops from: Auberdine Moonwell
+step
+  tip Recover the Sea Turtle Remains from the Skeletal Sea Turtle in the waters west of Auberdine, and then speak with Gwennyth Bly'Leggonde back in Auberdine.
+  collect 12289 quest 4681.1 @31.82,46.31 map 1439 -- Drops from: Skeletal Sea Turtle
+step
+  when onquest 4812
+  turnin 4812
+step
+  when turnedin 4812
+  interact 175524
+  accept 4813
+step
+  accept 953
+step
+  tip Study the tablets which tell of Ameth'Aran and of its fall, then return to Sentinel Tysha Moonblade in Darkshore.
+  interact 17188 quest 953.1 @43.3,58.68 map 1439
+  interact 17188 quest 953.1
+  interact 17189 quest 953.2 @42.65,63.14 map 1439
+step
+  tip Destroy the Ancient Moonstone Seal at the ancient flame in Ameth'Aran, then return to Asterion in Bashal'Aran.
+  interact 16393 quest 957.1 @42.37,61.82 map 1439
+step
+  tip Retrieve 7 Highborne Relics for Thundris Windweaver in Auberdine.
+  collect 5360 x7 quest 958.1 @42.05,58.42 map 1439 -- Drops from: Cursed Highborne, Writhing Highborne, Wailing Highborne
+step
+  tip Capture a living Rabid Thistle Bear and bring it back to Tharnariun.
+  kill 2164 quest 2118.1 @40.09,58.31 map 1439 -- Use the quest item on them, don't just kill them.
+step
+  tip Find and slay the owl known as Jai'vhanel and take one of her feathers. The black owl was last seen north of the Ameth'Aran ruins near the mountain base. Report the death of Jai'vhanel to Sentinel Glynda Nal'Shea in Auberdine.
+  collect 281038 quest 98025.1 @45.15,58.44 map 1439 -- Drops from: Jai'vhanel
+step
+  turnin 953
+step
+  tip Collect 6 Moonstalker Fangs and place them in Buzzbox 323.
+  collect 5413 x6 quest 1002.1 @43.81,65.65 map 1439 -- Drops from: Moonstalker, Moonstalker Runt, Moonstalker Sire
+step
+  tip Find a corrupt furbolg camp in Darkshore and return to Terenthis in Auberdine.
+  goto 39.95,78.41 "Find a corrupt furbolg camp" map 1439
+step
+  turnin 958
+step
+  turnin 984
+step
+  turnin 2118
+step
+  turnin 4681
+step
+  when onquest 4813
+  tip Report back what you have found to Sentinel Glynda Nal'Shea in Auberdine.
+  turnin 4813
+step
+  turnin 98025
+step
+  accept 985
+step
+  accept 4761
+step
+  accept 963
+step
+  accept 2138
+step
+  only Druid,NightElf
+  when turnedin 6122
+  when level>=14
+  accept 6123
+step
+  tip Speak with Thundris Windweaver in Auberdine.
+  turnin 4761
+step
+  accept 4762
+step
+  tip Kill 8 Blackwood Pathfinders and 5 Windtalkers and return to Terenthis in Auberdine.
+  kill 2167 x8 quest 985.1 @39.84,53.94 map 1439
+  kill 2167 x8 quest 985.1 @39.92,54.37 map 1439
+  kill 2324 x5 quest 985.2 @39.92,54.37 map 1439
+step
+  interact 176190
+  accept 4722
+step
+  tip Free the spirit of Anaya Dawnrunner and bring her pendant back to Cerellean Whiteclaw in Auberdine.
+  collect 5382 quest 963.1 @41.81,60.73 map 1439 -- Drops from: Anaya Dawnrunner
+step
+  tip Cleanse the forest of 20 Rabid Thistle Bears and return to Tharnariun Treetender in Darkshore.
+  kill 2164 x20 quest 2138.1 @40.09,58.31 map 1439
+step
+  turnin 963
+step
+  turnin 985
+step
+  turnin 2138
+step
+  tip Take the Sea Turtle Remains to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4722
+step
+  accept 947
+step
+  accept 982
+step
+  when level>=15
+  accept 1138
+step
+  accept 97914
+step
+  turnin 957
+step
+  tip Bring 5 Scaber Stalks and 1 Death Cap to Barithras Moonshade in Auberdine.
+  collect 5271 x5 quest 947.1 @55.54,34.4 map 1439
+  collect 5271 x5 quest 947.1 @55.75,36.2 map 1439
+  collect 5270 quest 947.2 @55.75,36.2 map 1439
+step
+  turnin 1002
+step
+  interact 17184
+  accept 1003
+step
+  tip Travel north of Auberdine to the first waterfall along the Cliffspring River and draw a sample from the pool there.
+  collect 12349 quest 4762.1 @50.84,25.63 map 1439 -- Drops from: Cliffspring River Waterfall
+step
+  interact 176196
+  accept 4727
+step
+  interact 176197
+  accept 4725
+step
+  when onquest 1138
+  tip Collect 6 Fine Crab Chunks for Gubber Blump in Auberdine.
+  collect 12237 x6 quest 1138.1 @46.52,21.04 map 1439 -- Drops from: Reef Crawler, Encrusted Tide Crawler
+step
+  interact 175233
+  accept 4723
+step
+  tip Recover the Silver Dawning's Lockbox and the Mist Veil's Lockbox for Gorbold Steelhand in Auberdine. Both items should be found aboard the wreckage of the ships to the north of the village.
+  collect 12191 quest 982.1 @38.24,28.8 map 1439
+  collect 12191 quest 982.1
+  collect 12192 quest 982.2 @39.63,27.46 map 1439
+step
+  turnin 947
+step
+  turnin 982
+step
+  when onquest 1138
+  turnin 1138
+step
+  tip Take the Sea Creature Bones to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4723
+step
+  tip Take the Strangely Marked Box to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4725
+step
+  tip Take the Sea Turtle Remains to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4727
+step
+  turnin 4762
+step
+  accept 948
+step
+  accept 965
+step
+  accept 2139
+step
+  when level>=15
+  interact 175320
+  accept 4740
+step
+  when level>=15
+  accept 4763
+step
+  tip Find and kill the Den Mother.
+  kill 6788 quest 2139.1 @51.48,38.26 map 1439
+step
+  when onquest 4763
+  tip Fill the Empty Cleansing Bowl at the Auberdine Moonwell.
+  collect 12355 quest 4763.1 @52.48,33.39 map 1439 -- Drops from: Xabraxxis' Demon Bag
+step
+  tip Find Balthule Shadowstrike near the Tower of Althalaxx in Darkshore.
+  turnin 965
+step
+  accept 966
+step
+  tip Collect 4 Worn Parchments for Balthule Shadowstrike near the Tower of Althalaxx.
+  collect 5348 x4 quest 966.1 @56.55,26.52 map 1439 -- Drops from: Dark Strand Fanatic
+step
+  turnin 966
+step
+  accept 967
+step
+  tip Speak with Onu at the Grove of the Ancients.
+  turnin 948
+step
+  accept 944
+step
+  only Druid,NightElf
+  when turnedin 6122
+  when onquest 6123
+  tip Bring 5 Earthroot and 12 Lunar Funguses to Alanndarian Nightsong in Auberdine so she may make a curative salve.
+  collect 2449 x5 quest 6123.1 @42.59,71.93 map 1439
+  collect 2449 x5 quest 6123.1 -- Drops from: Lunar Fungal Bloom
+  collect 15851 x12 quest 6123.2 @43.8,50.23 map 1439 -- Drops from: Lunar Fungal Bloom
+step
+  interact 175226
+  accept 4728
+step
+  when onquest 4740
+  tip Find and slay the murloc known as Murkdeep. The creature is thought to be defending the murloc huts south of Auberdine along the water.
+  kill 10323 quest 4740.1 @36.44,76.51 map 1439
+step
+  interact 175227
+  accept 4730
+step
+  interact 12666
+  accept 98042
+step
+  tip Collect 4 Grizzled Scalps from Grizzled Thistle Bears to the south of Auberdine and place them in Buzzbox 525.
+  collect 5414 x4 quest 1003.1 @39.3,81.36 map 1439 -- Drops from: Grizzled Thistle Bear, Den Mother
+step
+  turnin 1003
+step
+  accept 5713
+step
+  tip Protect Sentinel Aynasha, then speak with Onaeya at Maestra's Post in Ashenvale.
+  goto 45.87,90.42 "Protect Aynasha" map 1439
+step
+  tip Gather information, then use the Phial of Scrying to create a Scrying Bowl. Use the bowl to speak with Onu.
+  goto 38.48,86.45 "Enter the Master's Glaive" map 1439
+step
+  tip Obtain a Peerless Eye from a Twilight Disciple or Thug at the Master's Glaive in Darkshore and find someone in Auberdine who is willing to take it.
+  collect 279279 quest 98042.1 @38.21,87.21 map 1439 -- Drops from: Twilight Disciple, Twilight Thug
+step
+  accept 945
+step
+  tip Help Therylune escape, then tell Therysil at the Shrine of Aessina that her sister is safe.
+  goto 40.51,87.08 "Escort Therylune away from the Master's Glaive" map 1439
+step
+  turnin 944
+step
+  interact 10076
+  accept 949
+step
+  tip Find a clue in the Twilight's Hammer camp at the Master's Glaive.
+  turnin 949
+step
+  interact 12666
+  accept 950
+step
+  interact 176198
+  accept 4731
+step
+  interact 176191
+  accept 4732
+step
+  interact 175230
+  accept 4733
+step
+  tip Bring Onu the recovered Insane Scribbles.
+  turnin 950
+step
+  turnin 2139
+step
+  tip Take the Sea Creature Bones to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4728
+step
+  tip Take the Sea Creature Bones to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4730
+step
+  tip Take the Strangely Marked Box to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4731
+step
+  tip Take the Sea Turtle Remains to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4732
+step
+  tip Take the Sea Creature Bones to Gwennyth Bly'Leggonde in Auberdine.
+  turnin 4733
+step
+  when onquest 4740
+  turnin 4740
+step
+  when onquest 4763
+  turnin 4763
+step
+  only Druid,NightElf
+  when turnedin 6122
+  when onquest 6123
+  turnin 6123
+step
+  turnin 98042
+step
+  only Druid,NightElf
+  when turnedin 6122
+  when turnedin 6123
+  accept 6124
+step
+  accept 986
+step
+  accept 87760
+step
+  tip Find a Stormscale Beastmistress, slay her, and bring back her Rod of Deep Dominion.
+  collect 280686 quest 87760.1 @49.21,12.77 map 1439 -- Drops from: Stormscale Beastmistress
+step
+  accept 2098
+step
+  turnin 87760
+step
+  only Druid,NightElf
+  when turnedin 6122
+  when onquest 6124
+  tip Use the Curative Animal Salve on 10 Sickly Deer that are located throughout Darkshore; doing so should cure them. Sickly Deer have been reported starting south of the Cliffspring River to the north of Auberdine and extending all the way into southern Darkshore where the edge of Ashenvale begins.
+  kill 12298 x10 quest 6124.1 @43.81,48.22 map 1439 -- Use the quest item on them, don't just kill them.
+step
+  accept 951
+step
+  accept 98013
+step
+  when level>=17
+  accept 5321
+step
+  when onquest 5321
+  tip Escort Kerlonian Evershade to Liladris Moonriver at Maestra's Post in Ashenvale.
+  collect 13536 quest 5321.1 @44.39,76.31 map 1439 -- Drops from: Kerlonian's Chest
+step
+  zone map 1440
+  when onquest 5321
+  turnin 5321 -- Turn in at Ashenvale
+step
+  tip Deliver Balthule's letter to Delgren the Purifier in Ashenvale Forest.
+  turnin 967 -- Turn in at Ashenvale
+step
+  turnin 5713 -- Turn in at Ashenvale
+step
+  zone map 1439
+  kill 2338 @38.21,87.21 map 1439 -- Loot the quest item here — it starts the quest.
+  accept 968 @38.21,87.21 map 1439
+step
+  tip Find 5 Fine Moonstalker Pelts and return them to Terenthis in Auberdine.
+  collect 5386 x5 quest 986.1 @43.03,90.77 map 1439 -- Drops from: Moonstalker Matriarch, Moonstalker Sire
+step
+  tip Find and return the three pieces of Gelkak's Key to Gelkak Gyromast.
+  collect 7498 quest 2098.1 @38.85,90.08 map 1439 -- Drops from: Giant Foreststrider
+  collect 7499 quest 2098.2 -- Drops from: Greymist Raider, Greymist Coastrunner, Greymist Seer
+  collect 7498 quest 2098.1 -- Drops from: Encrusted Tide Crawler, Raging Reef Crawler
+  collect 7499 quest 2098.2 -- Drops from: Encrusted Tide Crawler, Raging Reef Crawler
+  collect 7500 quest 2098.3 @51.73,22.54 map 1439 -- Drops from: Encrusted Tide Crawler, Raging Reef Crawler
+step
+  tip Bring 6 Mathystra Relics to Onu at the Grove of the Ancients.
+  collect 5273 x6 quest 951.1 @59.95,24.02 map 1439
+step
+  tip Eliminate 12 Stormscale Myrmidons, 8 Stormscale Sorceresses, and 6 Stormscale Warriors for Arbal at the Grove of the Ancients.
+  kill 2182 x8 quest 98013.2 @59.89,22.51 map 1439
+  kill 2181 x12 quest 98013.1 @58.45,21.35 map 1439
+  kill 2181 x12 quest 98013.1
+  kill 2182 x8 quest 98013.2 @61.25,19.78 map 1439
+  kill 2183 x6 quest 98013.3 @61.25,19.78 map 1439
+step
+  turnin 2098
+step
+  accept 2078
+step
+  tip Find Gelkak's First Mate, the Threshwackonator 4100, and lead it back to Gelkak.
+  talk 6669
+step
+  turnin 2078
+step
+  turnin 986
+step
+  accept 993
+step
+  turnin 951
+step
+  turnin 98013
+step
+  tip Find Volcor in Darkshore and give him the Enchanted Moonstalker Cloak.
+  turnin 993
+step
+  when level>=17
+  kill 270294 @59.14,22.81 map 1439 optional -- Baron Marinous is elite: grouping up is advised.
+  accept 98028 @59.14,22.81 map 1439
+step
+  when onquest 98028
+  tip Bring the Clouded Water Globe to Onu at the Grove of the Ancients in Darkshore.
+  turnin 98028
+step
+  when !turnedin 995
+  when !onquest 995
+  accept 994
+step
+  when !turnedin 995
+  when !onquest 995
+  tip Protect Volcor until you reach the road, then speak to Terenthis in Auberdine.
+  goto 41.92,81.76 "Help Volcor to the road" map 1439
+step
+  when !turnedin 995
+  when !onquest 995
+  turnin 994
+step
+  accept 990
+step
+  zone map 1457
+  only Warrior
+  turnin 1686 -- Turn in at Darnassus
+step
+  only Warrior
+  accept 1692
+step
+  only Warrior
+  tip Bring the Case of Elunite to Smith Mathiel.
+  turnin 1692 -- Turn in at Darnassus
+step
+  only Warrior
+  accept 1693
+step
+  only Warrior
+  turnin 1693 -- Turn in at Darnassus
+step
+  when turnedin 940
+  accept 952
+step
+  only Druid,NightElf
+  accept 26
+step
+  accept 730
+step
+  zone map 1438
+  only NightElf
+  when turnedin 6342
+  tip Bring Laird's Response to Nessa Shadowsong.
+  turnin 6343 -- Turn in at Teldrassil
+step
+  zone map 1439
+  tip Travel to Auberdine and look for signs of the dwarven excavation team.
+  turnin 730
+step
+  accept 729
+step
+  when turnedin 940
+  tip Deliver Fandral's message to Onu in the Grove of the Ancients in Darkshore, south of Auberdine.
+  turnin 952
+step
+  tip Travel south and check on Prospector Remtravel.
+  turnin 729
+step
+  accept 731
+step
+  tip Protect Prospector Remtravel as he searches for the mysterious fossil, then return to Archaeologist Hollee in Auberdine.
+  goto 35.67,84.03 "Escort Prospector Remtravel" map 1439
+step
+  turnin 731
+step
+  accept 741
+step
+  zone map 1450
+  only Druid,NightElf
+  tip Speak with Dendrite Starblaze in the village of Nighthaven, Moonglade.
+  turnin 26 -- Turn in at Moonglade
+step
+  only Druid,NightElf
+  when turnedin 6122
+  when onquest 6124
+  turnin 6124 -- Turn in at Moonglade
+step
+  zone map 1440
+  turnin 945 -- Turn in at Ashenvale
+step
+  tip Find Raene Wolfrunner in Ashenvale.
+  turnin 990 -- Turn in at Ashenvale
+step
+  zone map 1457
+  tip Take the mysterious fossil to Chief Archaeologist Greywhisker in Darnassus.
+  turnin 741 -- Turn in at Darnassus
+step
+  zone map 1413
+  tip Zone complete! Travel to The Barrens.
+  goto 62.68,36.23 map 1413

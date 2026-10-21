@@ -1,0 +1,257 @@
+guide lodestar/horde/the-hinterlands-47-50
+title "The Hinterlands (47-50)"
+levels 47-50
+zone map 1425
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/searing-gorge-48-50
+step
+  level 46
+step
+  zone map 1458
+  accept 2995
+step
+  zone map 1425
+  interact 142702
+  accept 2933
+step
+  when turnedin 650
+  accept 77
+step
+  tip Oran Snakewrithe in Undercity wants you to travel to the Hinterlands and burn the Highvale Records, Highvale Report, and Highvale Notes.
+  interact 144072 quest 2995.2 @29.63,48.66 map 1425
+  interact 144073 quest 2995.3 @28.56,46.05 map 1425
+  interact 144071 quest 2995.1 @31.99,46.82 map 1425
+  interact 144072 quest 2995.2
+  interact 144073 quest 2995.3
+step
+  accept 2742
+step
+  tip Escort Rin'ji out of the Quel'Danil Lodge, then find his hidden secret at the Overlook Cliffs to the east.
+  goto 34.58,56.33 "Escort Rin'ji to safety" map 1425
+step
+  when turnedin 650
+  tip Recover 10 bottles of Hinterlands Honey Ripple from the crates located around the abandoned Horde base in Skulk Rock.
+  collect 8684 x10 quest 77.1 @57.27,41.09 map 1425 -- Drops from: Horde Supply Crate
+step
+  turnin 2742
+step
+  interact 142127
+  accept 2782
+step
+  kill 2505 @81.48,60.46 map 1425 -- Loot the quest item here — it starts the quest.
+  accept 485 @81.48,60.46 map 1425
+step
+  getfp "Revantusk Village, The Hinterlands"
+step
+  when level>=48
+  accept 7816
+step
+  accept 7828
+step
+  accept 7829
+step
+  accept 7830
+step
+  accept 7839
+step
+  accept 7841
+step
+  accept 7844
+step
+  tip Huntsman Markhor at Revantusk Village in the Hinterlands wants you to kill 10 Silvermane Stalkers and 10 Silvermane Howlers. Return to him once the task is complete.
+  kill 2926 x10 quest 7828.1 @68,52.86 map 1425
+  kill 2926 x10 quest 7828.1
+  kill 2925 x10 quest 7828.2 @43.97,61.76 map 1425
+step
+  tip Smith Slagtree at Revantusk Village in the Hinterlands wants you to find Slagtree's Lost Tools. Return to him once this task is complete.
+  collect 19033 quest 7839.1 @66.4,44.8 map 1425
+step
+  tip Huntsman Markhor at Revantusk Village in the Hinterlands wants you to kill 20 Savage Owlbeasts. Return to him once the task is complete.
+  kill 2929 x20 quest 7829.1 @58.4,50.6 map 1425
+step
+  tip Huntsman Markhor at Revantusk Village in the Hinterlands wants you to kill a Razorbeak Skylord and retrieve its Skylord Plume. Return to him once the task is complete.
+  collect 19025 quest 7830.1 @60.4,49.8 map 1425 -- Drops from: Razorbeak Skylord
+step
+  tip Mystic Yayo'jin at Revantusk Village in the Hinterlands wants you to kill 30 Vilebranch Scalpers and 15 Vilebranch Soothsayers. Return to her when this task is complete.
+  kill 4466 x30 quest 7844.1 @53.11,40.14 map 1425
+  kill 4466 x30 quest 7844.1
+  kill 4467 x15 quest 7844.2 @48.04,65.62 map 1425
+step
+  tip Take the distress beacon to Oglethorpe's homing robot at the head of the river in the Hinterlands, near Skulk Rock.
+  turnin 485
+step
+  accept 836
+step
+  tip Escort OOX-09/HL to the shoreline beyond Overlook Cliff, then report to Oglethorpe Obnoticus in Booty Bay.
+  goto 79.14,61.36 "Escort OOX-09/HL to the shoreline beyond Overlook Cliff" map 1425
+step
+  when turnedin 650
+  turnin 77
+step
+  when turnedin 650
+  accept 81
+step
+  tip Otho Moji'ko at Revantusk Village in the Hinterlands wants you to slaughter 15 Highvale Outrunners, 15 Highvale Scouts, 15 Highvale Marksman and 15 Highvale Rangers. Return to him when this task is complete.
+  kill 2694 x15 quest 7841.3 @30.97,47.46 map 1425
+  kill 2693 x15 quest 7841.4 @31.53,47.46 map 1425
+  kill 2692 x15 quest 7841.1 @31.92,49.51 map 1425
+  kill 2692 x15 quest 7841.1 @33.04,51.52 map 1425
+  kill 2691 x15 quest 7841.2 @33.04,51.52 map 1425
+  kill 2694 x15 quest 7841.3
+  kill 2693 x15 quest 7841.4
+step
+  when turnedin 1429
+  accept 1444
+step
+  turnin 7828
+step
+  turnin 7829
+step
+  turnin 7830
+step
+  turnin 7839
+step
+  turnin 7841
+step
+  turnin 7844
+step
+  accept 7842
+step
+  accept 7840
+step
+  accept 7815
+step
+  accept 7849
+step
+  accept 7850
+step
+  tip Primal Torntusk at Revantusk Village in the Hinterlands wants you to recover 10 Vessels of Tainted Blood from Jintha'alor. Return to Primal Torntusk when this task is complete.
+  collect 19071 x10 quest 7850.1 @64.17,72.21 map 1425
+step
+  tip Huntsman Markhor at Revantusk Village in the Hinterlands wants you to recover his twin brother's remains. Find and return Huntsman Malkhor's Skull and Huntsman Malkhor's Bones to Huntsman Markhor.
+  collect 19070 quest 7849.2 @62.11,75.35 map 1425 -- Drops from: Pile of Bones
+  collect 19069 quest 7849.1 @58.56,64.76 map 1425 -- Drops from: Pile of Skulls
+  collect 19070 quest 7849.2 -- Drops from: Pile of Skulls
+step
+  tip Katoom the Angler at Revantusk Village in the Hinterlands wants you to kill 15 Saltwater Snapjaw turtles. Return to him when you have completed this task.
+  kill 2505 x15 quest 7815.1 @81.48,60.46 map 1425
+step
+  when onquest 7816
+  tip Katoom the Angler at Revantusk Village in the Hinterlands wants you to kill Gammerita and retrieve Katoom's Best Lure from her corpse.
+  collect 19023 quest 7816.1 @80.4,58.23 map 1425 optional -- Gammerita is elite: grouping up is advised.
+step
+  tip Lard at Revantusk Village in the Hinterlands wants you to find Lard's Lunch. Return to him when this task is complete.
+  collect 19034 quest 7840.1 @84.6,41.2 map 1425 -- Drops from: Vilebranch Kidnapper, Lard's Picnic Basket
+step
+  tip Otho Moji'ko at Revantusk Village in the Hinterlands wants you to bring him 10 Long Elegant Feathers from the gryphons that inhabit the Hinterlands. Return to him once this task is complete.
+  collect 4589 x10 quest 7842.1 @31.13,58.54 map 1425 -- Drops from: Witherbark Hideskinner, Trained Razorbeak, Razorbeak Gryphon
+step
+  turnin 7815
+step
+  when onquest 7816
+  turnin 7816
+step
+  turnin 7840
+step
+  turnin 7842
+step
+  turnin 7849
+step
+  turnin 7850
+step
+  accept 7843
+step
+  accept 7845
+step
+  when level>=51
+  interact 179913
+  accept 7861
+step
+  when level>=51
+  interact 179913
+  accept 7862
+step
+  when onquest 7862
+  tip You have been tasked with the decimation of 20 Vilebranch Berserkers, 20 Vilebranch Shadow Hunters, 20 Vilebranch Blood Drinkers, and 20 Vilebranch Soul Eaters.
+  kill 2646 x20 quest 7862.3 @62.93,77.78 map 1425 optional -- Vilebranch Blood Drinker is elite: grouping up is advised.
+  kill 2645 x20 quest 7862.2 @63.18,73.02 map 1425 optional -- Vilebranch Shadow Hunter is elite: grouping up is advised.
+  kill 2643 x20 quest 7862.1 @64.22,71.67 map 1425 optional -- Vilebranch Berserker is elite: grouping up is advised.
+  kill 2643 x20 quest 7862.1 optional -- Vilebranch Berserker is elite: grouping up is advised.
+  kill 2645 x20 quest 7862.2 @61.4,72.85 map 1425 optional -- Vilebranch Shadow Hunter is elite: grouping up is advised.
+  kill 2646 x20 quest 7862.3 @61.4,72.85 map 1425 optional -- Vilebranch Blood Drinker is elite: grouping up is advised.
+  kill 2647 x20 quest 7862.4 @61.4,72.85 map 1425 optional -- Vilebranch Soul Eater is elite: grouping up is advised.
+step
+  tip Primal Torntusk at Revantusk Village in the Hinterlands wants you to rescue her mate, Elder Torntusk, from Jintha'alor.
+  turnin 7845
+step
+  when level>=51
+  accept 7846
+step
+  when onquest 7861
+  tip You have been ordered to slay Vile Priestess Hexx and 20 Vilebranch Aman'zasi Guards. See Primal Torntusk at Revantusk Village in the Hinterlands once this task is complete.
+  kill 7995 quest 7861.1 @59.47,78.26 map 1425 optional -- Vile Priestess Hexx is elite: grouping up is advised.
+  kill 7995 quest 7861.1 optional -- Vile Priestess Hexx is elite: grouping up is advised.
+  kill 2648 x20 quest 7861.2 @57.66,81.51 map 1425 optional -- Vilebranch Aman'zasi Guard is elite: grouping up is advised.
+step
+  when onquest 7846
+  tip Elder Torntusk at Jintha'alor wants you to kill Hitah'ya the Keeper to get the Shackle Key to his bindings. Return to Elder Torntusk when you have recovered the key.
+  collect 19064 quest 7846.1 @57.32,86.64 map 1425 optional -- Hitah'ya the Keeper is elite: grouping up is advised.
+step
+  when onquest 7846
+  turnin 7846
+step
+  when turnedin 7846
+  accept 7847
+step
+  tip Otho Moji'ko at Revantusk Village in the Hinterlands wants you to travel to Aerie Peak in the western region of the Hinterlands and place the Final Message to the Wildhammer by the well in the center of town. Return to him once this task is complete.
+  goto 14.34,48.07 "Message to the Wildhammer Delivered" map 1425
+step
+  turnin 7843
+step
+  when onquest 7847
+  tip Elder Torntusk at Jintha'alor wants you to return to Primal Torntusk at Revantusk Village with news of his rescue.
+  turnin 7847
+step
+  when onquest 7861
+  turnin 7861
+step
+  when onquest 7862
+  turnin 7862
+step
+  zone map 1424
+  tip Bring a Venom Bottle to an apothecary in Tarren Mill.
+  turnin 2933 -- Turn in at Hillsbrad Foothills
+step
+  accept 2934
+step
+  zone map 1435
+  when turnedin 1429
+  tip Return to Fel'Zerul in Stonard.
+  turnin 1444 -- Turn in at Swamp of Sorrows
+step
+  zone map 1458
+  turnin 2995 -- Turn in at Undercity
+step
+  tip Oran Snakewrithe, a well known scholar on matters concerning the Witherbark trolls, may be able to decipher the tablet. She is known to reside within the Magic Quarter of the Undercity.
+  turnin 2782 -- Turn in at Undercity
+step
+  accept 8273
+step
+  turnin 8273 -- Turn in at Undercity
+step
+  zone map 1425
+  tip Bring an Undamaged Venom Sac to Apothecary Lydon in Tarren Mill.
+  collect 9322 quest 2934.1 @35.35,71.35 map 1425 -- Drops from: Witherbark Broodguard
+step
+  zone map 1424
+  turnin 2934 -- Turn in at Hillsbrad Foothills
+step
+  zone map 1434
+  turnin 836 -- Turn in at Stranglethorn Vale
+step
+  zone map 1427
+  tip Zone complete! Travel to Searing Gorge.
+  goto 39.06,38.99 map 1427

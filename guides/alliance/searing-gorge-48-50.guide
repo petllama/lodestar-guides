@@ -1,0 +1,245 @@
+guide lodestar/alliance/searing-gorge-48-50
+title "Searing Gorge (48-50)"
+levels 48-50
+zone map 1427
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/blasted-lands-50-55
+step
+  level 46
+step
+  accept 3441
+step
+  tip Listen as Kalaran Windblade tells his story.
+  talk 8479
+step
+  turnin 3441
+step
+  accept 3442
+step
+  kill 5840 @40.58,49.48 map 1427 -- Loot the quest item here — it starts the quest.
+  accept 4451 @40.58,49.48 map 1427
+step
+  tip Search Searing Gorge and find a use for the Grimesilt Outhouse Key you have found.
+  turnin 4451
+step
+  when level>=48
+  kill 5833 @73.52,82.31 map 1427 optional -- Margol the Rager is elite: grouping up is advised.
+  accept 3181 @73.52,82.31 map 1427
+step
+  accept 3367
+step
+  tip Help Dorius get back to Ironforge.
+  goto 74.47,19.44 "Dorius Escort" map 1427
+step
+  turnin 3367
+step
+  interact 175704
+  accept 3368
+step
+  tip Collect 4 Hearts of Flame and 4 globes of Golem Oil and return the items to Kalaran Windblade.
+  collect 10509 x4 quest 3442.1 @57.56,46.7 map 1427 -- Drops from: Blazing Elemental, Inferno Elemental, Magma Elemental
+  collect 10509 x4 quest 3442.1 -- Drops from: Tempered War Golem, Heavy War Golem, Magma Elemental
+  collect 10511 x4 quest 3442.2 @62.56,59.8 map 1427 -- Drops from: Tempered War Golem, Heavy War Golem, Magma Elemental
+step
+  getfp "Thorium Point, Searing Gorge"
+step
+  interact 179827
+  accept 7728
+step
+  interact 179827
+  accept 7729
+step
+  accept 7723
+step
+  accept 7724
+step
+  accept 7727
+step
+  tip Hansel Heavyhands wants you to kill 20 Incendosaurs.
+  kill 9318 x20 quest 7727.1 @48.46,26.48 map 1427
+step
+  turnin 7727
+step
+  turnin 3442
+step
+  accept 3443
+step
+  tip Hansel Heavyhands wants you to kill 20 Heavy War Golems.
+  kill 5854 x20 quest 7723.1 @39.86,44.17 map 1427
+step
+  tip Slay 15 Dark Iron Taskmasters and 15 Dark Iron Slavers. Return to Taskmaster Scrange in the Searing Gorge once you have accomplished this task.
+  kill 5844 x15 quest 7729.2 @41.01,43.82 map 1427
+  kill 5846 x15 quest 7729.1 @43.12,40.37 map 1427
+  kill 5844 x15 quest 7729.2 @43.12,40.37 map 1427
+step
+  tip Find and return the Smithing Tuyere and Lookout's Spyglass to Taskmaster Scrange in the Searing Gorge.
+  collect 18959 quest 7728.1 @40.58,49.48 map 1427 -- Drops from: Dark Iron Steamsmith
+  collect 18959 quest 7728.1 -- Drops from: Dark Iron Lookout
+  collect 18960 quest 7728.2 @42.72,62.57 map 1427 -- Drops from: Dark Iron Lookout
+step
+  tip Hansel Heavyhands wants you to kill 20 Greater Lava Spiders in the Searing Gorge. You can find Greater Lava Spiders in the plateaus and lava pools of the Searing Gorge.
+  kill 5858 x20 quest 7724.1 @29.31,62.39 map 1427
+step
+  tip Bring 8 Thorium Plated Daggers to Kalaran Windblade.
+  collect 10551 x8 quest 3443.1 @63.66,59.26 map 1427 -- Drops from: Dark Iron Geologist, Dark Iron Steamsmith, Slave Worker
+step
+  turnin 3443
+step
+  when level>=50
+  accept 3452
+step
+  turnin 7723
+step
+  turnin 7724
+step
+  turnin 7728
+step
+  turnin 7729
+step
+  when level>=50
+  interact 179827
+  accept 7701
+step
+  accept 7722
+step
+  accept 3377
+step
+  tip Hear Zamael tell his tale.
+  talk 8436
+step
+  turnin 3377
+step
+  when level>=50
+  accept 3378
+step
+  when onquest 3378
+  tip Find the Prayer to Elune and take it to Astarii Starseeker in Darnassus.
+  collect 10458 quest 3378.1 @23.52,36.55 map 1427 optional -- Twilight Dark Shaman is elite: grouping up is advised.
+step
+  when onquest 3452
+  tip Find and return a Symbol of Ragnaros to Kalaran Windblade.
+  collect 10552 quest 3452.1 @23.52,36.55 map 1427 optional -- Twilight Dark Shaman is elite: grouping up is advised.
+step
+  when onquest 3452
+  turnin 3452
+step
+  when turnedin 3452
+  accept 3453
+step
+  when onquest 3453
+  tip Wait for Kalaran Windblade to complete the Torch of Retribution.
+  talk 8479
+step
+  when onquest 7701
+  tip Deep within the Slag Pit of the Cauldron, in the Searing Gorge, you will find the traitorous Dark Iron dwarf named Overseer Maltorius.
+  collect 18946 quest 7701.1 @40.77,35.89 map 1427 optional -- Overseer Maltorius is elite: grouping up is advised.
+step
+  tip Somewhere in the Slag Pit of the Cauldron you will find the Secret Plans: Fiery Flux that Overseer Maltorius stole. Find those plans and return them to Master Smith Burninate in the Searing Gorge.
+  collect 18922 quest 7722.1 @40.45,35.74 map 1427
+step
+  when onquest 3453
+  turnin 3453
+step
+  when turnedin 3453
+  accept 3454
+step
+  when onquest 3454
+  tip Take the Torch of Retribution.
+  turnin 3454
+step
+  when turnedin 3454
+  accept 3462
+step
+  when onquest 3462
+  tip Speak with Squire Maltrake.
+  turnin 3462
+step
+  when onquest 7701
+  turnin 7701
+step
+  turnin 7722
+step
+  when turnedin 3462
+  accept 3463
+step
+  when onquest 3463
+  tip Set the North, South, East, and West Sentry Towers on fire by using the Torch of Retribution inside each of the buildings.
+  interact 149032 quest 3463.4 @33.3,54.48 map 1427
+  interact 149025 quest 3463.1 @35.67,60.68 map 1427
+  interact 149030 quest 3463.2 @44.03,60.91 map 1427
+  interact 149025 quest 3463.1
+  interact 149030 quest 3463.2
+  interact 149031 quest 3463.3 @50.07,54.74 map 1427
+  interact 149032 quest 3463.4
+step
+  when onquest 3463
+  turnin 3463
+step
+  when turnedin 3463
+  interact 149502
+  accept 3481
+step
+  when onquest 3481
+  tip Open the chest.
+  turnin 3481
+step
+  zone map 1432
+  when onquest 3181
+  tip Take Margol's Gigantic Horn to Mountaineer Pebblebitty.
+  turnin 3181 -- Turn in at Loch Modan
+step
+  when turnedin 3181
+  accept 3182
+step
+  zone map 1455
+  when onquest 2977
+  tip Speak with Historian Karnik in Ironforge.
+  turnin 2977 -- Turn in at Ironforge
+step
+  when onquest 3182
+  tip Take Margol's Gigantic Horn to Curator Thorius in Ironforge.
+  turnin 3182 -- Turn in at Ironforge
+step
+  tip Take the Singed Letter to Thorius in Ironforge. He is in the Hall of Explorers.
+  turnin 3368 -- Turn in at Ironforge
+step
+  when turnedin 3182
+  accept 3201
+step
+  accept 3371
+step
+  zone map 1432
+  when onquest 3201
+  tip Take the Proof of Deed back to Mountaineer Pebblebitty.
+  turnin 3201 -- Turn in at Loch Modan
+step
+  zone map 1427
+  tip Return to the Searing Gorge and find Dorius's archaeology unit.
+  turnin 3371
+step
+  accept 3372
+step
+  tip Find the Mysterious Artifact being guarded by the Twilight's Hammer Idolaters in the northwest quadrant of the Searing Gorge and bring it to the Altar of Suntara in the Slag Pit.
+  collect 10442 quest 3372.1 @29.14,25.87 map 1427 -- Drops from: Twilight Artifact
+step
+  turnin 3372
+step
+  when level>=52
+  accept 3566
+step
+  when onquest 3566
+  tip Slay Lathoric the Black and Obsidion, and return to Thorius in Ironforge with the Head of Lathoric the Black and the Heart of Obsidion.
+  collect 10447 quest 3566.1 @41.32,25.53 map 1427 optional -- Lathoric the Black is elite: grouping up is advised.
+  collect 10447 quest 3566.1 @41.76,24.33 map 1427 optional -- Lathoric the Black is elite: grouping up is advised.
+  collect 10446 quest 3566.2 @41.76,24.33 map 1427 optional -- Obsidion is elite: grouping up is advised.
+step
+  zone map 1455
+  when onquest 3566
+  turnin 3566 -- Turn in at Ironforge
+step
+  zone map 1419
+  tip Zone complete! Travel to Blasted Lands.
+  goto 50.55,14.2 map 1419

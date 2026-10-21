@@ -1,0 +1,190 @@
+guide lodestar/alliance/thousand-needles-30-41
+title "Thousand Needles (30-41)"
+levels 30-41
+zone map 1441
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/desolace-33-39
+step
+  level 29
+step
+  zone map 1457
+  only Warrior
+  when turnedin 1782
+  accept 1710
+step
+  zone map 1441
+  accept 1104
+step
+  accept 1105
+step
+  accept 1110
+step
+  when level>=29
+  accept 1176
+step
+  when onquest 1176
+  tip Get 10 Hollow Vulture Bones for Pozzik in the Shimmering Flats.
+  collect 5848 x10 quest 1176.1 @87.4,64.92 map 1441 -- Drops from: Salt Flats Scavenger, Salt Flats Vulture
+step
+  tip Bring 6 Salty Scorpid Venoms to Fizzle Brassbolts in the Shimmering Flats.
+  collect 5794 x6 quest 1104.1 @75.17,59.51 map 1441 -- Drops from: Scorpid Reaver, Scorpid Terror, Vile Sting
+step
+  tip Bring 9 Hardened Tortoise Shells to Wizzle Brassbolts in the Shimmering Flats.
+  collect 5795 x9 quest 1105.1 @74.69,56.36 map 1441 -- Drops from: Sparkleshell Tortoise, Sparkleshell Borer, Sparkleshell Snapper
+step
+  tip Bring 30 Rocket Car Parts to Kravel Koalbeard in the Shimmering Flats.
+  collect 5798 x30 quest 1110.1 @72.52,72.34 map 1441 -- Drops from: Rocket Car Rubble
+step
+  turnin 1104
+step
+  turnin 1105
+step
+  turnin 1110
+step
+  when onquest 1176
+  turnin 1176
+step
+  only Mage
+  when turnedin 1949
+  when level>=30
+  accept 1950
+step
+  accept 1175
+step
+  only Mage
+  when turnedin 1949
+  when onquest 1950
+  tip Find the phrase to Tirth's strongbox, then return to Tirth.
+  talk 6626
+step
+  only Mage
+  when turnedin 1949
+  when onquest 1950
+  turnin 1950
+step
+  tip Kill 10 Saltstone Basilisks, 10 Saltstone Crystalhides and 6 Saltstone Gazers for Trackmaster Zherin on the Shimmering Flats.
+  kill 4151 x10 quest 1175.2 @73.81,76.19 map 1441
+  kill 4150 x6 quest 1175.3 @77.95,89.18 map 1441
+  kill 4147 x10 quest 1175.1 @73.64,59.44 map 1441
+  kill 4151 x10 quest 1175.2
+  kill 4150 x6 quest 1175.3
+step
+  turnin 1175
+step
+  only Warrior
+  when turnedin 1782
+  tip Bring 20 Sunscorched Shells to Mathiel in Darnassus.
+  collect 6849 x20 quest 1710.1 @11.41,36.76 map 1441
+step
+  collect 19861 @30.73,24.35 map 1441 optional -- Hakkar is elite: grouping up is advised.
+  accept 1100 @30.73,24.35 map 1441
+step
+  when level>=30
+  accept 1111
+step
+  when turnedin 1176
+  accept 1178
+step
+  when turnedin 1183
+  accept 1186
+step
+  when turnedin 1183
+  tip Speak with Razzeric on the Shimmering Flats.
+  turnin 1186
+step
+  when turnedin 1119
+  when !turnedin 1121
+  when !onquest 1121
+  when level>=35
+  accept 1120
+step
+  when turnedin 1119
+  when !turnedin 1121
+  when !onquest 1121
+  when onquest 1120
+  tip Bring the Fool's Stout to the Gnome Pit Boss.
+  turnin 1120
+step
+  when turnedin 1137
+  accept 1190
+step
+  when turnedin 1183
+  accept 1187
+step
+  when turnedin 1137
+  tip Have Zamek create a diversion, then steal Rizzle's plans for Pozzik on the Shimmering Flats.
+  turnin 1190
+step
+  when turnedin 1137
+  interact 20805
+  accept 1194
+step
+  when turnedin 1137
+  tip Bring the Sample of Indurium Ore to Pozzik on the Shimmering Flats.
+  turnin 1194
+step
+  zone map 1413
+  when onquest 1039
+  tip Speak with Wharfmaster Dizzywig in Ratchet.
+  turnin 1039 -- Turn in at The Barrens
+step
+  when onquest 1111
+  tip Bring Kravel's Parts Order to Wharfmaster Dizzywig in Ratchet.
+  turnin 1111 -- Turn in at The Barrens
+step
+  when turnedin 1111
+  when level>=30
+  accept 1112
+step
+  when onquest 1178
+  tip Speak to Gazlowe in Ratchet.
+  turnin 1178 -- Turn in at The Barrens
+step
+  zone map 1457
+  only Warrior
+  when turnedin 1782
+  turnin 1710 -- Turn in at Darnassus
+step
+  only Warrior
+  when turnedin 1782
+  accept 1711
+step
+  only Warrior
+  when turnedin 1782
+  turnin 1711 -- Turn in at Darnassus
+step
+  zone map 1444
+  tip Read Henrig Lonebrow's Journal.
+  turnin 1100 -- Turn in at Feralas
+step
+  zone map 1441
+  when onquest 1112
+  tip Bring Kravel's Parts to Kravel Koalbeard in the Shimmering Flats.
+  turnin 1112
+step
+  when turnedin 1112
+  when level>=30
+  accept 1114
+step
+  when onquest 1114
+  tip Bring the Delicate Car Parts to Fizzle Brassbolts in Shimmering Flats.
+  turnin 1114
+step
+  zone map 1445
+  when turnedin 1183
+  tip Retrieve the Seaforium Booster for Razzeric in the Shimmering Flats.
+  collect 5862 quest 1187.1 @54.07,56.49 map 1445 -- Drops from: Gizmorium Shipping Crate
+step
+  zone map 1441
+  when turnedin 1183
+  turnin 1187
+step
+  when turnedin 1183
+  accept 1188
+step
+  zone map 1443
+  tip Zone complete! Travel to Desolace.
+  goto 38.88,27.16 map 1443

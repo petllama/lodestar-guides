@@ -1,0 +1,250 @@
+guide lodestar/alliance/tanaris-44-50
+title "Tanaris (44-50)"
+levels 44-50
+zone map 1446
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/teldrassil-48-55
+step
+  level 43
+step
+  getfp "Gadgetzan, Tanaris"
+step
+  when turnedin 1188
+  accept 1189
+step
+  accept 1690
+step
+  accept 1707
+step
+  tip Bring 5 Wastewander Water Pouches to Spigot Operator Luglunket in Gadgetzan.
+  collect 8483 x5 quest 1707.1 @61.71,38.21 map 1446 -- Drops from: Wastewander Rogue, Wastewander Thief, Wastewander Shadow Mage
+step
+  tip Take down 10 Wastewander Bandits and Thieves east of Gadgetzan, then report back to Chief Engineer Bilgewhizzle.
+  kill 5616 x10 quest 1690.2 @63.56,31.07 map 1446
+  kill 5618 x10 quest 1690.1 @63.79,29.78 map 1446
+  kill 5616 x10 quest 1690.2 @63.79,29.78 map 1446
+step
+  accept 3520
+step
+  accept 2873
+step
+  interact 142122
+  accept 2875
+step
+  accept 8365
+step
+  accept 8366
+step
+  turnin 1690
+step
+  turnin 1707
+step
+  accept 1691
+step
+  accept 992
+step
+  tip Use the untapped dowsing widget near the pool of water by Sandsorrow Watch. Once you have collected the sample, return the tapped dowsing widget to Senior Surveyor Fizzledowser in Gadgetzan.
+  collect 8585 quest 992.1 @39,29 map 1446 -- Drops from: Sandsorrow Watch Water Hole
+step
+  tip Take down 10 Wastewander Shadow Mages, 8 Wastewander Rogues, and 6 Wastewander Assassins for Chief Engineer Bilgewhizzle in Gadgetzan.
+  kill 5623 x6 quest 1691.2 @60.52,38.55 map 1446
+  kill 5615 x8 quest 1691.1 @61.71,38.21 map 1446
+  kill 5615 x8 quest 1691.1 @61.97,35.46 map 1446
+  kill 5623 x6 quest 1691.2
+  kill 5617 x10 quest 1691.3 @61.97,35.46 map 1446
+step
+  tip Bring Stoley's Shipment to Stoley in Steamwheedle Port.
+  collect 9244 quest 2873.1 @72.17,46.76 map 1446 -- Drops from: Stolen Cargo
+step
+  tip Bring Andre's Head to Security Chief Bilgewhizzle in Steamwheedle Port.
+  collect 9246 quest 2875.1 @73.37,47.14 map 1446 -- Drops from: Andre Firebeard
+step
+  tip Haughty Modiste wants you to collect 20 Southsea Pirate Hats and return them to her at Steamwheedle Port in Tanaris.
+  collect 20519 x20 quest 8365.1 @72.95,46.18 map 1446 -- Drops from: Southsea Pirate, Southsea Freebooter, Southsea Dock Worker
+step
+  tip Security Chief Bilgewhizzle of Steamwheedle Port in Tanaris wants you to kill 10 Southsea Pirates, 10 Southsea Freebooters, 10 Southsea Dock Workers and 10 Southsea Swashbucklers.
+  kill 7855 x10 quest 8366.1 @72.95,46.18 map 1446
+  kill 7856 x10 quest 8366.2 @72.79,45.34 map 1446
+  kill 7858 x10 quest 8366.4 @75.28,45.69 map 1446
+  kill 7855 x10 quest 8366.1
+  kill 7856 x10 quest 8366.2
+  kill 7857 x10 quest 8366.3 @74.42,47.71 map 1446
+  kill 7858 x10 quest 8366.4
+step
+  turnin 2873
+step
+  turnin 2875
+step
+  turnin 8365
+step
+  turnin 8366
+step
+  interact 142122
+  accept 2781
+step
+  tip Bring the head of Caliph Scorpidsting to Chief Engineer Bilgewhizzle in Gadgetzan.
+  collect 8723 quest 2781.1 @61.77,38.17 map 1446 -- Drops from: Caliph Scorpidsting
+step
+  turnin 992
+step
+  turnin 1691
+step
+  turnin 2781
+step
+  accept 82
+step
+  accept 3022
+step
+  kill 5419 @45.64,32.27 map 1446 -- Loot the quest item here — it starts the quest.
+  accept 351 @45.64,32.27 map 1446
+step
+  accept 3161
+step
+  tip Marvon Rivetseeker in Tanaris wants you to collect 30 Gahz'ridian Ornaments.
+  collect 8443 x30 quest 3161.1 @47.6,57.2 map 1446 -- Drops from: Gahz'ridian
+step
+  turnin 3161
+step
+  tip Bring five Centipaar insect parts from the Noxious Lair to Alchemist Pestlezugg in Gadgetzan.
+  collect 8587 x5 quest 82.1 @33.28,44.39 map 1446 -- Drops from: Centipaar Wasp, Centipaar Tunneler, Centipaar Stinger
+step
+  turnin 82
+step
+  accept 10
+step
+  tip Bring the distress beacon to Oglethorpe's homing robot.
+  turnin 351
+step
+  tip Discover the fate of Junior Surveyor Scrimshank, and bring either him or his surveying equipment to Senior Surveyor Fizzledowser in Gadgetzan.
+  collect 8593 quest 10.1 @55.96,71.17 map 1446
+step
+  turnin 10
+step
+  accept 110
+step
+  tip Check in Gadgetzan for Alchemist Pestlezugg and his analysis of the insect parts.
+  turnin 110
+step
+  accept 113
+step
+  when level>=44
+  accept 2605
+step
+  when level>=44
+  accept 5863
+step
+  tip Deliver the report to Senior Surveyor Fizzledowser in Gadgetzan. Be sure he gives you a copy of the report, as Alchemist Pestlezugg has requested.
+  turnin 113
+step
+  accept 162
+step
+  when onquest 5863
+  tip Andi Lynn in Gadgetzan wants you to destroy the Dunemaul Compound by killing 10 Dunemaul Brutes, 10 Dunemaul Enforcers, and Gor'marok the Ravager.
+  kill 5474 x10 quest 5863.1 @40.65,54.35 map 1446
+  kill 5472 x10 quest 5863.2 @40.73,56.87 map 1446
+  kill 5474 x10 quest 5863.1
+  kill 5472 x10 quest 5863.2
+  kill 12046 quest 5863.3 @41.5,57.81 map 1446
+step
+  when onquest 2605
+  tip Collect a Laden Dew Gland and bring it to Marin Noggenfogger in Gadgetzan.
+  collect 8428 quest 2605.1 @29.36,66.28 map 1446 -- Drops from: Thistleshrub Dew Collector
+step
+  when onquest 2605
+  turnin 2605
+step
+  when onquest 5863
+  turnin 5863
+step
+  when turnedin 2605
+  when level>=44
+  accept 2606
+step
+  when onquest 2606
+  tip Marin Noggenfogger wants you to speak with Sprinkle in Gadgetzan.
+  turnin 2606
+step
+  when level>=45
+  accept 3362
+step
+  accept 1560
+step
+  when onquest 3362
+  tip Tran'rek in Gadgetzan wants you to kill 8 Gnarled Thistleshrubs and 8 Thistleshrub Rootshapers.
+  kill 5490 x8 quest 3362.1 @29.65,66.4 map 1446
+  kill 5490 x8 quest 3362.1 @29.69,66.35 map 1446
+  kill 5485 x8 quest 3362.2 @29.69,66.35 map 1446
+step
+  when level>=45
+  accept 2954
+step
+  when onquest 2954
+  tip Learn the purpose of the Stone Watcher of Norgannon, and then interact with the Uldum Pedestal in the Tanaris desert.
+  talk 7918
+step
+  when onquest 2954
+  turnin 2954
+step
+  when turnedin 2954
+  when level>=45
+  interact 142343
+  accept 2977
+step
+  when onquest 3362
+  turnin 3362
+step
+  tip Show Tooga the way back to his wife, Torta.
+  talk 6015
+step
+  turnin 1560
+step
+  when level>=46
+  accept 3444
+step
+  zone map 1441
+  when turnedin 1188
+  tip Return the Modified Seaforium Booster to Razzeric on the Shimmering Flats.
+  turnin 1189 -- Turn in at Thousand Needles
+step
+  zone map 1444
+  tip Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port.
+  kill 8612 x3 quest 3520.1 @46.82,48.47 map 1444 -- Use the quest item on them, don't just kill them.
+step
+  zone map 1446
+  turnin 3520
+step
+  zone map 1438
+  when onquest 2939
+  tip Talk to Daryn Lightwind in Rut'theran Village.
+  turnin 2939 -- Turn in at Teldrassil
+step
+  tip Bring the Carefully-packed Crate to Erelas Ambersky in Rut'theran Village.
+  turnin 3022 -- Turn in at Teldrassil
+step
+  zone map 1413
+  when onquest 3444
+  tip Retrieve the Stone Circle from Marvon Rivetseeker's workshop in Ratchet.
+  collect 10556 quest 3444.1 @62.5,38.54 map 1413 -- Drops from: Marvon's Chest
+step
+  zone map 1446
+  when onquest 3444
+  turnin 3444
+step
+  zone map 1457
+  tip Take the Insect Analysis Report to Gracina Spiritmight in Darnassus.
+  turnin 162 -- Turn in at Darnassus
+step
+  when level>=50
+  accept 4493
+step
+  zone map 1446
+  when onquest 4493
+  tip Speak to Alchemist Pestlezugg in Gadgetzan.
+  turnin 4493
+step
+  zone map 1438
+  tip Zone complete! Travel to Teldrassil.
+  goto 58.69,44.27 map 1438

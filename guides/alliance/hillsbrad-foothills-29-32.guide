@@ -1,0 +1,193 @@
+guide lodestar/alliance/hillsbrad-foothills-29-32
+title "Hillsbrad Foothills (29-32)"
+levels 29-32
+zone map 1424
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/wetlands-30-33
+step
+  level 28
+step
+  zone map 1453
+  when turnedin 391
+  accept 392
+step
+  accept 98219
+step
+  zone map 1424
+  accept 98459
+step
+  getfp "Southshore, Hillsbrad"
+step
+  tip Speak to Lieutenant Farren Orinelle in Southshore in Hillsbrad Foothills.
+  turnin 98219
+step
+  accept 98071
+step
+  tip Deliver the bottles of Fallrook Varietal to Dun Garok in southeast Hillsbrad Foothills, and bring back a sack of their Homebrew Hops.
+  collect 279389 quest 98071.1 @52.13,58.74 map 1424
+step
+  accept 536
+step
+  turnin 98071
+step
+  accept 98059
+step
+  tip Place the Sealed Company Request you were given on the bookkeeping table within Hillsbrad's town hall.
+  turnin 98059
+step
+  tip Kill 10 Torn Fin Tidehunters and 10 Torn Fin Oracles for Lieutenant Farren Orinelle in Southshore.
+  kill 2377 x10 quest 536.1 @43.36,68.2 map 1424
+  kill 2377 x10 quest 536.1 @43.95,68.65 map 1424
+  kill 2376 x10 quest 536.2 @43.95,68.65 map 1424
+step
+  turnin 536
+step
+  when level>=28
+  accept 555
+step
+  when onquest 555
+  tip Bring 10 pieces of Turtle Meat and some Soothing Spices to Chef Jessen in Southshore.
+  talk 2381
+  buy 3713 npc 2381
+  collect 3712 x10 quest 555.1 @66.06,38.25 map 1424 -- Drops from: Snapjaw
+  collect 3713 quest 555.2 @66.06,38.25 map 1424 -- Drops from: Snapjaw
+step
+  when onquest 555
+  turnin 555
+step
+  accept 559
+step
+  tip Collect 10 Murloc Heads from the murlocs on the Western Strand for Lieutenant Farren Orinelle in Southshore.
+  collect 3716 x10 quest 559.1 @25.32,72.79 map 1424 -- Drops from: Torn Fin Muckdweller, Torn Fin Coastrunner, Torn Fin Oracle
+step
+  turnin 559
+step
+  accept 560
+step
+  tip Deliver the sack of murloc heads to Marshall Redpath in Southshore.
+  turnin 560
+step
+  accept 561
+step
+  tip Speak with Lieutenant Farren Orinelle in Southshore.
+  turnin 561
+step
+  accept 562
+step
+  tip Kill 10 Daggerspine Shorehunters and 10 Daggerspine Sirens for Lieutenant Farren Orinelle in Southshore.
+  kill 2371 x10 quest 562.2 @57.24,68.35 map 1424
+  kill 2369 x10 quest 562.1 @57.84,69.11 map 1424
+  kill 2371 x10 quest 562.2 @57.84,69.11 map 1424
+step
+  turnin 562
+step
+  accept 563
+step
+  zone map 1453
+  when turnedin 391
+  tip Bring the Sealed Description of Thredd's Visitor to Baros Alexston in Stormwind.
+  turnin 392 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  accept 393
+step
+  tip Deliver Farren's report to Major Samuelson in Stormwind Keep.
+  turnin 563 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  tip Bring the Sealed Description of Thredd's Visitor to Master Mathias Shaw in Stormwind.
+  turnin 393 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  accept 350
+step
+  when turnedin 391
+  tip Speak to Elling Trias in Stormwind.
+  turnin 350 -- Turn in at Stormwind City
+step
+  when turnedin 1245
+  accept 1246
+step
+  when turnedin 391
+  accept 2745
+step
+  when turnedin 1245
+  tip Speak to Dashel Stonefist in Stormwind.
+  turnin 1246 -- Turn in at Stormwind City
+step
+  when turnedin 1245
+  accept 1447
+step
+  when turnedin 1245
+  tip Defeat Dashel Stonefist in Stormwind.
+  kill 4961 quest 1447.1 @74.26,59.17 map 1453
+step
+  when turnedin 1245
+  turnin 1447 -- Turn in at Stormwind City
+step
+  when turnedin 1245
+  accept 1247
+step
+  when turnedin 1245
+  tip Speak to Elling Trias in Stormwind.
+  turnin 1247 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  tip Speak to Tyrion in Stormwind Castle.
+  turnin 2745 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  accept 2746
+step
+  zone map 1429
+  when turnedin 391
+  tip Bring 3 Silk Cloth and 2 of Clara's Fresh Apples to Tyrion in Stormwind.
+  collect 4306 x3 quest 2746.1 -- Drops from: humanoids
+  collect 4306 x3 quest 2746.1 -- Drops from: Clara's Fresh Apples
+  collect 8683 x2 quest 2746.2 @33.95,57.16 map 1429 -- Drops from: Clara's Fresh Apples
+step
+  zone map 1453
+  when turnedin 391
+  turnin 2746 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  accept 434
+step
+  when turnedin 391
+  tip Remain in the garden until Lord Gregor Lescovar and Marzon the Silent Blade have had their conversation. Afterwards, kill them both before returning to Elling Trias in Stormwind.
+  talk 1754
+  talk 1755
+step
+  when turnedin 391
+  turnin 434 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  accept 394
+step
+  when turnedin 391
+  tip Speak to Mathias Shaw in Stormwind.
+  turnin 394 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  accept 395
+step
+  when turnedin 391
+  tip Speak with Baros Alexston in Stormwind.
+  turnin 395 -- Turn in at Stormwind City
+step
+  when turnedin 391
+  accept 396
+step
+  when turnedin 391
+  tip Deliver Baros Alexston's report on the Defias Brotherhood to King Varian Wrynn in Stormwind Keep.
+  turnin 396 -- Turn in at Stormwind City
+step
+  zone map 1437
+  tip Deliver Tom's Gift to Bart Tidewater in Menethil Harbor in the Wetlands.
+  turnin 98459 -- Turn in at Wetlands
+step
+  tip Zone complete! Travel to Wetlands.
+  goto 49.36,42.05 map 1437

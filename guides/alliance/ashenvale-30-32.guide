@@ -1,0 +1,211 @@
+guide lodestar/alliance/ashenvale-30-32
+title "Ashenvale (30-32)"
+levels 30-32
+zone map 1440
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/dustwallow-marsh-35-38
+step
+  level 28
+step
+  getfp "Astranaar, Ashenvale"
+step
+  when turnedin 1034
+  accept 1035
+step
+  when turnedin 1030
+  accept 1045
+step
+  when turnedin 1030
+  tip Kill Ran Bloodtooth and 4 Bloodtooth Guards and return to Krolg near Lake Mystral.
+  kill 3932 x4 quest 1045.2 @54.76,77.69 map 1440
+  kill 3696 x4 quest 1045.1 @54.75,79.62 map 1440
+  kill 3932 x4 quest 1045.2 @54.75,79.62 map 1440
+step
+  when turnedin 1030
+  turnin 1045
+step
+  when turnedin 1030
+  accept 1046
+step
+  when turnedin 1030
+  tip Bring Ran Bloodtooth's Skull and Dartol's Rod of Transformation to Raene Wolfrunner in Astranaar.
+  collect 5388 quest 1046.1 @54.75,79.62 map 1440 -- Drops from: Ran Bloodtooth
+  collect 5388 quest 1046.1
+  collect 5462 quest 1046.2
+step
+  when turnedin 1034
+  tip Retrieve a Fallen Moonstone from the Shadethicket Oracle, then bring it to Pelturas in Astranaar.
+  collect 5508 quest 1035.1 @66.66,82.17 map 1440 -- Drops from: Shadethicket Oracle
+step
+  when turnedin 1034
+  turnin 1035
+step
+  when turnedin 1030
+  turnin 1046
+step
+  accept 1022
+step
+  tip Go to the Howling Vale and study the Tome of Mel'Thandris, then return to Sentinel Melyria Frostshadow at Forest Song.
+  interact 19027 quest 1022.1 @50.49,39.13 map 1440
+step
+  turnin 1022
+step
+  accept 1037
+step
+  accept 1021
+step
+  accept 86757
+step
+  tip Find Anilia in Xavian.
+  turnin 1021
+step
+  accept 1031
+step
+  tip Kill Geltharis and return the Branch of Cenarius to Illiyana at Forest Song.
+  collect 5461 quest 1031.1 @77.99,42.42 map 1440 -- Drops from: Geltharis
+step
+  accept 98417
+step
+  tip Maseara Autumnmoon wants you to search west of Forest Song, amongst the Satyrnaar demons. Report any signs of her husband Kurothel upon your return.
+  collect 281014 quest 98417.1 @86.25,45.81 map 1440
+step
+  accept 98418
+step
+  when turnedin 1011
+  accept 1012
+step
+  turnin 98417
+step
+  tip Kill 5 Xavian Rogues, 5 Felsworn, 5 Betrayers, and 5 Hellcallers.
+  kill 3755 x5 quest 98418.1 @78.92,45.78 map 1440
+  kill 3752 x5 quest 98418.3 @78.4,45.12 map 1440
+  kill 3755 x5 quest 98418.1 @78.23,44.8 map 1440
+  kill 3757 x5 quest 98418.2 @78.23,44.8 map 1440
+  kill 3752 x5 quest 98418.3 @78.23,44.8 map 1440
+step
+  turnin 98418
+step
+  tip Bring 6 Jagged Orc Swords and 4 Curved Orc Daggers to Shandrina.
+  collect 279505 quest 86757.1 @88.6,57.66 map 1440 -- Drops from: Horde Grunt
+  collect 279505 quest 86757.1 @86.31,60.42 map 1440 -- Drops from: Horde Scout
+  collect 279507 quest 86757.2 @86.31,60.42 map 1440 -- Drops from: Horde Scout
+step
+  only Paladin,Human,Dwarf
+  interact 409315
+  accept 78093
+step
+  when turnedin 1011
+  tip Kill the druids: Taneel Darkwood, Uthil Mooncall, Mavoris Cloudsbreak; then return to Kayneth Stillwind in Forest Song.
+  kill 3941 quest 1012.2 @77.96,72.74 map 1440
+  kill 3940 quest 1012.1 @77.18,73.99 map 1440
+  kill 3940 quest 1012.1
+  kill 3941 quest 1012.2
+  kill 3942 quest 1012.3 @75.05,74.2 map 1440
+step
+  turnin 86757
+step
+  turnin 1031
+step
+  accept 1032
+step
+  only Paladin,Human,Dwarf
+  tip Return the Orb Shards to Delgren.
+  turnin 78093
+step
+  tip Bring 16 Satyr Horns to Illiyana in Forest Song.
+  collect 5481 x16 quest 1032.1 @78.4,45.12 map 1440 -- Drops from: Xavian Rogue, Xavian Betrayer, Xavian Felsworn
+step
+  when turnedin 1011
+  turnin 1012
+step
+  turnin 1032
+step
+  zone map 1457
+  when onquest 1081
+  tip Find Tyrande Whisperwind in Darnassus.
+  turnin 1081 -- Turn in at Darnassus
+step
+  tip Speak with Thyn'tel Bladeweaver at the Warrior's Terrace in Darnassus.
+  turnin 1037 -- Turn in at Darnassus
+step
+  accept 1038
+step
+  tip Search through Velinde's chest for her journal, then return it along with the key to Thyn'tel Bladeweaver in Darnassus.
+  collect 5520 quest 1038.1 @62.29,83.29 map 1457 -- Drops from: Velinde's Locker
+step
+  turnin 1038 -- Turn in at Darnassus
+step
+  accept 1039
+step
+  zone map 1413
+  only Warrior
+  when turnedin 1718
+  when level>=30
+  accept 1719
+step
+  only Warrior
+  when turnedin 1718
+  when onquest 1719
+  tip Kill Big Will, then speak to Klannoc Macleod on Fray Island.
+  kill 6238 quest 1719.1 @68.61,48.72 map 1413
+step
+  only Warrior
+  when turnedin 1718
+  when onquest 1719
+  turnin 1719 -- Turn in at The Barrens
+step
+  only Warlock
+  when level>=30
+  accept 1795
+step
+  only Warlock
+  when turnedin 4782
+  when level>=31
+  accept 4783
+step
+  only Warlock
+  when turnedin 4784
+  when level>=31
+  accept 4786
+step
+  only Warlock
+  when turnedin 4784
+  when onquest 4786
+  tip Wait for Menara Voidrender to complete your robe and then speak to her again.
+  talk 6266
+step
+  only Warlock
+  when turnedin 4784
+  when onquest 4786
+  turnin 4786 -- Turn in at The Barrens
+step
+  only Warlock
+  when onquest 1795
+  tip Using the Tome of the Cabal, summon and subdue a felhunter, then return the Tome of the Cabal to Strahad Farsan in Ratchet.
+  kill 6268 quest 1795.1 @62.6,35.31 map 1413 -- Use the quest item on them, don't just kill them.
+step
+  only Warlock
+  when onquest 1795
+  turnin 1795 -- Turn in at The Barrens
+step
+  zone map 1443
+  only Warlock
+  when turnedin 4782
+  when onquest 4783
+  tip Bring 10 Vials of Hatefury Blood and 1 Lesser Infernal Stone to Menara Voidrender in the Barrens.
+  collect 6989 x10 quest 4783.1 @73.55,19.11 map 1443 -- Drops from: Hatefury Rogue, Hatefury Trickster, Hatefury Felsworn
+  collect 6989 x10 quest 4783.1 -- Drops from: Lesser Infernal, Demon Portal Guardian
+  collect 6990 quest 4783.2 @51.45,75.61 map 1443 -- Drops from: Lesser Infernal, Demon Portal Guardian
+step
+  zone map 1413
+  only Warlock
+  when turnedin 4782
+  when onquest 4783
+  turnin 4783 -- Turn in at The Barrens
+step
+  zone map 1445
+  tip Zone complete! Travel to Dustwallow Marsh.
+  goto 66.46,45.15 map 1445

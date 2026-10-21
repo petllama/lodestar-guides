@@ -1,0 +1,823 @@
+guide lodestar/alliance/dun-morogh-4-10
+title "Dun Morogh (4-10)"
+levels 4-10
+zone map 1426
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/westfall-12-16
+step
+  accept 179
+step
+  accept 183
+step
+  when onquest 179
+  tip Sten Stoutarm would like 8 pieces of Tough Wolf Meat.
+  collect 750 x8 quest 179.1 @28.84,73.81 map 1426 -- Drops from: Ragged Young Wolf, Ragged Timber Wolf
+step
+  when onquest 183
+  tip Talin Keeneye would like you to kill 12 Small Crag Boars.
+  kill 708 x12 quest 183.1 @21.95,71.26 map 1426
+step
+  when onquest 183
+  turnin 183
+step
+  accept 182
+step
+  tip Grelin Whitebeard would like you to kill 14 Frostmane Troll Whelps.
+  kill 706 x14 quest 182.1 @26.84,79.92 map 1426
+step
+  when onquest 179
+  turnin 179
+step
+  when turnedin 179
+  accept 170
+step
+  when turnedin 179
+  accept 233
+step
+  only Warrior,Dwarf
+  when turnedin 179
+  accept 3106
+step
+  only Paladin,Dwarf
+  when turnedin 179
+  accept 3107
+step
+  only Hunter,Dwarf
+  when turnedin 179
+  accept 3108
+step
+  only Rogue,Dwarf
+  when turnedin 179
+  accept 3109
+step
+  only Priest,Dwarf
+  when turnedin 179
+  accept 3110
+step
+  only Warrior,Gnome
+  when turnedin 179
+  accept 3112
+step
+  only Rogue,Gnome
+  when turnedin 179
+  accept 3113
+step
+  only Mage,Gnome
+  when turnedin 179
+  accept 3114
+step
+  only Warlock,Gnome
+  when turnedin 179
+  accept 3115
+step
+  only Priest,Gnome
+  when turnedin 179
+  accept 98574
+step
+  only Shaman,Dwarf
+  when turnedin 179
+  accept 98581
+step
+  only Warlock
+  when !turnedin 1598
+  when !onquest 1598
+  accept 1599
+step
+  only Warrior,Dwarf
+  when onquest 3106
+  tip Read the Simple Rune and speak to Thran Khorman in Coldridge Valley.
+  turnin 3106
+step
+  only Paladin,Dwarf
+  when onquest 3107
+  tip Read the Consecrated Rune and speak to Bromos Grummner in Coldridge Valley.
+  turnin 3107
+step
+  only Hunter,Dwarf
+  when onquest 3108
+  tip Read the Etched Rune and speak to Thorgas Grimson in Coldridge Valley.
+  turnin 3108
+step
+  only Rogue,Dwarf
+  when onquest 3109
+  tip Read the Encrypted Rune and speak to Solm Hargrin in Coldridge Valley.
+  turnin 3109
+step
+  only Priest,Dwarf
+  when onquest 3110
+  tip Read the Hallowed Rune and speak to Branstock Khalder in Anvilmar.
+  turnin 3110
+step
+  only Warrior,Gnome
+  when onquest 3112
+  tip Read the Simple Memorandum and speak to Thran Khorman in Coldridge Valley.
+  turnin 3112
+step
+  only Rogue,Gnome
+  when onquest 3113
+  tip Read the Encrypted Memorandum and speak to Solm Hargrin in Coldridge Valley.
+  turnin 3113
+step
+  only Mage,Gnome
+  when onquest 3114
+  tip Read the Glyphic Memorandum and speak to Marryk Nurribit inside Anvilmar above Coldridge Valley.
+  turnin 3114
+step
+  only Warlock,Gnome
+  when onquest 3115
+  tip Read the Tainted Memorandum and speak to Alamar Grimm inside Anvilmar above Coldridge Valley.
+  turnin 3115
+step
+  only Priest,Gnome
+  when onquest 98574
+  tip Read the Hallowed Memorandum and speak to Branstock Khalder in Anvilmar.
+  turnin 98574
+step
+  only Shaman,Dwarf
+  when onquest 98581
+  tip Read the Archaic Rune and speak to Teo Hammerstorm in Anvilmar.
+  turnin 98581
+step
+  turnin 182
+step
+  when onquest 233
+  tip Deliver the stack of letters to Talin Keeneye.
+  turnin 233
+step
+  when turnedin 233
+  accept 234
+step
+  accept 218
+step
+  when onquest 234
+  tip Deliver the letter to Grelin Whitebeard.
+  turnin 234
+step
+  when onquest 170
+  tip Balir Frosthammer wants you to kill 6 Rockjaw Troggs and 6 Burly Rockjaw Troggs.
+  kill 724 x6 quest 170.2 @25.99,74.23 map 1426
+  kill 707 x6 quest 170.1 @30.68,75.71 map 1426
+  kill 724 x6 quest 170.2 @30.68,75.71 map 1426
+step
+  tip Grelin Whitebeard wants you to kill Grik'nir the Cold, and retrieve his journal.
+  collect 2004 quest 218.1 @30.48,80.15 map 1426 -- Drops from: Grik'nir the Cold
+step
+  only Warlock
+  when !turnedin 1598
+  when !onquest 1598
+  tip Bring 3 Feather Charms to Alamar Grimm in Anvilmar.
+  collect 6753 x3 quest 1599.1 @30.41,80.87 map 1426 -- Drops from: Frostmane Novice
+step
+  turnin 218
+step
+  when !turnedin 287
+  when !onquest 287
+  accept 282
+step
+  accept 3364
+step
+  tip Take a Scalding Mornbrew to Durnan Furcutter inside Anvilmar before it gets cold in five minutes!
+  turnin 3364
+step
+  when onquest 170
+  turnin 170
+step
+  only Warlock
+  when !turnedin 1598
+  when !onquest 1598
+  turnin 1599
+step
+  when !turnedin 287
+  when !onquest 287
+  tip Speak with Mountaineer Thalos.
+  turnin 282
+step
+  when !turnedin 287
+  when !onquest 287
+  accept 420
+step
+  accept 2160
+step
+  accept 3361
+step
+  accept 3365
+step
+  only Shaman
+  accept 94373
+step
+  when !turnedin 287
+  when !turnedin 96627
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 287
+  when !onquest 96627
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96656
+  when !onquest 96659
+  accept 96628
+step
+  accept 97277
+step
+  tip Find Grund and Gozwin's camp in the hills to the northwest. Recover Gozwin's Mechanic's Log and kill the Snow Leopard Prowler.
+  collect 277976 quest 97277.1 @27.37,62.86 map 1426
+  kill 269075 quest 97277.2 @27.37,62.86 map 1426
+step
+  turnin 97277
+step
+  tip Return Nori's Mug to Nori Pridedrift.
+  turnin 3365
+step
+  tip Bring Felix's Box, Felix's Chest and Felix's Bucket of Bolts to Felix Whindlebolt in Anvilmar.
+  collect 16314 quest 3361.3 @26.33,79.28 map 1426
+  collect 16313 quest 3361.2 @22.78,80 map 1426
+  collect 10438 quest 3361.1 @20.88,76.07 map 1426
+  collect 16313 quest 3361.2
+  collect 16314 quest 3361.3
+step
+  only Shaman
+  tip Bring 2 Frostmane Bear Pendants to Teo Hammerstorm in Anvilmar.
+  collect 264356 quest 94373.1 @26.84,79.92 map 1426 -- Drops from: Frostmane Troll Whelp, Frostmane Novice
+step
+  turnin 3361
+step
+  only Shaman
+  turnin 94373
+step
+  only Shaman
+  accept 94374
+step
+  only Priest,Dwarf,Gnome
+  accept 5626
+step
+  only Shaman
+  tip Find the Spirit Stone and drink the Earth Sapta.
+  turnin 94374
+step
+  only Shaman
+  accept 94375
+step
+  only Shaman
+  tip Bring the Rough Quartz to Teo Hammerstorm in Anvilmar.
+  turnin 94375
+step
+  when !turnedin 287
+  when !onquest 287
+  tip Deliver Grelin's report to Senir Whitebeard in Kharanos.
+  turnin 420
+step
+  tip Deliver the Crate of Inn Supplies to Tannok Frosthammer in Kharanos.
+  turnin 2160
+step
+  only Priest,Dwarf,Gnome
+  tip Speak to Maxan Anvol in Dun Morogh.
+  turnin 5626
+step
+  when !turnedin 287
+  when !turnedin 96627
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 287
+  when !onquest 96627
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96656
+  when !onquest 96659
+  tip Deliver the Supply Bundle to Eric Brighthammer near Kharanos.
+  turnin 96628
+step
+  accept 400
+step
+  accept 317
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  accept 96608
+step
+  accept 313
+step
+  accept 5541
+step
+  only Priest,Dwarf,Gnome
+  accept 5625
+step
+  accept 98321
+step
+  only Priest,Dwarf,Gnome
+  tip Find Mountaineer Dolf and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Maxan Anvol in Kharanos.
+  talk 12427
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  tip Sit near Eric's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.
+  interact 460003 quest 96608.1 @46.68,53.84 map 1426
+  interact 460003 quest 96608.2 @46.68,53.84 map 1426
+step
+  tip Deliver Steelgrill's Tools to Beldin Steelgrill.
+  turnin 400
+step
+  only Priest,Dwarf,Gnome
+  turnin 5625
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  turnin 96608
+step
+  when !turnedin 96626
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  accept 96629
+step
+  when !turnedin 96626
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  tip Speak with Gremlock Pilsnor in Kharanos to learn to become a cook.
+  talk 1699
+step
+  when !turnedin 96626
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  turnin 96629
+step
+  tip Collect 8 Flintfire Shipments from the Grizzled Den for Tongus Flintfire in Kharanos.
+  collect 280413 quest 98321.1 @42.3,47.5 map 1426
+step
+  tip Gather 8 Wendigo Manes and bring them to Pilot Stonegear.
+  collect 2671 x8 quest 313.1 @42.49,54.97 map 1426 -- Drops from: Young Wendigo, Wendigo, Wendigo Shaman
+step
+  tip Gather 4 Chunks of Boar Meat and 2 Thick Bear Furs, and deliver them to Pilot Bellowfiz at Steelgrill's Depot.
+  collect 6952 x2 quest 317.2 @44.75,55.26 map 1426 -- Drops from: Young Black Bear, Black Bear, Ice Claw Bear
+  collect 769 x4 quest 317.1 @44.24,59.37 map 1426 -- Drops from: Crag Boar, Large Crag Boar, Elder Crag Boar
+  collect 6952 x2 quest 317.2 @44.24,59.37 map 1426 -- Drops from: Crag Boar, Large Crag Boar, Elder Crag Boar
+step
+  tip Bring Rumbleshot's Ammo to Hegnar Rumbleshot in Dun Morogh.
+  collect 13850 quest 5541.1 @44.13,56.95 map 1426 -- Drops from: Ammo Crate
+step
+  turnin 313
+step
+  turnin 317
+step
+  turnin 98321
+step
+  accept 318
+step
+  accept 98322
+step
+  accept 99158
+step
+  tip Bring the crate of candles to Father Gavin at Misty Pine Refuge.
+  turnin 99158
+step
+  accept 99159
+step
+  tip Collect 14 pieces of firewood.
+  collect 286339 x14 quest 99159.1 @56,52.2 map 1426 -- Drops from: Fallen Log
+step
+  turnin 99159
+step
+  accept 99160
+step
+  accept 99162
+step
+  tip Destroy 10 minor ice elementals.
+  kill 276003 x10 quest 99160.1 @55.85,44.68 map 1426
+step
+  turnin 99160
+step
+  accept 99161
+step
+  tip Kill Avala and retrieve its core.
+  collect 286325 quest 99161.1 @58.34,42.06 map 1426 -- Drops from: Avala
+step
+  turnin 99161
+step
+  accept 287
+step
+  tip Check in on Mountaineer Gretchen west of Kharanos.
+  turnin 98322
+step
+  accept 98319
+step
+  turnin 5541
+step
+  tip Collect the rifles of fallen mountaineers.
+  collect 286360 quest 99162.1 @53.16,58.78 map 1426
+  collect 286359 quest 99162.2 @59.9,50.1 map 1426
+  collect 286360 quest 99162.1 @52.1,44.04 map 1426
+  collect 286359 quest 99162.2 @52.1,44.04 map 1426
+  collect 286358 quest 99162.3 @52.1,44.04 map 1426
+step
+  turnin 99162
+step
+  tip Find Mountaineer Cornelius in the Grizzled Den for Mountaineer Gretchen.
+  interact 460004 quest 98319.1 @43.03,49.62 map 1426
+step
+  tip Get a cask of Evershine from Rejold Barleybrew in Brewnall Village.
+  turnin 318
+step
+  accept 310
+step
+  accept 319
+step
+  accept 315
+step
+  accept 98326
+step
+  tip Explore Frostmane Hold, and kill 5 Frostmane Headhunters for Senir Whitebeard in Kharanos.
+  kill 1123 x5 quest 287.1 @23.42,51.4 map 1426
+step
+  tip Kill 6 Ice Claw Bears, 8 Elder Crag Boars, and 8 Snow Leopards, and then return to Rejold Barleybrew in Brewnall Village.
+  kill 1196 x6 quest 319.1 @35.9,46.93 map 1426
+  kill 1127 x8 quest 319.2 @40.46,47.22 map 1426
+  kill 1196 x6 quest 319.1
+  kill 1127 x8 quest 319.2
+  kill 1201 x8 quest 319.3 @48.29,56.53 map 1426
+step
+  tip Slay Frosthowl and collect the Sack of Fish for Gretta Ganter in Brewnall Village
+  collect 280426 quest 98326.1 @39.33,48.79 map 1426 -- Drops from: Frosthowl
+step
+  tip Bring 6 Shimmerweeds to Rejold Barleybrew in the Brewnall Village.
+  collect 2676 x6 quest 315.1 @41.85,35.84 map 1426 -- Drops from: Frostmane Seer, Shimmerweed Basket
+step
+  turnin 315
+step
+  turnin 319
+step
+  turnin 98326
+step
+  accept 320
+step
+  accept 413
+step
+  turnin 98319
+step
+  accept 98323
+step
+  accept 95212
+step
+  kill 1116 @73.41,55.08 map 1426 -- Loot the quest item here — it starts the quest.
+  accept 95213 @73.41,55.08 map 1426
+step
+  tip Collect 6 Pristine Leopard Pelts and deliver them to Amberstill Ranch.
+  collect 267414 x6 quest 95212.1 @75.2,57.04 map 1426 -- Drops from: Elder Snow Leopard
+step
+  tip Bring the Empty Powder Keg to Quarrymaster Thesten at Gol'Bolar Quarry.
+  collect 268548 quest 95213.1 @73.41,55.08 map 1426 -- Drops from: Rockjaw Ambusher, Rockjaw Backbreaker
+step
+  turnin 95213
+step
+  accept 432
+step
+  accept 95214
+step
+  tip Kill 6 Rockjaw Skullthumpers for Foreman Stonebrow at the Gol'Bolar quarry.
+  kill 1115 x6 quest 432.1 @70.49,57.12 map 1426
+step
+  turnin 432
+step
+  tip Recover 16 Stolen Blasting Powder from the troggs east of Gol'Bolar Quarry, then return to Quarrymaster Thesten.
+  collect 267415 x16 quest 95214.1 @73.41,55.08 map 1426 -- Drops from: Rockjaw Ambusher, Rockjaw Backbreaker
+step
+  turnin 95214
+step
+  accept 433
+step
+  tip Kill 10 Rockjaw Bonesnappers for Senator Mehr Stonehallow at the Gol'Bolar quarry.
+  kill 1117 x10 quest 433.1 @72.41,52.9 map 1426
+step
+  turnin 433
+step
+  turnin 95212
+step
+  turnin 287
+step
+  tip In the basement of the Thunderbrew Distillery in Kharanos, replace a barrel of Thunder Ale with a Barrel of Barleybrew Scalder.
+  turnin 310
+step
+  tip Give the cask of Evershine to Pilot Bellowfiz at Steelgrill's Depot.
+  turnin 320
+step
+  tip Deliver Mountaineer Gretchen's Report back to Senir Whitebeard in Kharanos.
+  turnin 98323
+step
+  interact 270
+  accept 311
+step
+  accept 291
+step
+  accept 412
+step
+  accept 415 npc 1378
+step
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1683
+  accept 1679
+step
+  only Mage,Human,Gnome
+  when !turnedin 1861
+  when !onquest 1861
+  accept 1879
+step
+  only Rogue
+  accept 2218
+step
+  only Priest,Human,Dwarf
+  when !turnedin 5634
+  when !turnedin 5635
+  when !turnedin 5636
+  when !turnedin 5638
+  when !turnedin 5639
+  when !turnedin 5640
+  when !onquest 5634
+  when !onquest 5635
+  when !onquest 5636
+  when !onquest 5638
+  when !onquest 5639
+  when !onquest 5640
+  accept 5637
+step
+  only Shaman
+  accept 94449 npc 258113
+step
+  only Priest,Gnome
+  accept 94824
+step
+  accept 312
+step
+  tip Retrieve Tundra MacGrann's dried meats from the stolen meat locker in Old Icebeard's cave.
+  collect 2667 quest 312.1 @38.51,53.93 map 1426 -- Drops from: MacGrann's Meat Locker
+step
+  turnin 312
+step
+  tip Bring the barrel of Thunder Ale to Marleth Barleybrew at the Brewnall Village.
+  turnin 311
+step
+  tip Speak with Rejold Barleybrew.
+  turnin 415
+step
+  only Hunter,Dwarf
+  when !turnedin 6074
+  when !turnedin 6076
+  when !onquest 6074
+  when !onquest 6076
+  accept 6075
+step
+  tip Bring Razzle Sprysprocket in Kharanos 8 Restabilization Cogs and 8 Gyromechanic Gears.
+  collect 3083 x8 quest 412.1 @26.04,40.76 map 1426 -- Drops from: Leper Gnome, Gibblewilt
+  collect 3084 x8 quest 412.2 @26.04,40.76 map 1426 -- Drops from: Leper Gnome, Gibblewilt
+step
+  turnin 412
+step
+  only Hunter,Dwarf
+  when !turnedin 6074
+  when !turnedin 6076
+  when !onquest 6074
+  when !onquest 6076
+  tip Speak with Grif Wildheart in Kharanos.
+  turnin 6075
+step
+  only Hunter,Dwarf
+  accept 6064
+step
+  only Hunter,Dwarf
+  tip Use the Taming Rod to tame a Large Crag Boar. Practice your skills, then return the Taming Rod to Grif Wildheart in Kharanos.
+  kill 1126 quest 6064.1 @48.1,47.25 map 1426 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Dwarf
+  turnin 6064
+step
+  only Hunter,Dwarf
+  accept 6084
+step
+  only Hunter,Dwarf
+  tip Use the Taming Rod to tame a Snow Leopard. Practice your skills, then return to Grif Wildheart in Kharanos.
+  kill 1201 quest 6084.1 @48.29,56.53 map 1426 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Dwarf
+  turnin 6084
+step
+  only Hunter,Dwarf
+  accept 6085
+step
+  only Hunter,Dwarf
+  tip Use the Taming Rod to tame an Ice Claw Bear. Practice your skills, then return the Taming Rod to Grif Wildheart in Kharanos.
+  kill 1196 quest 6085.1 @35.9,46.93 map 1426 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Dwarf
+  turnin 6085
+step
+  only Hunter,Dwarf
+  accept 6086
+step
+  accept 419
+step
+  tip Find Pilot Hildelve.
+  turnin 419
+step
+  interact 2059
+  accept 417
+step
+  tip Kill Mangeclaw.
+  collect 3183 quest 417.1 @78.31,37.76 map 1426 -- Drops from: Mangeclaw
+step
+  turnin 417
+step
+  tip Take the Barrel of Shimmer Stout to Mountaineer Barleybrew.
+  turnin 413
+step
+  only Shaman
+  tip Find Bruegs Kindleborn in Dun Morogh.
+  turnin 94449
+step
+  accept 414
+step
+  only Shaman
+  accept 94465
+step
+  zone map 1455
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1683
+  tip Speak with Muren Stormpike.
+  turnin 1679 -- Turn in at Ironforge
+step
+  only Hunter,Dwarf
+  tip Speak with Belia Thundergranite in Ironforge.
+  turnin 6086 -- Turn in at Ironforge
+step
+  interact 660964
+  accept 97263
+step
+  accept 95041
+step
+  tip Deliver Senir's report to Senator Barin Redstone in Ironforge.
+  turnin 291 -- Turn in at Ironforge
+step
+  only Rogue
+  tip Speak with Hulfdan Blackbeard in Ironforge.
+  turnin 2218 -- Turn in at Ironforge
+step
+  only Rogue
+  accept 2238
+step
+  tip Deliver Eldrun's misplaced package.
+  turnin 97263 -- Turn in at Ironforge
+step
+  only Warlock
+  when !turnedin 1688
+  when !onquest 1688
+  accept 1715
+step
+  only Mage,Human,Gnome
+  when !turnedin 1861
+  when !onquest 1861
+  tip Speak with Bink in Ironforge.
+  turnin 1879 -- Turn in at Ironforge
+step
+  only Mage,Human,Gnome
+  when !turnedin 1861
+  when !onquest 1861
+  accept 1880
+step
+  only Priest,Gnome
+  tip Speak to High Priestess Mims in Ironforge.
+  turnin 94824 -- Turn in at Ironforge
+step
+  only Priest,Gnome
+  accept 94817
+step
+  only Priest,Gnome
+  turnin 94817 -- Turn in at Ironforge
+step
+  zone map 1426
+  only Rogue
+  tip Find Onin MacHammar by Gnomeregan.
+  turnin 2238
+step
+  only Rogue
+  accept 2239
+step
+  tip Collect 7 Gnomeregan Archival Data cards from around Gnomeregan, then deliver them to Jemma Quikswitch in Ironforge.
+  collect 267413 x7 quest 95041.1 @26.3,40.5 map 1426 -- Drops from: Snowdrift
+step
+  only Mage,Human,Gnome
+  when !turnedin 1861
+  when !onquest 1861
+  tip Bring Bink her Mage-tastic Gizmonitor.
+  collect 7226 quest 1880.1 @27.72,36.42 map 1426 -- Drops from: Bink's Toolbox
+step
+  zone map 1455
+  turnin 95041 -- Turn in at Ironforge
+step
+  only Rogue
+  tip Take Onin's Report back to Hulfdan in Ironforge.
+  turnin 2239 -- Turn in at Ironforge
+step
+  only Mage,Human,Gnome
+  when !turnedin 1861
+  when !onquest 1861
+  turnin 1880 -- Turn in at Ironforge
+step
+  zone map 1432
+  only Shaman
+  tip Bring the Torch of the Dormant Flame to Braldir Ashmantle in Loch Modan.
+  turnin 94465 -- Turn in at Loch Modan
+step
+  zone map 1453
+  only Warlock
+  when !turnedin 1688
+  when !onquest 1688
+  tip Report to Gakin the Darkbinder in the Mage Quarter of Stormwind.
+  turnin 1715 -- Turn in at Stormwind City
+step
+  only Priest,Human,Dwarf
+  when !turnedin 5634
+  when !turnedin 5635
+  when !turnedin 5636
+  when !turnedin 5638
+  when !turnedin 5639
+  when !turnedin 5640
+  when !onquest 5634
+  when !onquest 5635
+  when !onquest 5636
+  when !onquest 5638
+  when !onquest 5639
+  when !onquest 5640
+  tip Speak to High Priestess Laurena in Stormwind.
+  turnin 5637 -- Turn in at Stormwind City
+step
+  tip Zone complete! Travel to Stormwind City.
+  goto 26.27,47.08 map 1453

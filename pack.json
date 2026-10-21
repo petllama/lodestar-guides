@@ -1,0 +1,9 @@
+{
+  "id": "lodestar",
+  "title": "Lodestar Guides (unofficial)",
+  "author": "Petllama",
+  "version": "1.0.0",
+  "license": "MIT",
+  "website": "https://github.com/petllama/lodestar-guides",
+  "folder": "PolestarPack_Lodestar"
+}

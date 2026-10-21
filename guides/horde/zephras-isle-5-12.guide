@@ -1,0 +1,938 @@
+guide lodestar/horde/zephras-isle-5-12
+title "Zephras Isle (5-12)"
+levels 5-12
+zone map 2521
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/the-barrens-12-20
+step
+  accept 92460
+step
+  when onquest 92460
+  tip Speak with Rorian the Dayseeker in Thendal Grove.
+  turnin 92460
+step
+  when turnedin 92460
+  accept 92461
+step
+  when turnedin 92460
+  accept 92462
+step
+  when onquest 92461
+  tip Slay 8 Vuldren Juveniles in Thendal Grove.
+  kill 250873 x8 quest 92461.1 @44.85,26.33 map 2521 live
+step
+  when onquest 92461
+  turnin 92461
+step
+  when onquest 92462
+  tip Slay 8 Pesky Cirrusflies in Thendal Grove.
+  kill 251169 x8 quest 92462.1 @45.76,27.16 map 2521 live
+step
+  when onquest 92462
+  turnin 92462
+step
+  when turnedin 92462
+  accept 92463
+step
+  accept 92464
+step
+  only Skyborne
+  accept 92474
+step
+  only Hunter
+  when turnedin 92461
+  accept 92482
+step
+  only Rogue
+  when turnedin 92461
+  accept 92483
+step
+  only Shaman
+  when turnedin 92461
+  accept 92484
+step
+  only Druid
+  when turnedin 92461
+  accept 92485
+step
+  only Warrior
+  when turnedin 92461
+  accept 92532
+step
+  only Skyborne
+  accept 92598
+step
+  when turnedin 92461
+  accept 93552
+step
+  accept 94414
+step
+  when onquest 93552
+  tip Collect 15 Windstone Clusters from Raw Windstones in Thendal Grove.
+  collect 258772 x15 quest 93552.1 @43.82,25.43 map 2521 live -- Drops from: Raw Windstone
+step
+  tip Speak with Halaan Hawk-Eye and borrow his gift to view the anchor pylon in the distance.
+  talk 257554
+step
+  only Skyborne
+  tip Jump from the top of the watchtower in Thendal Grove and use your Walk on Air ability to slow your fall.
+  turnin 92474
+step
+  only Hunter
+  when onquest 92482
+  tip Read the Scribbled Note and then speak with Tai'ree Farsight in Thendal Grove.
+  turnin 92482
+step
+  only Rogue
+  when onquest 92483
+  tip Read the Simple Note then speak with Akeri Duskblade within the watchtower in Thendal Grove.
+  turnin 92483
+step
+  only Shaman
+  when onquest 92484
+  tip Examine the Humming Recall Crystal then speak with Windshaper Boro in Thendal Grove.
+  turnin 92484
+step
+  only Druid
+  when onquest 92485
+  tip Read the Folded Parchment then speak with Xyton Silverwind in Thendal Grove.
+  turnin 92485
+step
+  only Warrior
+  when onquest 92532
+  tip Read the Crumpled Note you've been given, then seek out Blademaster Ren inside the Thendal Village watchtower.
+  turnin 92532
+step
+  when onquest 93552
+  turnin 93552
+step
+  turnin 94414
+step
+  tip Speak to the Yala Windwatcher in Thendal Grove.
+  turnin 92464
+step
+  accept 92465
+step
+  tip Slay 6 Roiling Winds and 7 Al'Aketh Converts in Thendal Grove.
+  kill 251143 x6 quest 92465.2 @47.02,19.82 map 2521 live
+  kill 251160 x7 quest 92465.1 @47.13,19.63 map 2521 live
+  kill 251143 x6 quest 92465.2 @47.13,19.63 map 2521 live
+step
+  only Skyborne
+  tip Use your Skysight racial ability at the Elemental Convergence in Thendal Grove.
+  interact 460001 quest 92598.1 @48.28,20.62 map 2521 live
+step
+  turnin 92465
+step
+  accept 92469
+step
+  when onquest 92463
+  tip Destroy the Cirrusfly Queen in Thendal Grove.
+  kill 251404 quest 92463.1 @48.41,28.53 map 2521 live
+step
+  accept 92544
+step
+  tip Slay 6 Al'Aketh Brutes, 4 Al'Aketh Neophytes, and Malduko Cloudcrush in Thendal Grove.
+  kill 251448 x4 quest 92544.2 @37.07,32.5 map 2521 live
+  kill 251145 x6 quest 92544.1 @36.98,32.97 map 2521 live
+  kill 251145 x6 quest 92544.1 @36.05,33.53 map 2521 live
+  kill 251448 x4 quest 92544.2 @36.05,33.53 map 2521 live
+  kill 256935 quest 92544.3 @36.05,33.53 map 2521 live
+step
+  turnin 92544
+step
+  when onquest 92463
+  turnin 92463
+step
+  tip Bring word of the Al'Aketh to Rorian the Dayseeker in Thendal Grove.
+  turnin 92469
+step
+  only Skyborne
+  turnin 92598
+step
+  only Shaman
+  when !turnedin 1516
+  when !turnedin 1519
+  when !onquest 1516
+  when !onquest 1519
+  accept 92466
+step
+  accept 92471
+step
+  tip Speak with Aetheen of the Gales in Thendal Grove.
+  turnin 92471
+step
+  accept 92470
+step
+  accept 92473
+step
+  only Shaman
+  when !turnedin 1516
+  when !turnedin 1519
+  when !onquest 1516
+  when !onquest 1519
+  tip Bring a Signet of Akir to Windshaper Boro.
+  collect 251924 quest 92466.1 @36.98,32.97 map 2521 live -- Drops from: Al'Aketh Brute, Al'Aketh Convert, Al'Aketh Neophyte
+step
+  tip Slay 8 Ursera Scavengers and collect the head of the den mother, Urs'anah in Thendal Grove.
+  kill 250937 x8 quest 92470.1 @36.25,25.68 map 2521 live
+  collect 252665 quest 92470.2 @36.25,25.68 map 2521 live
+step
+  tip Collect 6 Scrawny Ursera Claws from Scrawny Ursera in Thendal Grove.
+  collect 251918 x6 quest 92473.1 @39.86,27.35 map 2521 live -- Drops from: Scrawny Ursera
+step
+  only Shaman
+  when !turnedin 1516
+  when !turnedin 1519
+  when !onquest 1516
+  when !onquest 1519
+  turnin 92466
+step
+  turnin 92470
+step
+  turnin 92473
+step
+  only Shaman
+  accept 92467
+step
+  accept 92472
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96652
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96652
+  when !onquest 96656
+  when !onquest 96659
+  accept 96638
+step
+  only Shaman
+  tip Find the Rise of Spirits and drink the Earth Sapta.
+  turnin 92467
+step
+  only Shaman
+  accept 92468
+step
+  only Shaman
+  tip Bring the Rough Quartz to Windshaper Boros in Thendal Grove.
+  turnin 92468
+step
+  tip Report to Constable Aonda in Shen'dar Village.
+  turnin 92472
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96652
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96652
+  when !onquest 96656
+  when !onquest 96659
+  tip Speak to Raan Wildwind near Shen'dar Village.
+  turnin 96638
+step
+  accept 92514
+step
+  accept 92595
+step
+  when !turnedin 95998
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  accept 96101
+step
+  tip Speak with Illaya Amberwind and Coriella Calmbreeze in Shen'dar Village.
+  talk 251902
+  talk 254089
+step
+  tip Listen to what Illaya Amberwind has to say.
+  talk 251902
+step
+  when !turnedin 95998
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  tip Sit near Raan's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.
+  interact 460003 quest 96101.1 @41.73,44.78 map 2521 live
+  interact 460003 quest 96101.2 @41.73,44.78 map 2521 live
+step
+  turnin 92514
+step
+  turnin 92595
+step
+  when !turnedin 95998
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  turnin 96101
+step
+  accept 92515
+step
+  accept 92553
+step
+  accept 94411
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  accept 96646
+step
+  accept 92516
+step
+  accept 92517
+step
+  accept 93319
+step
+  accept 93951
+step
+  tip Collect 10 Prideclaw Pelts from the Prideclaws in Shen'dar Highlands.
+  collect 252670 x10 quest 92515.1 @42.19,44.79 map 2521 live -- Drops from: Prideclaw
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  tip Speak with Zerril Softbreeze in Shen'dar Village to learn to become a cook.
+  talk 251905
+step
+  turnin 92515
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  turnin 96646
+step
+  tip Kill 10 Highlands Bandits and their leader, "Badwind" Bennic in the Shen'dar Highlands.
+  kill 251918 x10 quest 92517.1 @48.15,37.6 map 2521 live
+  kill 251918 x10 quest 92517.1 @50.62,34.27 map 2521 live
+  kill 255534 quest 92517.2 @50.62,34.27 map 2521 live
+step
+  tip Collect 10 Pilfered Windstones from the Highlands Bandits in the Shen'dar Highlands.
+  collect 257945 x10 quest 93319.1 @48.15,37.6 map 2521 live -- Drops from: Highlands Bandit, "Badwind" Bennic
+step
+  tip Slay 6 High Order Apprentices in Shen'dar Highlands.
+  kill 257521 x6 quest 94411.1 @46.19,39.08 map 2521 live
+step
+  turnin 92517
+step
+  turnin 93319
+step
+  turnin 94411
+step
+  accept 93036
+step
+  interact 610954
+  accept 93318
+step
+  tip Speak with Sania Silverstream in Shen'dar Village.
+  turnin 93036
+step
+  accept 92529
+step
+  tip Report to Missionary Jasaan near the entrance to Falaath Village.
+  turnin 92529
+step
+  accept 92528
+step
+  tip Look around Falaath Village to learn about the cult's intentions in the Shen'dar Highlands.
+  talk 254128
+step
+  tip Kill Vulgara the Insatiable in the Shen'dar Highlands and bring her head to Danarii Bellowveil.
+  collect 257942 quest 93318.1 @42.66,52.8 map 2521 live optional -- Vulgara the Insatiable is elite: grouping up is advised.
+step
+  turnin 92528
+step
+  turnin 93318
+step
+  accept 92550
+step
+  accept 92551
+step
+  accept 93926
+step
+  tip Travel to the ruins of Falaath Village and slay 6 Al'Aketh Stormcallers, 4 Living Lightning and take the head of Commander Cyclas.
+  kill 252068 x6 quest 92550.1 @48.45,55.51 map 2521 live
+  kill 251662 x4 quest 92550.2 @48.45,55.51 map 2521 live
+  collect 252661 quest 92550.3 @48.45,55.51 map 2521 live
+step
+  tip Collect 10 packs of Stolen Shen'dar Supplies from Falaath Village in the Shen'dar Highlands.
+  collect 252760 x10 quest 92551.1 @48.45,55.51 map 2521 live -- Drops from: Al'Aketh Stormcaller, Al'Aketh Healer, Galemender Delanea
+step
+  tip Find Peacekeeper Vaaniel at the western watchtower.
+  talk 252155
+step
+  turnin 93926
+step
+  accept 93927
+step
+  tip Collect the note you found near the dead peacekeeper and read it to determine your next steps.
+  talk 256966
+step
+  tip Slay 8 Hippogryph Youths, 6 Hippogryph Protectors and a Hippogryph Matriarch in the Shen'dar Highlands.
+  kill 251291 x8 quest 92516.1 @38.15,54 map 2521 live
+  kill 251284 x6 quest 92516.2 @35.68,53.27 map 2521 live
+  kill 251291 x8 quest 92516.1 @35.23,54.08 map 2521 live
+  kill 251284 x6 quest 92516.2 @35.23,54.08 map 2521 live
+  kill 251261 quest 92516.3 @35.23,54.08 map 2521 live
+step
+  tip Collect 3 Small Eggs and 8 Strider Meat from creatures found throughout the Shen'dar Highlands.
+  collect 6889 x3 quest 92553.1 @35.68,53.27 map 2521 live -- Drops from: Hippogryph Protector, Hippogryph Youth, Galestrider
+  collect 6889 x3 quest 92553.1 @41.48,42.68 map 2521 live -- Drops from: Galestrider
+  collect 5469 x8 quest 92553.2 @41.48,42.68 map 2521 live -- Drops from: Galestrider
+step
+  tip Collect 8 Hippogryph Down feathers in the Shen'dar Highlands.
+  collect 263493 x8 quest 93951.1 @36.02,54.29 map 2521 live
+step
+  turnin 92516
+step
+  turnin 92550
+step
+  turnin 92551
+step
+  turnin 92553
+step
+  turnin 93927
+step
+  turnin 93951
+step
+  accept 92579
+step
+  accept 93948
+step
+  tip Deliver Aonda's Written Report to Valennia Stormfist in Valanaar.
+  turnin 92579
+step
+  tip Deliver the Shadowsong Family Signet to Talaanis Shadowsong in Valanaar.
+  turnin 93948
+step
+  accept 93949
+step
+  accept 92700
+step
+  when !turnedin 94493
+  when !onquest 94493
+  accept 94484
+step
+  accept 94896
+step
+  accept 94897
+step
+  tip Kill Skyhoppers in Valanaar until you've eliminated 8 Enchanted Skyhoppers.
+  kill 251727 quest 93949.1 @62.53,75.81 map 2521 live
+step
+  turnin 93949
+step
+  tip Find Ayessa Dawnsinger in Valanaar.
+  turnin 92700
+step
+  accept 93735
+step
+  accept 93736
+step
+  tip Find Riaani Nightwind on the west side of Valanaar.
+  turnin 93735
+step
+  accept 92679
+step
+  accept 93317
+step
+  accept 93737
+step
+  tip Speak with Rianni Nightwind and list to what he has to say.
+  talk 256083
+step
+  turnin 93737
+step
+  accept 93738
+step
+  tip Report back to Ayessa Dawnsinger in Valanaar.
+  turnin 93738
+step
+  accept 93746
+step
+  accept 98512
+step
+  tip Collect 6 pieces of Windsong Crawler Meat.
+  collect 257941 x6 quest 93317.1 @52.11,60.7 map 2521 live -- Drops from: Windsong Crawler
+step
+  tip Confront Belthaan Brightwish along the road to the Shrine of Akir.
+  kill 256247 quest 93746.1 @59.89,57.23 map 2521 live
+step
+  tip Kill 10 Al'Aketh Assassins in the Shen'dar Highlands.
+  kill 254626 x10 quest 98512.1 @55.62,60.41 map 2521 live
+step
+  turnin 98512
+step
+  turnin 93746
+step
+  accept 92871
+step
+  accept 93740
+step
+  turnin 93317
+step
+  only Warrior,Skyborne
+  accept 94003
+step
+  only Hunter,Skyborne
+  accept 94978
+step
+  tip Report to Valennia Stormfist and let her know that the Windshapers are with them in their fight against the Al'Aketh.
+  turnin 92871
+step
+  accept 93320
+step
+  only Druid,Skyborne
+  accept 94006
+step
+  tip Report to Yorana Windyreed at the eastern watchtower in the Gustberry Lowlands.
+  turnin 93320
+step
+  only Druid,Skyborne
+  tip Speak with Urs'endris near the falls northeast of Valanaar.
+  turnin 94006
+step
+  accept 92642
+step
+  accept 92645
+step
+  only Druid,Skyborne
+  accept 94638
+step
+  tip Slay 4 Al'Aketh Healers and 8 Al'Aketh Brawlers in the Gustberry Lowlands.
+  kill 254596 x4 quest 92642.1 @65.57,67.6 map 2521 live
+  kill 254596 x4 quest 92642.1 @65.35,67.39 map 2521 live
+  kill 270201 x8 quest 92642.2 @65.35,67.39 map 2521 live
+step
+  turnin 92642
+step
+  tip Slay Commander Belguilos in the Gustberry Lowlands.
+  kill 252666 quest 92645.1 @65.58,65.62 map 2521 live
+step
+  turnin 92645
+step
+  accept 92880
+step
+  tip Bring Yorna's Report to Valennia Stormfist in Valanaar.
+  turnin 92880
+step
+  accept 92881
+step
+  tip Speak with Talaanis Shadowsong in Valanaar.
+  turnin 92881
+step
+  accept 92643
+step
+  accept 92708
+step
+  only Shaman,Skyborne
+  accept 97243 npc 252382
+step
+  tip Listen to what Ayessa Dawnsinger has to say.
+  talk 251968
+step
+  turnin 92708
+step
+  only Shaman,Skyborne
+  tip Bring the Torch of Dormant Flame to Olariaan Swiftburn at the Shrine of Flames in the Gustberry Lowlands.
+  turnin 97243
+step
+  only Shaman,Skyborne
+  accept 97244
+step
+  tip Listen to what Alvarion Windfield has to say and find Aamelia Windfield at the Windfield Orchard.
+  talk 252800
+step
+  turnin 92679
+step
+  accept 92682
+step
+  accept 92683
+step
+  accept 92684
+step
+  tip Gather 10 Ripe Stormapples and slay 5 Hungry Bandits at the Windfield Orchard.
+  collect 253591 x10 quest 92682.1 @47.13,80.81 map 2521 live
+  kill 252802 x5 quest 92682.2 @47.13,80.81 map 2521 live
+step
+  turnin 92682
+step
+  tip Find the cultist turncoat at the house just inside the highlands northwest of Valanaar.
+  talk 253372
+step
+  only Druid,Skyborne
+  tip Find and kill Ur'endra in the Shen'dar Highlands.
+  kill 258443 quest 94638.1 @53.78,65.21 map 2521 live
+step
+  only Hunter,Skyborne
+  tip Use the Taming Rod to tame a Windsong Crawler found near bodies of water.
+  kill 254588 quest 94978.1 -- Use the quest item on them, don't just kill them.
+step
+  turnin 92643
+step
+  accept 92644
+step
+  only Hunter,Skyborne
+  turnin 94978
+step
+  only Hunter,Skyborne
+  accept 94979
+step
+  tip Deliver the glowing crystal to Talanaanis Shadowsong in Valanaar.
+  turnin 92644
+step
+  accept 94568
+step
+  tip Speak with Talaanis Shadowsong and observe the conversation.
+  talk 252476
+step
+  turnin 94568
+step
+  accept 92640
+step
+  tip Speak with Valennia Stormfist in Valanaar and follow her instructions.
+  talk 252383
+  talk 251968
+step
+  turnin 92640
+step
+  accept 93065
+step
+  tip Speak with Valennia Stormfist in the Gustberry Lowlands.
+  talk 253844
+step
+  turnin 93065
+step
+  accept 92947
+step
+  only Druid,Skyborne
+  turnin 94638
+step
+  only Shaman,Skyborne
+  tip Slay Skypriest Faladiel in the Gustberry Lowlands and collect Faladiel's Heart.
+  collect 277267 quest 97244.1 @64.43,63.71 map 2521 live -- Drops from: Skypriest Faladiel
+step
+  tip Slay 7 Al'Aketh Guardians, 7 Al'Aketh Spiritcallers, and 7 Al'Aketh Blademasters, then report to Hyusaa Quickbreeze at the Shrine of Akir.
+  kill 252765 x7 quest 92947.3 @61.71,51.11 map 2521 live
+  kill 252762 x7 quest 92947.1 @61.54,51.06 map 2521 live
+  kill 252763 x7 quest 92947.2 @61.75,50.82 map 2521 live
+  talk 253576
+step
+  turnin 92947
+step
+  accept 93958
+step
+  tip Speak with Valennia Stormfist inside the inner sanctum at the Shrine of Akir.
+  turnin 93958
+step
+  accept 92646
+step
+  tip Take the portal to the Rohashi Spires overhead and join Elaadrin Evengale and Ayessa Dawnsinger in their confrontation with the High Priestess Lorthuna.
+  goto 74.87,53.02 "Confront Lorthuna" map 2521 live
+step
+  when !turnedin 94493
+  when !onquest 94493
+  tip Find and speak with Elegael Thornpaw in the northeastern part of Shadowgale Forest.
+  turnin 94484
+step
+  accept 94486
+step
+  accept 94487
+step
+  accept 94485
+step
+  accept 93165
+step
+  tip Collect 10 Al'Aketh Cultist's Ears from the Al'Aketh cultists in Shadowgale Forest, the Shine of Akir, or Gustberry Lowlands.
+  collect 258771 quest 93165.1 @63.33,37.44 map 2521 live -- Drops from: Al'Aketh Stormchaser, Al'Aketh Footsoldier, Al'Aketh Guardian
+step
+  tip Collect 10 Al'Aketh Windstone Charms from the corpses of Al'Aketh cultists in the Gustberry Lowlands.
+  collect 255658 x10 quest 93740.1 @63.33,37.44 map 2521 live -- Drops from: Al'Aketh Stormchaser, Al'Aketh Footsoldier, Al'Aketh Guardian
+step
+  tip Collect 8 Lady's Tear Moss.
+  collect 265105 x8 quest 94485.1 @60.8,38.7 map 2521 live
+step
+  tip Collect 20 feathers from the Shadowgale Shrieklings in Shadowgale Forest.
+  collect 265140 x20 quest 94486.1 @59.21,38.64 map 2521 live -- Drops from: Shadowgale Shriekling
+step
+  tip Collect 10 Bloodied Heirlooms from Al'Aketh Footsoldiers and Al'Aketh Stormchasers in the Shadowgale Forest.
+  collect 265141 quest 94487.1 @63.33,37.44 map 2521 live -- Drops from: Al'Aketh Stormchaser, Al'Aketh Footsoldier
+step
+  turnin 93165
+step
+  turnin 94485
+step
+  turnin 94486
+step
+  turnin 94487
+step
+  accept 94488
+step
+  accept 94489
+step
+  kill 253622 @65.53,36.32 map 2521 live -- Loot the quest item here — it starts the quest.
+  accept 94490 @65.53,36.32 map 2521 live
+step
+  tip Kill Commander Haalien and bring his head to Elegael Thornpaw in the Shadowgale Forest.
+  collect 265475 quest 94488.1 @65.53,36.32 map 2521 live -- Drops from: Commander Haalien
+step
+  tip Enter the Nightfang Den and heal 7 druids and find Jorel Windsinger in Shadowgale Forest.
+  talk 258130
+step
+  turnin 94488
+step
+  turnin 94489
+step
+  tip Bring the Ripped Missive to Elegael Thornpaw in the Shadowgale Forest.
+  turnin 94490
+step
+  accept 94491
+step
+  accept 93159
+step
+  tip Speak with the Strange Hermit in the Shadowgale Forest and learn more about him.
+  talk 251684
+step
+  turnin 93159
+step
+  accept 93160
+step
+  accept 93172
+step
+  tip Destroy 10 Wind Hollows in Shadowgale Forest.
+  kill 251676 x10 quest 93172.1 @58.14,31.91 map 2521 live
+step
+  tip Gather 10 Wind Hollow Essences from Wind Hollows in the Shadowgale Forest.
+  collect 262357 x10 quest 93736.1 @58.14,31.91 map 2521 live -- Drops from: Wind Hollow
+step
+  tip Collect 8 Abandoned Belongings from the ruins of Ban'aethal.
+  collect 266433 x8 quest 94896.1 @57.6,32.1 map 2521 live
+step
+  tip Find Resaan in the Ruins of Ban'aethal.
+  collect 266434 quest 94897.1 @57.05,29.35 map 2521 live -- Drops from: Resaan Nimbuswalker
+step
+  tip Gather 8 Shadowgale Acorns in Shadowgale Forest.
+  collect 257128 quest 93160.1 @58.8,38.7 map 2521 live -- Drops from: Zephyrseed Cone
+step
+  turnin 93160
+step
+  turnin 93172
+step
+  only Warrior,Skyborne
+  tip Reclaim the Skybreaker Bulwark from Zaal Stormshield at the Shrine of Akir.
+  collect 263993 quest 94003.1 @36.05,33.53 map 2521 live -- Drops from: Zaal Stormshield
+step
+  only Hunter,Skyborne
+  accept 94007
+step
+  accept 92698
+step
+  tip Gather 5 Flutterfly Dust from the Flutterflies around the Gustberry Lowlands.
+  collect 253595 x5 quest 92683.1 @50.5,79.6 map 2521 live
+step
+  tip Gather 7 Lowlands Galestrider Tenderloins from the Ornery Galestriders found throughout the Gustberry Lowlands.
+  collect 253597 x7 quest 92684.1 @51.23,75.8 map 2521 live -- Drops from: Ornery Galestrider
+step
+  only Hunter,Skyborne
+  tip Use the Taming Rod to tame an Ornery Galestrider in the Gustberry Lowlands.
+  kill 251707 quest 94979.1 @51.23,75.8 map 2521 live -- Use the quest item on them, don't just kill them.
+step
+  turnin 92646
+step
+  turnin 93736
+step
+  turnin 93740
+step
+  accept 93836
+step
+  only Warrior,Skyborne
+  turnin 94003
+step
+  only Hunter,Skyborne
+  tip Report to Quel'ana Quickgale in Valanaar.
+  turnin 94007
+step
+  only Hunter,Skyborne
+  turnin 94979
+step
+  only Hunter,Skyborne
+  accept 94013
+step
+  only Hunter,Skyborne
+  tip Use the Taming Rod to tame a Vuldren Alpha in the Gustberry Lowlands. Practice your skills, then return the Taming Rod to Quel'ana Quickgale in Valanaar.
+  kill 250874 quest 94013.1 @53.9,75.63 map 2521 live -- Use the quest item on them, don't just kill them.
+step
+  turnin 92683
+step
+  turnin 92684
+step
+  tip Speak with Aamelia Windfield about the Malfunctioning Cyclone Construct.
+  turnin 92698
+step
+  accept 92685
+step
+  only Shaman,Skyborne
+  turnin 97244
+step
+  only Shaman,Skyborne
+  accept 97245
+step
+  tip Loot 7 Blood-Stained Bandit Masks from Highwayman Bandits in the Gustberry Lowlands.
+  collect 253596 x7 quest 92685.1 @47.78,74.54 map 2521 live -- Drops from: Bandit Highwayman
+step
+  turnin 92685
+step
+  accept 92693
+step
+  tip Speak with Aamelia Windfield when you are ready to confront the bandit leader.
+  kill 252800 quest 92693.1
+  kill 252863 quest 92693.2 @47.8,78.31 map 2521 live
+step
+  turnin 92693
+step
+  accept 92703
+step
+  only Shaman,Skyborne
+  tip Find the home of Kuramaa in the Shen'dar Highlands, and defeat the spirit in combat. Bring Kuramaa's Mask to Olariaan Swiftburn in the Gustberry Lowlands when you are victorious.
+  collect 277269 quest 97245.1 @42.44,68.75 map 2521 live -- Drops from: Kuramaa
+step
+  tip Speak with Alvarion Windfield in Valanaar.
+  turnin 92703
+step
+  only Hunter,Skyborne
+  turnin 94013
+step
+  only Hunter,Skyborne
+  accept 94050
+step
+  only Hunter,Skyborne
+  tip Speak to Quel'dora Quickgale in Valanaar.
+  turnin 94050
+step
+  tip Give the missive to Lotheluum in Valannar and tell him what has transpired.
+  turnin 94491
+step
+  turnin 94896
+step
+  turnin 94897
+step
+  tip Speak with Talaanis Shadowsong in Valanaar.
+  talk 252476
+step
+  turnin 93836
+step
+  accept 93090
+step
+  tip Speak with Ayessa Dawnsinger when you are prepared to leave Zephras Isle.
+  turnin 93090
+step
+  accept 95349
+step
+  only Shaman,Skyborne
+  turnin 97245
+step
+  only Shaman,Skyborne
+  accept 97257
+step
+  only Shaman,Skyborne
+  tip Wait for Olariaan to begin the ritual at the Brazier of Offering and follow his instructions.
+  talk 268762
+  talk 268679
+step
+  only Shaman,Skyborne
+  turnin 97257
+step
+  zone map 1412
+  tip Take the skycutter ship from Zephras Isle to Mulgore and speak with Alana Stormwalker when you arrive.
+  turnin 95349 -- Turn in at Mulgore
+step
+  only Skyborne
+  accept 95350
+step
+  zone map 1454
+  only Skyborne
+  tip Travel to Orgrimmar and speak with Thrall in the Valley of Wisdom.
+  turnin 95350 -- Turn in at Orgrimmar
+step
+  only Skyborne
+  accept 93739
+step
+  only Skyborne
+  accept 98024
+step
+  only Skyborne
+  tip Speak with Nazgrel in Grommash Hold to receive further instructions. Use the instructions received to locate and speak with Vol'jin, Cairne Bloodhoof, and Lady Sylvanas Windrunner.
+  talk 3230
+  talk 10540
+  talk 3057
+  talk 10181
+step
+  zone map 1413
+  only Skyborne
+  tip Report To Thork at The Crossroads in The Barrens.
+  turnin 98024 -- Turn in at The Barrens
+step
+  tip Zone complete! Travel to The Barrens.
+  goto 51.44,30.15 map 1413

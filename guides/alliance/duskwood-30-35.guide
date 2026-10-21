@@ -1,0 +1,239 @@
+guide lodestar/alliance/duskwood-30-35
+title "Duskwood (30-35)"
+levels 30-35
+zone map 1431
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/hillsbrad-foothills-29-32
+step
+  level 29
+step
+  zone map 1453
+  when turnedin 322
+  accept 325
+step
+  accept 335
+step
+  only Warrior
+  when turnedin 1705
+  accept 1706
+step
+  zone map 1455
+  only Warrior
+  when turnedin 1708
+  accept 1709
+step
+  zone map 1453
+  only Paladin,Human,Dwarf
+  accept 78090
+step
+  zone map 1431
+  when turnedin 133
+  accept 134
+step
+  when turnedin 133
+  tip Return Abercrombie's Crate to Abercrombie.
+  collect 1349 quest 134.1 @33.42,76.35 map 1431
+step
+  when turnedin 133
+  turnin 134
+step
+  when turnedin 133
+  accept 160
+step
+  getfp "Darkshire, Duskwood"
+step
+  when turnedin 133
+  tip Bring Abercrombie's Letter to Ello Ebonlocke, Mayor of Darkshire.
+  turnin 160
+step
+  when turnedin 57
+  accept 58
+step
+  when turnedin 177
+  accept 181
+step
+  when turnedin 133
+  accept 251
+step
+  when turnedin 1243
+  accept 1244
+step
+  when turnedin 221
+  accept 222
+step
+  when turnedin 133
+  tip Bring the Letter to Ello to Sirra Von'Indi.
+  turnin 251
+step
+  when turnedin 133
+  accept 401
+step
+  when turnedin 133
+  tip Wait a moment, then speak with Sirra Von'Indi again.
+  turnin 401
+step
+  when turnedin 133
+  accept 252
+step
+  when turnedin 133
+  tip Bring the Translated Letter to Lord Ello Ebonlocke
+  turnin 252
+step
+  when turnedin 133
+  when level>=30
+  accept 253
+step
+  when turnedin 57
+  tip Commander Althea Ebonlocke of Darkshire wants you to kill 20 Plague Spreaders in the eastern Raven Hill mausoleum.
+  kill 604 x20 quest 58.1 @23.71,34.07 map 1431
+step
+  when turnedin 133
+  when onquest 253
+  tip Find Eliza's grave. Retrieve the Embalmer's Heart from her, then return to Ello Ebonlocke.
+  collect 2382 quest 253.1 @28.82,30.91 map 1431 optional -- Eliza is elite: grouping up is advised.
+step
+  when turnedin 1243
+  tip Find the Defias Docket and return it to Watcher Backus in Duskwood.
+  collect 5947 quest 1244.1 @23.92,72.07 map 1431 -- Drops from: Defias Strongbox
+step
+  when turnedin 177
+  tip Locate Zzarc'Vul in the southern ogre mound in Duskwood and return his monocle to Viktori in Darkshire.
+  collect 1968 quest 181.1 @38,80 map 1431 -- Drops from: Zzarc' Vul
+step
+  when turnedin 221
+  tip Kill 8 Nightbane Vile Fang and 8 Nightbane Tainted One worgen for Calor in Darkshire.
+  kill 920 x8 quest 222.2 @63.14,80.34 map 1431
+  kill 206 x8 quest 222.1 @71.94,72.31 map 1431
+  kill 920 x8 quest 222.2
+step
+  when turnedin 57
+  turnin 58
+step
+  when turnedin 177
+  turnin 181
+step
+  when turnedin 221
+  turnin 222
+step
+  when turnedin 133
+  when onquest 253
+  turnin 253
+step
+  when turnedin 1243
+  turnin 1244
+step
+  when turnedin 1243
+  accept 1245
+step
+  when turnedin 221
+  accept 223
+step
+  when turnedin 221
+  tip Bring Calor's note to Jonathan Carevin.
+  turnin 223
+step
+  when turnedin 322
+  tip Bring Morbent's Bane to Sven in Duskwood.
+  turnin 325
+step
+  when turnedin 322
+  when level>=32
+  accept 55
+step
+  when turnedin 322
+  when onquest 55
+  tip Use Morbent's Bane on Morbent Fel, kill Morbent Fel, then return Morbent's Bane to Sven at his camp.
+  kill 1200 quest 55.1 @16.9,33.4 map 1431 optional -- Morbent Fel is elite: grouping up is advised.
+step
+  when turnedin 322
+  when onquest 55
+  turnin 55
+step
+  interact 61
+  accept 225
+step
+  tip Speak with Sirra Von'Indi in Darkshire.
+  turnin 225
+step
+  when turnedin 97
+  accept 98
+step
+  accept 227
+step
+  tip Speak with Commander Althea Ebonlocke in Darkshire.
+  turnin 227
+step
+  when level>=35
+  accept 228
+step
+  when turnedin 97
+  tip Kill Stalvan Mistmantle and show Madame Eva his family ring.
+  collect 3629 quest 98.1 @77.35,36.19 map 1431 -- Drops from: Stalvan Mistmantle
+step
+  when onquest 228
+  tip Kill Mor'Ladim, then return his skull to Commander Althea Ebonlocke in Darkshire.
+  collect 3514 quest 228.1 @16.67,37.35 map 1431 optional -- Mor'Ladim is elite: grouping up is advised.
+step
+  when turnedin 97
+  turnin 98
+step
+  when onquest 228
+  turnin 228
+step
+  when turnedin 228
+  accept 229
+step
+  when onquest 229
+  tip Speak with Watcher Sarah Ladimore in Darkshire.
+  turnin 229
+step
+  when turnedin 229
+  accept 231
+step
+  when onquest 231
+  tip Take Sarah Ladimore's ring to Morgan Ladimore's grave.
+  turnin 231
+step
+  tip Zardeth the Black Claw wants you to bring him a Tear of Tilloa from Darkshire and a Musquash Root from the Wetlands.
+  collect 2779 quest 335.1 @78.35,35.95 map 1431
+  collect 2779 quest 335.1 @64.78,75.32 map 1437
+  collect 2784 quest 335.2 @64.78,75.32 map 1437
+step
+  zone map 1453
+  turnin 335 -- Turn in at Stormwind City
+step
+  accept 336
+step
+  only Paladin,Human,Dwarf
+  tip Find the warlock sanctum within Stormwind and seek advice on the orb.
+  turnin 78090 -- Turn in at Stormwind City
+step
+  when turnedin 1243
+  tip Bring the Defias Docket to Elling Trias in Stormwind.
+  turnin 1245 -- Turn in at Stormwind City
+step
+  tip Take the Black Claw Stout to Lord Wishock in the Hall of Petitioners.
+  turnin 336 -- Turn in at Stormwind City
+step
+  only Warrior
+  when turnedin 1705
+  turnin 1706 -- Turn in at Stormwind City
+step
+  only Warlock,Human,Gnome
+  accept 397
+step
+  only Warlock,Human,Gnome
+  tip Speak with Zggi, the servant of Zardeth the Blackclaw, to claim your reward.
+  turnin 397 -- Turn in at Stormwind City
+step
+  zone map 1455
+  only Warrior
+  when turnedin 1708
+  turnin 1709 -- Turn in at Ironforge
+step
+  zone map 1453
+  tip Zone complete! Travel to Stormwind City.
+  goto 48.43,50.22 map 1453

@@ -1,0 +1,248 @@
+guide lodestar/alliance/felwood-52-56
+title "Felwood (52-56)"
+levels 52-56
+zone map 1448
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/azshara-52-58
+step
+  level 51
+step
+  accept 8460
+step
+  accept 5155
+step
+  tip Grazle wants you to prove yourself by killing 6 Deadwood Warriors, 6 Deadwood Pathfinders, and 6 Deadwood Gardeners. Return to him in southern Felwood near the Emerald Sanctuary when you are done.
+  kill 7155 x6 quest 8460.2 @48.3,89.46 map 1448
+  kill 7154 x6 quest 8460.3 @48.42,89.84 map 1448
+  kill 7153 x6 quest 8460.1 @48.39,91.4 map 1448
+  kill 7155 x6 quest 8460.2 @48.39,91.4 map 1448
+  kill 7154 x6 quest 8460.3 @48.39,91.4 map 1448
+step
+  tip Enter Jaedenar and slay 4 Jaedenar Hounds, 4 Jaedenar Guardsmen, 6 Jaedenar Adepts, and 6 Jaedenar Cultists before returning to Greta Mosshoof in Felwood.
+  kill 7115 x6 quest 5155.3 @38.25,61.45 map 1448
+  kill 7112 x6 quest 5155.4 @38.15,61.13 map 1448
+  kill 7113 x4 quest 5155.2 @38.07,60.74 map 1448
+  kill 7125 x4 quest 5155.1 @38.83,60.38 map 1448
+  kill 7113 x4 quest 5155.2 @38.83,60.38 map 1448
+  kill 7115 x6 quest 5155.3 @38.83,60.38 map 1448
+  kill 7112 x6 quest 5155.4 @38.83,60.38 map 1448
+step
+  turnin 5155
+step
+  turnin 8460
+step
+  accept 5157
+step
+  only Warlock
+  accept 7601
+step
+  only Warlock
+  when !turnedin 8419
+  when !onquest 8419
+  accept 8420
+step
+  only Warlock
+  tip Speak with Impsy in Felwood.
+  turnin 7601
+step
+  tip Take the Empty Canteen to the Moon Well in the center of Jaedenar and fill it before returning to Greta Mosshoof in Felwood.
+  collect 12907 quest 5157.1 @35.17,59.79 map 1448 -- Drops from: Corrupt Jaedenar Moonwell
+step
+  only Warlock
+  when !turnedin 8419
+  when !onquest 8419
+  tip Bring a piece of felcloth to Impsy in Felwood.
+  collect 14256 quest 8420.1 @37.34,66.67 map 1448 -- Drops from: Jadefire Rogue, Jadefire Trickster, Jadefire Betrayer
+step
+  turnin 5157
+step
+  accept 5158
+step
+  accept 4421
+step
+  accept 5156
+step
+  tip Kill 11 Jadefire Felsworns, 9 Jadefire Shadowstalkers, 9 Jadefire Rogues, and Xavathras. Return to Eridan Bluewind in Felwood when the task has been completed.
+  kill 7109 x11 quest 4421.1 @38.85,83.2 map 1448
+  kill 7110 x9 quest 4421.2 @37.13,67.29 map 1448
+  kill 7106 x9 quest 4421.3 @37.34,66.67 map 1448
+  kill 7109 x11 quest 4421.1 @32.23,67.11 map 1448
+  kill 7110 x9 quest 4421.2 @32.23,67.11 map 1448
+  kill 7106 x9 quest 4421.3 @32.23,67.11 map 1448
+  kill 9454 quest 4421.4 @32.23,67.11 map 1448
+step
+  turnin 4421
+step
+  accept 4906
+step
+  only Warlock
+  when !turnedin 8419
+  when !onquest 8419
+  turnin 8420
+step
+  only Warlock
+  accept 8421
+step
+  tip Seek out and destroy 2 Entropic Beasts and 2 Entropic Horrors while exploring Shatter Scar Vale. After checking to see if the craters there are still filled with corrupt fel water, return to Taronn Redfeather in Felwood.
+  kill 9878 x2 quest 5156.1 @41.73,40.15 map 1448
+  kill 9879 x2 quest 5156.2 @41.73,40.15 map 1448
+step
+  only Warlock
+  tip Bring 10 Rotting Wood and 4 Bloodvenom Essence to Impsy in Felwood.
+  collect 20614 x4 quest 8421.2 @41.4,50.23 map 1448 -- Drops from: Tainted Ooze
+  collect 20613 x10 quest 8421.1 @46.58,23.75 map 1448 -- Drops from: Irontree Wanderer, Irontree Stomper, Withered Protector
+  collect 20614 x4 quest 8421.2 -- Drops from: Irontree Wanderer, Irontree Stomper, Withered Protector
+step
+  kill 10648 @39.07,22.35 map 1448 -- Loot the quest item here — it starts the quest.
+  accept 939 @39.07,22.35 map 1448
+step
+  tip Eridan Bluewind in Felwood wants you to kill 8 Jadefire Hellcallers, 8 Jadefire Betrayers, 8 Jadefire Tricksters, and Xavaric. Return to Eridan when the task is completed.
+  kill 10648 quest 4906.4 @39.07,22.35 map 1448
+  kill 7111 x8 quest 4906.1 @41.21,20.64 map 1448
+  kill 7108 x8 quest 4906.2 @41.78,19.13 map 1448
+  kill 7111 x8 quest 4906.1
+  kill 7108 x8 quest 4906.2 @42.81,16.94 map 1448
+  kill 7107 x8 quest 4906.3 @42.81,16.94 map 1448
+  kill 10648 quest 4906.4
+step
+  turnin 4906
+step
+  turnin 5156
+step
+  tip Bring the Flute of Xavaric and 5 Jadefire Felbind samples to Eridan Bluewind in southern Felwood.
+  collect 11674 x5 quest 939.1 @41.61,85.68 map 1448 -- Drops from: Jadefire Satyr, Jadefire Rogue, Jadefire Trickster
+step
+  turnin 939
+step
+  accept 4441
+step
+  accept 4101
+step
+  when turnedin 5159
+  accept 5165
+step
+  accept 8462
+step
+  only Warlock
+  turnin 8421
+step
+  kill 7114 @39.65,49.47 map 1448 -- Loot the quest item here — it starts the quest.
+  accept 5202 @39.65,49.47 map 1448
+step
+  getfp "Talonbranch Glade, Felwood"
+step
+  tip Bring 15 Blood Amber to Arathandris Silversky in Felwood.
+  collect 11503 x15 quest 4101.1 @57.16,18.28 map 1448 -- Drops from: Warpwood Moss Flayer, Warpwood Shredder, Dessecus
+step
+  tip Travel north along the main road in Felwood and speak with the furbolg named Nafien. He stands guard outside the entrance to Timbermaw Hold.
+  turnin 8462
+step
+  accept 8461
+step
+  kill 7156 @62.76,8.01 map 1448 -- Loot the quest item here — it starts the quest.
+  accept 8470 @62.76,8.01 map 1448
+step
+  tip Nafien would like you to kill 6 Deadwood Den Watchers, 6 Deadwood Avengers, and 6 Deadwood Shamans. Return to him in northern Felwood near the entrance to Timbermaw Hold.
+  kill 7156 x6 quest 8461.1 @62.76,8.01 map 1448
+  kill 7157 x6 quest 8461.2 @62.67,8.45 map 1448
+  kill 7156 x6 quest 8461.1 @62.63,11.22 map 1448
+  kill 7157 x6 quest 8461.2 @62.63,11.22 map 1448
+  kill 7158 x6 quest 8461.3 @62.63,11.22 map 1448
+step
+  turnin 8461
+step
+  tip Take the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item. The Timbermaw will not speak with you unless you are of Neutral reputation or greater with them.
+  turnin 8470
+step
+  accept 8465
+step
+  tip Search through Jaedenar to discover what the Blood Red Key is used for.
+  turnin 5202
+step
+  when turnedin 5159
+  tip Using the Purified Moon Well Water, douse the flames of the four braziers of protection within Shadow Hold in Felwood, then return to Greta Mosshoof in the Emerald Sanctuary.
+  interact 176161 quest 5165.4 @36.48,55.19 map 1448
+  interact 176158 quest 5165.1 @36.27,56.3 map 1448
+  interact 176160 quest 5165.3 @36.73,53.27 map 1448
+  interact 176158 quest 5165.1
+  interact 176159 quest 5165.2 @37.68,52.69 map 1448
+  interact 176160 quest 5165.3
+  interact 176161 quest 5165.4
+step
+  accept 5203
+step
+  tip Escort Arko'narin to where Lightforge and her equipment are being held, and then protect her as you escape Shadow Hold. Afterwards, seek out Jessir Moonbow in Felwood to let her know what's happened to her friends.
+  goto 35.45,59.06 "Protect Arko'narin out of Shadow Hold" map 1448
+step
+  turnin 4101
+step
+  when turnedin 5159
+  turnin 5165
+step
+  turnin 5203
+step
+  accept 5882
+step
+  when !turnedin 5250
+  when !onquest 5250
+  when level>=53
+  accept 5249
+step
+  collect 11515 x6 quest 5882.1 @40.17,70.82 map 1448 -- Drops from: Cursed Ooze, Tainted Ooze, Vile Ooze
+step
+  turnin 5882
+step
+  accept 5204
+step
+  tip Return to Jaedenar and kill the succubus Rakaiah before finding the Remains of Trey Lightforge.
+  kill 9518 quest 5204.1 @38.3,50.51 map 1448
+step
+  turnin 5204
+step
+  accept 5385
+step
+  tip Return the Remains of Trey Lightforge to Jessir Moonbow in Felwood.
+  turnin 5385
+step
+  when turnedin 5159
+  accept 5242
+step
+  when turnedin 5159
+  tip Kill Moora and Salia, and bring Shadow Lord Fel'dan's Head to Greta Mosshoof in Felwood.
+  kill 9861 quest 5242.1 @38.81,46.87 map 1448
+  kill 9860 quest 5242.2 @38.81,46.87 map 1448
+  collect 13207 quest 5242.3 @38.81,46.87 map 1448
+step
+  when turnedin 5159
+  turnin 5242
+step
+  zone map 1457
+  tip Travel to Darnassus and use Eridan's Vial to collect a Vial of Blessed Water from the Temple of the Moon. Return to Eridan with the filled vial.
+  collect 5646 quest 4441.1 @39.18,85.59 map 1457 -- Drops from: Temple of the Moon Fountain
+step
+  zone map 1448
+  turnin 4441
+step
+  accept 4442
+step
+  tip Speak to Eridan again in a moment.
+  turnin 4442
+step
+  accept 4261
+step
+  tip Escort Arei to safety, then speak with Kayneth Stillwind in Forest Song, in eastern Ashenvale.
+  goto 49.42,14.54 "Help Arei get to Safety" map 1448
+step
+  zone map 1413
+  tip Take the Corrupt Moon Well Water to Islen Waterseer in the Barrens.
+  turnin 5158 -- Turn in at The Barrens
+step
+  zone map 1440
+  turnin 4261 -- Turn in at Ashenvale
+step
+  zone map 1447
+  tip Zone complete! Travel to Azshara.
+  goto 11.37,78.17 map 1447

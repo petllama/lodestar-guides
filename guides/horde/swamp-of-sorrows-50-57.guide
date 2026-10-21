@@ -1,0 +1,137 @@
+guide lodestar/horde/swamp-of-sorrows-50-57
+title "Swamp of Sorrows (50-57)"
+levels 50-57
+zone map 1435
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/eastern-plaguelands-56-60
+step
+  level 49
+step
+  accept 2784
+step
+  tip Listen to the Fallen Hero of the Horde tell his story.
+  talk 7572
+step
+  turnin 2784
+step
+  accept 2621
+step
+  getfp "Stonard, Swamp of Sorrows"
+step
+  tip Speak to Dispatch Commander Ruag in Stonard.
+  turnin 2621
+step
+  accept 2622
+step
+  tip Speak to Bengor.
+  turnin 2622
+step
+  accept 2623
+step
+  tip Retrieve the Warchief's Orders and return them to the Fallen Hero of the Horde.
+  collect 8463 quest 2623.1 @62.4,84.6 map 1435 -- Drops from: Swamp Talker
+step
+  when turnedin 3373
+  accept 3374 @13.67,71.72 map 1435
+step
+  when turnedin 3373
+  tip Bring the Oathstone of Ysera's Dragonflight and the Chained Essence of Eranikus to Itharius in the Swamp of Sorrows. It is there that you will make your choice to aid Ysera's Dragonflight or not.
+  collect 10455 quest 3374.1 @13.67,71.72 map 1435 -- Crafted or bought.
+step
+  when turnedin 3373
+  turnin 3374
+step
+  turnin 2623
+step
+  accept 2801
+step
+  tip Listen to the Fallen Hero of the Horde tell his story.
+  talk 7572
+step
+  turnin 2801
+step
+  accept 2681
+step
+  zone map 1458
+  only Warrior
+  when level>=50
+  accept 8417 npc 4593
+step
+  zone map 1435
+  only Warrior
+  when onquest 8417
+  tip Speak with the Fallen Hero of the Horde at the entrance to the Blasted Lands.
+  turnin 8417
+step
+  only Warrior
+  when level>=50
+  accept 8423
+step
+  zone map 1419
+  only Warrior
+  when onquest 8423
+  tip Kill 7 Helboar in the Blasted Lands and return to the Fallen Hero of the Horde.
+  kill 5993 x7 quest 8423.1 @50.2,38.6 map 1419
+step
+  tip Free nine Servants of Razelikh, three Servants of Sevine, three Servants of Allistarj, and three Servants of Grol. Return to the Fallen Hero when your task is complete. You must remain within close proximity of the stones or the process will fail.
+  kill 7668 x9 quest 2681.1 @54.09,52.49 map 1419
+  kill 7670 x3 quest 2681.3 @63.33,40.83 map 1419
+  kill 7671 x3 quest 2681.4 @40.99,40.09 map 1419
+  kill 7668 x9 quest 2681.1
+  kill 7669 x3 quest 2681.2 @41.22,14.43 map 1419
+  kill 7670 x3 quest 2681.3
+  kill 7671 x3 quest 2681.4
+step
+  zone map 1435
+  only Warrior
+  when onquest 8423
+  turnin 8423
+step
+  turnin 2681
+step
+  only Warrior
+  when turnedin 8423
+  when level>=50
+  accept 8424
+step
+  accept 2702
+step
+  tip Speak to Corporal Thund Splithoof.
+  turnin 2702
+step
+  accept 2701
+step
+  tip Open the chest and claim your reward.
+  turnin 2701
+step
+  accept 2721
+step
+  zone map 1419
+  tip Find out what became of Lieutenant Kirith.
+  turnin 2721 -- Turn in at Blasted Lands
+step
+  accept 2743
+step
+  only Warrior
+  when onquest 8424
+  tip Slaughter the Shadowsworn in the Blasted Lands and return to the Fallen Hero of the Horde.
+  kill 6005 x20 quest 8424.3 @64.69,32.93 map 1419
+  kill 6004 x10 quest 8424.2 @64.77,33.72 map 1419
+  kill 6006 x20 quest 8424.1 @64.08,35.24 map 1419
+  kill 6004 x10 quest 8424.2 @64.08,35.24 map 1419
+  kill 6005 x20 quest 8424.3 @64.08,35.24 map 1419
+step
+  zone map 1435
+  only Warrior
+  when onquest 8424
+  turnin 8424
+step
+  tip Return to the Fallen Hero of the Horde with your findings.
+  turnin 2743
+step
+  zone map 1458
+  tip Zone complete! Travel to Undercity.
+  goto 58.05,91.79 map 1458

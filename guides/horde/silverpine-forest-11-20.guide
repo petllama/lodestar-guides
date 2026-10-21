@@ -1,0 +1,696 @@
+guide lodestar/horde/silverpine-forest-11-20
+title "Silverpine Forest (11-20)"
+levels 11-20
+zone map 1421
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/the-barrens-12-20
+step
+  level 10
+step
+  getfp "The Sepulcher, Silverpine Forest"
+step
+  when level>=10
+  accept 428
+step
+  accept 447
+step
+  only Undead
+  when level>=10
+  accept 6321
+step
+  when level>=10
+  accept 91921
+step
+  only Undead
+  when onquest 6321
+  tip Bring Podrig's Order to Karos Razok.
+  turnin 6321
+step
+  only Undead
+  when turnedin 6321
+  when level>=10
+  accept 6323
+step
+  tip Collect 6 Grizzled Bear Hearts and 6 samples of Skittering Blood and deliver them to Master Apothecary Faranell in the Undercity.
+  collect 3253 x6 quest 447.1 @48.75,32.91 map 1421 -- Drops from: Ferocious Grizzled Bear, Giant Grizzled Bear, Old Vicejaw
+  collect 3253 x6 quest 447.1 -- Drops from: Moss Stalker, Mist Creeper, Krethis Shadowspinner
+  collect 3254 x6 quest 447.2 @35.63,14.14 map 1421 -- Drops from: Moss Stalker, Mist Creeper, Krethis Shadowspinner
+step
+  when onquest 428
+  tip Find the Deathstalkers Quinn and Rane Yorick.
+  turnin 428
+step
+  when onquest 91921
+  tip Bring Quinn's potion to Quinn Yorick at the Ivar Patch, north of the Sepulcher.
+  turnin 91921
+step
+  when level>=10
+  accept 429
+step
+  when level>=10
+  accept 91920
+step
+  when level>=10
+  accept 435
+step
+  when onquest 435
+  tip Escort Erland through the wolves, to Rane Yorick.
+  goto 54.37,13.38 "Erland must reach Rane Yorick" map 1421
+step
+  when onquest 435
+  turnin 435
+step
+  when turnedin 435
+  when level>=10
+  accept 449
+step
+  when onquest 429
+  tip Gather 6 discolored worg hearts and bring them to Apothecary Renferrel at the Sepulcher.
+  collect 3164 x6 quest 429.1 @66.06,8.77 map 1421 -- Drops from: Worg, Mottled Worg, Bloodsnout Worg
+step
+  when onquest 91920
+  tip Gather 3 murloc eyes and bring them to Apothecary Renferrel at the Sepulcher.
+  collect 730 x3 quest 91920.1 @60.46,15.55 map 1421 -- Drops from: Vile Fin Shredder, Vile Fin Tidecaller
+step
+  when onquest 429
+  turnin 429
+step
+  when onquest 449
+  tip Bring the Deathstalker Report to High Executor Hadrec at the Sepulcher.
+  turnin 449
+step
+  when onquest 91920
+  turnin 91920
+step
+  when turnedin 429
+  accept 430
+step
+  when turnedin 449
+  accept 3221
+step
+  when level>=12
+  accept 421
+step
+  accept 437
+step
+  accept 477
+step
+  when onquest 3221
+  tip Speak with Apothecary Renferrel at the Sepulcher.
+  turnin 3221
+step
+  when onquest 421
+  tip Dalar Dawnweaver at the Sepulcher wants you to kill 5 Moonrage Whitescalps.
+  kill 1769 x5 quest 421.1 @53,26.69 map 1421
+step
+  tip Kill rot hide gnolls at the Dead Fields.
+  collect 3622 quest 437.1 @45,21 map 1421 -- Drops from: Nightlash
+step
+  when onquest 430
+  tip Bring Quinn's potion to Quinn Yorick at the Ivar Patch, north of the Sepulcher.
+  turnin 430
+step
+  when turnedin 430
+  accept 425
+step
+  when onquest 425
+  tip Kill Ivar the Foul, and bring Ivar's Head to Rane Yorick at the Ivar Patch.
+  collect 3621 quest 425.1 @51.52,13.9 map 1421 -- Drops from: Ivar the Foul
+step
+  when onquest 425
+  turnin 425
+step
+  tip Retrieve the contents of one of the Dalaran wizards' crates. You will find Pyrewood Village to the south.
+  turnin 477
+step
+  interact 1627
+  accept 478
+step
+  when onquest 421
+  turnin 421
+step
+  turnin 437
+step
+  tip Bring the strange pendant to Shadow Priest Allister at the Sepulcher.
+  turnin 478
+step
+  when turnedin 421
+  accept 422
+step
+  accept 481
+step
+  when turnedin 3221
+  accept 1359
+step
+  tip Take the rune-inscribed pendant to Dalar Dawnweaver at the Sepulcher.
+  turnin 481
+step
+  accept 482
+step
+  accept 438
+step
+  accept 98298
+step
+  tip Speak with Shadow Priest Allister at the Sepulcher.
+  turnin 482
+step
+  accept 479
+step
+  when onquest 422
+  tip Retrieve the Remedy of Arugal for Dalar Dawnweaver at the Sepulcher.
+  collect 3155 quest 422.1 @52.83,28.58 map 1421 -- Drops from: Dusty Spellbooks
+step
+  when onquest 422
+  turnin 422
+step
+  when turnedin 422
+  accept 423
+step
+  when onquest 423
+  tip Bring 6 Glutton Shackles and 3 Darksoul Shackles to Dalar Dawnweaver at the Sepulcher.
+  collect 3157 x3 quest 423.2 @43.53,32.14 map 1421 -- Drops from: Moonrage Darksoul
+  collect 3156 x6 quest 423.1 @46.63,28.36 map 1421 -- Drops from: Moonrage Glutton
+  collect 3157 x3 quest 423.2 -- Drops from: Moonrage Glutton
+step
+  when onquest 423
+  turnin 423
+step
+  when turnedin 423
+  accept 424
+step
+  when onquest 424
+  tip Kill Grimson the Pale and bring his head to Dalar Dawnweaver at the Sepulcher.
+  collect 3634 quest 424.1 @58.58,44.86 map 1421 -- Drops from: Grimson the Pale
+step
+  tip Go to the Decrepit Ferry.
+  turnin 438
+step
+  interact 1593
+  accept 439
+step
+  when onquest 424
+  turnin 424
+step
+  tip Bring Deliah's Ring to High Executor Hadrec at the Sepulcher.
+  turnin 439
+step
+  when turnedin 424
+  when level>=15
+  accept 99
+step
+  accept 440
+step
+  accept 443
+step
+  when level>=12
+  kill 1939 @67.6,31 map 1421 -- Loot the quest item here — it starts the quest.
+  accept 460 @67.6,31 map 1421
+step
+  tip Bring 8 bottles of rot hide ichor to Apothecary Renferrel at the Sepulcher.
+  collect 3236 x8 quest 443.1 @67.6,31 map 1421 -- Drops from: Rot Hide Brute, Rot Hide Plague Weaver, Rot Hide Savage
+step
+  when onquest 460
+  tip Bring Alaric's Head to his grave.
+  turnin 460
+step
+  tip Obtain 8 Dalaran Pendants for Shadow Priest Allister at the Sepulcher.
+  collect 3354 x8 quest 479.1 @58.65,63.2 map 1421 -- Drops from: Dalaran Protector, Dalaran Mage, Dalaran Conjuror
+step
+  tip Bring 6 Worgen Bits to Dalar Dawnweaver in The Sepulcher.
+  collect 280375 x6 quest 98298.1 @51.74,78.86 map 1421 -- Drops from: Moonrage Bloodhowler
+step
+  when level>=12
+  accept 452
+step
+  when onquest 99
+  tip Bring 6 Pyrewood Shackles to Dalar Dawnweaver at the Sepulcher.
+  collect 3218 x6 quest 99.1 @45.35,72.52 map 1421 optional -- Pyrewood Watcher is elite: grouping up is advised.
+step
+  when onquest 452
+  tip Help Deathstalker Faerleia kill the Pyrewood Council.
+  turnin 452
+step
+  when onquest 99
+  turnin 99
+step
+  turnin 443
+step
+  turnin 479
+step
+  turnin 98298
+step
+  accept 444
+step
+  when turnedin 460
+  interact 1599
+  accept 461
+step
+  when onquest 461
+  tip Take Alaric to the hidden alcove.
+  turnin 461
+step
+  when turnedin 461
+  interact 112888
+  accept 491
+step
+  accept 95981
+step
+  accept 98299
+step
+  tip Slay 8 Dalaran Wizards and 8 Dalaran Watchers for Shadow Priest Allister in the Sepulcher.
+  kill 1889 x8 quest 95981.2 @63.41,65.29 map 1421
+  kill 1888 x8 quest 95981.1 @62.66,75.43 map 1421
+  kill 1889 x8 quest 95981.2 @62.66,75.43 map 1421
+step
+  tip Slay 5 Sickly Refugees and 5 Haggard Refugees for Dalar Dawnweaver in The Sepulcher.
+  kill 2053 x5 quest 98299.1 @46.08,85.63 map 1421
+  kill 2053 x5 quest 98299.1 @45.96,85.77 map 1421
+  kill 2054 x5 quest 98299.2 @45.96,85.77 map 1421
+step
+  turnin 95981
+step
+  turnin 98299
+step
+  when level>=16
+  accept 516
+step
+  when onquest 516
+  tip Locate Beren's Peril, then kill 6 Ravenclaw Drudgers and 6 Ravenclaw Guardians, then return to Shadow Priest Allister at the Sepulcher.
+  kill 1974 x6 quest 516.1 @59.14,70.5 map 1421
+  kill 1974 x6 quest 516.1 @58.66,71.29 map 1421
+  kill 1973 x6 quest 516.2 @58.66,71.29 map 1421
+step
+  when onquest 516
+  turnin 516
+step
+  when level>=19
+  accept 493
+step
+  accept 480
+step
+  tip Kill the Dalaran archmage, then retrieve his staff for Shadow Priest Allister at the Sepulcher.
+  collect 3515 quest 480.1 @63.4,64.27 map 1421 -- Drops from: Archmage Ataeric
+step
+  turnin 480
+step
+  only Paladin,Undead
+  when level>=18
+  accept 91859
+step
+  only Paladin,Undead
+  when level>=18
+  accept 91860
+step
+  only Paladin,Undead
+  when onquest 91859
+  tip Speak with Deathguard Baldren about the mysterious Earthen Ring travelers who recently passed through The Sepulcher.
+  turnin 91859
+step
+  only Paladin,Undead
+  when onquest 91860
+  tip Investigate Fenris Isle to the east and learn the fate of the Earthen Ring traveling party.
+  turnin 91860
+step
+  only Paladin,Undead
+  when level>=18
+  interact 566037
+  accept 91861
+step
+  only Paladin,Undead
+  when onquest 91861
+  tip Investigate Fenris Keep to the north and attempt to locate the missing member of the Earthen Ring party.
+  turnin 91861
+step
+  only Paladin,Undead
+  when level>=18
+  accept 91862
+step
+  only Paladin,Undead
+  when onquest 91862
+  tip Retrieve the Fenris Isle Key from the Rot Hide Gnolls and use it to free Lumina Windsinger.
+  collect 267412 quest 91862.1 @65.71,24.03 map 1421 -- Drops from: Rot Hide Savage, Raging Rot Hide, Rot Hide Bruiser
+step
+  only Paladin,Undead
+  when onquest 91862
+  turnin 91862
+step
+  only Paladin,Undead
+  when level>=18
+  accept 96204
+step
+  only Paladin,Undead
+  when onquest 96204
+  tip Accompany Lumina Windsinger and help her escape Fenris Keep.
+  turnin 96204
+step
+  only Paladin,Undead
+  when level>=18
+  accept 95034
+step
+  only Paladin,Undead
+  when onquest 95034
+  tip Speak with Lumina Windsinger in the Sepulcher.
+  turnin 95034
+step
+  only Paladin,Undead
+  when level>=20
+  accept 95140
+step
+  only Paladin,Undead
+  when level>=20
+  accept 95111
+step
+  only Shaman
+  when turnedin 63
+  when level>=20
+  interact 113791
+  accept 100
+step
+  only Shaman
+  when turnedin 63
+  when onquest 100
+  tip Speak to the Minor Manifestation of Water in Silverpine Forest.
+  turnin 100
+step
+  when level>=20
+  interact 645153
+  accept 95883
+step
+  when level>=20
+  interact 645153
+  accept 95885
+step
+  when onquest 95885
+  tip Use the Tortured Soul to give an offering of blood at the Offering Stone in Beren's Peril.
+  kill 212753 quest 95885.1 @58.06,70.07 map 1421
+step
+  when onquest 95885
+  turnin 95885
+step
+  when onquest 95883
+  tip Collect a Tortured Soul from the nearby undead in Beren's Peril in Silverpine Forest.
+  collect 271350 quest 95883.1 @58.66,71.29 map 1421 -- Drops from: Ravenclaw Guardian, Ravenclaw Drudger
+step
+  when level>=20
+  kill 1973 @58.66,71.29 map 1421 -- Loot the quest item here — it starts the quest.
+  accept 95884 @58.66,71.29 map 1421
+step
+  when onquest 95884
+  tip Find the Offering Stone in Beren's Peril in Silverpine Forest.
+  collect 271343 quest 95884.1 @58.66,71.29 map 1421 -- Drops from: Ravenclaw Guardian, Ravenclaw Drudger
+step
+  when onquest 95883
+  turnin 95883
+step
+  when onquest 95884
+  turnin 95884
+step
+  only Paladin,Undead
+  when onquest 95140
+  tip Use the Moonsilver Blade to destroy Old-Fire Eye in Silverpine Forest.
+  kill 259897 quest 95140.1 @49.56,85.2 map 1421 optional -- Old Fire-Eye is elite: grouping up is advised.
+step
+  only Paladin,Undead
+  when onquest 95140
+  turnin 95140
+step
+  zone map 1458
+  turnin 447 -- Turn in at Undercity
+step
+  when level>=16
+  accept 97291
+step
+  accept 450
+step
+  when onquest 1359
+  tip Bring the Wolf Heart Samples to Apothecary Zinge in the Undercity.
+  turnin 1359 -- Turn in at Undercity
+step
+  when level>=16
+  accept 97290
+step
+  when onquest 97290
+  tip Report your findings to Master Apothecary Faranell in Undercity.
+  turnin 97290 -- Turn in at Undercity
+step
+  accept 97891
+step
+  tip Bring the Unstable Potion to Doctor Martin Felben in the Apothecarium within the time limit.
+  turnin 97891 -- Turn in at Undercity
+step
+  when onquest 97291
+  tip Collect a Toxic Skullcap from Tawny Grisette in the Trade Quarter, Blisterweed near the Herbalism Trainer, and Essence of Agony from the poison vendor in the Rogues' Quarter for Master Apothecary Faranell in Undercity.
+  collect 281300 quest 97291.1 @54.1,49.5 map 1458
+step
+  only Undead
+  when onquest 6323
+  tip Buy a bat ride to the Undercity from the bat master Karos Razok, then take Podrig's Order to Gordon Wendham in the Undercity.
+  turnin 6323 -- Turn in at Undercity
+step
+  only Undead
+  when turnedin 6323
+  accept 6322
+step
+  only Paladin,Undead
+  accept 94434
+step
+  only Paladin,Undead
+  tip Bring 10 Linen Cloth to Tanis Alderwood in the Undercity.
+  collect 2589 x10 quest 94434.1 -- Drops from: humanoids
+step
+  only Paladin,Undead
+  turnin 94434 -- Turn in at Undercity
+step
+  only Undead
+  when onquest 6322
+  tip Bring Gordon's Crate to Michael Garrett.
+  turnin 6322 -- Turn in at Undercity
+step
+  only Undead
+  when turnedin 6322
+  accept 6324
+step
+  when onquest 97291
+  turnin 97291 -- Turn in at Undercity
+step
+  only Rogue,Undead
+  accept 1886
+step
+  only Rogue,Undead
+  when level>=16
+  accept 1998
+step
+  only Warlock
+  when turnedin 1476
+  when !turnedin 1507
+  when !onquest 1507
+  when level>=20
+  accept 1474
+step
+  only Warlock
+  when turnedin 1476
+  when !turnedin 1507
+  when !onquest 1507
+  when onquest 1474
+  tip Using the Pure Hearts, summon and subdue a succubus, then return the Pure Hearts to Carendin Halgar in the Magic Quarter of the Undercity.
+  kill 5677 quest 1474.1 -- Use the quest item on them, don't just kill them.
+step
+  only Warlock
+  when turnedin 1476
+  when !turnedin 1507
+  when !onquest 1507
+  when onquest 1474
+  turnin 1474 -- Turn in at Undercity
+step
+  when onquest 491
+  tip Take the Woven Wand to Bethor Iceshard in the Magic Quarter of the Undercity.
+  turnin 491 -- Turn in at Undercity
+step
+  tip Bring the Sample Ichor to Bethor Iceshard in the Undercity.
+  turnin 444 -- Turn in at Undercity
+step
+  accept 446
+step
+  only Priest,Undead
+  when !turnedin 5644
+  when !turnedin 5646
+  when !onquest 5644
+  when !onquest 5646
+  when level>=20
+  accept 5679
+step
+  only Priest,Undead
+  when !turnedin 5644
+  when !turnedin 5646
+  when !onquest 5644
+  when !onquest 5646
+  when onquest 5679
+  turnin 5679 -- Turn in at Undercity
+step
+  zone map 1421
+  only Undead
+  when onquest 6324
+  tip Buy a bat ride to the Sepulcher from the bat master Michael Garrett, then bring Gordon's Crate to Deathguard Podrig in the Sepulcher.
+  turnin 6324
+step
+  tip Bring Bethor's Scroll to Apothecary Renferrel at the Silverpine Sepulcher.
+  turnin 446
+step
+  accept 448
+step
+  tip Report to High Executor Hadrec at the Sepulcher.
+  turnin 448
+step
+  when level>=24
+  accept 442
+step
+  only Rogue,Undead
+  tip Get Astor's Letter of Introduction and return it to Mennet Carkad in the Rogues' Quarter.
+  collect 7231 quest 1886.1 @49.71,32.22 map 1421 -- Drops from: Astor Hadren
+step
+  only Rogue,Undead
+  when onquest 1998
+  tip Kill Fenwick Thatros and bring his head back to Mennet Carkad in the Rogues' Quarter of the Undercity.
+  collect 7306 quest 1998.1 @59.58,33.94 map 1421 -- Drops from: Fenwick Thatros
+step
+  when onquest 442
+  tip Bring Thule's Head to High Executor Hadrec at the Sepulcher.
+  collect 3623 quest 442.1 @65.71,23.67 map 1421 optional -- Thule Ravenclaw is elite: grouping up is advised.
+step
+  when onquest 442
+  turnin 442
+step
+  tip Retrieve Apothecary Berard's journal from Pyrewood Village and take it to Apothecary Renferrel at the Sepulcher.
+  collect 3255 quest 450.1 @42.98,73.18 map 1421 -- Drops from: Berard's Bookshelf
+step
+  turnin 450
+step
+  accept 451
+step
+  tip Bring 6 samples of Lake Creeper Moss, 6 samples of Lake Skulker Moss and a Hardened Tumor to Master Apothecary Faranell in the Undercity.
+  collect 3256 x6 quest 451.1 @71.53,36 map 1421 -- Drops from: Lake Skulker, Elder Lake Skulker
+  collect 3257 x6 quest 451.2 @77.03,26.58 map 1421 -- Drops from: Lake Creeper, Elder Lake Creeper
+  collect 3256 x6 quest 451.1 -- Drops from: Vile Fin Shredder, Vile Fin Tidehunter, Vile Fin Lakestalker
+  collect 3257 x6 quest 451.2 -- Drops from: Vile Fin Shredder, Vile Fin Tidehunter, Vile Fin Lakestalker
+  collect 3258 quest 451.3 @60.46,15.55 map 1421 -- Drops from: Vile Fin Shredder, Vile Fin Tidehunter, Vile Fin Lakestalker
+step
+  zone map 1458
+  only Rogue,Undead
+  turnin 1886 -- Turn in at Undercity
+step
+  only Rogue,Undead
+  when onquest 1998
+  turnin 1998 -- Turn in at Undercity
+step
+  only Rogue,Undead
+  accept 1898
+step
+  only Rogue,Undead
+  when turnedin 1998
+  when level>=16
+  accept 1999
+step
+  only Rogue,Undead
+  tip Speak with Andron Gant in the Undercity.
+  turnin 1898 -- Turn in at Undercity
+step
+  only Rogue,Undead
+  accept 1899
+step
+  only Rogue,Undead
+  tip Bring Andron's Ledger to Mennet Carkad in the Rogues' Quarter of Undercity.
+  collect 7294 quest 1899.1 @55.4,76.96 map 1458 -- Drops from: Andron's Bookshelf
+step
+  turnin 451 -- Turn in at Undercity
+step
+  only Rogue,Undead
+  turnin 1899 -- Turn in at Undercity
+step
+  only Rogue,Undead
+  accept 1978
+step
+  only Rogue,Undead
+  tip Deliver Andron's Ledger to Varimathras in the Hall of the Dark Lady in the Undercity.
+  turnin 1978 -- Turn in at Undercity
+step
+  zone map 1420
+  tip Bring Deliah's Ring to Magistrate Sevren in Brill.
+  turnin 440 -- Turn in at Tirisfal Glades
+step
+  accept 441
+step
+  only Mage,Troll,Undead
+  accept 1959 npc 2128
+step
+  zone map 1458
+  only Mage,Troll,Undead
+  tip Speak with Anastasia Hartwell.
+  turnin 1959 -- Turn in at Undercity
+step
+  only Mage,Troll,Undead
+  accept 1960
+step
+  only Mage,Troll,Undead
+  tip Obtain a Cantation of Manifestation and a Chest of Containment Coffers from behind Anastasia Hartwell. Bring 3 Filled Containment Coffers, the Chest of Containment Coffers and the Cantation of Manifestation to Anastasia in the Undercity.
+  collect 7292 x3 quest 1960.1
+  collect 7247 quest 1960.2 @85.58,9.95 map 1458
+  collect 7292 x3 quest 1960.1 @85.7,10.11 map 1458
+  collect 7247 quest 1960.2 @85.7,10.11 map 1458
+  collect 7308 quest 1960.3 @85.7,10.11 map 1458
+step
+  only Mage,Troll,Undead
+  turnin 1960 -- Turn in at Undercity
+step
+  only Mage,Troll,Undead
+  accept 1961
+step
+  zone map 1421
+  only Mage,Troll,Undead
+  tip Bring 10 Linen Cloth and 6 Dalaran Mana Gems to Josef Gregorian.
+  collect 2589 x10 quest 1961.1 -- Drops from: humanoids
+  collect 2589 x10 quest 1961.1 @51.58,64.26 map 1421 -- Drops from: Dalaran Apprentice, Dalaran Protector, Dalaran Mage
+  collect 7293 x6 quest 1961.2 @51.58,64.26 map 1421 -- Drops from: Dalaran Apprentice, Dalaran Protector, Dalaran Mage
+step
+  zone map 1458
+  only Mage,Troll,Undead
+  turnin 1961 -- Turn in at Undercity
+step
+  only Mage,Troll,Undead
+  accept 1962
+step
+  only Mage,Troll,Undead
+  turnin 1962 npc 4576 -- Turn in at Undercity
+step
+  tip Bring Deliah's Ring to Raleigh.
+  turnin 441 -- Turn in at Undercity
+step
+  accept 530
+step
+  zone map 1424
+  only Paladin,Undead
+  when onquest 95111
+  tip Speak with Ott and ask him to forge your blade.
+  turnin 95111 -- Turn in at Hillsbrad Foothills
+step
+  zone map 1421
+  only Rogue,Undead
+  when onquest 1999
+  tip Find the Dalaran Status Report and return it to Mennet Carkad in the Rogues' Quarter of the Undercity.
+  collect 7309 quest 1999.1 @63.71,65.24 map 1421 -- Drops from: Ambermill Strongbox
+step
+  tip Kill Valdred Moray.
+  collect 3613 quest 530.1 @44.65,84.7 map 1421 -- Drops from: Valdred Moray
+step
+  zone map 1458
+  only Rogue,Undead
+  when onquest 1999
+  turnin 1999 -- Turn in at Undercity
+step
+  turnin 530 -- Turn in at Undercity
+step
+  zone map 1413
+  tip Zone complete! Travel to The Barrens.
+  goto 51.44,30.15 map 1413

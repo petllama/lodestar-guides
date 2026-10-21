@@ -1,0 +1,514 @@
+guide lodestar/horde/thousand-needles-27-33
+title "Thousand Needles (27-33)"
+levels 27-33
+zone map 1441
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/mulgore-30-31
+step
+  level 26
+step
+  accept 1149
+step
+  kill 10617 @39.43,33.1 map 1441 -- Loot the quest item here — it starts the quest.
+  accept 4881 @39.43,33.1 map 1441
+step
+  when onquest 5881
+  tip Maggran wishes you to deliver a letter to Grish Longrunner at the Great Lift in the Barrens.
+  turnin 5881
+step
+  accept 4542
+step
+  getfp "Freewind Post, Thousand Needles"
+step
+  tip Bring the Urgent Message to Cliffwatcher Longhorn at Freewind Post.
+  turnin 4542
+step
+  accept 4841
+step
+  accept 4821
+step
+  tip Return the Alien Egg to Hagar Lightninghoof in Freewind Post.
+  collect 12467 quest 4821.1 @52.34,55.25 map 1441
+step
+  turnin 4821
+step
+  accept 4865
+step
+  accept 4767
+step
+  interact 176115
+  accept 5147
+step
+  tip Kill 12 Galak Scouts, 10 Galak Wranglers, and 6 Galak Windchasers, and then return to Cliffwatcher Longhorn in Freewind Post.
+  kill 4093 x10 quest 4841.2 @43.65,39.34 map 1441
+  kill 4096 x6 quest 4841.3 @44.44,38.41 map 1441
+  kill 4094 x12 quest 4841.1 @43.29,37.97 map 1441
+  kill 4093 x10 quest 4841.2 @43.29,37.97 map 1441
+  kill 4096 x6 quest 4841.3 @43.29,37.97 map 1441
+step
+  tip Slay Arnak Grimtotem and bring proof of your deed to Cliffwatcher Longhorn in Freewind Post.
+  collect 12884 quest 5147.1 @38.11,26.87 map 1441 -- Drops from: Arnak Grimtotem
+step
+  accept 4904
+step
+  tip Escort Lakota Windsong from the Darkcloud Pinnacle, and then talk to Thalia Amberhide at Freewind Post.
+  goto 30.93,37.12 "Escort Lakota Windsong from the Darkcloud Pinnacle." map 1441
+step
+  tip Report your findings to Motega Firemane.
+  turnin 4865
+step
+  tip Warn Kanati Greycloud at Whitereach Post of the plot to kill him.
+  turnin 4881
+step
+  accept 5062
+step
+  tip If you have faith, leap from the planks overlooking Thousand Needles.
+  goto 26.43,32.93 map 1441
+step
+  accept 4966
+step
+  tip Protect Kanati Greycloud from the centaur attack.
+  kill 10720 quest 4966.1 @21.26,31.81 map 1441
+step
+  turnin 4966
+step
+  when level>=30
+  accept 5151
+step
+  when onquest 5151
+  tip Slay the beast and bring back the Hypercapacitor Gizmo and Panther Cage Key to Wizlo Bearingshiner.
+  collect 12946 quest 5151.1 @22.76,24.62 map 1441 optional -- Enraged Panther is elite: grouping up is advised.
+step
+  tip Bring 10 Highperch Wyvern Eggs to Elu in Freewind Post.
+  collect 12356 x10 quest 4767.1 @12.56,37.37 map 1441
+step
+  accept 4770
+step
+  tip Escort Pao'ka Swiftmountain from Highperch, and then talk to Motega Firemane in Whitereach Post.
+  goto 15.15,32.65 "Escort Pao'ka from Highperch" map 1441
+step
+  turnin 4770
+step
+  when onquest 5151
+  turnin 5151
+step
+  turnin 4767
+step
+  turnin 4841
+step
+  turnin 4904
+step
+  turnin 5147
+step
+  accept 5064
+step
+  when level>=27
+  accept 98069
+step
+  when onquest 98069
+  tip Bring 8 Stolen Freewind Supplies to Jandia in Freewind Post.
+  collect 279383 x8 quest 98069.1 @46.21,51.51 map 1441
+step
+  when level>=27
+  accept 98070
+step
+  when onquest 98069
+  turnin 98069
+step
+  turnin 1149
+step
+  accept 1150
+step
+  tip Gather 10 bushels of Incendia Agave, and then consult Magatha Grimtotem on Elder Rise in Thunderbluff.
+  collect 12732 x10 quest 5062.1 @36.47,35.43 map 1441
+step
+  tip Locate and retrieve the three Secret Notes in Darkcloud Pinnacle.
+  collect 12766 quest 5064.2 -- Drops from: Document Chest
+  collect 12768 quest 5064.3 -- Drops from: Document Chest
+  collect 12765 quest 5064.1 @31.79,32.58 map 1441 -- Drops from: Document Chest
+  collect 12766 quest 5064.2 @31.79,32.58 map 1441 -- Drops from: Document Chest
+  collect 12768 quest 5064.3 @31.79,32.58 map 1441 -- Drops from: Document Chest
+step
+  tip Bring Grenka's Claw to Dorn Plainstalker in Thousand Needles.
+  collect 5843 quest 1150.1 @26.6,55.8 map 1441 -- Drops from: Grenka Bloodscreech
+step
+  when onquest 98070
+  tip Slay 5 Screeching Harpies, 5 Screeching Roguefeather Harpies and 5 Screeching Windcaller Harpies.
+  kill 4104 x5 quest 98070.3 @26.31,53.67 map 1441
+  kill 4100 x5 quest 98070.1 @26.49,52.26 map 1441
+  kill 4100 x5 quest 98070.1
+  kill 4101 x5 quest 98070.2 @27.35,51 map 1441
+  kill 4104 x5 quest 98070.3 @27.35,51 map 1441
+step
+  turnin 5064
+step
+  when onquest 98070
+  turnin 98070
+step
+  turnin 1150
+step
+  when level>=30
+  accept 1151
+step
+  when onquest 1151
+  tip Bring Fragments of Rok'Alim to Dorn Plainstalker in Thousand Needles.
+  collect 5844 quest 1151.1 @17.1,38.1 map 1441 optional -- Rok'Alim the Pounder is elite: grouping up is advised.
+step
+  when onquest 1151
+  turnin 1151
+step
+  when turnedin 1151
+  accept 1152
+step
+  when level>=28
+  accept 1104
+step
+  when level>=28
+  accept 1105
+step
+  when level>=28
+  accept 1110
+step
+  when level>=29
+  accept 1176
+step
+  when onquest 1176
+  tip Get 10 Hollow Vulture Bones for Pozzik in the Shimmering Flats.
+  collect 5848 x10 quest 1176.1 @87.4,64.92 map 1441 -- Drops from: Salt Flats Scavenger, Salt Flats Vulture
+step
+  when onquest 1104
+  tip Bring 6 Salty Scorpid Venoms to Fizzle Brassbolts in the Shimmering Flats.
+  collect 5794 x6 quest 1104.1 @75.17,59.51 map 1441 -- Drops from: Scorpid Reaver, Scorpid Terror, Vile Sting
+step
+  when onquest 1105
+  tip Bring 9 Hardened Tortoise Shells to Wizzle Brassbolts in the Shimmering Flats.
+  collect 5795 x9 quest 1105.1 @74.69,56.36 map 1441 -- Drops from: Sparkleshell Tortoise, Sparkleshell Borer, Sparkleshell Snapper
+step
+  when onquest 1110
+  tip Bring 30 Rocket Car Parts to Kravel Koalbeard in the Shimmering Flats.
+  collect 5798 x30 quest 1110.1 @72.52,72.34 map 1441 -- Drops from: Rocket Car Rubble
+step
+  when onquest 1104
+  turnin 1104
+step
+  when onquest 1105
+  turnin 1105
+step
+  when onquest 1110
+  turnin 1110
+step
+  when onquest 1176
+  turnin 1176
+step
+  when level>=28
+  accept 1175
+step
+  when onquest 1175
+  tip Kill 10 Saltstone Basilisks, 10 Saltstone Crystalhides and 6 Saltstone Gazers for Trackmaster Zherin on the Shimmering Flats.
+  kill 4151 x10 quest 1175.2 @73.81,76.19 map 1441
+  kill 4150 x6 quest 1175.3 @77.95,89.18 map 1441
+  kill 4147 x10 quest 1175.1 @73.64,59.44 map 1441
+  kill 4151 x10 quest 1175.2
+  kill 4150 x6 quest 1175.3
+step
+  when onquest 1175
+  turnin 1175
+step
+  only Shaman
+  when level>=30
+  accept 79364 npc 4722
+step
+  only Shaman
+  when onquest 79364
+  tip Speak with Prate Cloudseer in Thousand Needles.
+  turnin 79364 npc 5905
+step
+  when level>=32
+  accept 5361
+step
+  when level>=30
+  accept 1111
+step
+  zone map 1456
+  when onquest 1067
+  tip Bring Lydon's Toxin to Apothecary Zamah in Thunder Bluff.
+  turnin 1067 -- Turn in at Thunder Bluff
+step
+  when turnedin 1067
+  accept 1086
+step
+  when turnedin 1195
+  accept 1196
+step
+  turnin 5062 -- Turn in at Thunder Bluff
+step
+  when level>=28
+  accept 5088
+step
+  when onquest 3369
+  tip Bring the Nightmare Shard to Hamuul Runetotem on Elder Rise.
+  turnin 3369 -- Turn in at Thunder Bluff
+step
+  when onquest 1130
+  tip Speak with Melor Stonehoof in Thunder Bluff.
+  turnin 1130 -- Turn in at Thunder Bluff
+step
+  accept 1131
+step
+  only Warrior
+  when level>=30
+  accept 1718 npc 3041
+step
+  zone map 1441
+  when turnedin 1195
+  tip Deliver the Filled Etched Phial to Rau Cliffrunner at the Freewind Post.
+  turnin 1196
+step
+  when turnedin 1195
+  accept 1197
+step
+  when onquest 5088
+  tip Slay Arikara. Bring her remains and the Incendia powder to Motega Firemane in Whitereach Post as proof of your deed.
+  collect 12925 quest 5088.1 @38.06,35.37 map 1441 optional -- Arikara is elite: grouping up is advised.
+  interact 175944 quest 5088.2 @38.06,35.37 map 1441
+step
+  when turnedin 1195
+  tip Retrieve the Cloven Hoof for Rau Cliffrunner at the Freewind Post.
+  collect 5869 quest 1197.1 @42.01,31.47 map 1441 -- Drops from: Ancient Brazier
+step
+  when onquest 5088
+  turnin 5088
+step
+  tip Bring Steelsnap's Rib to Melor Stonehoof in Thunder Bluff.
+  collect 5837 quest 1131.1 @17.79,19.79 map 1441 -- Drops from: Steelsnap
+step
+  when turnedin 1195
+  turnin 1197
+step
+  zone map 1413
+  only Warrior
+  when onquest 1718
+  tip Speak with Klannoc Macleod.
+  turnin 1718 -- Turn in at The Barrens
+step
+  only Warrior
+  when turnedin 1718
+  when level>=30
+  accept 1719
+step
+  only Warrior
+  when onquest 1719
+  tip Kill Big Will, then speak to Klannoc Macleod on Fray Island.
+  kill 6238 quest 1719.1 @68.61,48.72 map 1413
+step
+  only Warrior
+  when onquest 1719
+  turnin 1719 -- Turn in at The Barrens
+step
+  when onquest 1111
+  tip Bring Kravel's Parts Order to Wharfmaster Dizzywig in Ratchet.
+  turnin 1111 -- Turn in at The Barrens
+step
+  when turnedin 1111
+  when level>=30
+  accept 1112
+step
+  only Warlock
+  when turnedin 4782
+  when level>=31
+  accept 4783
+step
+  only Warlock
+  when turnedin 4784
+  when level>=31
+  accept 4786
+step
+  only Warlock
+  when turnedin 4784
+  when onquest 4786
+  tip Wait for Menara Voidrender to complete your robe and then speak to her again.
+  talk 6266
+step
+  only Warlock
+  when turnedin 4784
+  when onquest 4786
+  turnin 4786 -- Turn in at The Barrens
+step
+  when level>=29
+  accept 1145
+step
+  when level>=30
+  accept 1362
+step
+  zone map 1454
+  when onquest 1145
+  tip Deliver Korran's Sealed Note to Belgrom Rockmaul in Orgrimmar.
+  turnin 1145 -- Turn in at Orgrimmar
+step
+  when turnedin 1145
+  when level>=29
+  accept 1146
+step
+  when level>=30
+  accept 1431
+step
+  only Warlock
+  when !turnedin 4736
+  when !turnedin 4738
+  when !turnedin 4739
+  when !onquest 4736
+  when !onquest 4738
+  when !onquest 4739
+  when level>=31
+  accept 4737
+step
+  only Warlock
+  when level>=30
+  accept 2996
+step
+  only Shaman
+  when !turnedin 1532
+  when !onquest 1532
+  when level>=30
+  accept 1531
+step
+  when onquest 1431
+  tip Speak to Keldran in Orgrimmar.
+  turnin 1431 -- Turn in at Orgrimmar
+step
+  zone map 1441
+  only Shaman
+  when !turnedin 1532
+  when !onquest 1532
+  when onquest 1531
+  tip Find Prate Cloudseer in Thousand Needles.
+  turnin 1531
+step
+  when onquest 1146
+  tip Deliver Belgrom's Sealed Note to Moktar Krin in Thousand Needles.
+  turnin 1146
+step
+  when turnedin 1146
+  when level>=29
+  accept 1147
+step
+  when onquest 1112
+  tip Bring Kravel's Parts to Kravel Koalbeard in the Shimmering Flats.
+  turnin 1112
+step
+  when turnedin 1112
+  when level>=30
+  accept 1114
+step
+  when onquest 1114
+  tip Bring the Delicate Car Parts to Fizzle Brassbolts in Shimmering Flats.
+  turnin 1114
+step
+  when onquest 1147
+  tip Kill 5 Silithid Searchers, 5 Silithid Hive Drones, and 5 Silithid Invaders and return to Moktar Krin in Thousand Needles.
+  kill 4130 x5 quest 1147.1 @69.91,82.48 map 1441
+  kill 4133 x5 quest 1147.2 @68.88,85.88 map 1441
+  kill 4130 x5 quest 1147.1
+  kill 4133 x5 quest 1147.2 @65.31,86.73 map 1441
+  kill 4131 x5 quest 1147.3 @65.31,86.73 map 1441
+step
+  when turnedin 1146
+  when level>=28
+  kill 4130 @69.91,82.48 map 1441 -- Loot the quest item here — it starts the quest.
+  accept 1148 @69.91,82.48 map 1441
+step
+  when onquest 1148
+  tip Bring 1 Silithid Heart, 5 Silithid Talons, and 3 Intact Silithid Carapaces, to Korran at the Crossroads.
+  collect 5855 quest 1148.1 @69.91,82.48 map 1441 -- Drops from: Silithid Searcher, Silithid Invader, Silithid Hive Drone
+  collect 5854 x5 quest 1148.2 @69.91,82.48 map 1441 -- Drops from: Silithid Searcher, Silithid Invader, Silithid Hive Drone
+  collect 5853 x3 quest 1148.3 @69.91,82.48 map 1441 -- Drops from: Silithid Searcher, Silithid Invader, Silithid Hive Drone
+step
+  when onquest 1147
+  turnin 1147
+step
+  zone map 1413
+  only Warlock
+  when onquest 2996
+  tip Speak to Strahad Farsan in Ratchet.
+  turnin 2996 -- Turn in at The Barrens
+step
+  only Warlock
+  when !turnedin 4736
+  when !turnedin 4738
+  when !turnedin 4739
+  when !onquest 4736
+  when !onquest 4738
+  when !onquest 4739
+  when onquest 4737
+  tip Speak to Menara Voidrender in the Barrens.
+  turnin 4737 -- Turn in at The Barrens
+step
+  when onquest 1148
+  turnin 1148 -- Turn in at The Barrens
+step
+  when turnedin 1148
+  accept 1184
+step
+  zone map 1443
+  only Warlock
+  when turnedin 4782
+  when onquest 4783
+  tip Bring 10 Vials of Hatefury Blood and 1 Lesser Infernal Stone to Menara Voidrender in the Barrens.
+  collect 6989 x10 quest 4783.1 @73.55,19.11 map 1443 -- Drops from: Hatefury Rogue, Hatefury Trickster, Hatefury Felsworn
+  collect 6989 x10 quest 4783.1 -- Drops from: Lesser Infernal, Demon Portal Guardian
+  collect 6990 quest 4783.2 @51.45,75.61 map 1443 -- Drops from: Lesser Infernal, Demon Portal Guardian
+step
+  zone map 1413
+  only Warlock
+  when turnedin 4782
+  when onquest 4783
+  turnin 4783 -- Turn in at The Barrens
+step
+  zone map 1442
+  when onquest 1152
+  tip Find Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains.
+  turnin 1152 -- Turn in at Stonetalon Mountains
+step
+  when turnedin 1152
+  accept 1154
+step
+  when turnedin 1067
+  tip Bring the Toxic Fogger to the Venture Co. sky port, then return to Apothecary Zamah.
+  goto 66.44,45.46 "Place the Toxic Fogger" map 1442
+step
+  zone map 1456
+  when turnedin 1067
+  turnin 1086 -- Turn in at Thunder Bluff
+step
+  turnin 1131 -- Turn in at Thunder Bluff
+step
+  zone map 1454
+  when onquest 1184
+  tip Return to Belgrom Rockmaul in Orgrimmar.
+  turnin 1184 -- Turn in at Orgrimmar
+step
+  zone map 1440
+  when onquest 1154
+  tip Find the Legacy of the Aspects and return it to Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains.
+  collect 5860 quest 1154.1 @75.57,74.37 map 1440 -- Drops from: The Legacy of the Aspects
+step
+  zone map 1442
+  when onquest 1154
+  turnin 1154 -- Turn in at Stonetalon Mountains
+step
+  when turnedin 1154
+  accept 6627
+step
+  when onquest 6627
+  tip Answer Braug Dimspirit's question successfully and then speak to him again. He will remain in Stonetalon Mountains when you are ready.
+  turnin 6627 -- Turn in at Stonetalon Mountains
+step
+  when turnedin 6627
+  accept 1159
+step
+  zone map 1412
+  tip Zone complete! Travel to Mulgore.
+  goto 32.54,20.67 map 1412

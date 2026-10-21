@@ -1,0 +1,306 @@
+guide lodestar/alliance/stranglethorn-vale-43-51
+title "Stranglethorn Vale (43-51)"
+levels 43-51
+zone map 1434
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/the-hinterlands-43-48
+step
+  level 41
+step
+  zone map 1455
+  when turnedin 2204
+  accept 2361
+step
+  zone map 1434
+  getfp "Booty Bay, Stranglethorn"
+step
+  when turnedin 189
+  accept 209
+step
+  when turnedin 597
+  accept 576
+step
+  when turnedin 599
+  accept 604
+step
+  accept 617
+step
+  when turnedin 607
+  accept 609
+step
+  accept 621
+step
+  when turnedin 599
+  tip Fleet Master Seahorn in Booty Bay wants you to kill 10 Bloodsail Swashbucklers and bring back the Bloodsail Charts and the Bloodsail Orders.
+  kill 1563 x10 quest 604.1 @26.67,82.84 map 1434
+  collect 3920 quest 604.2 @26.67,82.84 map 1434
+  collect 3921 quest 604.3 @26.67,82.84 map 1434
+step
+  when turnedin 599
+  turnin 604
+step
+  when turnedin 597
+  tip Dizzy One-Eye in Booty Bay wants you to retrieve his eye from the Bloodsail Buccaneers.
+  collect 3897 quest 576.1 @32.34,71.67 map 1434 -- Drops from: Bloodsail Raider, Bloodsail Mage, Bloodsail Swashbuckler
+step
+  tip Bring 12 samples of Zanzil's Mixture to Crank Fizzlebub in Booty Bay.
+  collect 4016 x12 quest 621.1 @38.89,57.62 map 1434 -- Drops from: Zanzil Zombie, Zanzil Hunter, Zanzil Witch Doctor
+step
+  when turnedin 607
+  tip Bring Maury's Clubbed Foot, Jon-Jon's Golden Spyglass, and Chucky's Huge Ring to "Sea Wolf" MacKinley in Booty Bay.
+  collect 3926 quest 609.3 @40,58.24 map 1434 -- Drops from: Chucky "Ten Thumbs"
+  collect 3925 quest 609.2 @34.92,51.84 map 1434 -- Drops from: Jon-Jon the Crow
+  collect 3924 quest 609.1 @35.26,51.27 map 1434 -- Drops from: Maury "Club Foot" Wilkins
+  collect 3925 quest 609.2 @35.26,51.27 map 1434 -- Drops from: Maury "Club Foot" Wilkins
+  collect 3926 quest 609.3 -- Drops from: Maury "Club Foot" Wilkins
+step
+  tip Bring 10 Bundles of Akiris Reed to Privateer Bloads in Booty Bay.
+  collect 4029 x10 quest 617.1 @26.2,62.42 map 1434 -- Drops from: Naga Explorer, Brinescale Skirmisher
+step
+  when turnedin 597
+  turnin 576
+step
+  when turnedin 607
+  turnin 609
+step
+  turnin 617
+step
+  turnin 621
+step
+  when turnedin 607
+  when level>=44
+  accept 613
+step
+  accept 348
+step
+  when turnedin 599
+  accept 608
+step
+  tip Seek out Witch Doctor Unbagwa and have him summon Mokk the Savage. Bring the Heart of Mokk to Fin Fizracket.
+  collect 2797 quest 348.1 @35.05,60.88 map 1434 -- Drops from: Mokk the Savage
+step
+  when turnedin 189
+  tip Acquire 18 Skullsplitter Tusks and return them to Kebok.
+  collect 1524 x18 quest 209.1 @45.92,38 map 1434 -- Drops from: Skullsplitter Warrior, Skullsplitter Hunter, Skullsplitter Witch Doctor
+step
+  when turnedin 196
+  when level>=43
+  accept 197
+step
+  when turnedin 202
+  when turnedin 205
+  when level>=46
+  accept 206
+step
+  when turnedin 202
+  when turnedin 205
+  when onquest 206
+  tip Bring the Mind's Eye to Brother Nimetz at the Rebel Camp.
+  collect 3616 quest 206.1 @52.93,27.6 map 1434 optional -- Mai'Zoth is elite: grouping up is advised.
+step
+  when turnedin 607
+  when onquest 613
+  tip Bring Maury's Key to "Sea Wolf" Mackinley in Booty Bay.
+  collect 3930 quest 613.1 @51.48,27.13 map 1434 optional -- Mosh'Ogg Lord is elite: grouping up is advised.
+step
+  when turnedin 196
+  when onquest 197
+  tip Hemet Nesingwary wants you to kill Tethis, an elusive, dangerous raptor in Stranglethorn.
+  collect 3877 quest 197.1 @32.2,42.8 map 1434 optional -- Tethis is elite: grouping up is advised.
+step
+  when turnedin 196
+  when onquest 197
+  turnin 197
+step
+  when turnedin 188
+  when turnedin 193
+  when turnedin 196
+  when turnedin 197
+  when level>=43
+  accept 208
+step
+  when turnedin 202
+  when turnedin 205
+  when onquest 206
+  turnin 206
+step
+  when turnedin 188
+  when turnedin 193
+  when turnedin 196
+  when onquest 208
+  tip Hemet Nesingwary wants you to bring him the head of King Bangalash, the great white tiger.
+  collect 3880 quest 208.1 @38.21,35.58 map 1434 optional -- King Bangalash is elite: grouping up is advised.
+step
+  when turnedin 188
+  when turnedin 193
+  when turnedin 196
+  when onquest 208
+  turnin 208
+step
+  collect 2554 @29.19,88.6 map 1434 -- Loot the quest item here — it starts the quest.
+  accept 624 @29.19,88.6 map 1434
+step
+  when turnedin 599
+  tip Fleet-Master Seahorn in Booty Bay wants you to kill Captain Stillwater, Captain Keelhaul and Fleet Master Firallon.
+  kill 2548 quest 608.2 @29.32,88.29 map 1434
+  kill 2546 quest 608.3 @30.58,90.63 map 1434
+  kill 2550 quest 608.1 @32.87,88.2 map 1434
+  kill 2548 quest 608.2
+  kill 2546 quest 608.3
+step
+  when level>=45
+  collect 2560 @36.56,77.09 map 1434 -- Loot the quest item here — it starts the quest.
+  accept 594 @36.56,77.09 map 1434
+step
+  when onquest 594
+  tip Find the author of the message in a bottle.
+  turnin 594
+step
+  when turnedin 189
+  turnin 209
+step
+  turnin 348
+step
+  when turnedin 599
+  turnin 608
+step
+  when turnedin 607
+  when onquest 613
+  turnin 613
+step
+  when level>=47
+  accept 8551
+step
+  when onquest 8551
+  tip Bring Smotts' Chest to Hecklebury Smotts in Booty Bay.
+  collect 3932 quest 8551.1 @36.95,69.73 map 1434 optional -- Gorlash is elite: grouping up is advised.
+step
+  when onquest 8551
+  turnin 8551
+step
+  accept 580
+step
+  when level>=50
+  kill 1493 @23.25,72.1 map 1434 optional -- Mok'rash is elite: grouping up is advised.
+  accept 8552 @23.25,72.1 map 1434
+step
+  when onquest 8552
+  tip Return the Monogrammed Sash to its owner.
+  turnin 8552
+step
+  when turnedin 8552
+  accept 8553
+step
+  when onquest 8553
+  tip Speak with Sprogger.
+  turnin 8553
+step
+  when turnedin 8553
+  when level>=50
+  accept 8554
+step
+  when onquest 8554
+  tip Bring 10 Barbecued Buzzard Wings and 5 bottles of Junglevine Wine to Captain Smotts' Lifeboat.
+  collect 3935 quest 8554.1 @32.45,81.57 map 1434 optional -- Negolash is elite: grouping up is advised.
+step
+  when onquest 8554
+  turnin 8554
+step
+  when turnedin 594
+  when level>=51
+  accept 630
+step
+  when onquest 630
+  tip Slay King Mukla and return to Princess Poobah with the Key to free her.
+  collect 4103 quest 630.1 @40.95,83.9 map 1434 optional -- King Mukla is elite: grouping up is advised.
+step
+  when onquest 630
+  turnin 630
+step
+  when turnedin 3621
+  when level>=45
+  accept 3625
+step
+  when turnedin 3621
+  when onquest 3625
+  tip Wait for Galvan to finish forging the weaponry.
+  talk 7802
+step
+  when turnedin 3621
+  when onquest 3625
+  turnin 3625
+step
+  when turnedin 3621
+  when turnedin 3625
+  when level>=45
+  accept 3626
+step
+  zone map 1435
+  tip Solve the riddle!
+  turnin 624 -- Turn in at Swamp of Sorrows
+step
+  when turnedin 3621
+  when onquest 3626
+  tip Return to the Fallen Hero of the Horde.
+  turnin 3626 -- Turn in at Swamp of Sorrows
+step
+  when turnedin 3621
+  when turnedin 3626
+  when level>=60
+  accept 3627
+step
+  zone map 1455
+  when turnedin 2204
+  turnin 2361 -- Turn in at Ironforge
+step
+  zone map 1453
+  accept 1477
+step
+  zone map 1431
+  tip Speak with Watchmaster Sorigal.
+  turnin 1477 -- Turn in at Duskwood
+step
+  zone map 1425
+  tip Whiskey Slim in Booty Bay wants you to bring him the bottles of Pupellyverbos Port he lost.
+  collect 3900 quest 580.1 @78.7,70.64 map 1425
+step
+  zone map 1434
+  turnin 580
+step
+  zone map 1419
+  when turnedin 3621
+  when onquest 3627
+  tip Slay Grol the Destroyer, Lady Sevine, and Archmage Allistarj. From their corpses take the Amulet of Grol, the Amulet of Sevine, and the Amulet of Allistarj.
+  collect 10755 quest 3627.1 @66.69,29.24 map 1419 optional -- Archmage Allistarj is elite: grouping up is advised.
+  collect 10754 quest 3627.3 @40.75,29.97 map 1419 optional -- Lady Sevine is elite: grouping up is advised.
+  collect 10755 quest 3627.1 optional -- Archmage Allistarj is elite: grouping up is advised.
+  collect 10753 quest 3627.2 @42.57,13.01 map 1419 optional -- Grol the Destroyer is elite: grouping up is advised.
+  collect 10754 quest 3627.3 optional -- Lady Sevine is elite: grouping up is advised.
+step
+  zone map 1435
+  when turnedin 3621
+  when onquest 3627
+  turnin 3627 -- Turn in at Swamp of Sorrows
+step
+  when turnedin 3621
+  when turnedin 3627
+  when level>=60
+  accept 3628
+step
+  zone map 1419
+  when turnedin 3621
+  when onquest 3628
+  tip Destroy Razelikh the Defiler and return the Severed Horn of the Defiler to the Fallen Hero of the Horde. You will also need to return the Ward of the Defiler so that the Fallen Hero can destroy it, preventing it from ever falling into the wrong hands.
+  collect 10759 quest 3628.1 @47.64,29.83 map 1419 optional -- Razelikh the Defiler is elite: grouping up is advised.
+step
+  zone map 1435
+  when turnedin 3621
+  when onquest 3628
+  turnin 3628 -- Turn in at Swamp of Sorrows
+step
+  zone map 1425
+  tip Zone complete! Travel to The Hinterlands.
+  goto 14.83,44.57 map 1425

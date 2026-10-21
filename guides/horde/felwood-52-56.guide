@@ -1,0 +1,249 @@
+guide lodestar/horde/felwood-52-56
+title "Felwood (52-56)"
+levels 52-56
+zone map 1448
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/the-barrens-55-60
+step
+  level 51
+step
+  accept 8460
+step
+  accept 5155
+step
+  getfp "Bloodvenom Post, Felwood"
+step
+  tip Enter Jaedenar and slay 4 Jaedenar Hounds, 4 Jaedenar Guardsmen, 6 Jaedenar Adepts, and 6 Jaedenar Cultists before returning to Greta Mosshoof in Felwood.
+  kill 7115 x6 quest 5155.3 @38.25,61.45 map 1448
+  kill 7112 x6 quest 5155.4 @38.15,61.13 map 1448
+  kill 7113 x4 quest 5155.2 @38.07,60.74 map 1448
+  kill 7125 x4 quest 5155.1 @38.83,60.38 map 1448
+  kill 7113 x4 quest 5155.2 @38.83,60.38 map 1448
+  kill 7115 x6 quest 5155.3 @38.83,60.38 map 1448
+  kill 7112 x6 quest 5155.4 @38.83,60.38 map 1448
+step
+  accept 6162
+step
+  turnin 5155
+step
+  accept 5157
+step
+  tip Kill Overlord Ror and return his claw to Dreka'Sur at Bloodvenom Post in Felwood.
+  collect 15879 quest 6162.1 @48.23,94.28 map 1448 -- Drops from: Overlord Ror
+step
+  tip Grazle wants you to prove yourself by killing 6 Deadwood Warriors, 6 Deadwood Pathfinders, and 6 Deadwood Gardeners. Return to him in southern Felwood near the Emerald Sanctuary when you are done.
+  kill 7153 x6 quest 8460.1 @48.39,91.4 map 1448
+  kill 7154 x6 quest 8460.3 @48.42,89.84 map 1448
+  kill 7153 x6 quest 8460.1 @48.3,89.46 map 1448
+  kill 7155 x6 quest 8460.2 @48.3,89.46 map 1448
+  kill 7154 x6 quest 8460.3 @48.3,89.46 map 1448
+step
+  tip Take the Empty Canteen to the Moon Well in the center of Jaedenar and fill it before returning to Greta Mosshoof in Felwood.
+  collect 12907 quest 5157.1 @35.17,59.79 map 1448 -- Drops from: Corrupt Jaedenar Moonwell
+step
+  turnin 6162
+step
+  accept 4505
+step
+  tip Collect a sample of corrupted water from the Jadefire Satyrs' moonwell and bring it to Winna Hazzard at Bloodvenom Post.
+  collect 12567 quest 4505.1 @32.32,66.56 map 1448 -- Drops from: Corrupted Moonwell Spell Focus (DND)
+step
+  turnin 4505
+step
+  accept 4506
+step
+  tip Take Winna's kitten to the corrupted moonwell, release it, then bring it back to Winna.
+  turnin 4506
+step
+  only Warlock
+  accept 7601
+step
+  only Warlock
+  when !turnedin 8419
+  when !onquest 8419
+  accept 8420
+step
+  only Warlock
+  tip Speak with Impsy in Felwood.
+  turnin 7601
+step
+  only Warlock
+  when !turnedin 8419
+  when !onquest 8419
+  tip Bring a piece of felcloth to Impsy in Felwood.
+  collect 14256 quest 8420.1 @37.34,66.67 map 1448 -- Drops from: Jadefire Rogue, Jadefire Trickster, Jadefire Betrayer
+step
+  turnin 5157
+step
+  turnin 8460
+step
+  accept 5158
+step
+  accept 5156
+step
+  accept 4102
+step
+  accept 8462
+step
+  only Warlock
+  when !turnedin 8419
+  when !onquest 8419
+  turnin 8420
+step
+  only Warlock
+  accept 8421
+step
+  kill 7114 @39.65,49.47 map 1448 -- Loot the quest item here — it starts the quest.
+  accept 5202 @39.65,49.47 map 1448
+step
+  tip Seek out and destroy 2 Entropic Beasts and 2 Entropic Horrors while exploring Shatter Scar Vale. After checking to see if the craters there are still filled with corrupt fel water, return to Taronn Redfeather in Felwood.
+  kill 9878 x2 quest 5156.1 @41.73,40.15 map 1448
+  kill 9879 x2 quest 5156.2 @41.73,40.15 map 1448
+step
+  only Warlock
+  tip Bring 10 Rotting Wood and 4 Bloodvenom Essence to Impsy in Felwood.
+  collect 20614 x4 quest 8421.2 @41.4,50.23 map 1448 -- Drops from: Tainted Ooze
+  collect 20613 x10 quest 8421.1 @46.58,23.75 map 1448 -- Drops from: Irontree Wanderer, Irontree Stomper, Withered Protector
+  collect 20614 x4 quest 8421.2 -- Drops from: Irontree Wanderer, Irontree Stomper, Withered Protector
+step
+  tip Bring 15 Blood Amber to Maybess Riverbreeze in Felwood.
+  collect 11503 x15 quest 4102.1 @57.16,18.28 map 1448 -- Drops from: Warpwood Moss Flayer, Warpwood Shredder, Dessecus
+step
+  tip Travel north along the main road in Felwood and speak with the furbolg named Nafien. He stands guard outside the entrance to Timbermaw Hold.
+  turnin 8462
+step
+  accept 8461
+step
+  kill 7156 @62.76,8.01 map 1448 -- Loot the quest item here — it starts the quest.
+  accept 8470 @62.76,8.01 map 1448
+step
+  tip Nafien would like you to kill 6 Deadwood Den Watchers, 6 Deadwood Avengers, and 6 Deadwood Shamans. Return to him in northern Felwood near the entrance to Timbermaw Hold.
+  kill 7156 x6 quest 8461.1 @62.76,8.01 map 1448
+  kill 7157 x6 quest 8461.2 @62.67,8.45 map 1448
+  kill 7156 x6 quest 8461.1 @62.63,11.22 map 1448
+  kill 7157 x6 quest 8461.2 @62.63,11.22 map 1448
+  kill 7158 x6 quest 8461.3 @62.63,11.22 map 1448
+step
+  turnin 8461
+step
+  tip Take the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item. The Timbermaw will not speak with you unless you are of Neutral reputation or greater with them.
+  turnin 8470
+step
+  accept 8465
+step
+  only Warlock
+  turnin 8421
+step
+  tip Search through Jaedenar to discover what the Blood Red Key is used for.
+  turnin 5202
+step
+  when level>=52
+  accept 4521
+step
+  accept 5203
+step
+  tip Escort Arko'narin to where Lightforge and her equipment are being held, and then protect her as you escape Shadow Hold. Afterwards, seek out Jessir Moonbow in Felwood to let her know what's happened to her friends.
+  goto 35.45,59.06 "Protect Arko'narin out of Shadow Hold" map 1448
+step
+  turnin 4102
+step
+  turnin 5156
+step
+  turnin 5203
+step
+  accept 5887
+step
+  collect 11515 x6 quest 5887.1 @40.17,70.82 map 1448 -- Drops from: Cursed Ooze, Tainted Ooze, Vile Ooze
+step
+  turnin 5887
+step
+  accept 5204
+step
+  tip Return to Jaedenar and kill the succubus Rakaiah before finding the Remains of Trey Lightforge.
+  kill 9518 quest 5204.1 @38.3,50.51 map 1448
+step
+  turnin 5204
+step
+  accept 5385
+step
+  tip Return the Remains of Trey Lightforge to Jessir Moonbow in Felwood.
+  turnin 5385
+step
+  zone map 1452
+  when onquest 3908
+  tip Take Linken's Sword to Donova Snowden in Winterspring.
+  turnin 3908 -- Turn in at Winterspring
+step
+  when onquest 980
+  tip Travel to Winterspring and speak with Donova Snowden.
+  turnin 980 -- Turn in at Winterspring
+step
+  tip Travel through Timbermaw Hold and exit into Winterspring. Speak with Salfa, who stands guard outside the entrance to Timbermaw Hold.
+  turnin 8465 -- Turn in at Winterspring
+step
+  when onquest 4521
+  tip Trull Failbane in Felwood wants you to kill 15 Raging Owlbeasts and 15 Ragged Owlbeasts.
+  kill 7450 x15 quest 4521.2 @44.76,38.29 map 1452
+  kill 7451 x15 quest 4521.1 @59.83,31.69 map 1452
+  kill 7450 x15 quest 4521.2
+step
+  zone map 1413
+  when onquest 4147
+  tip Travel to Marvon Rivetseeker's workshop in Ratchet.
+  turnin 4147 -- Turn in at The Barrens
+step
+  tip Take the Corrupt Moon Well Water to Islen Waterseer in the Barrens.
+  turnin 5158 -- Turn in at The Barrens
+step
+  zone map 1456
+  when !turnedin 1004
+  when !turnedin 1018
+  when !onquest 1004
+  when !onquest 1018
+  when level>=54
+  accept 1000
+step
+  when !turnedin 1004
+  when !turnedin 1018
+  when !onquest 1004
+  when !onquest 1018
+  when onquest 1000
+  tip Speak with Arch Druid Hamuul Runetotem on the Elder Rise of Thunder Bluff about the Cenarion Circle's call to explore the frontiers of Kalimdor.
+  turnin 1000 -- Turn in at Thunder Bluff
+step
+  zone map 1448
+  when onquest 4521
+  turnin 4521
+step
+  when turnedin 4521
+  when level>=52
+  accept 4741
+step
+  zone map 1452
+  when onquest 4741
+  tip Trull Failbane in Felwood wants you to hunt 13 Moontouched Owlbeasts.
+  kill 7453 x13 quest 4741.1 @64.15,22.9 map 1452
+step
+  zone map 1448
+  when onquest 4741
+  turnin 4741
+step
+  when turnedin 4741
+  when level>=52
+  accept 4721
+step
+  zone map 1452
+  when onquest 4721
+  tip Trull Failbane in Felwood wants you to hunt 10 Berserk Owlbeasts in Winterspring.
+  kill 7454 x10 quest 4721.1 @65.67,22.28 map 1452
+step
+  zone map 1448
+  when onquest 4721
+  turnin 4721
+step
+  zone map 1413
+  tip Zone complete! Travel to The Barrens.
+  goto 62.45,38.73 map 1413

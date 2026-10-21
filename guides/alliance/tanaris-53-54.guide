@@ -1,0 +1,82 @@
+guide lodestar/alliance/tanaris-53-54
+title "Tanaris (53-54)"
+levels 53-54
+zone map 1446
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/felwood-52-56
+step
+  level 51
+step
+  when turnedin 4787
+  accept 3528
+step
+  when turnedin 4787
+  tip Bring the Filled Egg of Hakkar to Yeh'kinya in Tanaris.
+  collect 10662 quest 3528.1 @66.99,22.36 map 1446
+step
+  when turnedin 4787
+  turnin 3528
+step
+  getfp "Gadgetzan, Tanaris"
+step
+  accept 4496
+step
+  accept 4504
+step
+  interact 142071
+  accept 2741
+step
+  zone map 1457
+  when onquest 3378
+  turnin 3378 -- Turn in at Darnassus
+step
+  when onquest 4986
+  tip Based on the magic enchanted within the Glyphed Oaken Branch, its delivery to the Cenarion Circle in Darnassus is the next step the tauren druid sought. Seek one of the druids there for assistance.
+  turnin 4986 -- Turn in at Darnassus
+step
+  zone map 1449
+  tip Bring a Gorishi Scent Gland and 5 Un'Goro Soil samples to Alchemist Pestlezugg in Gadgetzan.
+  collect 11837 quest 4496.1 @50.14,75.97 map 1449 -- Drops from: Gorishi Wasp, Gorishi Worker, Gorishi Reaver
+  collect 11837 quest 4496.1 -- Drops from: Un'Goro Dirt Pile
+  collect 11018 x5 quest 4496.2 @47,52.9 map 1449 -- Drops from: Un'Goro Dirt Pile
+step
+  tip Collect 12 samples of Super Sticky Tar for Tran'rek in Gadgetzan.
+  collect 11834 x12 quest 4504.1 @58.98,31.38 map 1449 -- Drops from: Tar Beast, Tar Lurker, Tar Lord
+step
+  zone map 1446
+  turnin 4496
+step
+  accept 4507
+step
+  turnin 4504
+step
+  zone map 1444
+  collect 8564 quest 2741.1 @56.65,75.89 map 1444
+step
+  zone map 1446
+  turnin 2741
+step
+  zone map 1449
+  tip Defeat the Gorishi Hive Queen once she is summoned.
+  collect 11835 quest 4507.1 @43.85,81.39 map 1449 -- Drops from: Gorishi Hive Queen
+step
+  zone map 1446
+  turnin 4507
+step
+  accept 4508
+step
+  zone map 1457
+  tip Bring Pestlezugg's Un'Goro Report to Gracina Spiritmight in Darnassus.
+  turnin 4508 -- Turn in at Darnassus
+step
+  accept 4510
+step
+  tip Bring the Bank Voucher to Idriana in the bank of Darnassus.
+  turnin 4510 -- Turn in at Darnassus
+step
+  zone map 1448
+  tip Zone complete! Travel to Felwood.
+  goto 50.93,85.01 map 1448

@@ -1,0 +1,1070 @@
+guide lodestar/horde/the-barrens-12-20
+title "The Barrens (12-20)"
+levels 12-20
+zone map 1413
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/ashenvale-22-27
+step
+  level 11
+step
+  zone map 1456
+  only Tauren,Skyborne
+  when turnedin 861
+  accept 860
+step
+  only Tauren,Skyborne
+  accept 886
+step
+  zone map 1454
+  only Shaman
+  when !turnedin 1523
+  when !turnedin 2983
+  when !turnedin 2984
+  when !onquest 1523
+  when !onquest 2983
+  when !onquest 2984
+  accept 1522
+step
+  when turnedin 829
+  accept 809
+step
+  only Rogue,Orc,Troll
+  accept 1963
+step
+  only Skyborne
+  when onquest 93739
+  turnin 93739 -- Turn in at Orgrimmar
+step
+  zone map 1413
+  only Tauren,Skyborne
+  when turnedin 861
+  tip Speak with Sergra Darkthorn at the Crossroads.
+  turnin 860
+step
+  only Tauren,Skyborne
+  tip Speak with Tonga Runetotem at the Crossroads.
+  turnin 886
+step
+  accept 1492
+step
+  accept 871
+step
+  only Tauren
+  accept 6361
+step
+  only Orc,Troll
+  accept 6365
+step
+  accept 869
+step
+  accept 870
+step
+  only Tauren
+  tip Bring the Bundle of Hides to the wind rider master Devrak in the Crossroads.
+  turnin 6361
+step
+  only Orc,Troll
+  tip Bring Zargh's Meats to Devrak in the Crossroads.
+  turnin 6365
+step
+  only Tauren
+  accept 6362
+step
+  only Orc,Troll
+  accept 6384
+step
+  accept 855
+step
+  accept 5041
+step
+  tip Bring 15 Centaur Bracers to Regthar Deathgate, west of the Crossroads.
+  collect 5030 x15 quest 855.1 @45.7,25.99 map 1413 -- Drops from: Kolkar Wrangler, Kolkar Stormer, Kolkar Pack Runner
+step
+  tip Bring 12 Raptor Heads to Gazrog at the Crossroads.
+  collect 5062 x12 quest 869.1 @51.29,22.62 map 1413 -- Drops from: Sunscale Lashtail, Sunscale Screecher, Sunscale Scytheclaw
+step
+  tip Report back to Tonga Runetotem with your findings.
+  goto 45.06,22.53 "Explore the waters of the Forgotten Pools" map 1413
+step
+  tip Of the Razormane tribe, kill 8 Water Seekers, 8 Thornweavers and 3 Hunters, and then return to Thork in the Crossroads.
+  kill 3267 x8 quest 871.1 @54.94,26.74 map 1413
+  kill 3268 x8 quest 871.2 @55.11,26.59 map 1413
+  kill 3267 x8 quest 871.1
+  kill 3268 x8 quest 871.2
+  kill 3265 x3 quest 871.3 @57.81,24.44 map 1413
+step
+  only Shaman
+  when !turnedin 1523
+  when !turnedin 2983
+  when !turnedin 2984
+  when !onquest 1523
+  when !onquest 2983
+  when !onquest 2984
+  tip Find Kranal Fiss in the Barrens.
+  turnin 1522
+step
+  only Shaman
+  accept 1524
+step
+  turnin 855
+step
+  turnin 869
+step
+  turnin 870
+step
+  turnin 871
+step
+  tip Bring the Secure Crate to Wharfmaster Dizzywig in Ratchet.
+  turnin 1492
+step
+  accept 887
+step
+  accept 894
+step
+  accept 97253
+step
+  tip Kill 12 Southsea Brigands and 6 Southsea Cannoneers for Gazlowe in Ratchet.
+  kill 3381 x12 quest 887.1 @63.67,46.13 map 1413
+  kill 3381 x12 quest 887.1 @63.58,46.69 map 1413
+  kill 3382 x6 quest 887.2 @63.58,46.69 map 1413
+step
+  only Rogue,Orc,Troll
+  tip Kill Tazan and bring his Satchel to Therzok in the Cleft of Shadow in Orgrimmar.
+  collect 7209 quest 1963.1 @63.11,44.29 map 1413 -- Drops from: Tazan
+step
+  tip Collect 5 Handfuls of Complicated Parts from the upper pirate camp south of Ratchet, then return to Wrenix the Wretched in Ratchet.
+  collect 277331 x5 quest 97253.1 @62,45.9 map 1413 -- Drops from: Pile of Complicated Parts
+step
+  turnin 887
+step
+  turnin 97253
+step
+  accept 890
+step
+  tip Bring Gazlowe's Ledger to Wharfmaster Dizzywig.
+  turnin 890
+step
+  accept 892
+step
+  tip Return Gazlowe's Ledger to Gazlowe in Ratchet.
+  turnin 892
+step
+  collect 3238 @55.7,27.3 map 1413 -- Loot the quest item here — it starts the quest.
+  accept 819 @55.7,27.3 map 1413
+step
+  accept 848
+step
+  accept 867
+step
+  accept 872
+step
+  tip Bring 4 Fungal Spores to Apothecary Helbrim at the Crossroads.
+  collect 5012 x4 quest 848.1 @46.68,38.76 map 1413 -- Drops from: Laden Mushroom
+step
+  turnin 848
+step
+  tip Kill 8 Razormane Geomancers, 8 Razormane Defenders, and Kreenig Snarlsnout.
+  kill 3269 x8 quest 872.1 @57.32,24.6 map 1413
+  kill 3266 x8 quest 872.2 @57.32,24.6 map 1413
+  collect 5063 quest 872.3
+step
+  turnin 872
+step
+  when turnedin 829
+  tip Speak with Ak'Zeloth in the Barrens.
+  turnin 809
+step
+  when turnedin 840
+  accept 842
+step
+  only Warrior
+  when !turnedin 1819
+  when !onquest 1819
+  accept 1498
+step
+  tip Find and return Crossroads' Supply Crates to Thork in the Barrens.
+  collect 12708 quest 5041.1 @58.55,25.86 map 1413
+step
+  when turnedin 829
+  accept 924
+step
+  when turnedin 829
+  tip Grab a Flawed Power Stone. Bring it to the Altar of Fire before the stone expires, then return to Ak'Zeloth.
+  interact 3525 quest 924.1 @47.98,19.07 map 1413
+step
+  when turnedin 829
+  turnin 924
+step
+  tip Access the control console at the Venture Company research site.
+  turnin 894
+step
+  interact 4141
+  accept 900
+step
+  tip Close off the Fuel Control Valve, the Regulator Valve and the Main Control Valve then use the control console again.
+  interact 4072 quest 900.1 @52.33,11.56 map 1413
+  interact 61935 quest 900.3 @52.3,11.42 map 1413
+  interact 4072 quest 900.1 @52.4,11.41 map 1413
+  interact 61936 quest 900.2 @52.4,11.41 map 1413
+  interact 61935 quest 900.3 @52.4,11.41 map 1413
+step
+  turnin 900
+step
+  interact 4141
+  accept 901
+step
+  tip Get the Console Key from Tinkerer Sniggles to use on the control console.
+  collect 5089 quest 901.1 @52.84,10.39 map 1413 -- Drops from: Tinkerer Sniggles
+step
+  turnin 901
+step
+  interact 4141
+  accept 902
+step
+  tip Collect 8 Witchwing talons.
+  collect 5064 x8 quest 867.1 @40.7,16.8 map 1413 -- Drops from: Witchwing Harpy, Witchwing Roguefeather, Witchwing Slayer
+step
+  when turnedin 840
+  tip Follow the western road from Kargal's Far Watch Outpost.
+  turnin 842
+step
+  turnin 867
+step
+  turnin 5041
+step
+  accept 850
+step
+  accept 875
+step
+  accept 877
+step
+  only Druid,Tauren
+  when turnedin 6127
+  when level>=14
+  accept 6128
+step
+  tip Bring Barak's Head to Regthar Deathgate, west of the Crossroads.
+  collect 5022 quest 850.1 @42.8,23.52 map 1413 -- Drops from: Barak Kodobane
+step
+  turnin 850
+step
+  tip Find someone who knows about Chen's Empty Keg.
+  turnin 819
+step
+  tip Return the Samophlange to Sputtervalve in Ratchet.
+  turnin 902
+step
+  accept 3921
+step
+  accept 821
+step
+  accept 888
+step
+  interact 3972
+  accept 895
+step
+  tip Return to Tonga at The Crossroads, after investigating the Stagnant Oasis.
+  interact 3737 quest 877.1 @55.61,42.75 map 1413
+step
+  tip Retrieve the Shipment of Boots and Telescopic Lens for Gazlowe in Ratchet.
+  collect 5076 quest 888.1 @62.63,49.63 map 1413 -- Drops from: Drizzlik's Emporium
+  collect 5076 quest 888.1 -- Drops from: Fragile - Do Not Drop
+  collect 5077 quest 888.2 @63.58,49.25 map 1413 -- Drops from: Fragile - Do Not Drop
+step
+  tip Bring the head of Baron Longshore to Gazlowe in Ratchet.
+  collect 5084 quest 895.1 @63.3,49 map 1413 -- Drops from: Baron Longshore
+step
+  turnin 888
+step
+  turnin 895
+step
+  only Druid,Tauren
+  when turnedin 6127
+  when onquest 6128
+  tip Bring 5 Earthroot and 5 Kodo Horns to Tonga Runetotem at the Crossroads so he may make a curative salve.
+  collect 2449 x5 quest 6128.1 @61.54,28.08 map 1413
+  collect 2449 x5 quest 6128.1 -- Drops from: Lost Barrens Kodo, Barrens Kodo
+  collect 15852 x5 quest 6128.2 @54.06,41.46 map 1413 -- Drops from: Lost Barrens Kodo, Barrens Kodo
+step
+  tip Bring the Broken Samophlange to Wenikee Boltbucket.
+  turnin 3921
+step
+  accept 3922
+step
+  tip Bring 5 Savannah Lion Tusks, 5 Plainstrider Kidneys, and 1 Thunder Lizard Horn to Brewmaster Drohn in Ratchet.
+  collect 4893 x5 quest 821.1 @44.42,15.78 map 1413 -- Drops from: Savannah Patriarch, Savannah Highmane, Savannah Huntress
+  collect 4894 x5 quest 821.2 @51.33,23.04 map 1413 -- Drops from: Greater Plainstrider, Fleeting Plainstrider, Ornery Plainstrider
+  collect 4893 x5 quest 821.1 -- Drops from: Stormsnout, Thunderhead, Stormhide
+  collect 4894 x5 quest 821.2 -- Drops from: Stormsnout, Thunderhead, Stormhide
+  collect 4895 quest 821.3 @46.95,51.1 map 1413 -- Drops from: Stormsnout, Thunderhead, Stormhide
+step
+  tip Collect 6 Harpy Lieutenant Rings from Witchwing Slayers and return them to Darsok Swiftdagger at the Crossroads.
+  collect 5065 x6 quest 875.1 @38.79,15.11 map 1413 -- Drops from: Witchwing Slayer
+step
+  tip Bring 15 Nugget Slugs to Wenikee Boltbucket in the Barrens.
+  collect 11143 x15 quest 3922.1 @56.33,8.57 map 1413 -- Drops from: Tool Bucket
+step
+  turnin 3922
+step
+  turnin 875
+step
+  turnin 877
+step
+  only Druid,Tauren
+  when turnedin 6127
+  when onquest 6128
+  turnin 6128
+step
+  accept 880
+step
+  only Druid,Tauren
+  when turnedin 6127
+  when turnedin 6128
+  accept 6129
+step
+  tip Bring 8 Altered Snapjaw Shells to Tonga Runetotem at the Crossroads.
+  collect 5098 x8 quest 880.1 @47.74,40.22 map 1413 -- Drops from: Oasis Snapjaw
+step
+  turnin 880
+step
+  accept 1489
+step
+  only Druid,Tauren
+  when turnedin 6127
+  when onquest 6129
+  tip Use the Curative Animal Salve on 10 Sickly Gazelles that are located throughout the northern part of the Barrens; doing so should cure them. Sickly Gazelles have been reported north of the east-west road that runs through the Crossroads.
+  kill 12296 x10 quest 6129.1 @54.25,24.17 map 1413 -- Use the quest item on them, don't just kill them.
+step
+  turnin 821
+step
+  getfp "Camp Taurajo, The Barrens"
+step
+  only Tauren
+  when !turnedin 844
+  when !onquest 844
+  accept 854
+step
+  only Tauren
+  when !turnedin 844
+  when !onquest 844
+  tip Speak with Thork at the Crossroads in the Barrens.
+  turnin 854
+step
+  accept 844
+step
+  tip Collect 7 Plainstrider Beaks and return them to Sergra Darkthorn in the Crossroads.
+  collect 5087 x7 quest 844.1 @51.33,23.04 map 1413 -- Drops from: Greater Plainstrider, Fleeting Plainstrider, Ornery Plainstrider
+step
+  turnin 844
+step
+  accept 845
+step
+  tip Slay Zhevra Runners to collect 4 Zhevra Hooves for Sergra Darkthorn in the Crossroads.
+  collect 5086 x4 quest 845.1 @53.99,33.04 map 1413 -- Drops from: Zhevra Runner, Zhevra Charger, Zhevra Courser
+step
+  turnin 845
+step
+  accept 903
+step
+  tip Collect 7 Prowler Claws from Savannah Prowlers for Sergra Darkthorn in the Crossroads.
+  collect 5096 x7 quest 903.1 @42,23.51 map 1413 -- Drops from: Savannah Prowler
+step
+  turnin 903
+step
+  accept 881
+step
+  tip Bring Echeyakee's Hide to Sergra Darkthorn at the Crossroads.
+  collect 5100 quest 881.1 @55.86,17.19 map 1413 -- Drops from: Echeyakee
+step
+  turnin 881
+step
+  accept 905
+step
+  tip Kill Sunscale raptors and collect their feathers. Use the feathers on the 3 Scytheclaw nests. Return to Sergra Darkthorn in the Crossroads.
+  interact 6907 quest 905.1 @52.6,46.11 map 1413
+  interact 6906 quest 905.3 @52.46,46.56 map 1413
+  interact 6907 quest 905.1
+  interact 6908 quest 905.2 @52.02,46.47 map 1413
+  interact 6906 quest 905.3 @52.02,46.47 map 1413
+step
+  turnin 905
+step
+  accept 851
+step
+  accept 3261
+step
+  accept 3281
+step
+  tip Bring Verog's Head to Regthar Deathgate, west of the Crossroads.
+  collect 5023 quest 851.1 @53.06,41.74 map 1413 -- Drops from: Verog the Dervish
+step
+  tip Speak with Jorn Skyseer at Camp Taurajo.
+  turnin 3261
+step
+  tip Bring the Stolen Silver to Gazrog in the Crossroads.
+  collect 5061 quest 3281.1 @58.04,53.87 map 1413
+step
+  accept 865
+step
+  accept 896
+step
+  turnin 851
+step
+  turnin 3281
+step
+  accept 852
+step
+  accept 6548
+step
+  accept 3923
+step
+  accept 95494
+step
+  accept 95495
+step
+  accept 95507
+step
+  accept 95508
+step
+  accept 95621
+step
+  tip Collect 6 Savannah Lion Hides from the Savannah Matriarchs and Savannah Patriarchs in the Barrens.
+  collect 269715 x6 quest 95494.1 @44.42,15.78 map 1413 -- Drops from: Savannah Patriarch, Savannah Matriarch
+step
+  tip Collect 8 Trapped Game from traps found in Sprung Traps in the Barrens.
+  collect 269719 x8 quest 95507.1 @45.3,14 map 1413 -- Drops from: Sprung Trap
+step
+  tip Travel to the wrecked caravan and learn more about why the Kul Tirans are here.
+  collect 270151 quest 95621.1 @41.87,15.43 map 1413 -- Drops from: Corporal Adamore
+step
+  turnin 95494
+step
+  tip Bring the Bundle of Hides to the hermit on the ridge overlooking the Dry Hills in the Barrens.
+  turnin 95495
+step
+  turnin 95507
+step
+  tip Help Walton survive the encounter with Terry Longdrink and the Kul Tiras marines.
+  turnin 95508
+step
+  turnin 95621
+step
+  accept 858
+step
+  tip Get the Ignition Key and bring it to Wizzlecrank.
+  collect 5050 quest 858.1 @56.27,8.58 map 1413 -- Drops from: Supervisor Lugwizzle
+step
+  tip Retrieve the Cats Eye Emerald from one of the Venture Co. Overseers or Enforcers for Wharfmaster Dizzywig at Ratchet.
+  collect 5097 quest 896.1 @60.81,3.79 map 1413 -- Drops from: Venture Co. Enforcer, Venture Co. Overseer, Boss Copperplug
+step
+  turnin 858
+step
+  accept 863
+step
+  tip Protect Wizzlecrank and the stolen goblin shredder on the way to Sputtervalve in Ratchet.
+  goto 55.36,7.68 "Escort Wizzlecrank out of the Venture Co. drill site" map 1413
+step
+  tip Bring Hezrul's Head to Regthar Deathgate, west of the Crossroads.
+  collect 5025 quest 852.1 @46.04,41.14 map 1413 -- Drops from: Hezrul Bloodmark
+step
+  tip Gather 5 Intact Raptor Horns from Sunscale Scytheclaws, and bring them to Mebok Mizzyrix in Ratchet.
+  collect 5055 x5 quest 865.1 @52.58,45.99 map 1413 -- Drops from: Sunscale Scytheclaw, Ishamuhale, Takk the Leaper
+step
+  accept 882
+step
+  turnin 852
+step
+  turnin 863
+step
+  turnin 865
+step
+  turnin 896
+step
+  tip Bring Ishamuhale's Fang to Jorn at Camp Taurajo.
+  collect 5101 quest 882.1 @59.8,30.6 map 1413 -- Drops from: Ishamuhale
+step
+  turnin 882
+step
+  accept 907
+step
+  tip Bring 3 Thunder Lizard Blood to Jorn Skyseer at Camp Taurajo.
+  collect 5143 x3 quest 907.1 @46.95,51.1 map 1413 -- Drops from: Stormsnout, Thunderhead, Stormhide
+step
+  turnin 907
+step
+  accept 913
+step
+  tip Find and slay a Thunderhawk, return its wings to Jorn Skyseer at Camp Taurajo.
+  collect 5164 quest 913.1 @46.76,50.95 map 1413 -- Drops from: Thunderhawk Hatchling, Thunderhawk Cloudscraper, Greater Thunderhawk
+step
+  turnin 913
+step
+  accept 891
+step
+  accept 1069
+step
+  interact 3972
+  accept 92706
+step
+  tip Bring Bruuz's Dorsal Fin to Gazlowe in Ratchet.
+  collect 253710 quest 92706.1 @64.38,39.21 map 1413 optional -- Bruuz is elite: grouping up is advised.
+step
+  turnin 92706
+step
+  when level>=17
+  accept 6541
+step
+  accept 876
+step
+  accept 899
+step
+  accept 4021
+step
+  tip Bring a Piece of Krom'zar's Banner to Regthar Deathgate, west of the Crossroads.
+  collect 11227 quest 4021.1 @45.34,28.41 map 1413 -- Drops from: Krom'zar's Banner
+step
+  accept 4921
+step
+  accept 95774
+step
+  turnin 4021
+step
+  tip Bring 60 Bristleback Quilboar Tusks to Mankrik at the Crossroads.
+  collect 5085 x60 quest 899.1 @44.47,52.32 map 1413 -- Drops from: Bristleback Hunter, Bristleback Water Seeker, Bristleback Thornweaver
+step
+  tip Find Mankrik's wife and then return to him in the Crossroads.
+  talk 10668
+step
+  tip Slay quilboars and collect 4 of Olgra's Adornments for Mankrik's memorial.
+  collect 277277 x4 quest 95774.1 @49.58,51.06 map 1413 -- Drops from: Razormane Raider
+step
+  tip Captain Thalo'thas Brightsun of Ratchet wants you to collect 10 Theramore Medals and slay Captain Fairmount, Cannoneer Whessan and Cannoneer Smythe.
+  kill 3393 quest 891.1 @61.85,54.65 map 1413
+  kill 3455 quest 891.2
+  kill 3454 quest 891.3
+  collect 5078 x10 quest 891.4 @61.85,54.65 map 1413
+step
+  accept 898
+step
+  tip Safely escort Gilthares Firebough back to Captain Brightsun in Ratchet.
+  goto 62.27,39.09 "Escort Gilthares Firebough back to Ratchet" map 1413
+step
+  turnin 898
+step
+  turnin 891
+step
+  when onquest 6541
+  tip Report to Kadrak at the watch tower in northern Barrens.
+  turnin 6541
+step
+  accept 6543
+step
+  zone map 1440
+  tip Open the Bundle of Reports. Take the Warsong Reports to the Warsong Scout, Warsong Runner, and Warsong Outrider. Bring back the updates they give you to Kadrak at the northern watch tower in the barrens.
+  talk 12862
+  collect 16764 quest 6543.1 @71.05,68.36 map 1440
+  talk 12864
+  collect 16765 quest 6543.3 @81.83,53.51 map 1440
+  talk 12863
+  collect 16764 quest 6543.1 @12.22,34.22 map 1440
+  collect 16763 quest 6543.2 @12.22,34.22 map 1440
+  collect 16765 quest 6543.3 @12.22,34.22 map 1440
+step
+  zone map 1413
+  tip Slay Serena Bloodfeather and return her head to Darsok Swiftdagger at the Crossroads.
+  collect 5067 quest 876.1 @39.16,12.17 map 1413 -- Drops from: Serena Bloodfeather
+step
+  turnin 6543
+step
+  turnin 876
+step
+  turnin 899
+step
+  turnin 4921
+step
+  turnin 95774
+step
+  accept 1060
+step
+  accept 97003
+step
+  tip Bring the head of Chol'aruk to Gur'ak in the Barrens.
+  collect 276070 quest 97003.1 @57.64,27.37 map 1413 optional -- Chol'aruk is elite: grouping up is advised.
+step
+  turnin 97003
+step
+  accept 1483
+step
+  accept 878
+step
+  tip Kill 6 Bristleback Water Seekers, 12 Bristleback Thornweavers and 12 Bristleback Geomancers and return to Mangletooth at Camp Taurajo in the Barrens.
+  kill 3260 x6 quest 878.1 @46.46,54.17 map 1413
+  kill 3261 x12 quest 878.2 @51.32,54.16 map 1413
+  kill 3260 x6 quest 878.1 @52.56,52.43 map 1413
+  kill 3261 x12 quest 878.2
+  kill 3263 x12 quest 878.3 @52.56,52.43 map 1413
+step
+  turnin 878
+step
+  accept 5052
+step
+  tip Bring a Blood Shard to Mangletooth in Camp Taurajo in the Barrens.
+  collect 5075 quest 5052.1 @44.47,52.32 map 1413 -- Drops from: Bristleback Hunter, Bristleback Water Seeker, Bristleback Thornweaver
+step
+  turnin 5052
+step
+  when !turnedin 235
+  when !turnedin 742
+  when !onquest 235
+  when !onquest 742
+  when level>=20
+  accept 6382
+step
+  accept 853
+step
+  zone map 1456
+  tip Bring the Rendered Spores to Apothecary Zamah in Thunder Bluff, before the time limit is up.
+  turnin 853 -- Turn in at Thunder Bluff
+step
+  accept 962
+step
+  only Priest,Troll
+  when !turnedin 5643
+  when !turnedin 5680
+  when !onquest 5643
+  when !onquest 5680
+  when level>=20
+  accept 5642
+step
+  only Tauren
+  tip Buy a wind rider to Thunder Bluff from the wind rider master Devrak, then bring the Bundle of Hides to Ahanu in Thunder Bluff.
+  turnin 6362 -- Turn in at Thunder Bluff
+step
+  only Tauren
+  accept 6363
+step
+  only Tauren
+  tip Bring Ahanu's Leather Goods to Tal in Thunder Bluff.
+  turnin 6363 -- Turn in at Thunder Bluff
+step
+  only Tauren
+  accept 6364
+step
+  only Druid,Tauren
+  accept 27
+step
+  only Druid,Tauren,Skyborne
+  when level>=20
+  accept 98340
+step
+  tip Speak with Hamuul Runetotem.
+  turnin 1489 -- Turn in at Thunder Bluff
+step
+  accept 1490
+step
+  tip Speak with Nara Wildmane.
+  turnin 1490 -- Turn in at Thunder Bluff
+step
+  only Warrior
+  when level>=20
+  accept 1823 npc 3041
+step
+  zone map 1411
+  only Shaman
+  tip Bring the Torch of the Dormant Flame to Telf Joolam in Durotar.
+  turnin 1524 -- Turn in at Durotar
+step
+  only Shaman
+  accept 1525
+step
+  only Warrior
+  when !turnedin 1819
+  when !onquest 1819
+  tip Bring 5 Singed Scales to Uzzek at Far Watch Post in the Barrens.
+  collect 6486 x5 quest 1498.1 @39.15,29.29 map 1411 -- Drops from: Thunder Lizard, Lightning Hide
+step
+  zone map 1413
+  only Shaman
+  tip Bring 1 Fire Tar and 1 Reagent Pouch to Telf Joolam in Durotar.
+  collect 5026 quest 1525.1 @54.94,26.74 map 1413 -- Drops from: Razormane Water Seeker, Razormane Thornweaver, Razormane Geomancer
+  collect 5026 quest 1525.1 @52.67,25.36 map 1411 -- Drops from: Burning Blade Cultist
+  collect 6652 quest 1525.2 @52.67,25.36 map 1411 -- Drops from: Burning Blade Cultist
+step
+  zone map 1411
+  only Shaman
+  turnin 1525 -- Turn in at Durotar
+step
+  only Shaman
+  accept 1526
+step
+  only Shaman
+  tip Defeat the Minor Manifestation of Fire, and place the Glowing Ember in the brazier atop the Shrine of Eternal Flame.
+  collect 6655 quest 1526.1 @38.72,58.29 map 1411 -- Drops from: Minor Manifestation of Fire
+step
+  only Shaman
+  turnin 1526 -- Turn in at Durotar
+step
+  only Shaman
+  interact 61934
+  accept 1527
+step
+  zone map 1413
+  only Warrior
+  when !turnedin 1819
+  when !onquest 1819
+  turnin 1498
+step
+  only Warrior
+  accept 1502
+step
+  only Shaman
+  tip Bring the Torch of Eternal Flame to Kranal Fiss in the Barrens.
+  turnin 1527
+step
+  only Tauren
+  tip Buy a wind rider to the Crossroads from the wind rider master Tal, then bring Ahanu's Leather Goods to Jahan Hawkwing.
+  turnin 6364
+step
+  tip Apothecary Zamah in Thunder Bluff wants you to collect 10 Serpentbloom.
+  collect 5339 x10 quest 962.1 @47.62,33.85 map 1413
+step
+  only Warrior
+  tip Speak with Thun'grim Firegaze in the Barrens.
+  turnin 1502
+step
+  only Warrior
+  accept 1503
+step
+  only Warrior
+  tip Bring the Forged Steel Bars to Thun'grim Firegaze in the Barrens.
+  collect 6534 quest 1503.1 @55.05,26.65 map 1413 -- Drops from: Stolen Iron Chest
+step
+  only Warrior
+  turnin 1503
+step
+  only Warrior
+  when onquest 1823
+  tip Speak with Ruga Ragetotem.
+  turnin 1823
+step
+  only Warrior
+  when level>=20
+  accept 1824
+step
+  only Warrior
+  when onquest 1824
+  tip Bring 5 twitching antennae to Ruga Ragetotem at Camp Taurajo
+  collect 7119 x5 quest 1824.1 @45.23,70.16 map 1413 -- Drops from: Silithid Creeper, Silithid Grub, Silithid Protector
+step
+  only Warrior
+  when onquest 1824
+  turnin 1824
+step
+  only Warrior
+  when turnedin 1824
+  when level>=20
+  accept 1825
+step
+  only Warrior
+  when onquest 1825
+  tip Speak with Thun'grim Firegaze in the Barrens.
+  turnin 1825
+step
+  zone map 1454
+  only Rogue,Orc,Troll
+  turnin 1963 -- Turn in at Orgrimmar
+step
+  only Rogue,Orc,Troll
+  accept 1858
+step
+  only Rogue
+  accept 2379
+step
+  only Rogue
+  when level>=20
+  accept 2460
+step
+  only Rogue
+  when onquest 2460
+  tip Perform the Shattered Salute on Shenthul.
+  talk 3401
+step
+  only Rogue
+  when onquest 2460
+  turnin 2460 -- Turn in at Orgrimmar
+step
+  only Rogue
+  when turnedin 2460
+  when level>=20
+  accept 2458
+step
+  only Rogue
+  tip Speak with Zando'zan at the Cleft of Shadow.
+  turnin 2379 -- Turn in at Orgrimmar
+step
+  only Rogue
+  accept 2382
+step
+  only Warlock
+  when turnedin 1507
+  when !turnedin 1472
+  when !onquest 1472
+  when level>=20
+  accept 65601
+step
+  accept 1061
+step
+  only Shaman
+  when !turnedin 1529
+  when !turnedin 2985
+  when !turnedin 2986
+  when !onquest 1529
+  when !onquest 2985
+  when !onquest 2986
+  when level>=20
+  accept 1528
+step
+  when turnedin 5728
+  accept 5729
+step
+  accept 97326
+step
+  tip Return 8 Smooth Boulders to Thra behind Grommash Hold.
+  collect 277952 x8 quest 97326.1 @45.3,32.7 map 1454
+step
+  turnin 97326 -- Turn in at Orgrimmar
+step
+  accept 97242
+step
+  accept 97275
+step
+  tip Give Yelmak's Potion to Whuut.
+  turnin 97275 -- Turn in at Orgrimmar
+step
+  tip Take some cuttings from the Cattails and Speargrass growing around the water flows in the Valley of Honor and return to Kor'geld in Yelmak's Alchemy and Potions
+  collect 277278 quest 97242.1 @69.7,31.2 map 1454 -- Drops from: Cattail
+  collect 277278 quest 97242.1 @70.4,29.5 map 1454 -- Drops from: Speargrass
+  collect 277279 quest 97242.2 @70.4,29.5 map 1454 -- Drops from: Speargrass
+step
+  tip Bring the Broken and Battered Samophlange to Rilli Greasygob in Orgrimmar.
+  turnin 3923 -- Turn in at Orgrimmar
+step
+  accept 3924
+step
+  tip Bring the Samophlange Manual to Rilli Greasygob in Orgrimmar.
+  collect 11149 quest 3924.1 @76.52,24.41 map 1454
+step
+  turnin 3924 -- Turn in at Orgrimmar
+step
+  turnin 97242 -- Turn in at Orgrimmar
+step
+  only Warlock
+  when turnedin 1507
+  when !turnedin 1472
+  when !onquest 1472
+  when onquest 65601
+  tip Speak with Magar in Orgrimmar.
+  turnin 65601 -- Turn in at Orgrimmar
+step
+  accept 97249
+step
+  when turnedin 5728
+  tip Speak to Neeru Fireblade in Orgrimmar.
+  turnin 5729 -- Turn in at Orgrimmar
+step
+  when turnedin 5728
+  accept 5730
+step
+  only Warlock
+  when turnedin 1508
+  when !turnedin 1472
+  when !onquest 1472
+  when level>=20
+  accept 1509
+step
+  only Orc,Troll
+  tip Buy a wind rider to Orgrimmar from the wind rider master Devrak, then bring Zargh's Meats to Gryshka in Orgrimmar.
+  turnin 6384 -- Turn in at Orgrimmar
+step
+  only Orc,Troll
+  accept 6385
+step
+  accept 97246
+step
+  only Orc,Troll
+  tip Bring Gryshka's Letter to Doras in Orgrimmar.
+  turnin 6385 -- Turn in at Orgrimmar
+step
+  only Orc,Troll
+  accept 6386
+step
+  tip Visit Borstan's Firepit and tell him Thatog wants you to deliver Migi's lunch to him personally.
+  turnin 97246 -- Turn in at Orgrimmar
+step
+  when turnedin 5728
+  tip Speak to Thrall in Orgrimmar and tell him what you've learned.
+  turnin 5730 -- Turn in at Orgrimmar
+step
+  tip Bring Migi's Lunch to him behind Grommash Hold
+  turnin 97249 -- Turn in at Orgrimmar
+step
+  only Priest,Troll
+  when !turnedin 5643
+  when !turnedin 5680
+  when !onquest 5643
+  when !onquest 5680
+  when onquest 5642
+  tip Speak to Ur'kyo in Orgrimmar.
+  turnin 5642 -- Turn in at Orgrimmar
+step
+  zone map 1413
+  tip Speak with Seereth Stonebreak in the Stonetalon Mountains.
+  turnin 1061
+step
+  accept 1062
+step
+  only Warlock
+  when turnedin 1508
+  when !turnedin 1472
+  when !onquest 1472
+  when onquest 1509
+  tip Speak with Gazrog at the Crossroads.
+  turnin 1509
+step
+  only Warlock
+  when turnedin 1508
+  when !turnedin 1472
+  when !onquest 1472
+  when turnedin 1509
+  when level>=20
+  accept 1510
+step
+  only Orc,Troll
+  tip Buy a wind rider to the Crossroads from the wind rider master Doras, then bring Gryshka's Letter to Zargh at the Crossroads.
+  turnin 6386
+step
+  only Rogue
+  tip Travel to Ratchet and speak with Wrenix the Wretched.
+  turnin 2382
+step
+  only Rogue
+  accept 2381
+step
+  only Shaman
+  when !turnedin 1529
+  when !turnedin 2985
+  when !turnedin 2986
+  when !onquest 1529
+  when !onquest 2985
+  when !onquest 2986
+  when onquest 1528
+  tip Find Islen Waterseer in the Barrens.
+  turnin 1528
+step
+  only Rogue
+  tip Bring the Southsea Treasure back to Wrenix the Wretched in Ratchet. Do not forget to get an E.C.A.C. and Thieves' Tools from Wrenix's Gizmotronic Apparatus. You will need both of these items to complete your mission.
+  collect 7968 quest 2381.1 @64.78,45.5 map 1413 -- Drops from: Polly
+step
+  only Rogue,Orc,Troll
+  tip Steal Tazan's key, then use it to open his Satchel and deliver its contents to Therzok in the Cleft of Shadow in Orgrimmar.
+  collect 7295 quest 1858.1 @63.11,44.29 map 1413
+step
+  only Rogue
+  turnin 2381
+step
+  only Rogue
+  when onquest 2458
+  tip Travel to the Venture Co. Tower, north of the Sludge Fen and contact the Shattered Hand's covert operative, Taskmaster Fizzule.
+  turnin 2458
+step
+  zone map 1450
+  only Druid,Tauren
+  tip Speak with Dendrite Starblaze in the village of Nighthaven, Moonglade.
+  turnin 27 -- Turn in at Moonglade
+step
+  only Druid,Tauren,Skyborne
+  when onquest 98340
+  tip Speak with Dendrite Starblaze in the village of Nighthaven, Moonglade.
+  turnin 98340 -- Turn in at Moonglade
+step
+  only Druid,Tauren
+  when turnedin 6127
+  when onquest 6129
+  turnin 6129 -- Turn in at Moonglade
+step
+  zone map 1456
+  turnin 962 -- Turn in at Thunder Bluff
+step
+  zone map 1442
+  tip Speak with Ziz Fizziks in Windshear Crag.
+  turnin 1483 -- Turn in at Stonetalon Mountains
+step
+  tip Bring 15 Deepmoss Eggs to Mebok Mizzyrix in Ratchet.
+  collect 5570 x15 quest 1069.1 @61.39,56.74 map 1442 -- Drops from: Deepmoss Eggs
+step
+  tip Kill 15 Venture Co. Loggers, then return to Seereth Stonebreak on the border of Stonetalon and the Barrens.
+  kill 3989 x15 quest 1062.1 @66.4,52.49 map 1442
+step
+  tip Kill 8 Grimtotem Ruffians and 6 Grimtotem Mercenaries, and then return to Makaba Flathoof near the southeastern edge of Stonetalon.
+  kill 11910 x8 quest 6548.1 @82.8,86.18 map 1442
+  kill 11910 x8 quest 6548.1 @82.35,88.03 map 1442
+  kill 11911 x6 quest 6548.2 @82.35,88.03 map 1442
+step
+  only Warlock
+  when turnedin 1508
+  when !turnedin 1472
+  when !onquest 1472
+  when onquest 1510
+  tip Speak with Ken'zigla at the Malaka'jin.
+  turnin 1510 -- Turn in at Stonetalon Mountains
+step
+  tip Deliver Darsok's letter to Jin'Zil within his cave in Malaka'Jin, in Stonetalon.
+  turnin 1060 -- Turn in at Stonetalon Mountains
+step
+  zone map 1413
+  turnin 6548
+step
+  accept 6629
+step
+  turnin 1062
+step
+  accept 1063
+step
+  turnin 1069
+step
+  zone map 1454
+  only Rogue,Orc,Troll
+  turnin 1858 -- Turn in at Orgrimmar
+step
+  zone map 1442
+  tip Kill Grundig Darkcloud and 6 Grimtotem Brutes, and return to Makaba Flathoof near the southeastern edge of Stonetalon.
+  kill 11858 quest 6629.1 @73.65,86.12 map 1442
+  kill 11858 quest 6629.1
+  kill 11912 x6 quest 6629.2 @77.79,86.33 map 1442
+step
+  zone map 1413
+  turnin 6629
+step
+  zone map 1456
+  tip Speak with Magatha in Thunder Bluff.
+  turnin 1063 -- Turn in at Thunder Bluff
+step
+  accept 1064
+step
+  tip Speak with Apothecary Zamah in the Pools of Vision in Thunder Bluff.
+  turnin 1064 -- Turn in at Thunder Bluff
+step
+  zone map 1440
+  when !turnedin 235
+  when !turnedin 742
+  when !onquest 235
+  when !onquest 742
+  when onquest 6382
+  tip Speak with Senani Thunderheart at Splintertree Post, Ashenvale.
+  turnin 6382 -- Turn in at Ashenvale
+step
+  tip Zone complete! Travel to Ashenvale.
+  goto 11.69,34.91 map 1440

@@ -1,0 +1,944 @@
+guide lodestar/horde/tirisfal-glades-5-12
+title "Tirisfal Glades (5-12)"
+levels 5-12
+zone map 1420
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/silverpine-forest-11-20
+step
+  only Undead
+  accept 363
+step
+  only Warlock
+  when !turnedin 1485
+  when !onquest 1485
+  accept 1470
+step
+  only Paladin,Undead
+  accept 98601
+step
+  only Warlock
+  when !turnedin 1485
+  when !onquest 1485
+  when onquest 1470
+  tip Bring Venya Marthand 3 Rattlecage Skulls.
+  collect 6281 x3 quest 1470.1 @32.91,61.62 map 1420 -- Drops from: Rattlecage Skeleton
+step
+  only Undead
+  when onquest 363
+  tip Speak with Shadow Priest Sarvis.
+  turnin 363
+step
+  only Warlock
+  when !turnedin 1485
+  when !onquest 1485
+  when onquest 1470
+  turnin 1470
+step
+  only Paladin,Undead
+  when onquest 98601
+  tip Read the Consecrated Scroll and speak to Aramis Hammerhand in the church in Deathknell.
+  turnin 98601
+step
+  accept 364
+step
+  when onquest 364
+  tip Shadow Priest Sarvis wants you to kill 8 Mindless Zombies and 8 Wretched Zombies.
+  kill 1501 x8 quest 364.1 @32.28,63.63 map 1420
+  kill 1501 x8 quest 364.1 @32.87,63.55 map 1420
+  kill 1502 x8 quest 364.2 @32.87,63.55 map 1420
+step
+  when onquest 364
+  turnin 364
+step
+  only Warrior,Undead
+  when turnedin 364
+  accept 3095
+step
+  only Rogue,Undead
+  when turnedin 364
+  accept 3096
+step
+  only Priest,Undead
+  when turnedin 364
+  accept 3097
+step
+  only Mage,Undead
+  when turnedin 364
+  accept 3098
+step
+  only Warlock,Undead
+  when turnedin 364
+  accept 3099
+step
+  when turnedin 364
+  accept 3901
+step
+  accept 376
+step
+  only Paladin,Undead
+  accept 90902
+step
+  accept 98389
+step
+  tip Novice Elreth requires 6 Scavenger Paws and 6 Duskbat Wings.
+  collect 3264 x6 quest 376.2 @29.94,66.22 map 1420 -- Drops from: Duskbat, Mangy Duskbat
+  collect 3265 x6 quest 376.1 @30.91,62.15 map 1420 -- Drops from: Young Scavenger, Ragged Scavenger
+  collect 3264 x6 quest 376.2 @30.91,62.15 map 1420 -- Drops from: Young Scavenger, Ragged Scavenger
+step
+  when onquest 3901
+  tip Kill 12 Rattlecage Skeletons, and then return to Shadow Priest Sarvis in Deathknell when you are done.
+  kill 1890 x12 quest 3901.1 @32.91,61.62 map 1420
+step
+  only Paladin,Undead
+  tip Heal 5 Injured Deathguard with your Holy Light ability.
+  talk 259377
+step
+  turnin 376
+step
+  only Warrior,Undead
+  when onquest 3095
+  tip Read the Simple Scroll and speak to Dannal Stern in Deathknell.
+  turnin 3095
+step
+  only Rogue,Undead
+  when onquest 3096
+  tip Read the Encrypted Scroll and speak to David Trias in Deathknell.
+  turnin 3096
+step
+  only Priest,Undead
+  when onquest 3097
+  tip Read the Hallowed Scroll and speak to Dark Cleric Duesten in the church in Deathknell.
+  turnin 3097
+step
+  only Mage,Undead
+  when onquest 3098
+  tip Read the Glyphic Scroll and speak to Isabella in the church in Deathknell.
+  turnin 3098
+step
+  only Warlock,Undead
+  when onquest 3099
+  tip Read the Tainted Scroll and speak to Maximillion in Deathknell.
+  turnin 3099
+step
+  when onquest 3901
+  turnin 3901
+step
+  only Paladin,Undead
+  turnin 90902
+step
+  accept 380
+step
+  accept 3902
+step
+  accept 6395
+step
+  tip Search Deathknell and the vicinity for 6 pieces of Scavenged Goods, and return them to Deathguard Saltain.
+  collect 11127 x6 quest 3902.1 @32.87,64.6 map 1420 -- Drops from: Equipment Boxes
+step
+  turnin 3902
+step
+  accept 8
+step
+  tip Bring Samuel Fipps' Remains to Marla's Grave, then return to Novice Elreth.
+  kill 1919
+  goto 36.68,61.56 map 1420
+step
+  tip Bring Samuel Fipps' Remains to Marla's Grave, then return to Novice Elreth.
+  interact 178090 quest 6395.1 @31.17,65.08 map 1420
+step
+  tip Executor Arren wants you to kill 10 Young Night Web Spiders and 8 Night Web Spiders.
+  kill 1504 x10 quest 380.1 @28.32,57.43 map 1420
+  kill 1504 x10 quest 380.1
+  kill 1505 x8 quest 380.2 @24.8,59.69 map 1420
+step
+  tip Free 6 Webbed Victims in Night's Web Hollow for Aramis Hammerhand in Deathknell.
+  talk 271961
+step
+  turnin 380
+step
+  turnin 6395
+step
+  turnin 98389
+step
+  accept 381
+step
+  only Paladin,Undead
+  accept 91208
+step
+  only Paladin,Undead
+  accept 91209
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96659
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96659
+  accept 96656
+step
+  only Paladin,Undead
+  tip Find the Frightened Paladin in Deathknell.
+  turnin 91208
+step
+  tip Bring Executor Arren 12 Scarlet Armbands from Scarlet Converts and Scarlet Initiates.
+  collect 3266 x12 quest 381.1 @37.58,67.98 map 1420 -- Drops from: Scarlet Convert, Scarlet Initiate, Meven Korgal
+step
+  turnin 381
+step
+  accept 382
+step
+  only Priest,Undead
+  accept 5651
+step
+  tip Kill Meven Korgal, the messenger, at the Crusader camp, then return any information you find to Executor Arren.
+  collect 2885 quest 382.1 @36.57,68.54 map 1420 -- Drops from: Meven Korgal
+step
+  turnin 382
+step
+  accept 383
+step
+  accept 365
+step
+  accept 5481
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96659
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96659
+  tip Speak to Eleanor Shackleton near Brill.
+  turnin 96656
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96608
+  accept 96607
+step
+  tip Collect 3 Gloom Weed and deliver them to Junior Apothecary Holland in the Brill graveyard.
+  collect 12737 x3 quest 5481.1 @48.7,54.9 map 1420
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96608
+  tip Sit near Eleanor's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.
+  interact 460003 quest 96607.1 @57.17,55.55 map 1420
+  interact 460003 quest 96607.2 @57.17,55.55 map 1420
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96608
+  turnin 96607
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96661
+  accept 96658
+step
+  tip Deliver the Nondescript Letter to Innkeeper Renee in Tirisfal Glades.
+  turnin 8
+step
+  tip Deliver the Scarlet Crusade Documents to Executor Zygand in Brill.
+  turnin 383
+step
+  turnin 5481
+step
+  only Priest,Undead
+  tip Speak to Dark Cleric Beryl in Tirisfal Glades.
+  turnin 5651
+step
+  only Paladin,Undead
+  tip Follow the road east out of Deathknell to find the town of Brill. Report to Shari Stilwell to continue your training.
+  turnin 91209
+step
+  accept 404
+step
+  accept 99134
+step
+  accept 99141
+step
+  accept 5482
+step
+  only Priest,Undead
+  accept 5650
+step
+  accept 86784
+step
+  accept 358
+step
+  accept 367
+step
+  accept 427
+step
+  tip Apothecary Johaan in the town of Brill wants you to collect 5 Vials of Darkhound Blood.
+  collect 2858 x5 quest 367.1 @57.81,52.71 map 1420 -- Drops from: Decrepit Darkhound, Cursed Darkhound, Ravenous Darkhound
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96661
+  tip Speak with William Pickman in Brill to learn to become a cook.
+  talk 265944
+step
+  tip Obtain reports from Deathguard Dillinger, Deathguard Kristof, and Gordo for Executor Zygand.
+  talk 1496
+  collect 286200 quest 99141.1 @58.2,51.45 map 1420
+  talk 251001
+  collect 286201 quest 99141.2 @65.3,60.26 map 1420
+  talk 10666
+  collect 286200 quest 99141.1 @43.06,54.69 map 1420
+  collect 286201 quest 99141.2 @43.06,54.69 map 1420
+  collect 286202 quest 99141.3 @43.06,54.69 map 1420
+step
+  turnin 367
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96661
+  turnin 96658
+step
+  tip Punish 5 Deathguards for Executor Zygand.
+  turnin 99134
+step
+  turnin 99141
+step
+  tip Bring 7 Putrid Claws to Deathguard Dillinger in Brill.
+  collect 2855 x7 quest 404.1 @53.16,54.23 map 1420 -- Drops from: Rotting Dead, Ravaged Corpse
+step
+  tip Collect 6 Dry Branches and bring them to Eleanor Shackleton.
+  collect 279991 x6 quest 86784.1 @56.1,53.4 map 1420
+step
+  turnin 86784
+step
+  tip Kill Rot Hide Graverobbers and Rot Hide Mongrels.
+  kill 1941 x8 quest 358.1 @55.78,42.27 map 1420
+  kill 1675 x5 quest 358.2
+  collect 2834 x8 quest 358.3 @55.78,42.27 map 1420
+step
+  tip Collect 10 Doom Weed and deliver them back to Junior Apothecary Holland.
+  collect 13702 x10 quest 5482.1 @57.14,39.77 map 1420
+step
+  only Priest,Undead
+  tip Find Deathguard Kel and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Dark Cleric Beryl in Brill.
+  talk 12428
+step
+  kill 1520 @45.84,40.43 map 1420 -- Loot the quest item here — it starts the quest.
+  accept 361 @45.84,40.43 map 1420
+step
+  accept 99144
+step
+  tip Steal 10 pumpkins from the farm to the west, just north of Deathknell and take them to Apothecary Johaan in Brill.
+  collect 2846 x10 quest 365.1 @35.86,50.49 map 1420
+step
+  tip Executor Zygand of Brill wants you to kill 10 Scarlet Warriors.
+  kill 1535 x10 quest 427.1 @32.08,47.4 map 1420
+step
+  accept 590
+step
+  tip Defeat Calvin Montague in Deathknell.
+  complete 590 @38.23,56.79 map 1420
+step
+  turnin 590
+step
+  turnin 358
+step
+  tip Find Yvette Farthing, and deliver to her the letter from Thurman Agamand.
+  turnin 361
+step
+  turnin 365
+step
+  turnin 404
+step
+  turnin 427
+step
+  turnin 5482
+step
+  only Priest,Undead
+  turnin 5650
+step
+  tip Help Bareth Dawnstone escape Crusader's Outpost, and report his safety to Shari Stilwell in Brill.
+  turnin 99144
+step
+  accept 374
+step
+  accept 407
+step
+  accept 405
+step
+  accept 426
+step
+  accept 359
+step
+  accept 368
+step
+  accept 370
+step
+  accept 375
+step
+  accept 362
+step
+  interact 711
+  accept 398
+step
+  accept 95314
+step
+  tip Take the Laced Pumpkin to the Captured Scarlet Zealot who is being held in the cellar of the Gallow's End Tavern.
+  turnin 407
+step
+  tip Bring five Duskbat Pelts and some Coarse Thread to Gretchen Dedmar in Brill.
+  talk 2118
+  buy 2320 npc 2118
+  collect 2876 x5 quest 375.1 @57.09,54.21 map 1420 -- Drops from: Greater Duskbat, Vampiric Duskbat
+  collect 2320 quest 375.2 @57.09,54.21 map 1420 -- Drops from: Greater Duskbat, Vampiric Duskbat
+step
+  tip Executor Zygand in Brill wants you to kill Captain Perrine, 3 Scarlet Zealots and 3 Scarlet Missionaries.
+  kill 1536 x3 quest 370.3 @50.23,66.93 map 1420
+  kill 1662 quest 370.1 @51.14,67.8 map 1420
+  kill 1662 quest 370.1
+  kill 1537 x3 quest 370.2 @78.38,56.03 map 1420
+  kill 1536 x3 quest 370.3
+step
+  tip Speak with Deathguard Linnea.
+  turnin 359
+step
+  accept 360
+step
+  tip Slay Devlin Agamand, and bring Devlin's Remains to Coleman Farthing in Brill.
+  collect 2831 quest 362.1 @47.34,40.78 map 1420 -- Drops from: Devlin Agamand
+step
+  tip Gather 5 Notched Ribs and 3 Blackened Skulls, then return to Deathguard Dillinger in Brill.
+  collect 3162 x5 quest 426.1 @45.84,40.43 map 1420 -- Drops from: Rattlecage Soldier, Cracked Skull Soldier
+  collect 3162 x5 quest 426.1 @46.91,34.88 map 1420 -- Drops from: Darkeye Bonecaster, Shadowvale Mystic
+  collect 3163 x3 quest 426.2 @46.91,34.88 map 1420 -- Drops from: Darkeye Bonecaster, Shadowvale Mystic
+step
+  tip Bring 10 Scarlet Insignia Rings to Deathguard Burgess in Brill.
+  collect 2875 x10 quest 374.1 @32.08,47.4 map 1420 -- Drops from: Scarlet Warrior, Scarlet Missionary, Scarlet Bodyguard
+step
+  accept 99152
+step
+  accept 99153
+step
+  kill 260396 @9.52,60.28 map 1420 optional -- Whispering Horror is elite: grouping up is advised.
+  accept 95328 @9.52,60.28 map 1420
+step
+  tip Collect 8 Bottles of Whispering Elixir from Shadowvale, then return to Carolai Anise in Brill.
+  collect 268801 x8 quest 95314.1 @9.5,62 map 1420 -- Drops from: Bottle
+step
+  tip Deliver Whispering Horror Residue to Father Lankester in the War Quarter of Undercity.
+  collect 268812 quest 95328.1 @9.52,60.28 map 1420 optional -- Whispering Horror is elite: grouping up is advised.
+step
+  tip Collect 6 Faintly Glowing Bones for Hilda the Breaker.
+  collect 286259 x6 quest 99152.1 @9.76,66.41 map 1420 -- Drops from: Shadowvale Lurcher, Shadowvale Mystic
+step
+  tip Find the Hidden Crystal Fragment beneath Shadowvale for Ephram Barbaro.
+  collect 286269 quest 99153.1 @9.8,69.3 map 1420
+step
+  turnin 99152
+step
+  turnin 99153
+step
+  tip Return to Magistrate Sevren in Brill.
+  turnin 360
+step
+  turnin 362
+step
+  turnin 370
+step
+  turnin 374
+step
+  turnin 375
+step
+  turnin 426
+step
+  turnin 95314
+step
+  accept 371
+step
+  accept 354
+step
+  accept 445
+step
+  only Paladin,Undead
+  accept 91282
+step
+  accept 99142
+step
+  accept 356
+step
+  accept 97558
+step
+  tip Bring Shelene Rhobart 8 Duskbat Wing Membranes, 6 Darkhound Hides and 3 Vile Fin Murloc Skin.
+  collect 278242 x8 quest 97558.1 @57.09,54.21 map 1420 -- Drops from: Greater Duskbat, Vampiric Duskbat
+  collect 278243 x6 quest 97558.2 @57.81,52.71 map 1420 -- Drops from: Decrepit Darkhound, Cursed Darkhound
+  collect 278242 x8 quest 97558.1 @59.43,29.07 map 1420 -- Drops from: Vile Fin Minor Oracle, Vile Fin Muckdweller
+  collect 278243 x6 quest 97558.2 @59.43,29.07 map 1420 -- Drops from: Vile Fin Minor Oracle, Vile Fin Muckdweller
+  collect 278244 x3 quest 97558.3 @59.43,29.07 map 1420 -- Drops from: Vile Fin Minor Oracle, Vile Fin Muckdweller
+step
+  turnin 97558
+step
+  tip Kill 8 Bleeding Horrors and 8 Wandering Spirits, then report back to Linnea at her camp.
+  kill 1529 x8 quest 356.1 @76.14,61.08 map 1420
+  kill 1529 x8 quest 356.1 @76.48,60.74 map 1420
+  kill 1532 x8 quest 356.2 @76.48,60.74 map 1420
+step
+  tip Executor Zygand in Brill has commissioned you to slay Captain Vachon and 5 Scarlet Friars.
+  kill 1664 quest 371.1 @78.82,56.13 map 1420
+  kill 1664 quest 371.1
+  kill 1538 x5 quest 371.2 @81.6,53.1 map 1420
+step
+  tip Collect 5 Tomb Weed and deliver them back to Junior Apothecary Holland.
+  collect 286204 x5 quest 99142.1 @76.3,60.8 map 1420
+step
+  turnin 356
+step
+  tip Apothecary Johaan of the town of Brill needs 5 Vile Fin Scales from Murlocs in Tirisfal Glades.
+  collect 2859 x5 quest 368.1 @62.63,30.69 map 1420 -- Drops from: Vile Fin Puddlejumper, Vile Fin Minor Oracle, Vile Fin Muckdweller
+step
+  tip Kill Maggot Eye and return to Executor Zygand in Brill with his paw for a reward.
+  collect 3635 quest 398.1 @58.66,30.77 map 1420 -- Drops from: Maggot Eye
+step
+  tip Bring Gregor's Remains, Nissa's Remains and Thurman's Remains to Coleman Farthing in Brill.
+  collect 2828 quest 354.2 @49.74,36.34 map 1420 -- Drops from: Nissa Agamand
+  collect 2830 quest 354.3 @44,33.64 map 1420 -- Drops from: Thurman Agamand
+  collect 2829 quest 354.1 @46.74,29.31 map 1420 -- Drops from: Gregor Agamand
+  collect 2828 quest 354.2 -- Drops from: Gregor Agamand
+  collect 2830 quest 354.3 -- Drops from: Gregor Agamand
+step
+  turnin 354
+step
+  turnin 368
+step
+  turnin 371
+step
+  turnin 398
+step
+  turnin 99142
+step
+  accept 355
+step
+  accept 369
+step
+  accept 372
+step
+  only Warlock
+  accept 1478
+step
+  only Warrior
+  when !turnedin 1498
+  when !onquest 1498
+  accept 1818
+step
+  only Mage,Troll,Undead
+  when !turnedin 1884
+  when !onquest 1884
+  accept 1881
+step
+  only Rogue,Undead
+  when !turnedin 1859
+  when !onquest 1859
+  accept 1885
+step
+  accept 96895
+step
+  tip Speak with Magistrate Sevren in Brill.
+  turnin 355
+step
+  only Warrior
+  when !turnedin 1498
+  when !onquest 1498
+  tip Speak with Deathguard Dillinger in Brill.
+  turnin 1818
+step
+  only Warrior
+  when !turnedin 1498
+  when !onquest 1498
+  accept 1819
+step
+  accept 408
+step
+  only Warrior
+  when !turnedin 1498
+  when !onquest 1498
+  tip Kill Ulag the Cleaver, then speak with Deathguard Dillinger.
+  kill 6390 quest 1819.1 @59.47,48.28 map 1420
+step
+  only Warrior
+  when !turnedin 1498
+  when !onquest 1498
+  turnin 1819
+step
+  only Warrior
+  accept 1820
+step
+  only Warrior
+  accept 1821
+step
+  only Warrior
+  tip Speak with Coleman Farthing.
+  turnin 1820
+step
+  tip Find the Argent Dawn member near the entrance to the Undercity.
+  turnin 96895
+step
+  accept 96897
+step
+  accept 96898
+step
+  accept 96899
+step
+  accept 99156
+step
+  tip Kill 8 Dark Neophytes and 8 Dark Enforcers in Tirisfal Glades.
+  kill 275437 x8 quest 96897.2 @68.03,64.52 map 1420
+  kill 267006 x8 quest 96897.1 @67.98,64.57 map 1420
+  kill 267006 x8 quest 96897.1
+  kill 275437 x8 quest 96897.2
+  kill 1547 quest 96897.3 @57.81,52.71 map 1420
+step
+  tip Gather 12 Necrotic Crystal Fragments in Tirisfal Glades.
+  collect 275851 x12 quest 96898.1 @67.98,64.57 map 1420 -- Drops from: Dark Neophyte, Dark Enforcer, Naxxramas Crystal Fragment
+step
+  turnin 96897
+step
+  turnin 96898
+step
+  tip Apothecary Johaan in the town of Brill wants you to bring him 4 samples of venom from a Vicious Night Web Spider.
+  collect 2872 x4 quest 369.1 @86.74,53.2 map 1420 -- Drops from: Vicious Night Web Spider
+step
+  tip Bring Riptear's Heart to Deathguard Linnea.
+  collect 286326 quest 99156.1 @83.69,44.83 map 1420 optional -- Riptear is elite: grouping up is advised.
+step
+  tip Executor Zygand in the town of Brill wants you to assassinate Captain Melrache and his two bodyguards.
+  kill 1660 x2 quest 372.2 @79.46,25.25 map 1420
+  kill 1665 quest 372.1 @79.52,25.15 map 1420
+  kill 1660 x2 quest 372.2 @79.52,25.15 map 1420
+step
+  tip Kill 8 Wailing Ancestors and 8 Rotting Ancestors.
+  kill 1534 x8 quest 408.1 @51.87,28.76 map 1420
+  kill 1530 x8 quest 408.2 @51.87,28.76 map 1420
+  collect 3082 quest 408.3
+step
+  only Warrior
+  tip Bring Coleman Farthing the Agamand Family Axe, the Agamand Family Sword, the Agamand Family Mace and the Agamand Family dagger.
+  collect 7568 quest 1821.2 @51.88,27.14 map 1420 -- Drops from: Agamand Weapon Rack
+  collect 7569 quest 1821.3 @52.66,27.04 map 1420 -- Drops from: Agamand Weapon Rack
+  collect 7566 quest 1821.4 @52.66,25.85 map 1420 -- Drops from: Agamand Weapon Rack
+  collect 7567 quest 1821.1 @51.68,25.69 map 1420 -- Drops from: Agamand Weapon Rack
+  collect 7568 quest 1821.2 @51.68,25.69 map 1420 -- Drops from: Agamand Weapon Rack
+  collect 7569 quest 1821.3 -- Drops from: Agamand Weapon Rack
+  collect 7566 quest 1821.4 @51.68,25.69 map 1420 -- Drops from: Agamand Weapon Rack
+step
+  turnin 369
+step
+  turnin 372
+step
+  turnin 408
+step
+  only Warrior
+  turnin 1821
+step
+  accept 492
+step
+  only Warrior
+  accept 1822
+step
+  tip Bring Johaan's Special Drink to the Captured Mountaineer.
+  turnin 492
+step
+  only Warrior
+  turnin 1822
+step
+  only Paladin,Undead
+  accept 94440
+step
+  only Paladin,Undead
+  tip Retrieve the Scarlet Crusade Attack Plans from the Scarlet Crusaders at Venomweb Vale, and return to Deathguard Billmuth at Tyr's Watch.
+  collect 264693 quest 94440.1 @78.38,56.03 map 1420 -- Drops from: Scarlet Zealot, Scarlet Friar, Tarnished Zealot
+step
+  turnin 99156
+step
+  only Paladin,Undead
+  tip Find the fortress of Bandarion Keep and report to Breton Samuels there.
+  turnin 91282
+step
+  only Paladin,Undead
+  turnin 94440
+step
+  tip Meet Leonid Barthalomew at Bandarion Keep in Tirisfal Glades.
+  turnin 96899
+step
+  only Paladin,Undead
+  accept 91285
+step
+  only Paladin,Undead
+  accept 91294
+step
+  only Paladin,Undead
+  accept 91316
+step
+  only Paladin,Undead
+  accept 91317
+step
+  only Paladin,Undead
+  accept 95803
+step
+  accept 96896
+step
+  accept 98545
+step
+  only Paladin,Undead
+  accept 94427
+step
+  only Paladin,Undead
+  accept 94436
+step
+  only Paladin,Undead
+  accept 94438
+step
+  only Paladin,Undead
+  accept 94441
+step
+  only Paladin,Undead
+  tip Speak to the residents of Bandarion Keep.
+  turnin 91294
+step
+  only Paladin,Undead
+  tip Speak with Deathguard Billmuth at Bandarion Keep.
+  turnin 94436
+step
+  only Paladin,Undead
+  tip Speak with Danitha Morr in the keep at Bandarion Keep.
+  turnin 94441
+step
+  tip Observe the conversation between Danitha Morr and Leonid Barthalomew the Revered.
+  turnin 96896
+step
+  only Paladin,Undead
+  tip Slay 8 Vile Fin Attackers and 8 Vile Fin Seers and report back to Breton Samuels when it is done.
+  kill 250282 x8 quest 91285.2 @17.33,53.3 map 1420
+  kill 250283 x8 quest 91285.1 @16.52,56.32 map 1420
+  kill 250282 x8 quest 91285.2 @16.52,56.32 map 1420
+step
+  only Paladin,Undead
+  tip Collect 12 pieces of Sturdy Lumber from Shadowvale in Tirisfal Glades.
+  collect 246213 x12 quest 91316.1 @10,66.4 map 1420 -- Drops from: Lumber Pile
+step
+  only Paladin,Undead
+  tip Slay 8 Tarnished Drudges, 6 Tarnished Zealots, and collect the head of Commander Rudolph Gelhardt in Tirisfal Glades.
+  kill 259434 x8 quest 91317.1 @13.03,63.87 map 1420
+  kill 259433 x6 quest 91317.2 @13.03,63.87 map 1420
+  collect 270435 quest 91317.3 @13.03,63.87 map 1420
+step
+  only Paladin,Undead
+  turnin 91285
+step
+  only Paladin,Undead
+  turnin 91316
+step
+  only Paladin,Undead
+  turnin 91317
+step
+  only Paladin,Undead
+  tip Take the Symbol of Life and use it to resurrect Deathguard Falgan at Venomweb Vale.
+  turnin 94438
+step
+  zone map 1458
+  turnin 95328 -- Turn in at Undercity
+step
+  only Priest,Undead
+  when !turnedin 5660
+  when !turnedin 5661
+  when !turnedin 5662
+  when !turnedin 5663
+  when !onquest 5660
+  when !onquest 5661
+  when !onquest 5662
+  when !onquest 5663
+  accept 5658
+step
+  only Priest,Undead
+  when !turnedin 5660
+  when !turnedin 5661
+  when !turnedin 5662
+  when !turnedin 5663
+  when !onquest 5660
+  when !onquest 5661
+  when !onquest 5662
+  when !onquest 5663
+  turnin 5658 -- Turn in at Undercity
+step
+  only Paladin,Undead
+  tip Speak to Tanis Alderwood in the Undercity.
+  turnin 94427 -- Turn in at Undercity
+step
+  only Paladin,Undead
+  accept 94435
+step
+  tip Deliver the Sealed Letter to Glix Xizzix in the Undercity.
+  turnin 98545 -- Turn in at Undercity
+step
+  only Warlock
+  tip Speak with Carendin Halgar in the Undercity.
+  turnin 1478 -- Turn in at Undercity
+step
+  only Warlock,Undead
+  accept 1473
+step
+  tip Present Sevren's Orders to Bethor Iceshard in the Undercity.
+  turnin 405 -- Turn in at Undercity
+step
+  accept 357
+step
+  only Mage,Troll,Undead
+  when !turnedin 1884
+  when !onquest 1884
+  tip Speak with Anastasia Hartwell.
+  turnin 1881 -- Turn in at Undercity
+step
+  only Mage,Troll,Undead
+  when !turnedin 1884
+  when !onquest 1884
+  accept 1882
+step
+  only Rogue,Undead
+  when !turnedin 1859
+  when !onquest 1859
+  tip Speak with Mennet Carkad in the Rogues' Quarter of the Undercity.
+  turnin 1885 -- Turn in at Undercity
+step
+  only Paladin,Undead
+  tip Bring the head of Rudolph Gelhardt to Sylvanas Windrunner in the Undercity.
+  turnin 95803 -- Turn in at Undercity
+step
+  zone map 1420
+  only Paladin,Undead
+  tip Return to Danitha Morr at Bandarion Keep.
+  turnin 94435
+step
+  only Warlock,Undead
+  tip Recover Egalin's Grimoire and bring it to Carendin Halgar in the Temple of the Damned.
+  collect 6285 quest 1473.1 @51.06,67.57 map 1420 -- Drops from: Perrine's Chest
+step
+  only Mage,Troll,Undead
+  when !turnedin 1884
+  when !onquest 1884
+  tip Bring Balnir Snapdragons to Anastasia Hartwell in the Mage Quarter of the Undercity.
+  collect 7227 quest 1882.1 @77.59,62.01 map 1420
+step
+  tip Bring the Lich's Spellbook to Bethor Iceshard in the Undercity.
+  collect 2833 quest 357.1 @67.96,42.09 map 1420 -- Drops from: Gunther's Books
+step
+  zone map 1458
+  only Warlock,Undead
+  turnin 1473 -- Turn in at Undercity
+step
+  only Warlock,Undead
+  accept 1471
+step
+  only Warlock,Undead
+  tip Using the Runes of Summoning, summon and subdue a voidwalker, then return the Runes of Summoning to Carendin Halgar in the Magic Quarter of the Undercity.
+  kill 5676 quest 1471.1 -- Use the quest item on them, don't just kill them.
+step
+  only Warlock,Undead
+  turnin 1471 -- Turn in at Undercity
+step
+  turnin 357 -- Turn in at Undercity
+step
+  accept 366
+step
+  only Mage,Troll,Undead
+  when !turnedin 1884
+  when !onquest 1884
+  turnin 1882 -- Turn in at Undercity
+step
+  zone map 1420
+  tip Return Gunther's Spellbook to him, on the island of Gunther's Retreat.
+  turnin 366
+step
+  accept 409
+step
+  tip Obtain a Candle of Beckoning.
+  kill 1946 quest 409.1 @66.67,44.97 map 1420
+step
+  turnin 409
+step
+  accept 411
+step
+  zone map 1458
+  tip Bring the Nether Gem to Bethor Iceshard in the Undercity.
+  turnin 411 -- Turn in at Undercity
+step
+  zone map 1421
+  tip Take Apothecary Johaan's findings to Apothecary Renferrel in Silverpine Forest.
+  turnin 445 -- Turn in at Silverpine Forest
+step
+  tip Zone complete! Travel to Silverpine Forest.
+  goto 42.8,40.86 map 1421

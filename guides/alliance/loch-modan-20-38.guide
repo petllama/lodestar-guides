@@ -1,0 +1,142 @@
+guide lodestar/alliance/loch-modan-20-38
+title "Loch Modan (20-38)"
+levels 20-38
+zone map 1432
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/arathi-highlands-31-40
+step
+  level 16
+step
+  getfp "Thelsamar, Loch Modan"
+step
+  when level>=19
+  accept 255
+step
+  when turnedin 258
+  when level>=20
+  accept 271
+step
+  when onquest 255
+  tip Magistrate Bluntnose of Thelsamar has hired you to kill 4 Mo'grosh Ogres, 4 Mo'grosh Brutes and 4 Mo'grosh Enforcers.
+  kill 1178 x4 quest 255.1 @69.67,25.54 map 1432 optional -- Mo'grosh Ogre is elite: grouping up is advised.
+  kill 1179 x4 quest 255.3 @70.83,23.85 map 1432 optional -- Mo'grosh Enforcer is elite: grouping up is advised.
+  kill 1178 x4 quest 255.1 optional -- Mo'grosh Ogre is elite: grouping up is advised.
+  kill 1180 x4 quest 255.2 @75.09,15.98 map 1432 optional -- Mo'grosh Brute is elite: grouping up is advised.
+  kill 1179 x4 quest 255.3 @75.09,15.98 map 1432 optional -- Mo'grosh Enforcer is elite: grouping up is advised.
+step
+  when onquest 255
+  turnin 255
+step
+  when level>=22
+  interact 256
+  accept 256
+step
+  when level>=20
+  accept 467 npc 1340
+step
+  when turnedin 258
+  when onquest 271
+  tip Kill Ol' Sooty then show your handiwork to Daryl the Youngling at the Farstrider Lodge.
+  collect 2713 quest 271.1 @37.92,63.38 map 1432 optional -- Ol' Sooty is elite: grouping up is advised.
+step
+  when turnedin 258
+  when onquest 271
+  turnin 271
+step
+  when turnedin 258
+  when turnedin 271
+  accept 531
+step
+  when turnedin 258
+  when onquest 531
+  tip Bring Ol' Sooty's head to Vyrin Swiftwind at the Farstrider Lodge.
+  turnin 531
+step
+  when onquest 256
+  tip Kill Chok'sul and bring his head to Magistrate Bluntnose of Thelsamar.
+  collect 2561 quest 256.1 @79.59,14.7 map 1432 optional -- Chok'sul is elite: grouping up is advised.
+step
+  only Shaman
+  when level>=20
+  accept 94495
+step
+  only Shaman
+  when level>=20
+  accept 94502
+step
+  when onquest 256
+  turnin 256
+step
+  interact 424007
+  accept 79975
+step
+  when level>=36
+  accept 2500
+step
+  zone map 1437
+  only Shaman
+  when onquest 94495
+  tip Find Hervdana Saegrund in the Wetlands.
+  turnin 94495 -- Turn in at Wetlands
+step
+  zone map 1426
+  when onquest 467
+  tip Speak with Pilot Stonegear.
+  turnin 467 -- Turn in at Dun Morogh
+step
+  zone map 1421
+  only Shaman
+  when onquest 94502
+  tip Cleanse the corruption at Stendel's Pond in Westfall.
+  collect 7812 quest 94502.1 @38.78,44.26 map 1421 -- Drops from: Corrupt Minor Manifestation of Water
+step
+  zone map 1436
+  only Shaman
+  when onquest 94502
+  turnin 94502 -- Turn in at Westfall
+step
+  zone map 1455
+  when level>=30
+  accept 707
+step
+  zone map 1432
+  when onquest 707
+  tip Speak with Prospector Ironband at Ironband's Excavation Site in Loch Modan.
+  turnin 707
+step
+  when level>=30
+  accept 738
+step
+  zone map 1418
+  when onquest 2500
+  tip Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar.
+  collect 7847 x5 quest 2500.1 @57.46,28.59 map 1418 -- Drops from: Starving Buzzard, Buzzard, Giant Buzzard
+  collect 7846 x10 quest 2500.2 @49.87,41.92 map 1418 -- Drops from: Crag Coyote, Feral Crag Coyote, Elder Crag Coyote
+  collect 7847 x5 quest 2500.1 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus
+  collect 7846 x10 quest 2500.2 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus
+  collect 7848 x5 quest 2500.3 @40.51,78.29 map 1418 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus
+step
+  zone map 1432
+  when onquest 2500
+  turnin 2500
+step
+  when turnedin 2500
+  when level>=38
+  accept 17
+step
+  when onquest 17
+  tip Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar.
+  collect 8047 x12 quest 17.1 @36.98,89.97 map 1432 -- Drops from: Magenta Cap Clusters
+step
+  when onquest 17
+  turnin 17
+step
+  zone map 1417
+  tip Water spray dampens the air, the view is incredible.
+  turnin 79975 -- Turn in at Arathi Highlands
+step
+  tip Zone complete! Travel to Arathi Highlands.
+  goto 44.29,92.88 map 1417

@@ -1,0 +1,258 @@
+guide lodestar/horde/feralas-43-48
+title "Feralas (43-48)"
+levels 43-48
+zone map 1444
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/tanaris-44-50
+step
+  level 41
+step
+  zone map 1454
+  accept 2981
+step
+  zone map 1444
+  getfp "Camp Mojache, Feralas"
+step
+  tip Belgrom Rockmaul wants you to speak with Rok Orhan in Camp Mojache.
+  turnin 2981
+step
+  accept 2862
+step
+  accept 2975
+step
+  accept 2987
+step
+  tip Bring 10 Woodpaw Gnoll Manes to Hadoken Swiftstrider in Camp Mojache.
+  collect 9237 x10 quest 2862.1 @70.38,51.01 map 1444 -- Drops from: Woodpaw Mongrel, Woodpaw Trapper, Woodpaw Brute
+step
+  turnin 2862
+step
+  accept 2973
+step
+  accept 3121
+step
+  accept 2863
+step
+  tip Kill 5 Woodpaw Alphas and return to Hadoken Swiftstrider within one hour.
+  kill 5258 x5 quest 2863.1 @71.42,55.91 map 1444
+step
+  turnin 2863
+step
+  accept 2902
+step
+  tip Find the gnoll battle plans somewhere in the gnoll camps to the south of Camp Mojache.
+  turnin 2902
+step
+  interact 142195
+  accept 2903
+step
+  tip Bring 10 Iridescent Sprite Darter Wings to Krueg Skullsplitter in Camp Mojache.
+  collect 9369 x10 quest 2973.1 @68.42,47.89 map 1444 -- Drops from: Sprite Darter, Captured Sprite Darter
+step
+  collect 143980 "Gordunni Scroll" @75.13,29.73 map 1444 -- Loot the quest item here — it starts the quest.
+  accept 2978 @75.13,29.73 map 1444
+step
+  kill 5229 @75.21,29.62 map 1444 -- Loot the quest item here — it starts the quest.
+  accept 2766 @75.21,29.62 map 1444
+step
+  tip Rok Orhan in Camp Mojache wants you to kill 10 Gordunni Ogres, 10 Gordunni Ogre-Magi, and 5 Gordunni Brutes.
+  kill 5229 x10 quest 2975.1 @75.21,29.62 map 1444
+  kill 5237 x10 quest 2975.2 @75.54,33.41 map 1444
+  kill 5229 x10 quest 2975.1 @75.69,34.02 map 1444
+  kill 5237 x10 quest 2975.2 @75.69,34.02 map 1444
+  kill 5232 x5 quest 2975.3 @75.69,34.02 map 1444
+step
+  tip Orwin Gizzmick in Camp Mojache wants 12 samples of Gordunni Cobalt.
+  collect 9463 x12 quest 2987.1 @76.7,33.8 map 1444 -- Drops from: Gordunni Dirt Mound
+step
+  tip Bring the Woodpaw Battle Plans to Hadoken Swiftstrider in Camp Mojache.
+  turnin 2903
+step
+  turnin 2973
+step
+  turnin 2975
+step
+  tip Bring the Gordunni Scroll to Rok Orhan in Camp Mojache.
+  turnin 2978
+step
+  turnin 2987
+step
+  accept 2980
+step
+  accept 2974
+step
+  accept 7730
+step
+  accept 2822
+step
+  accept 2979
+step
+  accept 7731
+step
+  tip Bring 20 Grimtotem Horns to Krueg Skullsplitter in Camp Mojache.
+  collect 9460 x20 quest 2974.1 @67.22,46.37 map 1444 -- Drops from: Grimtotem Raider, Grimtotem Naturalist, Grimtotem Shaman
+step
+  tip Bring 20 Zukk'ash Carapaces to Hadoken Swiftstrider at Camp Mojache, Feralas.
+  collect 18961 x20 quest 7730.1 @78.01,64.14 map 1444 -- Drops from: Zukk'ash Stinger, Zukk'ash Wasp, Zukk'ash Worker
+step
+  tip Defeat Stinglasher in the Writhing Deep, bringing its glands back to Hadoken Swiftstrider at Camp Mojache, Feralas.
+  collect 18962 quest 7731.1 @75.58,60.85 map 1444 -- Drops from: Stinglasher
+step
+  tip Rok Orhan in Camp Mojache wants you to find a Gordunni Orb.
+  collect 9371 quest 2979.1 @60.77,69.54 map 1444 -- Drops from: Gordunni Mage-Lord
+step
+  tip Rok Orhan in Camp Mojache wants you to kill 10 Gordunni Shaman, 10 Gordunni Warlocks, and 5 Gordunni Maulers.
+  kill 5236 x10 quest 2980.1 @60.98,67.86 map 1444
+  kill 5240 x10 quest 2980.2 @59.55,64.55 map 1444
+  kill 5236 x10 quest 2980.1
+  kill 5240 x10 quest 2980.2 @61.11,57.53 map 1444
+  kill 5234 x5 quest 2980.3 @61.11,57.53 map 1444
+step
+  tip Take the distress beacon to Oglethorpe's homing robot in a cave near Feral Scar Vale.
+  turnin 2766
+step
+  tip Bring 10 Thick Yeti Hides to Jangdor Swiftstrider in Camp Mojache.
+  collect 8973 x10 quest 2822.1 @55.55,56.47 map 1444 -- Drops from: Feral Scar Yeti, Hulking Feral Scar, Enraged Feral Scar
+step
+  turnin 2822
+step
+  turnin 2974
+step
+  turnin 2979
+step
+  turnin 2980
+step
+  turnin 7730
+step
+  turnin 7731
+step
+  accept 2976
+step
+  accept 3002
+step
+  accept 7732
+step
+  accept 7734
+step
+  tip Bring 10 Rage Scar Yeti Hides to Jangdor Swiftstrider at Camp Mojache, Feralas.
+  collect 18947 x10 quest 7734.1 @53.28,31.85 map 1444 -- Drops from: Rage Scar Yeti, Elder Rage Scar, Ferocious Rage Scar
+step
+  when level>=45
+  accept 7003
+step
+  when level>=45
+  accept 7721
+step
+  when onquest 7003
+  tip Use Zorbin's Ultra-Shrinker to zap any kind of giant found in Feralas into a more manageable form. Bring 15 Miniaturization Residues found on the zapped versions of these giants to Zorbin Fandazzle at the docks of the Forgotten Coast, Feralas.
+  collect 18956 x15 quest 7003.1 @42.52,46.88 map 1444 -- Drops from: Zapped Shore Strider, Land Walker, Shore Strider
+step
+  when onquest 7721
+  tip Collect 10 Water Elemental Cores from the Sea Elementals and Sea Sprays along the Forgotten Coast of Feralas, and bring them back to Zorbin Fandazzle who is near the dock there.
+  collect 18958 x10 quest 7721.1 @44.21,49.69 map 1444 -- Drops from: Sea Elemental, Sea Spray
+step
+  when onquest 7003
+  turnin 7003
+step
+  when onquest 7721
+  turnin 7721
+step
+  turnin 7734
+step
+  when level>=50
+  accept 3062
+step
+  when level>=45
+  accept 3063
+step
+  when onquest 3062
+  tip Talo Thornhoof in Camp Mojache wants Edana Hatetalon's Dark Heart.
+  collect 9528 quest 3062.1 @40.55,8.6 map 1444 optional -- Edana Hatetalon is elite: grouping up is advised.
+step
+  when onquest 3063
+  tip Talo Thornhoof wants you to kill 4 Northspring Harpies, 4 Northspring Roguefeathers, 4 Northspring Windcallers, and 4 Northspring Slayers.
+  kill 5366 x4 quest 3063.4 @39.14,13.05 map 1444
+  kill 5362 x4 quest 3063.1 @40.02,14.34 map 1444
+  kill 5364 x4 quest 3063.3 @38.86,14.63 map 1444
+  kill 5362 x4 quest 3063.1
+  kill 5363 x4 quest 3063.2 @41.55,14.39 map 1444
+  kill 5364 x4 quest 3063.3
+  kill 5366 x4 quest 3063.4
+step
+  when onquest 3062
+  turnin 3062
+step
+  when onquest 3063
+  turnin 3063
+step
+  when level>=46
+  accept 3380
+step
+  when level>=47
+  accept 4120
+step
+  zone map 1446
+  when onquest 1188
+  tip Bring the Seaforium Booster to Shreev in Gadgetzan.
+  turnin 1188 -- Turn in at Tanaris
+step
+  when onquest 3380
+  tip Find Marvon Rivetseeker in Tanaris.
+  turnin 3380 -- Turn in at Tanaris
+step
+  zone map 1454
+  tip Take the Shrunken Head to Neeru Fireblade in Orgrimmar.
+  turnin 3121 -- Turn in at Orgrimmar
+step
+  accept 3122
+step
+  tip Deliver the Camp Mojache Zukk'ash Report to Zilzibin Drumlore. He resides in the Drag of Orgrimmar.
+  turnin 7732 -- Turn in at Orgrimmar
+step
+  tip Bring the Crate of Grimtotem Horns to Belgrom Rockmaul in Orgrimmar.
+  turnin 2976 -- Turn in at Orgrimmar
+step
+  tip Bring the Gordunni Orb to Uthel'nay in the Darkbriar Lodge in Orgrimmar.
+  turnin 3002 -- Turn in at Orgrimmar
+step
+  zone map 1456
+  when turnedin 2280
+  accept 2440
+step
+  when turnedin 2280
+  tip Take the reward voucher to Bena Winterhoof in Thunder Bluff.
+  turnin 2440 -- Turn in at Thunder Bluff
+step
+  zone map 1448
+  when onquest 4120
+  tip Talo Thornhoof at Camp Mojache in Feralas wants you to kill 12 Angerclaw Grizzlies and 12 Felpaw Ravagers in Felwood.
+  kill 8957 x12 quest 4120.1 @57.6,17.79 map 1448
+  kill 8957 x12 quest 4120.1 @56.53,21.22 map 1448
+  kill 8961 x12 quest 4120.2 @56.53,21.22 map 1448
+step
+  zone map 1444
+  when onquest 4120
+  turnin 4120
+step
+  tip Deliver Neeru's Herb Pouch to Witch Doctor Uzer'i in Feralas.
+  turnin 3122
+step
+  accept 3128
+step
+  tip Bring 2 Splintered Logs, 6 Encrusted Minerals, 20 pieces of Resilient Sinew, and 40 Metallic Fragments to Witch Doctor Uzer'i in Camp Mojache.
+  collect 9590 x2 quest 3128.1 @54.02,47.22 map 1444 -- Drops from: Wandering Forest Walker
+  collect 9591 x20 quest 3128.3 @55.48,62.22 map 1444 -- Drops from: Frayfeather Hippogryph, Frayfeather Stagwing, Frayfeather Skystormer
+  collect 9592 x40 quest 3128.4 @55.48,62.22 map 1444 -- Drops from: Frayfeather Hippogryph, Frayfeather Stagwing, Frayfeather Skystormer
+  collect 9590 x2 quest 3128.1 @44.26,22.29 map 1444 -- Drops from: Sprite Dragon, Sprite Darter, Land Walker
+  collect 9589 x6 quest 3128.2 @44.26,22.29 map 1444 -- Drops from: Sprite Dragon, Sprite Darter, Land Walker
+  collect 9591 x20 quest 3128.3 -- Drops from: Sprite Dragon, Sprite Darter, Land Walker
+  collect 9592 x40 quest 3128.4 @44.26,22.29 map 1444 -- Drops from: Sprite Dragon, Sprite Darter, Land Walker
+step
+  turnin 3128
+step
+  zone map 1446
+  tip Zone complete! Travel to Tanaris.
+  goto 52.46,28.51 map 1446

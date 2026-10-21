@@ -1,0 +1,240 @@
+guide lodestar/alliance/silithus-57-60
+title "Silithus (57-60)"
+levels 57-60
+zone map 1451
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/eastern-plaguelands-55-60
+step
+  level 55
+step
+  when turnedin 1124
+  accept 1125
+step
+  when turnedin 1124
+  tip Free the spirits of 8 Tortured Druids and 8 Tortured Sentinels in Southwind Village, and then return to Layo Starstrike at the Valor's Rest graveyard of Silithus.
+  kill 12179 x8 quest 1125.2 @63.59,52.79 map 1451
+  kill 12178 x8 quest 1125.1 @62.65,52.84 map 1451
+  kill 12179 x8 quest 1125.2 @62.65,52.84 map 1451
+step
+  when turnedin 1124
+  turnin 1125
+step
+  when turnedin 1124
+  accept 1126
+step
+  when turnedin 1124
+  tip Scale the tower of Southwind Village and locate a means to stir the silithid hive into activity. Bring back anything unusual you may uncover when doing so to Layo Starstrike at the Valor's Rest graveyard of Silithus.
+  collect 17346 quest 1126.1 @60.2,52.6 map 1451 -- Drops from: Hive'Ashi Ambusher
+step
+  getfp "Cenarion Hold, Silithus"
+step
+  accept 8277
+step
+  accept 8280
+step
+  accept 8284
+step
+  when turnedin 1124
+  turnin 1126
+step
+  when turnedin 1124
+  accept 6844
+step
+  tip Geologist Larksbane at Cenarion Hold in Silithus wants you to collect 8 Twilight Tablet Fragments.
+  collect 20378 x8 quest 8284.1 @20.72,10.25 map 1451
+step
+  tip Beetix Ficklespragg at Cenarion Hold in Silithus wants you to gather 8 Stonelash Scorpid Stingers and 8 Sand Skitterer Fangs. Return to her when you have completed the task.
+  collect 20376 x8 quest 8277.2 @58.46,27.73 map 1451 -- Drops from: Sand Skitterer
+  collect 20373 x8 quest 8277.1 @59.92,28.13 map 1451 -- Drops from: Stonelash Scorpid
+  collect 20376 x8 quest 8277.2 -- Drops from: Stonelash Scorpid
+step
+  tip Windcaller Proudhorn at Cenarion Hold in Silithus wants you to kill 15 Dredge Strikers.
+  kill 11740 x15 quest 8280.1 @55.73,28.63 map 1451
+step
+  turnin 8277
+step
+  turnin 8280
+step
+  turnin 8284
+step
+  accept 8278
+step
+  accept 8281
+step
+  when level>=59
+  interact 180448
+  accept 8283
+step
+  accept 8285
+step
+  tip Take the restored tablet to Hermit Ortell in Silithus.
+  turnin 8285
+step
+  when onquest 8283
+  tip Bring Deathclasp's Pincer to Vish Kozus, Captain of the Guard.
+  collect 20385 quest 8283.1 @45.07,92.31 map 1451 optional -- Deathclasp is elite: grouping up is advised.
+step
+  tip Beetix Ficklespragg at Cenarion Hold in Silithus wants you to gather 3 Stonelash Pincer Stingers, 3 Stonelash Flayer Stingers and 3 Rock Stalker Fangs.
+  collect 20375 x3 quest 8278.1 @36.03,78.08 map 1451 -- Drops from: Stonelash Flayer
+  collect 20377 x3 quest 8278.3 @38.53,75.75 map 1451 -- Drops from: Rock Stalker
+  collect 20375 x3 quest 8278.1 -- Drops from: Stonelash Pincer
+  collect 20374 x3 quest 8278.2 @38.44,55.6 map 1451 -- Drops from: Stonelash Pincer
+  collect 20377 x3 quest 8278.3 -- Drops from: Stonelash Pincer
+step
+  tip Windcaller Proudhorn at Cenarion Hold in Silithus wants you to slay 20 Dredge Crushers.
+  kill 11741 x20 quest 8281.1 @38.71,54.21 map 1451
+step
+  turnin 8278
+step
+  turnin 8281
+step
+  when onquest 8283
+  turnin 8283
+step
+  accept 8282
+step
+  tip Retrieve Noggle's Satchel from the mountains in the south of Silithus and return it to him at Cenarion Hold.
+  collect 20379 quest 8282.1 @44.56,91.38 map 1451
+step
+  turnin 8282
+step
+  when level>=58
+  accept 8304
+step
+  when level>=57
+  accept 8318
+step
+  accept 9415
+step
+  when onquest 8318
+  tip Bring 10 Encrypted Twilight Texts to Bor Wildmane in Cenarion Hold.
+  collect 20404 x10 quest 8318.1 @40.86,42.22 map 1451 -- Drops from: Twilight Keeper Havunth, Twilight Avenger, Twilight Geolord
+step
+  when onquest 8318
+  turnin 8318
+step
+  accept 8279
+step
+  when onquest 8304
+  tip Commander Mar'alith at Cenarion Hold in Silithus wants you to question the inhabitants of Bronzebeard's Encampment. You will find Bronzebeard's Encampment south of Cenarion Hold.
+  talk 15171
+  talk 15170
+step
+  tip Speak with Marshal Bluewall at the Alliance encampment near Hive'Zora.
+  turnin 9415
+step
+  when level>=58
+  kill 11727 @27.87,61.78 map 1451 -- Loot the quest item here — it starts the quest.
+  accept 8308 @27.87,61.78 map 1451
+step
+  accept 9419
+step
+  tip Find and deliver Silithyst to the Silithyst Extractor, then speak with Marshal Bluewall at the Alliance encampment near Hive'Zora.
+  kill 17090 quest 9419.1
+step
+  turnin 9419
+step
+  tip Bring the three chapters of the Twilight Lexicon to Hermit Ortell in Silithus.
+  collect 20396 quest 8279.3 @40.86,42.22 map 1451 -- Drops from: Twilight Keeper Havunth
+  collect 20394 quest 8279.1 @26.35,36.62 map 1451 -- Drops from: Twilight Keeper Mayna
+  collect 20394 quest 8279.1 -- Drops from: Twilight Keeper Exeter
+  collect 20395 quest 8279.2 @16.09,86.37 map 1451 -- Drops from: Twilight Keeper Exeter
+  collect 20396 quest 8279.3 -- Drops from: Twilight Keeper Exeter
+step
+  when onquest 8304
+  turnin 8304
+step
+  when turnedin 8304
+  when level>=60
+  accept 8306
+step
+  when onquest 8308
+  tip Take Brann Bronzebeard's Letter to Bronzebeard's Encampment in southern Silithus.
+  turnin 8308
+step
+  when turnedin 8304
+  when level>=58
+  accept 8309
+step
+  when turnedin 8304
+  when level>=60
+  accept 8310
+step
+  turnin 8279
+step
+  accept 8323
+step
+  accept 8287
+step
+  when onquest 8310
+  tip Frankal Stonebridge at Bronzebeard's Encampment in Silithus wants you to recover a Hive'Zora Silithid Brain, Hive'Ashi Silithid Brain, and a Hive'Regal Silithid Brain. Return to Frankal when you have completed this task.
+  collect 20457 quest 8310.1 @61.73,52.51 map 1451 -- Drops from: Hive'Ashi Drone, Hive'Ashi Stinger, Hive'Ashi Worker
+  collect 20459 quest 8310.3 @58.08,86.89 map 1451 optional -- Hive'Regal Ambusher is elite: grouping up is advised.
+  collect 20457 quest 8310.1 -- Drops from: Hive'Zora Wasp, Hive'Zora Waywatcher, Hive'Zora Tunneler
+  collect 20458 quest 8310.2 @27.87,61.78 map 1451 -- Drops from: Hive'Zora Wasp, Hive'Zora Waywatcher, Hive'Zora Tunneler
+  collect 20459 quest 8310.3 optional -- Hive'Regal Ambusher is elite: grouping up is advised.
+step
+  tip Take the Decoded Tablet Parchment to Commander Mar'alith.
+  turnin 8287
+step
+  when onquest 8309
+  tip Rutgar Glyphshaper at Bronzebeard's Encampment in Silithus wants you to venture to Hive'Ashi, Hive'Zora, and Hive'Regal and recover Glyphed Rubbings from the Glyphed Crystals of each hive.
+  collect 20455 quest 8309.1 @50.87,26.76 map 1451 -- Drops from: Hive'Ashi Glyphed Crystal
+  collect 20454 quest 8309.2 @37.27,62.5 map 1451 -- Drops from: Hive'Zora Glyphed Crystal
+  collect 20455 quest 8309.1 @44.4,86.1 map 1414 -- Drops from: Hive'Regal Glyphed Crystal
+  collect 20454 quest 8309.2 @44.4,86.1 map 1414 -- Drops from: Hive'Regal Glyphed Crystal
+  collect 20456 quest 8309.3 @44.4,86.1 map 1414 -- Drops from: Hive'Regal Glyphed Crystal
+step
+  tip Hermit Ortell wants you to bring him 10 Encrypted Twilight Texts
+  collect 20404 x10 quest 8323.1 @26.31,37.02 map 1451 -- Drops from: Twilight Avenger, Twilight Geolord, Twilight Stonecaller
+step
+  when onquest 8309
+  turnin 8309
+step
+  when onquest 8310
+  turnin 8310
+step
+  when turnedin 8309
+  when turnedin 8310
+  when level>=58
+  accept 8314
+step
+  turnin 8323
+step
+  when onquest 8314
+  tip Rutgar Glyphshaper at Bronzebeard's Encampment wants you to deliver the Glyphed Crystal Prism to Geologist Larksbane at the Cenarion Hold in Silithus.
+  turnin 8314
+step
+  zone map 1414
+  when onquest 8306
+  tip Commander Mar'alith at Cenarion Hold in Silithus wants you to find his beloved Natalia. The information that you gathered points to Hive'Regal in the south as being the area in which you may find Mistress Natalia Mar'alith.
+  kill 15215 quest 8306.1 @44.4,86.11 map 1414 optional -- Mistress Natalia Mar'alith is elite: grouping up is advised.
+step
+  zone map 1451
+  when onquest 8306
+  turnin 8306
+step
+  zone map 1450
+  when turnedin 1124
+  tip Take the Encrusted Silithid Object to Umber - the Cenarion Circle's archivist - in the village of Nighthaven, Moonglade.
+  turnin 6844 -- Turn in at Moonglade
+step
+  when turnedin 1124
+  accept 6845
+step
+  when turnedin 1124
+  tip Speak with Rabine Saturna in the village of Nighthaven, Moonglade.
+  turnin 6845 -- Turn in at Moonglade
+step
+  when turnedin 1124
+  accept 1185
+step
+  when turnedin 1124
+  turnin 1185 -- Turn in at Moonglade
+step
+  zone map 1423
+  tip Zone complete! Travel to Eastern Plaguelands.
+  goto 31.15,77.98 map 1423

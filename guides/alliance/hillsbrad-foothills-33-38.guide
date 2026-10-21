@@ -1,0 +1,115 @@
+guide lodestar/alliance/hillsbrad-foothills-33-38
+title "Hillsbrad Foothills (33-38)"
+levels 33-38
+zone map 1424
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/stranglethorn-vale-32-40
+step
+  level 31
+step
+  getfp "Southshore, Hillsbrad"
+step
+  accept 505
+step
+  accept 659
+step
+  accept 92432
+step
+  accept 98463
+step
+  accept 564
+step
+  tip Darren Malvew of Southshore wants you to kill 8 Mountain Lions and 10 Hulking Mountain Lions.
+  kill 2406 x8 quest 564.1 @38.8,24.62 map 1424
+  kill 2406 x8 quest 564.1
+  kill 2407 x10 quest 564.2 @66.75,51.11 map 1416
+step
+  turnin 564
+step
+  accept 500
+step
+  kill 2434 @50.06,57.91 map 1424 -- Loot the quest item here — it starts the quest.
+  accept 522 @50.06,57.91 map 1424
+step
+  tip Bring the Assassin's Contract to Magistrate Maleb in Southshore.
+  turnin 522
+step
+  accept 523
+step
+  zone map 1416
+  tip Kill 12 Syndicate Footpads and 8 Syndicate Thieves, then return to Magistrate Henry Maleb in Southshore.
+  kill 2240 x12 quest 505.1 @57.71,67.64 map 1416
+  kill 2240 x12 quest 505.1 @48.74,82.99 map 1416
+  kill 2241 x8 quest 505.2 @48.74,82.99 map 1416
+step
+  tip Gather 9 Dirty Knucklebones from Crushridge ogres in the Alterac Mountains. Bring them to Marshal Redpath in Southshore.
+  collect 2843 x9 quest 500.1 @49.93,42.09 map 1416 -- Drops from: Crushridge Ogre, Crushridge Brute, Crushridge Mauler
+step
+  tip Bring the Head of Baron Vardus to Magistrate Maleb in Southshore.
+  collect 3626 quest 523.1 @56.28,26.7 map 1416 -- Drops from: Baron Vardus
+step
+  zone map 1424
+  turnin 505
+step
+  turnin 523
+step
+  turnin 500
+step
+  when level>=40
+  accept 504
+step
+  zone map 1417
+  tip Find Quae and Kinelory near the Go'Shek Farm in the Arathi Highlands.
+  turnin 659 -- Turn in at Arathi Highlands
+step
+  zone map 1421
+  tip Report to the Image of Archmage Modera near the City of Dalaran.
+  turnin 92432 -- Turn in at Silverpine Forest
+step
+  zone map 1453
+  when turnedin 337
+  accept 538
+step
+  zone map 1424
+  when turnedin 337
+  tip Speak with Loremaster Dibbs in Southshore.
+  turnin 538
+step
+  when turnedin 337
+  accept 540
+step
+  zone map 1416
+  when turnedin 337
+  tip Bring 5 Recovered Tomes and the Worn Leather Book containing The Arm of Gri'lek to Loremaster Dibbs in Southshore.
+  collect 3658 x5 quest 540.1 @49.93,42.09 map 1416 -- Drops from: Crushridge Ogre, Crushridge Brute, Crushridge Mauler
+  collect 3658 x5 quest 540.1 -- Drops from: Weathered Bookcase
+  collect 3659 quest 540.2 @38.42,46.38 map 1416 -- Drops from: Weathered Bookcase
+step
+  when onquest 504
+  tip Slay 15 Crushridge Warmongers, then return to Marshal Redpath in Southshore.
+  kill 2287 x15 quest 504.1 @36.3,53.79 map 1416 optional -- Crushridge Warmonger is elite: grouping up is advised.
+step
+  zone map 1424
+  when turnedin 337
+  turnin 540
+step
+  when turnedin 337
+  accept 542
+step
+  when onquest 504
+  turnin 504
+step
+  zone map 1453
+  when turnedin 337
+  tip Bring the Tomes of Alterac to Milton Sheaf in Stormwind.
+  turnin 542 -- Turn in at Stormwind City
+step
+  zone map 1434
+  tip Visit Nixxrax Fillamug in the Salty Sailor Tavern in Booty Bay in Stranglethorn.
+  turnin 98463 -- Turn in at Stranglethorn Vale
+step
+  tip Zone complete! Travel to Stranglethorn Vale.
+  goto 35.66,10.53 map 1434

@@ -1,0 +1,342 @@
+guide lodestar/alliance/westfall-12-16
+title "Westfall (12-16)"
+levels 12-16
+zone map 1436
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/dun-morogh-13-26
+step
+  level 11
+step
+  zone map 1453
+  accept 95065
+step
+  zone map 1436
+  getfp "Sentinel Hill, Westfall"
+step
+  tip Bring 1 Shiny Bauble and 3 Nightcrawlers to Gilbert Gray at the harbor in Stormwind.
+  talk 843
+  buy 6530 x3 npc 843
+step
+  when onquest 109
+  tip Talk to Gryan Stoutmantle. He usually can be found in the stone tower on Sentinel Hill, just off the road, in the middle of Westfall.
+  turnin 109
+step
+  only Skyborne
+  when onquest 98021
+  tip Report To Gryan Stoutmantle at Sentinel Hill in Westfall.
+  turnin 98021
+step
+  accept 12
+step
+  only Human
+  accept 6181
+step
+  accept 92742
+step
+  tip Use the Well Water Sample Kit to collect samples from the wells at the Jansen Stead and the Molsen Farm.
+  collect 254546 quest 92742.1
+  collect 254547 quest 92742.2
+step
+  accept 92744
+step
+  only Human
+  tip Bring Lewis' Note to Thor the gryphon master.
+  turnin 6181
+step
+  turnin 92742
+step
+  only Human
+  accept 6281
+step
+  accept 102
+step
+  accept 92745
+step
+  accept 22
+step
+  when onquest 184
+  tip Bring Furlbrow's Deed to Farmer Furlbrow.
+  turnin 184
+step
+  accept 36
+step
+  accept 64
+step
+  accept 151
+step
+  tip Farmer Furlbrow wants you to retrieve his pocket watch from the wardrobe in his farmhouse at the pumpkin farm to the West.
+  collect 841 quest 64.1 @49.33,19.28 map 1436 -- Drops from: Furlbrow's Wardrobe
+step
+  tip Bring 8 Gnoll Paws to Captain Danuvin on Sentinel Hill.
+  collect 725 x8 quest 102.1 @52.16,14.11 map 1436 -- Drops from: Riverpaw Gnoll, Riverpaw Mongrel, Riverpaw Scout
+step
+  tip Slay 4 Kobold Diggers in the Jangolode Mine and 6 Riverpaw Miners in the Gold Coast Quarry.
+  kill 1236 x4 quest 92745.1 @45.32,20.46 map 1436
+  kill 1236 x4 quest 92745.1
+  kill 1426 x6 quest 92745.2 @30.27,49.65 map 1436
+step
+  tip Alba Fairmoon wants you to collect 7 Longshore Murloc Gills along the shoreline of Westfall.
+  collect 254548 x7 quest 92744.1 @45.02,8.89 map 1436 -- Drops from: Murloc Coastrunner, Murloc Raider, Murloc Minor Oracle
+step
+  tip Gryan Stoutmantle wants you to kill 15 Defias Trappers and 15 Defias Smugglers then return to him on Sentinel Hill.
+  kill 95 x15 quest 12.2 @45.8,26.58 map 1436
+  kill 504 x15 quest 12.1 @47.39,36.32 map 1436
+  kill 95 x15 quest 12.2 @47.39,36.32 map 1436
+step
+  tip Salma Saldean needs 8 Goretusk livers to make a Goretusk Liver Pie.
+  collect 723 x8 quest 22.1 @50.42,29.35 map 1436 -- Drops from: Young Goretusk, Goretusk, Great Goretusk
+step
+  tip Verna Furlbrow in Westfall wants you to bring her 8 Handfuls of Oats.
+  collect 1528 x8 quest 151.1 @48.96,34.17 map 1436 -- Drops from: Sack of Oats
+step
+  turnin 64
+step
+  turnin 151
+step
+  turnin 12
+step
+  turnin 102
+step
+  turnin 92744
+step
+  turnin 92745
+step
+  accept 13
+step
+  accept 153
+step
+  accept 92747
+step
+  tip Gryan Stoutmantle wants you to kill 15 Defias Pillagers and 15 Defias Looters and return to him on Sentinel Hill.
+  kill 590 x15 quest 13.2 @38.65,58.11 map 1436
+  kill 589 x15 quest 13.1 @38.76,69.61 map 1436
+  kill 590 x15 quest 13.2
+step
+  tip Collect 8 Suspicious Industrial Supplies from Moonbrook.
+  collect 254676 x8 quest 92747.1 @42.5,68.7 map 1436 -- Drops from: Suspicious Crate
+step
+  turnin 22
+step
+  tip Verna Furlbrow wants you to deliver her recipe for Westfall Stew to Salma Saldean.
+  turnin 36
+step
+  accept 38
+step
+  accept 9
+step
+  tip Salma Saldean wants 3 Stringy Vulture Meat, 3 Goretusk Snouts, 3 Murloc Eyes, 3 Okra.
+  collect 729 x3 quest 38.1 @51.87,27.69 map 1436 -- Drops from: Young Fleshripper, Fleshripper, Greater Fleshripper
+  collect 731 x3 quest 38.3 @50.42,29.35 map 1436 -- Drops from: Young Goretusk, Goretusk
+  collect 732 x3 quest 38.4 @47.88,33.47 map 1436 -- Drops from: Harvest Golem, Rusty Harvest Golem, Harvest Watcher
+  collect 729 x3 quest 38.1 -- Drops from: Murloc Minor Oracle, Murloc Coastrunner, Murloc Raider
+  collect 730 x3 quest 38.2 @34.28,15.91 map 1436 -- Drops from: Murloc Minor Oracle, Murloc Coastrunner, Murloc Raider
+  collect 731 x3 quest 38.3 -- Drops from: Murloc Minor Oracle, Murloc Coastrunner, Murloc Raider
+  collect 732 x3 quest 38.4 -- Drops from: Murloc Minor Oracle, Murloc Coastrunner, Murloc Raider
+step
+  turnin 38
+step
+  accept 92909
+step
+  kill 36 @47.88,33.47 map 1436 -- Loot the quest item here — it starts the quest.
+  accept 92910 @47.88,33.47 map 1436
+step
+  accept 92911
+step
+  tip Farmer Saldean wants you to kill 20 Harvest Watchers.
+  kill 114 x20 quest 9.1 @45.9,36.14 map 1436
+step
+  tip Ozwin Ironsprocket at Saldean's Farm wants you to bring him 14 Golem Isosprings and 5 Harvester Gyrostabilizers.
+  collect 255007 x14 quest 92909.1 @47.88,33.47 map 1436 -- Drops from: Harvest Golem, Harvest Watcher, Rusty Harvest Golem
+  collect 255010 x5 quest 92909.2 @47.88,33.47 map 1436 -- Drops from: Harvest Golem, Harvest Watcher, Rusty Harvest Golem
+step
+  tip Ozwin Ironsprocket at Saldean's Farm wants you to bring him 8 Golem Isosprings, 4 Copper Modulators, and a Crude Scope.
+  collect 255007 x8 quest 92911.1 @47.88,33.47 map 1436 -- Drops from: Harvest Golem, Harvest Watcher, Rusty Harvest Golem
+  collect 4363 x4 quest 92911.2 -- Drops from: Harvest Golem, Harvest Watcher, Rusty Harvest Golem
+step
+  turnin 92909
+step
+  tip Bring the Precessive Autocognition Assembly to Ozwin Ironsprocket at Saldean's Farm.
+  turnin 92910
+step
+  turnin 92911
+step
+  tip Bring 15 Red Leather Bandanas to Scout Galiaan at Sentinel Hill.
+  collect 829 x15 quest 153.1 @45.8,26.58 map 1436 -- Drops from: Defias Smuggler, Defias Pathstalker, Defias Footpad
+step
+  turnin 9
+step
+  turnin 13
+step
+  turnin 153
+step
+  turnin 92747
+step
+  accept 92748
+step
+  accept 103
+step
+  tip Bring 5 Flasks of Oil to Captain Grayson at the Westfall Lighthouse.
+  collect 814 x5 quest 103.1 @47.88,33.47 map 1436 -- Drops from: Harvest Golem, Harvest Watcher, Rusty Harvest Golem
+step
+  kill 126 @45.02,8.89 map 1436 -- Loot the quest item here — it starts the quest.
+  accept 136 @45.02,8.89 map 1436
+step
+  tip Find Captain Sanders' footlocker and search it for the next clue.
+  turnin 136
+step
+  interact 35
+  accept 138
+step
+  tip Find the old barrel near the ruined chimney and search it for your next clue.
+  turnin 138
+step
+  interact 36
+  accept 139
+step
+  turnin 103
+step
+  tip Search the empty jug next to the windmill for the next clue.
+  turnin 139
+step
+  interact 34
+  accept 140
+step
+  tip Locate Captain Sanders' chest and open it for your reward.
+  turnin 140
+step
+  accept 14
+step
+  tip Gryan Stoutmantle wants you to kill 15 Defias Highwaymen, 5 Defias Pathstalkers and 5 Defias Knuckledusters then return to him on Sentinel Hill.
+  kill 122 x15 quest 14.1 @48.14,77.25 map 1436
+  kill 449 x5 quest 14.3 @49.26,78.89 map 1436
+  kill 122 x15 quest 14.1
+  kill 121 x5 quest 14.2 @37.41,75.38 map 1436
+  kill 449 x5 quest 14.3 @37.41,75.38 map 1436
+step
+  turnin 14
+step
+  accept 65
+step
+  accept 152
+step
+  accept 104
+step
+  tip Bring a scale of Old Murk-Eye to Captain Grayson at the Westfall Lighthouse.
+  collect 3636 quest 104.1 @29.27,75.95 map 1436 -- Drops from: Old Murk-Eye
+step
+  turnin 104
+step
+  tip Kill 7 Tidehunters, 7 Warriors, 7 Oracles and 7 Coastrunners and return to Captain Grayson at the Westfall Lighthouse.
+  kill 127 x7 quest 152.3 @27.93,74.54 map 1436
+  kill 517 x7 quest 152.4 @27.69,70.02 map 1436
+  kill 171 x7 quest 152.2 @28.42,33.41 map 1436
+  kill 126 x7 quest 152.1 @45.02,8.89 map 1436
+  kill 171 x7 quest 152.2
+  kill 127 x7 quest 152.3
+  kill 517 x7 quest 152.4
+step
+  turnin 152
+step
+  zone map 1453
+  turnin 95065 -- Turn in at Stormwind City
+step
+  accept 97220
+step
+  only Paladin,Human
+  when turnedin 1642
+  accept 1643
+step
+  accept 399
+step
+  tip Travel to the Dwarven District in Stormwind and find an engineer who can help.
+  turnin 92748 -- Turn in at Stormwind City
+step
+  accept 92752
+step
+  only Human
+  tip Buy a gryphon ride from the gryphon master Thor, then bring Lewis' Note to Osric Strang, in the shop Limited Immunity, in the Old Town of Stormwind.
+  turnin 6281 -- Turn in at Stormwind City
+step
+  only Human
+  accept 6261
+step
+  only Human
+  tip Bring Osric's Crate to Dungar Longdrink the gryphon master.
+  turnin 6261 -- Turn in at Stormwind City
+step
+  only Human
+  accept 6285
+step
+  tip Bring the Gatehouse Shipment to the stockroom entrance located in Trias' Cheese shop in the Trade District.
+  turnin 97220 -- Turn in at Stormwind City
+step
+  accept 97222
+step
+  tip Carry the Gatehouse Shipment up the stairs in Trias' shop and leave it outside the door.
+  turnin 97222 -- Turn in at Stormwind City
+step
+  only Paladin,Human
+  when turnedin 1642
+  tip Search the Trade District of Stormwind for Stephanie Turner.
+  turnin 1643 -- Turn in at Stormwind City
+step
+  zone map 1455
+  only Paladin,Dwarf
+  when turnedin 1646
+  accept 1647
+step
+  only Paladin,Dwarf
+  when turnedin 1646
+  tip Search the outer ring of Ironforge for John Turner.
+  turnin 1647 -- Turn in at Ironforge
+step
+  zone map 1426
+  only Paladin,Dwarf
+  when !turnedin 2999
+  when !turnedin 3000
+  when !onquest 2999
+  when !onquest 3000
+  accept 2997
+step
+  zone map 1455
+  only Paladin,Dwarf
+  when !turnedin 2999
+  when !turnedin 3000
+  when !onquest 2999
+  when !onquest 3000
+  tip Speak to Tiza Battleforge in Ironforge.
+  turnin 2997 -- Turn in at Ironforge
+step
+  zone map 1429
+  only Paladin,Human
+  when !turnedin 3681
+  when !onquest 3681
+  accept 2998
+step
+  zone map 1453
+  only Paladin,Human
+  when !turnedin 3681
+  when !onquest 3681
+  tip Speak to Duthorian Rall in Stormwind.
+  turnin 2998 -- Turn in at Stormwind City
+step
+  zone map 1436
+  tip Return to Alba Fairmoon in Westfall.
+  turnin 92752
+step
+  only Human
+  tip Buy a gryphon ride to Sentinel Hill from the gryphon master Dungar Longdrink, then take Osric's Crate to Lewis at Sentinel Hill.
+  turnin 6285
+step
+  tip Go to Baros Alexston's house in Westfall and search for his compass, then return it to him in Cathedral Square of Stormwind.
+  collect 2998 quest 399.1 @36.24,54.52 map 1436 -- Drops from: Alexston's Chest
+step
+  zone map 1453
+  turnin 399 -- Turn in at Stormwind City
+step
+  zone map 1426
+  tip Zone complete! Travel to Dun Morogh.
+  goto 50.44,49.09 map 1426

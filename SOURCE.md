@@ -1,0 +1,95 @@
+# Source
+
+Converted from [Lodestar](https://github.com/danielcosta42/lodestar) at commit [`5c5fa2346981`](https://github.com/danielcosta42/lodestar/tree/5c5fa2346981eefe3f368f325b5ef80e2270d9de) (2026-10-15), the files
+`Guides/Leveling/*/*.lua`. Licence of the source: MIT.
+
+| File | SHA-256 |
+|---|---|
+| `Guides/Leveling/Alliance/Alterac_Mountains_34-40.lua` | `04d6dfcf6b9e4ffdd454970ffb17951e2b9133268b98ad9a6e81b02c9bb6d31e` |
+| `Guides/Leveling/Alliance/Arathi_Highlands_31-40.lua` | `fd827a66081e62f25fbd8bb722bd3ee19fc76cea381c1d6d02a61d7165c8da01` |
+| `Guides/Leveling/Alliance/Ashenvale_20-28.lua` | `7445e664e7bf0032ede3b4db030d55bfe2c8a20adc4873dcb09197ebed1279f3` |
+| `Guides/Leveling/Alliance/Ashenvale_30-32.lua` | `60c3d1717164f7c6e0dccb9ad25ea3069fda26ca2631e213aa31ffd26c166106` |
+| `Guides/Leveling/Alliance/Azshara_52-58.lua` | `0da35c00892ce4c71c1783cb0bcc1de980c8fd67cb53b79fa7568c9638e94206` |
+| `Guides/Leveling/Alliance/Badlands_37-43.lua` | `d4e0f1cabf36b42572808abdd328c6facc5cb6c62f6b2180625513afa2661d29` |
+| `Guides/Leveling/Alliance/Blasted_Lands_50-55.lua` | `2d406c061360a915a3856ebdd12bfd2475f77e08c4989e79cfa6980f15c1b76a` |
+| `Guides/Leveling/Alliance/Burning_Steppes_52-54.lua` | `93a9ff24aec255aee2218ce84c005fd3a6f1856f9bee2b3e8a2b2ab0377e41f5` |
+| `Guides/Leveling/Alliance/Darkshore_13-20.lua` | `7462c9111f36ce1a6963cdc26c836d2bd92ee66e9a26142c1d00a5f7a63873d1` |
+| `Guides/Leveling/Alliance/Desolace_33-39.lua` | `a7b73c6353d940ddb1808e8a3f095a76e93364759f56fc62e620fc4f010605d9` |
+| `Guides/Leveling/Alliance/Dun_Morogh_13-26.lua` | `269bf47536bdfd9dcdbb916c7ea8532696c1cbeca09f9798988f9b8192697255` |
+| `Guides/Leveling/Alliance/Dun_Morogh_4-10.lua` | `22de466be1e990a3d1d606574ded9a707e2197c6a8bcd498e4703763393b9aea` |
+| `Guides/Leveling/Alliance/Duskwood_21-28.lua` | `864e000cb4dcf2c90932fa24325877313706ae56ed7d9623bcfae44ff46627d1` |
+| `Guides/Leveling/Alliance/Duskwood_30-35.lua` | `311766a800c8a91582143a5c133f7228b494ac0f83162090194a7038bdda5a5f` |
+| `Guides/Leveling/Alliance/Dustwallow_Marsh_35-38.lua` | `9baadf6873e431e56008dcf3dac9a5d2892718e80c237696515631d42c342ff1` |
+| `Guides/Leveling/Alliance/Eastern_Plaguelands_55-60.lua` | `7f5456b4375c41681cabc5cb58d2f54fa33848304ef0ccb2a77033d9d5867117` |
+| `Guides/Leveling/Alliance/Elwynn_Forest_21-28.lua` | `e5b21b2b9fd0acc5f409cc0b163e56153f23b3f17a17bd6616a30bd24377fc5e` |
+| `Guides/Leveling/Alliance/Elwynn_Forest_3-10.lua` | `f90088a0c9327ef3b77fae14e850a388f60590d30d53ad9451e193b9ebb88136` |
+| `Guides/Leveling/Alliance/Felwood_52-56.lua` | `71004014ab3118350838684a0c33c216539b59532e31e0ea4975cd823d5620bb` |
+| `Guides/Leveling/Alliance/Feralas_43-48.lua` | `9b2c7cb4b9598c54d04bd2990b6cdc0813cc536ce6cf194b5fb50e39f2584c40` |
+| `Guides/Leveling/Alliance/Hillsbrad_Foothills_29-32.lua` | `1da87d3547f628897cf8d281f4bf7570d67eaf0edef525e970a475c6c7a17c6f` |
+| `Guides/Leveling/Alliance/Hillsbrad_Foothills_33-38.lua` | `73fc27f90e0efa158a0fe1880c83027fa7e9b170164cf1816bd655e0d3322bd1` |
+| `Guides/Leveling/Alliance/Loch_Modan_11-18.lua` | `5019460d0de1c0993c0b10cc4ee82d2e9fe2f0edb422659551e7076bc8e2312a` |
+| `Guides/Leveling/Alliance/Loch_Modan_20-38.lua` | `35f189575f1399c6e5d890a6417f0e83bb91a3f97d6335a55d122b87669b3260` |
+| `Guides/Leveling/Alliance/Redridge_Mountains_15-24.lua` | `1e7f2af778c15ba8a0ab8a51553cdd170c2d89463bfa306fff67b128a9a10a5d` |
+| `Guides/Leveling/Alliance/Redridge_Mountains_54-60.lua` | `ab7161cebf65605d508fe845f1d6c81f02cf81ed7adc5fbeecd4dcc5e753d467` |
+| `Guides/Leveling/Alliance/Searing_Gorge_48-50.lua` | `15f155da0e66cead896f582d841ffbb14cf9f7326add94055219fdc15419fc6d` |
+| `Guides/Leveling/Alliance/Silithus_57-60.lua` | `cb285490b8bf6f9925245bfbe402ae802c22a5b95de0fc765bbe70663a99c964` |
+| `Guides/Leveling/Alliance/Stonetalon_Mountains_21-27.lua` | `c4d6aaf950b7c3e46c0cc14912d59dba7b1fc95d04de79241820d5d3471a7b53` |
+| `Guides/Leveling/Alliance/Stranglethorn_Vale_32-40.lua` | `cff8e05379d20de08f7e8eb1702a2f5a636995ba81b715a9e1ddc8869a8023a4` |
+| `Guides/Leveling/Alliance/Stranglethorn_Vale_43-51.lua` | `8099afa207175803e1b5ec48ab7498d5aaa1d1c033ed67c78e0099bd2e350dcb` |
+| `Guides/Leveling/Alliance/Swamp_of_Sorrows_35-42.lua` | `df4647247fb0d4293f5ebfc61fac4f88cf3272e0d5c203fd822af6cce81e403a` |
+| `Guides/Leveling/Alliance/Swamp_of_Sorrows_55-57.lua` | `106ecbef4543a0eada5946c96d9873bfbc6061db2784c647077a8e7d480d9f21` |
+| `Guides/Leveling/Alliance/Tanaris_44-50.lua` | `000baede3d3a8e3bfb42c55d16840654ca30a0da093ba07d8cfea2328a9cc28e` |
+| `Guides/Leveling/Alliance/Tanaris_53-54.lua` | `9a99b1dbb189b329e96ac238c55f9b74736cb07c896ec9a90ce8daa6cd9e1fe8` |
+| `Guides/Leveling/Alliance/Teldrassil_4-11.lua` | `2982f1341e4d166d26bbf86ad95df8b3a2fb913acf7fb1b1b417ab2a45011e13` |
+| `Guides/Leveling/Alliance/Teldrassil_48-55.lua` | `1952639b931cba41a0964f5cd1174fa41c25f5c0694ab9efb9c8e603959f3f1f` |
+| `Guides/Leveling/Alliance/The_Barrens_14-21.lua` | `23f3e3dcd7e193bc2bbe7ee3c0732c4a048a4c14521680c584a3eb04feae4870` |
+| `Guides/Leveling/Alliance/The_Hinterlands_43-48.lua` | `eafc84ea499172bd1bb965f1e6e3e50d384013e7443a8bff74f6aa2be57aaf33` |
+| `Guides/Leveling/Alliance/Thousand_Needles_30-41.lua` | `fb0fb20b84dd67a11d57a33b99f851bdf0d65694102b770262cdeefaeefeab30` |
+| `Guides/Leveling/Alliance/Un'Goro_Crater_50-55.lua` | `654905584d8343bb2803307d3fb9eaeaf1e2739b1628c077ee22704d5985b585` |
+| `Guides/Leveling/Alliance/Western_Plaguelands_53-58.lua` | `e4bcb27f8e80aacdcf754ef3f379b31510855ee5f8392a3686345c21644fce9c` |
+| `Guides/Leveling/Alliance/Westfall_12-16.lua` | `99a6f0df74d7e38c77c8a928398985928d03a9df33fa8d2c59cc49bcdeb57d78` |
+| `Guides/Leveling/Alliance/Wetlands_21-29.lua` | `308caba111a55eb3537e7e5b9962f8ecc1a9fec7f6da42141a2184737d24a64a` |
+| `Guides/Leveling/Alliance/Wetlands_30-33.lua` | `e28e33d743987d9cb29c50fb2b53dc43cc12718215ea311bd2d4322c4b5b2607` |
+| `Guides/Leveling/Alliance/Winterspring_54-59.lua` | `4fb79bd9c5ded1456c3b555f52c13ed6db8cf66fb40e8723fdc2036b0f5bfc20` |
+| `Guides/Leveling/Alliance/Zephras_Isle_5-12.lua` | `77ded2e279e7398272fe28c049aeacf2e020bdc9fb6d4f3c3c8e7bafb9dba4a3` |
+| `Guides/Leveling/Horde/Alterac_Mountains_34-40.lua` | `b2982e828cdf3c9809ed8786feb21c06ab19607096678dcfddd4af41ae4eba89` |
+| `Guides/Leveling/Horde/Arathi_Highlands_34-40.lua` | `b7b4f66d46fc70378c7d074fb1e32274c1a9cd5aa758a5611573b95bc76d5129` |
+| `Guides/Leveling/Horde/Ashenvale_22-27.lua` | `c3c126b2725fca717a24fbf390c2ec74abf451178ecf1fb8aa7ea65d3ab228b9` |
+| `Guides/Leveling/Horde/Azshara_52-58.lua` | `0c69234108a76dab9d253958e3ebfd4b2974715d6a6172bef2d5e1b571f587df` |
+| `Guides/Leveling/Horde/Badlands_37-42.lua` | `2d3531a7e320baf48226b9ed97195540ef0cdc52a3199baa7083593427e0c945` |
+| `Guides/Leveling/Horde/Badlands_50-54.lua` | `a5370b523ca4e85ff10935af471de37b3cc28fce213dece6ec775c97f4de4a42` |
+| `Guides/Leveling/Horde/Blasted_Lands_50-55.lua` | `30c1b95267b6e5fd528d5000063ba65eb82e920bd80487f9d24ab9ae3bdd26ee` |
+| `Guides/Leveling/Horde/Desolace_33-39.lua` | `7300e9ff2255a11a66d8b3991e38da99a72faf07cc4dd13c7fa9f5648f50aeb0` |
+| `Guides/Leveling/Horde/Durotar_5-12.lua` | `8082bfa7c64218b591023bb833d2180c5db533cb3bb9e12d083b31e2c29b6392` |
+| `Guides/Leveling/Horde/Dustwallow_Marsh_35-43.lua` | `0248eae575306c0318257e03bf704b9e260794d25515c896681fe9532039329d` |
+| `Guides/Leveling/Horde/Eastern_Plaguelands_56-60.lua` | `c9aba4d15459c6515f40e59e6c6e7d57cc1d54793419e4001d798781dcf5346a` |
+| `Guides/Leveling/Horde/Felwood_52-56.lua` | `f97b671372f378a33945d893b1d3c3e2ec562d222499858eb27341da0d40a3ce` |
+| `Guides/Leveling/Horde/Feralas_43-48.lua` | `b5a9527ed0816ad5de09eca0ca6b0c2f30c335c8b6d8cf9334a15037ad245f73` |
+| `Guides/Leveling/Horde/Hillsbrad_Foothills_22-28.lua` | `cb645e29b4d80e594205b75b8b58d8ba8700a4fd0b6a13478e12d9552f47f93f` |
+| `Guides/Leveling/Horde/Hillsbrad_Foothills_32-40.lua` | `cc850319494dc6be7c3d973f2be2c91a5c77959955342e09c175ba5b8060237b` |
+| `Guides/Leveling/Horde/Mulgore_30-31.lua` | `d263922fc49b1df7f6212e783e7e8472fbe843b24194fe42572f80e533937753` |
+| `Guides/Leveling/Horde/Mulgore_4-10.lua` | `7e43a92a2c243eab9d5b32b5c5ec711dfd48c06d5be5a19fa83384aea1b4bc94` |
+| `Guides/Leveling/Horde/Searing_Gorge_48-50.lua` | `e23cfc644cea0e77e180bc7c4a42112eb4fba801cc9e36d565eb0ee0cb481510` |
+| `Guides/Leveling/Horde/Silithus_55-60.lua` | `6845c916960d2b31833964e37269b7b2c72081602d41fc5b61b0e8ff1c328e53` |
+| `Guides/Leveling/Horde/Silverpine_Forest_11-20.lua` | `fd901c1107cf050312d3589478d0f8d98b923af634baa251375992047eb84149` |
+| `Guides/Leveling/Horde/Stonetalon_Mountains_19-26.lua` | `a9e7471d40c7d11535f5f634c9170eb57f689394ecce7d2880f2fb8c27189f01` |
+| `Guides/Leveling/Horde/Stranglethorn_Vale_34-41.lua` | `cf9abb3be0b5ff30ee2d6b46b7fb628f6e9e1b73b272b2693c8dc49517109fb7` |
+| `Guides/Leveling/Horde/Stranglethorn_Vale_43-50.lua` | `b07d97139c101fd829301496b043cd67be0e79991b95c4d9ba4fcccc2884164e` |
+| `Guides/Leveling/Horde/Swamp_of_Sorrows_35-44.lua` | `c631690ff59cd0c52d15229f5e02a063048cdaf312f5a72ef6fdaf12008b8212` |
+| `Guides/Leveling/Horde/Swamp_of_Sorrows_50-57.lua` | `1ddebf7ad2f8d6090c8e14c821e2f75498356bb44de22fef096e9e682ab6e3bf` |
+| `Guides/Leveling/Horde/Tanaris_44-50.lua` | `0443cf25cb848c9d6162fbcc3bfbad7e17c08ef9140d2576f00939bde800d0ab` |
+| `Guides/Leveling/Horde/Tanaris_53-54.lua` | `70232b60620afef73f8d75c794feaf3f6f2cbf47d4dad6c598fea3a10b4bf729` |
+| `Guides/Leveling/Horde/The_Barrens_12-20.lua` | `9766c425f16e1d397b93d0760840e0ef21fba08dc8cc081b5d6008f5dbc3826c` |
+| `Guides/Leveling/Horde/The_Barrens_23-27.lua` | `d18bdd1cdc382266adc96db142614eced1cd90f24b5af79f9a655264849822a7` |
+| `Guides/Leveling/Horde/The_Barrens_55-60.lua` | `ae1a3c8510c2a7c8d89eea4d60dcbd5906737ad3d39b119d0479ca3f3e4ab24a` |
+| `Guides/Leveling/Horde/The_Hinterlands_47-50.lua` | `d2aba572bfd8d29db4091bfe28005ed4c795e1844abf0a655a2f1282ebeaff4a` |
+| `Guides/Leveling/Horde/Thousand_Needles_27-33.lua` | `cb3238e8c2e8b8f3292a7b092a72a534a926f3d7eeadc9b9e615301db8cd6f72` |
+| `Guides/Leveling/Horde/Thousand_Needles_37-41.lua` | `c9ac8d39e574d2cf0941578bd053d38391472bd17e6a512a45cb0da2b9dcb7f9` |
+| `Guides/Leveling/Horde/Tirisfal_Glades_5-12.lua` | `d68da605309eadf04514826f9f3ee229b813fc530718013b4908742448302403` |
+| `Guides/Leveling/Horde/Tirisfal_Glades_53-60.lua` | `3aae40b6a705fed4842232a9f007a1d0d6c58f4ab9930292e0702fb35cee7bf1` |
+| `Guides/Leveling/Horde/Un'Goro_Crater_51-55.lua` | `40056302ff52b548c9e209f18d6d787193a6cb582192a427ff8ed9e5d7f19974` |
+| `Guides/Leveling/Horde/Western_Plaguelands_53-57.lua` | `16ce343fbda5403946d16f0cdb18ee639e17031c631fde90e523c4301460d254` |
+| `Guides/Leveling/Horde/Winterspring_54-59.lua` | `a176016c400695b5a999b53d89d7b4679f05a4c6116c14d89c013efb90b00965` |
+| `Guides/Leveling/Horde/Zephras_Isle_5-12.lua` | `3ffd45c891767035bf17648b8f5189cb0bc903589b51cf02c2317af067158ea3` |
+
+Converted automatically, then checked (lint, playtest) and built with Polestar 0.2.6's tools.

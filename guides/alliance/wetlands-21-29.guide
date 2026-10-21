@@ -1,0 +1,455 @@
+guide lodestar/alliance/wetlands-21-29
+title "Wetlands (21-29)"
+levels 21-29
+zone map 1437
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/elwynn-forest-21-28
+step
+  level 20
+step
+  when turnedin 161
+  accept 274
+step
+  getfp "Menethil Harbor, Wetlands"
+step
+  when level>=20
+  accept 279
+step
+  when level>=20
+  accept 463
+step
+  accept 484
+step
+  accept 98197
+step
+  when level>=20
+  accept 98282
+step
+  when onquest 279
+  tip Kill 12 Bluegill Murlocs.
+  kill 1024 x12 quest 279.1 @15.26,39.83 map 1437
+  collect 3618 quest 279.2 @15.26,39.83 map 1437
+step
+  tip Recover 6 Khaz Modan Timber and 30 Khaz Modan Iron from Menethil Harbor for Valstag Ironjaw.
+  collect 279822 x30 quest 98197.2 @11.4,53 map 1437
+  collect 279821 x6 quest 98197.1 @6,52.8 map 1437
+  collect 279822 x30 quest 98197.2 @6,52.8 map 1437
+step
+  when onquest 279
+  turnin 279
+step
+  turnin 98197
+step
+  when onquest 463
+  tip Find the Greenwarden.
+  turnin 463
+step
+  when level>=20
+  accept 276
+step
+  tip Obtain 4 Young Crocolisk Skins for James Halloran in Menethil Harbor.
+  collect 3397 x4 quest 484.1 @55.11,45.65 map 1437 -- Drops from: Young Wetlands Crocolisk
+step
+  accept 469
+step
+  when onquest 98282
+  tip Collect an Unruptured Stalker Gland from Thelgen Rock for Caitlin Grassman in Menethil Harbor.
+  collect 280319 quest 98282.1 @52.66,63.02 map 1437 -- Drops from: Leech Stalker, Cave Stalker
+step
+  tip Deliver the Bundle of Crocolisk Skins to James Halloran, the tanner, in Menethil Harbor.
+  turnin 469
+step
+  turnin 484
+step
+  when onquest 98282
+  turnin 98282
+step
+  accept 470
+step
+  when turnedin 942
+  accept 943
+step
+  when level>=21
+  accept 305
+step
+  when onquest 305
+  tip Tarrel Rockweaver wants you to travel to the Excavation Site and contact Merrin Rockweaver.
+  turnin 305
+step
+  when level>=22
+  accept 294
+step
+  when turnedin 305
+  when level>=21
+  accept 306
+step
+  tip One of the oozes at Ironbeard's Tomb has Sida's bag, retrieve it and bring it back to her in Menethil Harbor.
+  collect 3349 quest 470.1 @44.63,24.76 map 1437 -- Drops from: Crimson Ooze, Black Ooze, Monstrous Ooze
+step
+  when onquest 294
+  tip Ormer Ironbraid at the Whelgar Excavation Site wants you to kill 10 Mottled Screechers and 10 Mottled Raptors.
+  kill 1020 x10 quest 294.1 @23.89,47.15 map 1437
+  kill 1020 x10 quest 294.1
+  kill 1021 x10 quest 294.2 @24.22,52.53 map 1437
+step
+  when turnedin 942
+  tip Archaeologist Flagongut in Menethil Harbor wants you to bring him the Stone of Relu and Flagongut's Fossil.
+  collect 5233 quest 943.1 @23.89,47.15 map 1437 -- Drops from: Mottled Raptor, Mottled Screecher, Mottled Scytheclaw
+  collect 5233 quest 943.1 @38.86,52.21 map 1437
+  collect 5234 quest 943.2 @38.86,52.21 map 1437
+step
+  when onquest 294
+  turnin 294
+step
+  turnin 470
+step
+  when turnedin 942
+  turnin 943
+step
+  when turnedin 279
+  accept 281
+step
+  accept 98189
+step
+  accept 98190
+step
+  tip Bring the Menethil Statuette to Captain Stoutfist in Menethil Keep.
+  turnin 98189
+step
+  when onquest 281
+  tip Search the crates and barrels at the coastal Murloc camps.
+  turnin 281
+step
+  when turnedin 281
+  interact 261
+  accept 284
+step
+  when onquest 284
+  tip Search for the Menethil Statuette.
+  turnin 284
+step
+  when turnedin 284
+  interact 142151
+  accept 285
+step
+  when onquest 285
+  tip Continue searching the Murloc hovels for the Menethil Statuette.
+  turnin 285
+step
+  when turnedin 285
+  interact 259
+  accept 286
+step
+  when onquest 306
+  tip Return to Tarrel Rockweaver with Merrin's note.
+  turnin 306
+step
+  only Shaman
+  accept 94497
+step
+  only Shaman
+  tip Fill the Empty Brown Waterskin at the bottom of the waterfalls below Hervdana's cave and return it to her in the Wetlands.
+  collect 265734 quest 94497.1 @65.75,76.45 map 1437
+step
+  only Shaman
+  accept 94499
+step
+  only Shaman
+  tip Fill the Empty Red Waterskin at Stonewatch Falls near the Nightcrawler Murlocs and return to Hervdana Saegrund in the Wetlands.
+  collect 265748 quest 94499.1 @65.75,76.45 map 1437
+step
+  only Shaman
+  accept 94500
+step
+  only Shaman
+  tip Fill the Unfilled Blue Waterskin at the waters of Astranaar in Ashenvale and return to Hervdana Saegrund in the Wetlands.
+  collect 265773 quest 94500.1 @65.75,76.45 map 1437
+step
+  only Shaman
+  accept 94501
+step
+  when onquest 276
+  tip Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to Rethiel the Greenwarden in the Wetlands.
+  kill 1008 x10 quest 276.2 @60.74,64.31 map 1437
+  kill 1007 x15 quest 276.1 @61.89,71.88 map 1437
+  kill 1008 x10 quest 276.2 @61.89,71.88 map 1437
+step
+  only Shaman
+  turnin 94497
+step
+  only Shaman
+  turnin 94499
+step
+  only Shaman
+  turnin 94500
+step
+  when onquest 276
+  turnin 276
+step
+  when turnedin 276
+  accept 277
+step
+  when onquest 277
+  tip Bring Rethiel the Greenwarden 9 Crude Flints.
+  collect 2611 x9 quest 277.1 @61.2,58.26 map 1437 -- Drops from: Mosshide Mistweaver, Mosshide Fenrunner, Mosshide Trapper
+step
+  when onquest 277
+  turnin 277
+step
+  when turnedin 277
+  accept 275
+step
+  when onquest 275
+  tip Kill 12 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands.
+  kill 1040 x12 quest 275.1 @35.56,33.45 map 1437
+step
+  when onquest 275
+  turnin 275
+step
+  when onquest 286
+  tip Bring Karl Boran the Menethil Statuette.
+  turnin 286
+step
+  accept 471
+step
+  tip Collect 6 Giant Crocolisk Skins and bring them to James Halloran in Menethil Harbor.
+  collect 3348 x6 quest 471.1 @19.03,24.79 map 1437 -- Drops from: Giant Wetlands Crocolisk
+step
+  turnin 471
+step
+  when level>=22
+  accept 288
+step
+  when onquest 288
+  tip Buy First Mate Fitzsimmons a Flagon of Mead.
+  talk 1464
+  buy 2594 npc 1464
+step
+  when level>=25
+  accept 472
+step
+  accept 98072
+step
+  when onquest 288
+  turnin 288
+step
+  when turnedin 294
+  when level>=22
+  accept 295
+step
+  when level>=22
+  accept 299
+step
+  when onquest 295
+  tip Ormer Ironbraid wants you to kill 10 Mottled Scytheclaw raptors and 10 Mottled Razormaw raptors then return to him at the Whelgar Excavation Site.
+  kill 1022 x10 quest 295.1 @35.3,49.49 map 1437
+  kill 1022 x10 quest 295.1
+  kill 1023 x10 quest 295.2 @33.85,48.27 map 1437
+step
+  when onquest 299
+  tip Prospector Whelgar wants you to scour the excavation site in search of the 4 missing tablet fragments: Ados, Modr, Golm and Neru.
+  collect 2658 quest 299.1 @35,47.9 map 1437 -- Drops from: Ancient Relic
+  collect 2659 quest 299.2 @35,47.9 map 1437 -- Drops from: Ancient Relic
+  collect 2660 quest 299.3 @35,47.9 map 1437 -- Drops from: Ancient Relic
+  collect 2661 quest 299.4 @35,47.9 map 1437 -- Drops from: Ancient Relic
+step
+  when onquest 295
+  turnin 295
+step
+  when onquest 299
+  turnin 299
+step
+  tip Collect 8 Pristine Crimson Scales and bring them to James Halloran in Menethil Harbor.
+  collect 279385 x8 quest 98072.1 @63.43,48.8 map 1437 -- Drops from: Red Whelp, Lost Whelp, Flamesnorting Whelp
+step
+  when onquest 472
+  tip Search for Longbraid near the town of Dun Modr.
+  turnin 472
+step
+  turnin 98072
+step
+  when turnedin 455
+  when level>=23
+  accept 473
+step
+  when level>=23
+  accept 98221
+step
+  when turnedin 455
+  when onquest 473
+  tip Speak with Captain Stoutfist.
+  turnin 473
+step
+  when level>=23
+  accept 464
+step
+  when turnedin 288
+  when level>=22
+  accept 289
+step
+  when !turnedin 322
+  when !turnedin 324
+  when !onquest 322
+  when !onquest 324
+  accept 526
+step
+  accept 98208
+step
+  tip Recover Nord'el for Sylessa Duskwhisper in Menethil Harbor.
+  collect 279915 quest 98208.1 @7.96,55.85 map 1437
+step
+  when level>=22
+  accept 98230
+step
+  accept 98240
+step
+  turnin 98208
+step
+  when !turnedin 322
+  when !turnedin 324
+  when !onquest 322
+  when !onquest 324
+  tip Gather 5 lightforge ingots, then return to Glorin Steelbrow in the Wetlands.
+  collect 2702 x5 quest 526.1 @12.62,64.32 map 1437 -- Drops from: Bluegill Raider
+step
+  when onquest 289
+  tip Kill 13 Cursed Sailors, 5 Cursed Marines and First Mate Snellig. Bring Snellig's Snuffbox to First Mate Fitzsimmons in Menethil Harbor.
+  kill 1157 x13 quest 289.1 @14.03,30.28 map 1437
+  kill 1158 x5 quest 289.2 @14.03,30.28 map 1437
+  collect 3619 quest 289.3 @14.03,30.28 map 1437
+step
+  when onquest 289
+  turnin 289
+step
+  when !turnedin 322
+  when !turnedin 324
+  when !onquest 322
+  when !onquest 324
+  turnin 526
+step
+  when turnedin 295
+  accept 296
+step
+  when onquest 296
+  tip Ormer Ironbraid at the Whelgar Excavation Site wants you to kill Sarltooth and return to him with one of his talons once the task is fulfilled.
+  collect 3638 quest 296.1 @33.26,51.51 map 1437 -- Drops from: Sarltooth
+step
+  when onquest 296
+  turnin 296
+step
+  when onquest 98221
+  tip Captain Stoutfist in Menethil Keep wants you to destroy the 4 sets of Attack Plans in the Angerfang Encampment.
+  note "Captain Stoutfist in Menethil Keep wants you to destroy the 4 sets of Attack Plans in the Angerfang Encampment."
+step
+  when onquest 98230
+  tip Find Howin Kindfeather east of Menethil Harbor, along the road.
+  turnin 98230
+step
+  tip Bring the Crimson Crate to Howin Kindfeather off the road to the east of Menethil Harbor.
+  turnin 98240
+step
+  accept 98245
+step
+  accept 98246
+step
+  tip Gather 12 Perfect Razormaw Eggs for Howin Kindfeather.
+  collect 280132 x12 quest 98246.1 @49.36,42.05 map 1437
+step
+  when onquest 464
+  tip Bring 8 Dragonmaw War Banners to Captain Stoutfist.
+  collect 3337 x8 quest 464.1 @45.83,45.42 map 1437 -- Drops from: Dragonmaw Raider, Dragonmaw Swamprunner, Dragonmaw Centurion
+step
+  turnin 98246
+step
+  tip Collect 10 Razormaw Incisors for Howin Kindfeather.
+  collect 280103 x10 quest 98245.1 @67.84,30.74 map 1437 -- Drops from: Highland Razormaw, Elder Razormaw
+step
+  turnin 98245
+step
+  when onquest 464
+  turnin 464
+step
+  when onquest 98221
+  turnin 98221
+step
+  zone map 1432
+  when turnedin 161
+  tip Ashlan Stonesmirk wants you to return to Chief Engineer Hinderweir and inform him of the new discovery.
+  turnin 274 -- Turn in at Loch Modan
+step
+  when turnedin 161
+  accept 278
+step
+  only Shaman
+  tip Bring the Vial of Purest Water to Norric Lochthane in Loch Modan.
+  turnin 94501 -- Turn in at Loch Modan
+step
+  when turnedin 161
+  tip Chief Engineer Hinderweir wants you to gather Lurker Venom, a Mo'grosh Crystal, and a Crocolisk Tear.
+  collect 2607 quest 278.2 @69.67,25.54 map 1432 optional -- Mo'grosh Ogre is elite: grouping up is advised.
+  collect 2939 quest 278.3 @56.87,39.12 map 1432 -- Drops from: Loch Crocolisk, Daggerfang, Large Loch Crocolisk
+  collect 2606 quest 278.1 @62.62,64.13 map 1432 -- Drops from: Cliff Lurker, Wood Lurker, Forest Lurker
+  collect 2607 quest 278.2 optional -- Mo'grosh Ogre is elite: grouping up is advised.
+  collect 2939 quest 278.3 -- Drops from: Cliff Lurker, Wood Lurker, Forest Lurker
+step
+  when turnedin 161
+  turnin 278 -- Turn in at Loch Modan
+step
+  when turnedin 161
+  accept 280
+step
+  when turnedin 161
+  tip Chief Engineer Hinderweir wants you to swim down to the base of the dam, locate the powder keg and stir in the Disarming Mixture to prevent an explosion.
+  turnin 280 -- Turn in at Loch Modan
+step
+  when turnedin 161
+  interact 1585
+  accept 283
+step
+  when turnedin 161
+  tip The Disarming Mixture seemed to take effect. Return to Chief Engineer Hinderweir to report the good news.
+  turnin 283 -- Turn in at Loch Modan
+step
+  zone map 1453
+  tip Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep.
+  turnin 98190 -- Turn in at Stormwind City
+step
+  when turnedin 269
+  accept 270
+step
+  zone map 1437
+  when turnedin 269
+  tip Go to Menethil Harbor in the Wetlands, and speak with Glorin Steelbrow.
+  turnin 270
+step
+  when turnedin 269
+  accept 321
+step
+  when turnedin 269
+  tip Search the wreckage of The Flying Osprey in the Wetlands.
+  turnin 321
+step
+  when turnedin 269
+  interact 2734
+  accept 324
+step
+  when turnedin 269
+  tip Gather 5 Lightforge Ingots, then return to Glorin Steelbrow in the Wetlands.
+  collect 2702 x5 quest 324.1 @12.62,64.32 map 1437 -- Drops from: Bluegill Raider
+step
+  when turnedin 269
+  turnin 324
+step
+  when turnedin 269
+  accept 322
+step
+  zone map 1453
+  when turnedin 269
+  tip Take the Crate of Lightforge Ingots to Grimand Elmore in Stormwind.
+  turnin 322 -- Turn in at Stormwind City
+step
+  tip Zone complete! Travel to Stormwind City.
+  goto 55.04,54.16 map 1453

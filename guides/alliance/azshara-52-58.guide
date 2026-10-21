@@ -1,0 +1,271 @@
+guide lodestar/alliance/azshara-52-58
+title "Azshara (52-58)"
+levels 52-58
+zone map 1447
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/winterspring-54-59
+step
+  level 51
+step
+  zone map 1457
+  only Hunter
+  accept 8151 npc 4205
+step
+  only Druid
+  accept 9063 npc 4217
+step
+  zone map 1447
+  getfp "Talrendis Point, Azshara"
+step
+  accept 5535
+step
+  accept 5536
+step
+  tip Kill 6 Haldarr Satyr, 2 Haldarr Tricksters, 2 Haldarr Felsworn and then return to Loh'atu on the border of Ashenvale.
+  kill 6126 x2 quest 5536.2 @20.27,62.23 map 1447
+  kill 6125 x6 quest 5536.1 @20.99,61.79 map 1447
+  kill 6125 x6 quest 5536.1 @20.54,61.2 map 1447
+  kill 6126 x2 quest 5536.2 @20.54,61.2 map 1447
+  kill 6127 x2 quest 5536.3 @20.54,61.2 map 1447
+step
+  tip Destroy 6 Highborne Apparitions and 6 Highborne Lichlings before returning to Loh'atu in Azshara.
+  kill 6117 x6 quest 5535.2 @17.85,69.96 map 1447
+  kill 6116 x6 quest 5535.1 @17.27,70.71 map 1447
+  kill 6117 x6 quest 5535.2 @17.27,70.71 map 1447
+step
+  turnin 5535
+step
+  turnin 5536
+step
+  only Rogue
+  when turnedin 8234
+  accept 8235
+step
+  only Mage
+  accept 8251
+step
+  only Hunter
+  tip Speak to Ogtinc in Azshara.
+  turnin 8151
+step
+  only Hunter
+  accept 8153
+step
+  only Priest
+  when turnedin 8254
+  accept 8255
+step
+  accept 3601
+step
+  only Rogue
+  when turnedin 8234
+  tip Bring 10 Encoded Fragments to Archmage Xylem in Azshara.
+  collect 20023 x10 quest 8235.1 @71.73,29.47 map 1447 -- Drops from: Forest Ooze
+step
+  tip Search the Thalassian Base Camp for Kim'jael's Compass, Scope, Stuffed Chicken and Wizzlegoober, then return them to him in Azshara.
+  collect 10717 quest 3601.1 @58.9,28.4 map 1447 -- Drops from: Kim'jael's Equipment
+  collect 10715 quest 3601.2 @58.9,28.4 map 1447 -- Drops from: Kim'jael's Equipment
+  collect 10722 quest 3601.3 @58.9,28.4 map 1447 -- Drops from: Kim'jael's Equipment
+  collect 10718 quest 3601.4 @58.9,28.4 map 1447 -- Drops from: Kim'jael's Equipment
+step
+  only Mage
+  tip Bring 10 Glittering Dust to Archmage Xylem.
+  collect 20028 x10 quest 8251.1 @58.02,28.18 map 1447 -- Drops from: Blood Elf Surveyor, Blood Elf Reclaimer
+step
+  only Rogue
+  when turnedin 8234
+  turnin 8235
+step
+  only Mage
+  turnin 8251
+step
+  only Mage
+  accept 8252
+step
+  only Mage
+  tip Collect 6 Enchanted Coral and return them to Archmage Xylem.
+  collect 20029 x6 quest 8252.1 @44.37,53.93 map 1447 -- Drops from: Spitelash Siren
+step
+  only Hunter
+  tip Bring a pair of Perfect Courser Antlers to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast of the Ruins of Eldarath.
+  collect 20017 x2 quest 8153.1 @50.78,75.64 map 1447 -- Drops from: Mosshoof Courser
+step
+  only Priest
+  when turnedin 8254
+  tip Acquire 4 Healthy Courser Glands and bring them to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath.
+  collect 20027 x4 quest 8255.1 @50.78,75.64 map 1447 -- Drops from: Mosshoof Courser
+step
+  when turnedin 3449
+  accept 3461
+step
+  only Hunter
+  turnin 8153
+step
+  only Priest
+  when turnedin 8254
+  turnin 8255
+step
+  only Hunter
+  accept 8231
+step
+  only Priest
+  when turnedin 8254
+  accept 8256
+step
+  turnin 3601
+step
+  accept 5534
+step
+  only Mage
+  turnin 8252
+step
+  only Priest
+  when turnedin 8254
+  tip Acquire an Ichor of Undeath for Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath.
+  collect 7972 quest 8256.1 @17.27,70.71 map 1447 -- Drops from: Highborne Apparition, Highborne Lichling, Lingering Highborne
+step
+  tip Find Some Rune that the naga have in their possession in the Ruins of Eldarath and return it to Kim'jael in Azshara.
+  collect 13815 quest 5534.1 @44.37,53.93 map 1447 -- Drops from: Spitelash Siren, Spitelash Myrmidon, Spitelash Battlemaster
+step
+  only Priest
+  when turnedin 8254
+  turnin 8256
+step
+  only Hunter
+  tip Bring 6 Wavethrasher Scales to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath.
+  collect 20087 x6 quest 8231.1 @86.31,12.61 map 1447 -- Drops from: Young Wavethrasher, Wavethrasher, Great Wavethrasher
+step
+  turnin 5534
+step
+  only Hunter
+  turnin 8231
+step
+  when turnedin 2744
+  accept 3141
+step
+  when turnedin 2744
+  tip Listen to Loramus Thalipedes tell his story.
+  talk 7783
+step
+  when turnedin 2744
+  turnin 3141
+step
+  when level>=55
+  accept 6805
+step
+  when turnedin 2744
+  accept 3508
+step
+  when turnedin 2744
+  tip Wait for Loramus to complete the enlightenment spell.
+  turnin 3508
+step
+  when turnedin 2744
+  accept 3509
+step
+  when turnedin 2744
+  tip Speak with Lord Arkkoroc in Azshara. Begin your search at the waters edge to find the Temple of Arkkoran.
+  turnin 3509
+step
+  when turnedin 2744
+  when level>=58
+  accept 3510
+step
+  when turnedin 2744
+  when onquest 3510
+  tip Slay Hetaera and bring back Hetaera's Bloodied Head, Hetaera's Beaten Head, and Hetaera's Bruised Head to Lord Arkkoroc.
+  collect 10599 quest 3510.1 @56.73,44.79 map 1447 optional -- Hetaera is elite: grouping up is advised.
+  collect 10598 quest 3510.2 @56.73,44.79 map 1447 optional -- Hetaera is elite: grouping up is advised.
+  collect 10600 quest 3510.3 @56.73,44.79 map 1447 optional -- Hetaera is elite: grouping up is advised.
+step
+  when turnedin 2744
+  when onquest 3510
+  turnin 3510
+step
+  when turnedin 2744
+  when turnedin 3510
+  accept 3511
+step
+  when turnedin 2744
+  when onquest 3511
+  tip Take the temper back to Loramus Thalipedes.
+  turnin 3511
+step
+  when turnedin 2744
+  when turnedin 3511
+  accept 3602
+step
+  when turnedin 2744
+  when onquest 3602
+  tip Recover twenty Crystallized Azsharite from southern Azshara. You may use the Felhound to assist you in 'sniffing' out the location of cleverly hidden deposits.
+  collect 10714 x20 quest 3602.1 @55.65,83.31 map 1447 -- Drops from: Azsharite Formation
+step
+  when turnedin 2744
+  when onquest 3602
+  turnin 3602
+step
+  zone map 1449
+  only Druid
+  tip Speak with Torwa Pathfinder in Un'Goro Crater.
+  turnin 9063 -- Turn in at Un'Goro Crater
+step
+  zone map 1457
+  when turnedin 6761
+  when level>=54
+  accept 6762
+step
+  zone map 1450
+  when turnedin 6761
+  when onquest 6762
+  tip Speak with Rabine Saturna in the village of Nighthaven, Moonglade. Moonglade lies between Felwood and Winterspring, accessible through a path out of Timbermaw Hold.
+  turnin 6762 -- Turn in at Moonglade
+step
+  when level>=56
+  accept 5527
+step
+  when turnedin 6761
+  when turnedin 6762
+  when level>=54
+  accept 1124
+step
+  zone map 1451
+  when turnedin 6761
+  when onquest 1124
+  tip Speak with Layo Starstrike near the Valor's Rest graveyard of Silithus, showing him Rabine's Letter.
+  turnin 1124 -- Turn in at Silithus
+step
+  when onquest 5527
+  tip Travel to Silithus and search for a Reliquary of Purity within the ruins of Southwind Village. If you are able to find it, return with it to Rabine Saturna in Nighthaven, Moonglade.
+  collect 22201 quest 5527.1 @63.23,55.35 map 1451 -- Drops from: Dusty Reliquary
+step
+  when onquest 6805
+  tip Kill 15 Dust Stormers and 15 Desert Rumblers and then return to Duke Hydraxis in Azshara.
+  kill 11744 x15 quest 6805.1 @21.6,22.4 map 1451
+  kill 11744 x15 quest 6805.1
+  kill 11746 x15 quest 6805.2 @22.6,14.2 map 1451
+step
+  zone map 1447
+  when onquest 6805
+  turnin 6805
+step
+  zone map 1450
+  when onquest 5527
+  turnin 5527 -- Turn in at Moonglade
+step
+  when turnedin 5527
+  when level>=56
+  accept 5526
+step
+  when onquest 5526
+  tip Find the Felvine in Dire Maul and acquire a shard from it. Chances are you'll only be able to procure one with the demise of Alzzin the Wildshaper. Use the Reliquary of Purity to securely seal the shard inside, and return it to Rabine Saturna in Nighthaven, Moonglade.
+  collect 18540 quest 5526.1 @51.69,45.1 map 1450
+step
+  when onquest 5526
+  turnin 5526 -- Turn in at Moonglade
+step
+  zone map 1452
+  tip Zone complete! Travel to Winterspring.
+  goto 60.88,37.62 map 1452

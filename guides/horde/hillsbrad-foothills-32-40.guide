@@ -1,0 +1,229 @@
+guide lodestar/horde/hillsbrad-foothills-32-40
+title "Hillsbrad Foothills (32-40)"
+levels 32-40
+zone map 1424
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/alterac-mountains-34-40
+step
+  level 31
+step
+  getfp "Tarren Mill, Hillsbrad"
+step
+  when turnedin 539
+  accept 541
+step
+  accept 547
+step
+  accept 556
+step
+  accept 676
+step
+  accept 552
+step
+  accept 93680
+step
+  tip Acquire the Dalaran Sewer Key for Magus Wordeen Voidglare in Tarren Mill.
+  collect 279469 quest 93680.1 @61.6,20.85 map 1424
+step
+  accept 97287
+step
+  turnin 93680
+step
+  when turnedin 498
+  accept 533
+step
+  accept 544
+step
+  accept 92434
+step
+  when turnedin 539
+  tip Travel to Dun Garok and kill 8 Mountaineers, 4 Riflemen, 2 Priests and Captain Ironhill and report back to Darthalia in Tarren Mill.
+  kill 2345 x4 quest 541.2 @71.49,78.59 map 1424 optional -- Dun Garok Rifleman is elite: grouping up is advised.
+  kill 2344 x8 quest 541.1 @71.58,79.57 map 1424 optional -- Dun Garok Mountaineer is elite: grouping up is advised.
+  kill 2346 x2 quest 541.3 @71.78,80.45 map 1424 optional -- Dun Garok Priest is elite: grouping up is advised.
+  kill 2344 x8 quest 541.1 @72.53,79.65 map 1424 optional -- Dun Garok Mountaineer is elite: grouping up is advised.
+  kill 2345 x4 quest 541.2 @72.53,79.65 map 1424 optional -- Dun Garok Rifleman is elite: grouping up is advised.
+  kill 2346 x2 quest 541.3 @72.53,79.65 map 1424 optional -- Dun Garok Priest is elite: grouping up is advised.
+  kill 2304 quest 541.4 @72.53,79.65 map 1424 optional -- Captain Ironhill is elite: grouping up is advised.
+step
+  tip Retrieve Deathguard Humbert's sword from Dun Garok and return it to him in Tarren Mill.
+  collect 3693 quest 547.1 @71.58,79.57 map 1424 optional -- Dun Garok Mountaineer is elite: grouping up is advised.
+step
+  tip Retrieve Helcular's Rod from the Yeti and bring it back to Novice Thaivand in Tarren Mill.
+  collect 3708 quest 552.1 @45.28,31.24 map 1424 -- Drops from: Cave Yeti, Ferocious Yeti
+step
+  when turnedin 539
+  turnin 541
+step
+  turnin 547
+step
+  turnin 552
+step
+  when turnedin 539
+  accept 550
+step
+  accept 553
+step
+  tip Charge the Rod of Helcular with the powers of the Flame of Azel, Flame of Veraz and the Flame of Uzel.
+  interact 1769 quest 553.2 @44.05,26.55 map 1424
+  interact 1768 quest 553.1 @43.89,28.06 map 1424
+  interact 1768 quest 553.1
+  interact 1769 quest 553.2
+  interact 1770 quest 553.3 @37.55,66.24 map 1416
+step
+  turnin 553
+step
+  when turnedin 549
+  when level>=35
+  interact 1763
+  accept 566
+step
+  zone map 1458
+  when onquest 1159
+  tip Find Parqual Fintallas in Undercity.
+  turnin 1159 -- Turn in at Undercity
+step
+  when turnedin 539
+  tip Take Darthalia's Sealed Commendation to Varimathras in the Undercity.
+  turnin 550 -- Turn in at Undercity
+step
+  when level>=34
+  accept 495
+step
+  zone map 1416
+  tip Speak with Archmage Celindra in the City of Dalaran.
+  turnin 97287 -- Turn in at Alterac Mountains
+step
+  tip Bring 10 Worn Stone Tokens to Keeper Bel'varil in Tarren Mill.
+  collect 3714 x10 quest 556.1 @19,84.35 map 1416 -- Drops from: Dalaran Shield Guard, Dalaran Theurgist, Dalaran Summoner
+step
+  tip Find the traitors and recover their artifacts, then return to Magus Voidglare in Tarren Mill.
+  collect 3689 quest 544.2 @20.16,84.28 map 1416 -- Drops from: Ricter
+  collect 3691 quest 544.1 @19.91,85.97 map 1416 -- Drops from: Dermot
+  collect 3690 quest 544.3 @20.34,86.4 map 1416 -- Drops from: Alina
+  collect 3691 quest 544.1 -- Drops from: Kegan Darkmar
+  collect 3689 quest 544.2 -- Drops from: Kegan Darkmar
+  collect 3690 quest 544.3 -- Drops from: Kegan Darkmar
+  collect 3688 quest 544.4 @17.8,83.2 map 1416 -- Drops from: Kegan Darkmar
+step
+  when turnedin 498
+  tip Retrieve information about Gol'dir's whereabouts for Krusk in Tarren Mill.
+  collect 3601 quest 533.1 @57.71,67.64 map 1416 -- Drops from: Syndicate Footpad, Syndicate Thief
+step
+  when turnedin 549
+  when onquest 566
+  tip Kill Baron Vardus and deliver his head to High Executor Darthalia in Tarren Mill.
+  collect 3626 quest 566.1 @56.28,26.7 map 1416 -- Drops from: Baron Vardus
+step
+  zone map 1424
+  turnin 556
+step
+  accept 557
+step
+  turnin 544
+step
+  accept 545
+step
+  when turnedin 549
+  when onquest 566
+  turnin 566
+step
+  when onquest 495
+  tip Report to Melisara at Tarren Mill in the Hillsbrad Foothills.
+  turnin 495
+step
+  when level>=39
+  accept 518
+step
+  when turnedin 498
+  turnin 533
+step
+  when turnedin 498
+  accept 503
+step
+  zone map 1417
+  tip Kill 8 Boulderfist Ogres and 10 Boulderfist Enforcers, then find Drum Fel in the Hammerfall outpost in Arathi Highlands.
+  kill 2562 x8 quest 676.1 @35.7,45.27 map 1417
+  kill 2562 x8 quest 676.1
+  kill 2564 x10 quest 676.2 @32.39,44.74 map 1417
+step
+  turnin 676 -- Turn in at Arathi Highlands
+step
+  zone map 1421
+  tip Find a way into Dalaran along the Lordamere Lake.
+  turnin 92434 -- Turn in at Silverpine Forest
+step
+  zone map 1416
+  tip Bring 4 Bracers of Earth Binding to Keeper Bel'varil in Tarren Mill.
+  collect 3715 x4 quest 557.1 @21.78,64.34 map 1416 -- Drops from: Elemental Slave
+step
+  tip Kill 6 Dalaran Summoners and 12 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.
+  kill 2359 x12 quest 545.2 @21.78,64.34 map 1416
+  kill 2358 x6 quest 545.1 @18.88,74.92 map 1416
+  kill 2359 x12 quest 545.2 @18.88,74.92 map 1416
+step
+  when onquest 518
+  tip Kill 10 Crushridge Maulers for Melisara in Tarren Mill.
+  kill 2254 x10 quest 518.1 @43.11,46.89 map 1416 optional -- Crushridge Mauler is elite: grouping up is advised.
+step
+  when turnedin 498
+  tip Free Gol'dir then return to Krusk in Tarren Mill.
+  talk 2316
+step
+  when turnedin 498
+  turnin 503 -- Turn in at Alterac Mountains
+step
+  zone map 1424
+  turnin 557
+step
+  turnin 545
+step
+  when onquest 518
+  turnin 518
+step
+  when turnedin 518
+  when level>=41
+  accept 519
+step
+  zone map 1416
+  when onquest 519
+  tip Kill Targ, Muckrake, and Glommus and bring their heads to Melisara in Tarren Mill.
+  collect 3550 quest 519.1 @39.57,52.89 map 1416 optional -- Targ is elite: grouping up is advised.
+  collect 3551 quest 519.2 @38.65,46.75 map 1416 optional -- Muckrake is elite: grouping up is advised.
+  collect 3550 quest 519.1 optional -- Targ is elite: grouping up is advised.
+  collect 3551 quest 519.2 optional -- Muckrake is elite: grouping up is advised.
+  collect 3552 quest 519.3 @39.5,41.82 map 1416 optional -- Glommus is elite: grouping up is advised.
+step
+  zone map 1424
+  when onquest 519
+  turnin 519
+step
+  when turnedin 519
+  when level>=43
+  accept 520
+step
+  zone map 1416
+  when onquest 520
+  tip Kill Mug'Thol, and return his head with the Crown of Will to Melisara in Tarren Mill.
+  collect 3553 quest 520.1 @35.68,54.25 map 1416 optional -- Mug'thol is elite: grouping up is advised.
+  collect 3554 quest 520.2 @35.68,54.25 map 1416 optional -- Mug'thol is elite: grouping up is advised.
+step
+  zone map 1424
+  when onquest 520
+  turnin 520
+step
+  when turnedin 520
+  when level>=34
+  accept 521
+step
+  zone map 1458
+  when onquest 521
+  tip Deliver the Crown of Will to Sharlindra in the Undercity.
+  turnin 521 -- Turn in at Undercity
+step
+  zone map 1416
+  tip Zone complete! Travel to Alterac Mountains.
+  goto 57.17,69.51 map 1416

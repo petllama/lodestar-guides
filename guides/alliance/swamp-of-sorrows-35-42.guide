@@ -1,0 +1,75 @@
+guide lodestar/alliance/swamp-of-sorrows-35-42
+title "Swamp of Sorrows (35-42)"
+levels 35-42
+zone map 1435
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/badlands-37-43
+step
+  level 31
+step
+  accept 1389
+step
+  tip Bring 6 Draenethyst crystals to Magtoor at The Harborage in the Swamp of Sorrows.
+  collect 6071 x6 quest 1389.1 @62.08,22.45 map 1435 -- Drops from: Draenethyst Crystals
+step
+  turnin 1389
+step
+  accept 1396
+step
+  tip Kill 8 Young Sawtooth Crocolisks, 10 Sorrow Spinners and 10 Swamp Jaguars then return to Watcher Biggs in the Swamp of Sorrows.
+  kill 858 x10 quest 1396.2 @26.45,45.89 map 1435
+  kill 1084 x8 quest 1396.1 @30.44,38.94 map 1435
+  kill 1084 x8 quest 1396.1
+  kill 858 x10 quest 1396.2
+  kill 767 x10 quest 1396.3 @37.24,45.15 map 1435
+step
+  turnin 1396
+step
+  accept 1421
+step
+  tip Find the Caravan Chest in the Fallow Sanctuary, obtain the Wizards' Reagents and bring to Watcher Biggs.
+  collect 6170 quest 1421.1 @64.46,18.3 map 1435 -- Drops from: Caravan Chest
+step
+  accept 1393
+step
+  tip Escort Galen out of danger, then find his camp in the Swamp of Sorrows and open his strongbox.
+  goto 53.08,29.55 "Escort Galen out of the Fallow Sanctuary." map 1435
+step
+  turnin 1393
+step
+  kill 5477 @54.9,34.1 map 1435 -- Loot the quest item here — it starts the quest.
+  accept 1392 @54.9,34.1 map 1435
+step
+  tip Bring Noboru's Cudgel to the leader of The Harborage in the Swamp of Sorrows.
+  turnin 1392
+step
+  turnin 1421
+step
+  accept 1398
+step
+  tip Bring 8 pieces of Sundried Driftwood to Watcher Biggs in the Swamp of Sorrows.
+  collect 6146 x8 quest 1398.1 @93.96,57.09 map 1435
+step
+  turnin 1398
+step
+  accept 1425
+step
+  zone map 1453
+  when level>=38
+  accept 1448
+step
+  zone map 1435
+  when onquest 1448
+  tip Brohann Caskbelly in Stormwind wants you to search for the Temple of Atal'Hakkar.
+  goto 75.4,53.3 "Search for the Temple of Atal'Hakkar" map 1435
+step
+  zone map 1453
+  when onquest 1448
+  turnin 1448 -- Turn in at Stormwind City
+step
+  zone map 1418
+  tip Zone complete! Travel to Badlands.
+  goto 53.42,43.39 map 1418

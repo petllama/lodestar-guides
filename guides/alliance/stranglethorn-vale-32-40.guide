@@ -1,0 +1,476 @@
+guide lodestar/alliance/stranglethorn-vale-32-40
+title "Stranglethorn Vale (32-40)"
+levels 32-40
+zone map 1434
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/alterac-mountains-34-40
+step
+  level 31
+step
+  accept 583
+step
+  accept 203
+step
+  tip Speak with Hemet Nesingwary
+  turnin 583
+step
+  accept 185
+step
+  accept 190
+step
+  tip Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Young Stranglethorn Tigers.
+  kill 681 x10 quest 185.1 @35.65,12.14 map 1434
+step
+  turnin 185
+step
+  accept 186
+step
+  tip Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Stranglethorn Tigers.
+  kill 682 x10 quest 186.1 @37.4,12.8 map 1434
+step
+  turnin 186
+step
+  accept 194
+step
+  accept 204
+step
+  accept 215
+step
+  tip Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Young Panthers.
+  kill 683 x10 quest 190.1 @41.35,12.82 map 1434
+step
+  tip Kill 15 Kurzen Jungle Fighters.
+  kill 937 x15 quest 203.1 @44.64,9.98 map 1434
+step
+  tip Bring 7 Jungle Remedies and 1 Venom Fern Extract to Sergeant Yohwa at the Rebel Camp.
+  collect 2633 x7 quest 204.1 @44.45,9.79 map 1434 -- Drops from: Kurzen Medicine Man, Kurzen Headshrinker, Kurzen Witch Doctor
+  collect 2633 x7 quest 204.1 @44.1,9.54 map 1434 -- Drops from: Kurzen Supplies
+  collect 2634 quest 204.2 @44.1,9.54 map 1434 -- Drops from: Kurzen Supplies
+step
+  turnin 190
+step
+  turnin 203
+step
+  turnin 204
+step
+  tip Speak with Lieutenant Doren at the Rebel Camp.
+  turnin 215
+step
+  accept 191
+step
+  accept 187
+step
+  accept 200
+step
+  tip Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Panthers.
+  kill 736 x10 quest 191.1 @30.4,12.4 map 1434
+step
+  turnin 191
+step
+  tip Find Bookie Herod's Records.
+  turnin 200
+step
+  getfp "Booty Bay, Stranglethorn"
+step
+  when turnedin 1040
+  accept 1041
+step
+  accept 575
+step
+  accept 198
+step
+  accept 201
+step
+  accept 189
+step
+  accept 605
+step
+  kill 587 @34.04,16.78 map 1434 -- Loot the quest item here — it starts the quest.
+  accept 635 @34.04,16.78 map 1434
+step
+  tip Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Elder Stranglethorn Tigers.
+  kill 1085 x10 quest 187.1 @33.53,18.31 map 1434
+step
+  tip Acquire 15 Bloodscalp Ears and return them to Kebok in Booty Bay.
+  collect 1519 x15 quest 189.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Hemet Nesingwary wants you to kill 10 Stranglethorn Raptors.
+  kill 685 x10 quest 194.1 @25.72,15.81 map 1434
+step
+  turnin 187
+step
+  turnin 194
+step
+  accept 195
+step
+  tip Find the hunters' camp and report its location to Krazek in Booty Bay.
+  goto 35.65,10.59 "Locate the hunters' camp" map 1434
+step
+  tip Bring 2 Large River Crocolisk Skins to Drizzlik in Booty Bay.
+  collect 4053 x2 quest 575.1 @36.85,10.51 map 1434 -- Drops from: River Crocolisk
+step
+  tip Bring 10 Singing Crystal Shards to Crank Fizzlebub.
+  collect 3918 x10 quest 605.1 @34.68,6.74 map 1434 -- Drops from: Stone Maw Basilisk, Crystal Spine Basilisk, Cold Eye Basilisk
+step
+  tip Hemet Nesingwary wants you to kill 10 Lashtail Raptors.
+  kill 686 x10 quest 195.1 @33.4,24.55 map 1434
+step
+  turnin 195
+step
+  turnin 189
+step
+  turnin 201
+step
+  turnin 575
+step
+  turnin 605
+step
+  accept 213
+step
+  accept 577
+step
+  when turnedin 1115
+  accept 1116
+step
+  when level>=32
+  accept 616
+step
+  when turnedin 627
+  when level>=32
+  accept 622
+step
+  when turnedin 1180
+  accept 1181
+step
+  when onquest 616
+  tip Speak with Baron Revilgaz in Booty Bay.
+  turnin 616
+step
+  when turnedin 1180
+  tip Speak with Baron Revilgaz in Booty Bay.
+  turnin 1181
+step
+  when turnedin 616
+  when level>=32
+  accept 578
+step
+  when turnedin 1180
+  accept 1182
+step
+  tip Retrieve 8 Tumbled Crystals and return them to Kebok in Booty Bay.
+  collect 4106 x8 quest 213.1 @44.23,20.09 map 1434 -- Drops from: Venture Co. Geologist
+step
+  tip Bring 5 Snapjaw Crocolisks Skins to Drizzlik in Booty Bay.
+  collect 4104 x5 quest 577.1 @40.74,22.18 map 1434 -- Drops from: Snapjaw Crocolisk
+step
+  when turnedin 1180
+  tip Bring the Fuel Regulator Blueprints to Baron Revilgaz in Booty Bay.
+  collect 5852 quest 1182.1 @43.33,20.33 map 1434 -- Drops from: Cozzle's Footlocker
+step
+  tip Deliver the Miscellaneous Goblin Supplies to Private Thorsen.
+  turnin 198
+step
+  interact 287
+  accept 328
+step
+  tip Use the Small Brass Key to open Bookie Herod's Strongbox.
+  turnin 328
+step
+  interact 288
+  accept 329
+step
+  tip Take the Muddy Note to Lieutenant Doren at the Rebel Camp.
+  turnin 329
+step
+  when turnedin 627
+  when onquest 622
+  tip Bring Krazek's Fixed Pot to Corporal Kaleb at the Rebel Camp.
+  turnin 622
+step
+  accept 188
+step
+  when level>=32
+  accept 210
+step
+  accept 330
+step
+  accept 192
+step
+  accept 207
+step
+  accept 574
+step
+  tip Speak with Corporal Sethman.
+  turnin 330
+step
+  accept 331
+step
+  tip Speak with Lieutenant Doren.
+  turnin 331
+step
+  tip Ajeck Rouack of Nesingwary's Expedition wants you to kill Sin'Dall and return with her paw.
+  collect 3879 quest 188.1 @32.21,17.39 map 1434 -- Drops from: Sin'Dall
+step
+  tip Find the 4 tablets and bring their legends back to Brother Nimetz.
+  collect 2005 quest 207.1 @29.48,19.14 map 1434 -- Drops from: Moon Over the Vale
+  collect 2006 quest 207.2 @24.82,23.03 map 1434 -- Drops from: Gri'lek the Wanderer
+  collect 2007 quest 207.3 @22.95,12.02 map 1434 -- Drops from: Fall of Gurubashi
+  collect 2005 quest 207.1 -- Drops from: The Emperor's Tomb
+  collect 2006 quest 207.2 -- Drops from: The Emperor's Tomb
+  collect 2007 quest 207.3 -- Drops from: The Emperor's Tomb
+  collect 2008 quest 207.4 @24.7,8.93 map 1434 -- Drops from: The Emperor's Tomb
+step
+  tip Kill 10 Kurzen Commandoes and 6 Kurzen Headshrinkers.
+  kill 938 x10 quest 574.1 @45.93,7.9 map 1434
+  kill 938 x10 quest 574.1 @48.12,7.21 map 1434
+  kill 941 x6 quest 574.2 @48.12,7.21 map 1434
+step
+  turnin 188
+step
+  turnin 207
+step
+  turnin 574
+step
+  when onquest 578
+  tip Find the haunted island for Baron Revilgaz in Booty Bay.
+  goto 20.79,23.15 "Locate the haunted island" map 1434
+step
+  when onquest 210
+  tip Bring Krazek's Crock Pot to Krazek the goblin.
+  turnin 210
+step
+  turnin 213
+step
+  turnin 577
+step
+  when onquest 578
+  turnin 578
+step
+  when turnedin 1180
+  turnin 1182
+step
+  when turnedin 578
+  accept 601
+step
+  when level>=38
+  accept 628
+step
+  tip Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Shadowmaw Panthers.
+  kill 684 x10 quest 192.1 @41.3,34.76 map 1434
+step
+  when onquest 628
+  tip Bring an Elder Crocolisk Skin to Drizzlik in Booty Bay.
+  collect 4105 quest 628.1 @29.83,25.48 map 1434 optional -- Elder Saltwater Crocolisk is elite: grouping up is advised.
+step
+  turnin 192
+step
+  when onquest 601
+  tip Acquire 6 Water Elemental Bracers for Baron Revilgaz in Booty Bay.
+  collect 3923 x6 quest 601.1 @21.01,23.12 map 1434 -- Drops from: Lesser Water Elemental
+step
+  when onquest 601
+  turnin 601
+step
+  when onquest 628
+  turnin 628
+step
+  when turnedin 601
+  accept 602
+step
+  when level>=40
+  accept 193
+step
+  when level>=40
+  accept 202
+step
+  accept 205
+step
+  accept 338
+step
+  tip Collect the missing pages from The Green Hills of Stranglethorn manuscript. Once all four chapters are complete, return them to Barnil.
+  collect 2756 quest 338.1
+  collect 2757 quest 338.2
+  collect 2758 quest 338.3
+  collect 2759 quest 338.4
+step
+  accept 339
+step
+  accept 340
+step
+  accept 341
+step
+  accept 342
+step
+  turnin 338
+step
+  accept 196
+step
+  when onquest 202
+  tip Kill 6 Kurzen Elite, 4 Kurzen Subchiefs, and bring Kurzen's Head to Lieutenant Doren at the Rebel Camp.
+  kill 939 x6 quest 202.1 @47.88,6.86 map 1434
+  kill 978 x4 quest 202.2
+  collect 3615 quest 202.3 optional -- Colonel Kurzen is elite: grouping up is advised.
+step
+  tip Bring pages 1, 4, 6, and 8 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter I.
+  collect 2725 quest 339.1 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2728 quest 339.2 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2730 quest 339.3 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2732 quest 339.4 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Bring pages 10, 11, 14 and 16 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter II.
+  collect 2734 quest 340.1 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2735 quest 340.2 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2738 quest 340.3 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2740 quest 340.4 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Bring pages 18, 20, 21and 24 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter III.
+  collect 2742 quest 341.1 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2744 quest 341.2 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2745 quest 341.3 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2748 quest 341.4 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Bring pages 25, 26, and 27 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter IV.
+  collect 2749 quest 342.1 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2750 quest 342.2 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2751 quest 342.3 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  when onquest 193
+  tip Sir S. J. Erlgadin of Nesingwary's Expedition wants you to bring him the Fang of Bhag'thera.
+  collect 3876 quest 193.1 @49.4,24 map 1434 optional -- Bhag'thera is elite: grouping up is advised.
+step
+  tip Bring 4 Skullsplitter Fetishes to Brother Nimetz at the Rebel Camp.
+  collect 2466 x4 quest 205.1 @45.92,38 map 1434 -- Drops from: Skullsplitter Mystic, Skullsplitter Witch Doctor
+step
+  tip Hemet Nesingwary wants you to kill 10 Jungle Stalkers.
+  kill 687 x10 quest 196.1 @28.91,44.16 map 1434
+step
+  when level>=37
+  accept 595
+step
+  accept 600
+step
+  accept 606
+step
+  when onquest 595
+  tip First Mate Crazz wants you to check the cove north of Booty Bay.
+  turnin 595
+step
+  when turnedin 595
+  when level>=37
+  interact 2083
+  accept 597
+step
+  tip Bring 5 Mistvale Giblets to "Shaky" Phillipe in Booty Bay.
+  collect 3919 x5 quest 606.1 @33.48,65.45 map 1434 -- Drops from: Elder Mistvale Gorilla
+step
+  tip Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.
+  collect 3917 x10 quest 600.1 @41.55,43.48 map 1434 -- Drops from: Venture Co. Strip Miner, Venture Co. Surveyor, Venture Co. Tinkerer
+step
+  when onquest 193
+  turnin 193
+step
+  turnin 196
+step
+  when onquest 202
+  turnin 202
+step
+  turnin 205
+step
+  turnin 339
+step
+  turnin 340
+step
+  turnin 341
+step
+  turnin 342
+step
+  when onquest 597
+  tip Report your findings to First Mate Crazz in Booty Bay.
+  turnin 597
+step
+  turnin 600
+step
+  turnin 606
+step
+  when turnedin 597
+  when level>=37
+  accept 587
+step
+  when turnedin 597
+  when level>=37
+  accept 599
+step
+  accept 607
+step
+  when onquest 599
+  tip Report the planned Bloodsail attack to Fleet Master Seahorn.
+  turnin 599
+step
+  tip Bring Shaky's Payment to "Sea Wolf" MacKinley.
+  turnin 607
+step
+  when onquest 587
+  tip Deeg in Booty Bay wants you to bring him 15 shares of Snuff.
+  collect 3910 x15 quest 587.1 @32.34,71.67 map 1434 -- Drops from: Bloodsail Raider, Bloodsail Mage, "Pretty Boy" Duncan
+step
+  when onquest 587
+  turnin 587
+step
+  zone map 1431
+  when turnedin 1040
+  tip Speak with Clerk Daltry in Darkshire.
+  turnin 1041 -- Turn in at Duskwood
+step
+  when turnedin 1040
+  accept 1042
+step
+  when turnedin 1040
+  tip Speak with Jonathan Carevin in Darkshire.
+  turnin 1042 -- Turn in at Duskwood
+step
+  when turnedin 1040
+  accept 1043
+step
+  when turnedin 1040
+  tip Look for signs of the Scythe of Elune then return to Jonathan Carevin in Darkshire.
+  interact 19030 quest 1043.1 @73.53,79.14 map 1431
+step
+  when turnedin 1040
+  turnin 1043 -- Turn in at Duskwood
+step
+  zone map 1417
+  tip Find the crystal from your vision.
+  turnin 635 -- Turn in at Arathi Highlands
+step
+  zone map 1435
+  when turnedin 1115
+  tip Bring 10 Specks of Dream Dust to Krazek in Booty Bay. Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.
+  collect 5803 x10 quest 1116.1 @14.31,61.27 map 1435 -- Drops from: Adolescent Whelp, Dreaming Whelp, Green Wyrmkin
+step
+  zone map 1434
+  when turnedin 1115
+  turnin 1116
+step
+  zone map 1453
+  when level>=35
+  accept 212
+step
+  zone map 1434
+  when onquest 212
+  tip Kill a Cold Eye Basilisk, get a Chilled Basilisk Haunch, and return it to Angus Stern in the Blue Recluse.
+  collect 2476 quest 212.1 @28.73,40.88 map 1434 -- Drops from: Cold Eye Basilisk
+step
+  zone map 1453
+  when onquest 212
+  turnin 212 -- Turn in at Stormwind City
+step
+  zone map 1416
+  when onquest 602
+  tip Bring the water elemental bracers to Archmage Ansirem Runeweaver in Dalaran.
+  turnin 602 -- Turn in at Alterac Mountains
+step
+  tip Zone complete! Travel to Alterac Mountains.
+  goto 58.32,67.92 map 1416

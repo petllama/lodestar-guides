@@ -1,0 +1,158 @@
+guide lodestar/horde/tirisfal-glades-53-60
+title "Tirisfal Glades (53-60)"
+levels 53-60
+zone map 1420
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/western-plaguelands-53-57
+step
+  level 51
+step
+  zone map 1458
+  when !turnedin 5093
+  when !turnedin 5095
+  when !onquest 5093
+  when !onquest 5095
+  accept 5094
+step
+  zone map 1420
+  when !turnedin 5093
+  when !turnedin 5095
+  when !onquest 5093
+  when !onquest 5095
+  tip Seek out High Executor Derrington. His base camp is located at the Bulwark, east of Tirisfal Glade and the Undercity.
+  turnin 5094
+step
+  accept 5096
+step
+  when !turnedin 5401
+  when !turnedin 5503
+  when !onquest 5401
+  when !onquest 5503
+  accept 5405
+step
+  accept 5901
+step
+  when !turnedin 5401
+  when !turnedin 5503
+  when !onquest 5401
+  when !onquest 5503
+  turnin 5405
+step
+  when turnedin 5802
+  when level>=55
+  accept 5804
+step
+  zone map 1423
+  tip Use the Empty Termite Jar on the Termite Mounds in Eastern Plaguelands. After you've gathered 100 Plagueland Termites, return to Mickey Levine at the Bulwark in Tirisfal Glades.
+  collect 15043 x100 quest 5901.1 @28.82,23.2 map 1423 -- Drops from: Large Termite Mound
+step
+  zone map 1420
+  turnin 5901
+step
+  accept 5902
+step
+  zone map 1458
+  when level>=57
+  accept 4769
+step
+  zone map 1418
+  when onquest 4769
+  tip Speak with Shadowmage Vivian Lagrave.
+  turnin 4769 -- Turn in at Badlands
+step
+  zone map 1422
+  tip Find someplace suitable in the center of the Northridge Lumber Mill in Western Plaguelands to place the Barrel of Plagueland Termites.
+  turnin 5902 -- Turn in at Western Plaguelands
+step
+  tip Proceed to the Scarlet Crusade's base camp between Felstone Field and Dalson's Tears and destroy their command tent.
+  goto 40.72,52.04 "Destroy the command tent and plant the Scourge banner in the camp" map 1422
+step
+  when turnedin 5802
+  when onquest 5804
+  tip Destroy Araj the Summoner and bring Araj's Scarab to Apothecary Dithers at the Bulwark, Western Plaguelands.
+  collect 14610 quest 5804.1 @45.27,69.21 map 1422 -- Drops from: Araj's Phylactery
+step
+  zone map 1420
+  when turnedin 5802
+  when onquest 5804
+  turnin 5804
+step
+  turnin 5096
+step
+  when turnedin 5802
+  when turnedin 5804
+  when level>=55
+  accept 5511
+step
+  when turnedin 5802
+  when onquest 5511
+  turnin 5511
+step
+  accept 5228
+step
+  accept 5098
+step
+  tip Speak with Shadow Priestess Vandis at the Bulwark, Western Plaguelands.
+  turnin 5228
+step
+  accept 5229
+step
+  zone map 1422
+  tip Using the Beacon Torch, mark each tower in Andorhal; you will need to stand in the doorway of the tower to successfully mark it.
+  kill 10902 quest 5098.1 @40.05,71.6 map 1422 -- Use the quest item on them, don't just kill them.
+  kill 10903 quest 5098.2 @42.33,66.24 map 1422 -- Use the quest item on them, don't just kill them.
+  kill 10904 quest 5098.3 @44.3,63.25 map 1422 -- Use the quest item on them, don't just kill them.
+  kill 10902 quest 5098.1 -- Use the quest item on them, don't just kill them.
+  kill 10903 quest 5098.2 -- Use the quest item on them, don't just kill them.
+  kill 10904 quest 5098.3 -- Use the quest item on them, don't just kill them.
+  kill 10905 quest 5098.4 @46.62,71.05 map 1422 -- Use the quest item on them, don't just kill them.
+step
+  tip Go to Felstone Field in Western Plaguelands to locate and defeat the Cauldron Lord present there. It may have a key that will allow access to the cauldron. You must have the Empty Felstone Field Bottle with you to secure a sample of the poisons used inside the cauldron.
+  collect 13194 quest 5229.1 @36.93,57.41 map 1422 -- Drops from: Cauldron Lord Bilemaw
+step
+  turnin 5229 -- Turn in at Western Plaguelands
+step
+  zone map 1420
+  turnin 5098
+step
+  when level>=55
+  accept 838
+step
+  when level>=60
+  accept 105
+step
+  when onquest 838
+  tip Speak with Apothecary Dithers at the Bulwark, Western Plaguelands.
+  turnin 838
+step
+  when turnedin 838
+  when level>=55
+  accept 964
+step
+  zone map 1422
+  when onquest 105
+  tip Bring Araj's Phylactery Shard to High Executor Derrington at the Bulwark, Western Plaguelands.
+  kill 1852 optional -- Araj the Summoner is elite: grouping up is advised.
+  goto 45.27,69.21 map 1422
+step
+  when onquest 105
+  tip Bring Araj's Phylactery Shard to High Executor Derrington at the Bulwark, Western Plaguelands.
+  collect 17114 quest 105.1 @45.27,69.21 map 1422 -- Drops from: Araj's Phylactery
+step
+  when onquest 964
+  tip Bring 15 Skeletal Fragments to Apothecary Dithers at the Bulwark, Western Plaguelands.
+  collect 14619 x15 quest 964.1 @37.61,58.49 map 1422 -- Drops from: Skeletal Flayer, Skeletal Sorcerer, Skeletal Terror
+step
+  zone map 1420
+  when onquest 105
+  turnin 105
+step
+  when onquest 964
+  turnin 964
+step
+  zone map 1422
+  tip Zone complete! Travel to Western Plaguelands.
+  goto 38.4,54.05 map 1422

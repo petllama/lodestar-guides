@@ -1,0 +1,196 @@
+guide lodestar/alliance/dustwallow-marsh-35-38
+title "Dustwallow Marsh (35-38)"
+levels 35-38
+zone map 1445
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/thousand-needles-30-41
+step
+  level 34
+step
+  getfp "Theramore, Dustwallow Marsh"
+step
+  accept 1135
+step
+  when turnedin 1264
+  accept 1265
+step
+  accept 1282
+step
+  tip Speak with Captain Garran Vimes on the top floor of Foothold Citadel.
+  turnin 1282
+step
+  when turnedin 1264
+  tip Search Sentry Point for any sign of Private Hendel.
+  goto 59.92,40.9 "Sentry Point explored" map 1445
+step
+  accept 1218
+step
+  tip Bring 3 Soothing Spices to "Swamp Eye" Jarl in Dustwallow Marsh.
+  talk 4897
+  buy 3713 x3 npc 4897
+step
+  interact 20985
+  accept 1219
+step
+  turnin 1218
+step
+  accept 1206
+step
+  tip Bring 40 Unpopped Darkmist Eyes to "Swamp Eye" Jarl at the Swamplight Manor.
+  collect 5884 x40 quest 1206.1 @32.32,22.29 map 1445 -- Drops from: Darkmist Spider, Darkmist Lurker, Darkmist Recluse
+step
+  accept 1177
+step
+  interact 20992
+  accept 1253
+step
+  interact 21015
+  accept 1284
+step
+  tip Bring the Spy's Report to a Theramore Lieutenant.
+  turnin 1219
+step
+  tip Bring the Blackened Iron Shield to Captain Garran Vimes in Theramore.
+  turnin 1253
+step
+  when turnedin 1264
+  turnin 1265
+step
+  tip Report about the suspicious prints at the Shady Rest Inn to Captain Garran Vimes in Theramore.
+  turnin 1284
+step
+  accept 1220
+step
+  accept 1319
+step
+  when turnedin 1264
+  accept 1266
+step
+  tip Bring the Spy's Report to Captain Garran Vimes.
+  turnin 1220
+step
+  tip Show the Blackened Iron Shield to Caz Twosprocket in Theramore.
+  turnin 1319
+step
+  accept 1320
+step
+  tip Speak with Captain Garran Vimes in Theramore.
+  turnin 1320
+step
+  accept 1204
+step
+  turnin 1206
+step
+  tip Bring 8 Forked Mudrock Tongues to Morgan Stern in Theramore.
+  collect 5883 x8 quest 1204.1 @62,24.8 map 1445 -- Drops from: Mudrock Tortoise, Mudrock Spikeshell, Mudrock Burrower
+step
+  tip Mudcrush Durtfeet in northern Dustwallow wants 12 Mirefin Heads.
+  collect 5847 x12 quest 1177.1 @57.52,15.68 map 1445 -- Drops from: Mirefin Coastrunner, Mirefin Puddlejumper, Mirefin Muckdweller
+step
+  accept 1222
+step
+  tip Escort "Stinky" Ignatz, then speak with Morgan Stern in Theramore.
+  goto 48.87,24.58 "Help Stinky find Bogbean Leaves" map 1445
+step
+  when turnedin 1264
+  tip Find Private Hendel in Dustwallow Marsh.
+  turnin 1266
+step
+  when turnedin 1264
+  accept 1324
+step
+  when turnedin 1264
+  tip Defeat Private Hendel in Dustwallow Marsh.
+  kill 4966 quest 1324.1 @45.24,24.65 map 1445
+step
+  turnin 1177
+step
+  only Mage
+  when turnedin 1947
+  accept 1949
+step
+  turnin 1204
+step
+  turnin 1222
+step
+  when turnedin 1264
+  turnin 1324
+step
+  when turnedin 1264
+  accept 1267
+step
+  when turnedin 1264
+  tip Speak to Jaina Proudmore in Dustwallow Swamp.
+  turnin 1267
+step
+  interact 21042
+  accept 1252
+step
+  tip Bring Reethe's Badge to Captain Garran Vimes in Theramore.
+  turnin 1252
+step
+  accept 1259
+step
+  tip Find out more about Reethe from Adjutant Tesoran in Theramore.
+  turnin 1259
+step
+  accept 1285
+step
+  tip Return the information about Reethe to Captain Garran Vimes in Theramore.
+  turnin 1285
+step
+  accept 1286
+step
+  tip Get information about Reethe from Balos Jacken and the deserters in Dustwallow Marsh.
+  turnin 1286
+step
+  accept 1287
+step
+  only Mage
+  when level>=35
+  accept 1954
+step
+  only Warlock
+  when turnedin 4961
+  when level>=35
+  accept 4976
+step
+  tip Speak with Captain Garran Vimes in Theramore about Reethe.
+  turnin 1287
+step
+  zone map 1441
+  tip Bring 10 Highperch Venom Sacs to Fiora Longears in Theramore.
+  collect 5809 x10 quest 1135.1 @11.8,37.8 map 1441 -- Drops from: Highperch Wyvern, Highperch Consort, Highperch Patriarch
+step
+  zone map 1445
+  turnin 1135
+step
+  zone map 1443
+  only Mage
+  when onquest 1954
+  tip Bring an Infernal Orb to Tabetha in Dustwallow Marsh.
+  collect 7291 quest 1954.1 @80.47,77.84 map 1443 -- Drops from: Burning Blade Summoner
+step
+  zone map 1445
+  only Mage
+  when onquest 1954
+  turnin 1954
+step
+  zone map 1413
+  only Warlock
+  when turnedin 4961
+  when onquest 4976
+  tip Return the Cleansed Infernal Orb to Menara Voidrender in the Barrens.
+  turnin 4976 -- Turn in at The Barrens
+step
+  zone map 1441
+  only Mage
+  when turnedin 1947
+  tip Speak with Magus Tirth in the Shimmering Flats.
+  turnin 1949 -- Turn in at Thousand Needles
+step
+  tip Zone complete! Travel to Thousand Needles.
+  goto 78.06,77.13 map 1441

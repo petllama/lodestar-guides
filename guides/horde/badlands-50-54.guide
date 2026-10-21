@@ -1,0 +1,119 @@
+guide lodestar/horde/badlands-50-54
+title "Badlands (50-54)"
+levels 50-54
+zone map 1418
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/tirisfal-glades-53-60
+step
+  level 49
+step
+  when turnedin 692
+  accept 656
+step
+  getfp "Kargath, Badlands"
+step
+  when turnedin 782
+  when level>=50
+  accept 793
+step
+  when turnedin 782
+  when onquest 793
+  tip Use the Sign of the Earth to activate the Pillars of Diamond, Opal, and Amethyst and obtain the Runestones.
+  collect 4615 quest 793.1 @81.88,49.46 map 1418 optional -- Blacklash is elite: grouping up is advised.
+  collect 4615 quest 793.1 @82.03,49.93 map 1418 optional -- Blacklash is elite: grouping up is advised.
+  collect 4645 quest 793.2 @82.03,49.93 map 1418 optional -- Hematus is elite: grouping up is advised.
+step
+  when turnedin 782
+  when onquest 793
+  turnin 793
+step
+  accept 3821
+step
+  when level>=52
+  accept 3906
+step
+  when level>=52
+  accept 4061
+step
+  when turnedin 4082
+  when level>=52
+  accept 4122
+step
+  zone map 1417
+  when turnedin 692
+  tip Go to the Shards of Myzrael, summon her and defeat her.
+  collect 4473 quest 656.1 @62.62,34.06 map 1417 optional -- Myzrael is elite: grouping up is advised.
+step
+  when turnedin 692
+  turnin 656 -- Turn in at Arathi Highlands
+step
+  zone map 1458
+  when turnedin 3568
+  accept 3569
+step
+  when turnedin 3568
+  tip Give Cuely's Elixir to Thersa Windsong in Undercity.
+  turnin 3569 -- Turn in at Undercity
+step
+  when turnedin 3568
+  accept 3570
+step
+  when turnedin 3568
+  turnin 3570 -- Turn in at Undercity
+step
+  when level>=50
+  accept 4133
+step
+  only Rogue
+  when level>=50
+  accept 8233 npc 4583
+step
+  zone map 1428
+  tip Venture forth to the Burning Steppes and find out what became of Sha'ni Proudtusk.
+  turnin 3821 -- Turn in at Burning Steppes
+step
+  when onquest 4061
+  tip Venture to the Burning Steppes and recover 10 Fractured Elemental Shards for Hierophant Theodora Mulvadania.
+  collect 11266 x10 quest 4061.1 @59.4,37.85 map 1428 -- Drops from: War Reaver, Greater Obsidian Elemental, Malfunctioning Reaver
+step
+  when turnedin 4082
+  when onquest 4122
+  tip Travel to the Burning Steppes and find Grark Lorkrub. You recall Lexlort mentioning that he was last seen in a massive Blackrock fortress.
+  turnin 4122 -- Turn in at Burning Steppes
+step
+  zone map 1415
+  when onquest 3906
+  tip Travel to the quarry in Blackrock Mountain and slay Overmaster Pyron. Return to Thunderheart when you have completed this assignment.
+  kill 9026 quest 3906.1 @46.82,67.7 map 1415 optional -- Overmaster Pyron is elite: grouping up is advised.
+step
+  zone map 1418
+  when onquest 3906
+  turnin 3906
+step
+  when onquest 4061
+  turnin 4061
+step
+  when turnedin 4061
+  when level>=52
+  accept 4062
+step
+  when onquest 4133
+  tip Speak with Shadowmaster Vivian Lagrave in Kargath.
+  turnin 4133
+step
+  when onquest 4062
+  tip Take the Elemental Shard Sample to Lotwil Veriatus.
+  turnin 4062
+step
+  zone map 1416
+  only Rogue
+  when onquest 8233
+  tip Speak with Lord Jorach Ravenholdt in Ravenholdt Manor.
+  turnin 8233 -- Turn in at Alterac Mountains
+step
+  zone map 1420
+  tip Zone complete! Travel to Tirisfal Glades.
+  goto 83.13,68.94 map 1420

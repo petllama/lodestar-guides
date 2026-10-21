@@ -1,0 +1,94 @@
+guide lodestar/alliance/swamp-of-sorrows-55-57
+title "Swamp of Sorrows (55-57)"
+levels 55-57
+zone map 1435
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/tanaris-53-54
+step
+  level 51
+step
+  zone map 1453
+  when turnedin 1469
+  accept 1475
+step
+  zone map 1455
+  only Warrior
+  accept 8417 npc 5113
+step
+  zone map 1435
+  when onquest 2783
+  tip Speak with the Fallen Hero of the Horde at the border of the Blasted Lands and the swamp.
+  turnin 2783
+step
+  only Warrior
+  tip Speak with the Fallen Hero of the Horde at the entrance to the Blasted Lands.
+  turnin 8417
+step
+  accept 2801
+step
+  tip Listen to the Fallen Hero of the Horde tell his story.
+  talk 7572
+step
+  turnin 2801
+step
+  accept 2681
+step
+  when turnedin 3373
+  accept 3374 @13.67,71.72 map 1435
+step
+  when turnedin 3373
+  tip Bring the Oathstone of Ysera's Dragonflight and the Chained Essence of Eranikus to Itharius in the Swamp of Sorrows. It is there that you will make your choice to aid Ysera's Dragonflight or not.
+  collect 10455 quest 3374.1 @13.67,71.72 map 1435 -- Crafted or bought.
+step
+  when turnedin 3373
+  turnin 3374
+step
+  when turnedin 1469
+  tip Gather 10 Atal'ai Tablets for Brohann Caskbelly in Stormwind.
+  collect 6288 x10 quest 1475.1 @76.07,47.44 map 1435
+step
+  zone map 1453
+  when turnedin 1469
+  turnin 1475 -- Turn in at Stormwind City
+step
+  zone map 1419
+  tip Free nine Servants of Razelikh, three Servants of Sevine, three Servants of Allistarj, and three Servants of Grol. Return to the Fallen Hero when your task is complete. You must remain within close proximity of the stones or the process will fail.
+  kill 7668 x9 quest 2681.1 @54.09,52.49 map 1419
+  kill 7670 x3 quest 2681.3 @63.33,40.83 map 1419
+  kill 7671 x3 quest 2681.4 @40.99,40.09 map 1419
+  kill 7668 x9 quest 2681.1
+  kill 7669 x3 quest 2681.2 @41.22,14.43 map 1419
+  kill 7670 x3 quest 2681.3
+  kill 7671 x3 quest 2681.4
+step
+  zone map 1435
+  turnin 2681
+step
+  accept 2702
+step
+  tip Speak to Corporal Thund Splithoof.
+  turnin 2702
+step
+  accept 2701
+step
+  tip Open the chest and claim your reward.
+  turnin 2701
+step
+  accept 2721
+step
+  zone map 1419
+  tip Find out what became of Lieutenant Kirith.
+  turnin 2721 -- Turn in at Blasted Lands
+step
+  accept 2743
+step
+  zone map 1435
+  tip Return to the Fallen Hero of the Horde with your findings.
+  turnin 2743
+step
+  zone map 1446
+  tip Zone complete! Travel to Tanaris.
+  goto 51.57,26.76 map 1446

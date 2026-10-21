@@ -1,0 +1,308 @@
+guide lodestar/alliance/ashenvale-20-28
+title "Ashenvale (20-28)"
+levels 20-28
+zone map 1440
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/duskwood-21-28
+step
+  level 19
+step
+  getfp "Astranaar, Ashenvale"
+step
+  accept 1008
+step
+  accept 991
+step
+  accept 1056
+step
+  accept 1070
+step
+  tip Find Teronis in Ashenvale.
+  turnin 991
+step
+  accept 1023
+step
+  tip Find the Glowing Gem and return to Raene Wolfrunner in Astranaar with Teronis' Journal.
+  collect 5463 quest 1023.1 @19.3,43.14 map 1440 -- Drops from: Saltspittle Puddlejumper, Saltspittle Warrior, Saltspittle Muckdweller
+step
+  when level>=19
+  accept 1007
+step
+  tip Bring 20 Wrathtail Heads to Shindrell Swiftfire in Astranaar.
+  collect 5490 x20 quest 1008.1 @10.48,29.74 map 1440 -- Drops from: Wrathtail Razortail, Wrathtail Wave Rider, Wrathtail Sea Witch
+step
+  when onquest 1007
+  tip Bring the Ancient Statuette to Talen, in his camp near the Zoram Strand.
+  collect 5424 quest 1007.1 @14.2,20.64 map 1440
+step
+  when onquest 1007
+  turnin 1007
+step
+  when turnedin 967
+  accept 970
+step
+  when level>=20
+  accept 1010
+step
+  when turnedin 967
+  tip Collect a Glowing Soul Gem and return it to Delgren the Purifier at Maestra's Post.
+  collect 5366 quest 970.1 @30.99,30.89 map 1440 -- Drops from: Dark Strand Cultist, Dark Strand Enforcer, Dark Strand Adept
+step
+  when onquest 1010
+  tip Bring 5 Bathran's Hair to Orendil Broadleaf in Ashenvale.
+  collect 5437 x5 quest 1010.1 @31.86,22.94 map 1440 -- Drops from: Plant Bundle
+step
+  when turnedin 967
+  turnin 970
+step
+  when onquest 1010
+  turnin 1010
+step
+  when turnedin 1010
+  when level>=20
+  accept 1020
+step
+  turnin 1008
+step
+  when onquest 1020
+  tip Bring Orendil's Cure to Pelturas Whitemoon in Astranaar.
+  turnin 1020
+step
+  turnin 1023
+step
+  accept 1024
+step
+  accept 1134
+step
+  when turnedin 1020
+  when level>=20
+  accept 1033
+step
+  tip Find Shael'dryn at the moonwell to the northeast.
+  turnin 1024
+step
+  when onquest 1033
+  tip Bring Elune's Tear to Pelturas in Astranaar.
+  collect 5493 quest 1033.1 @46.07,46.56 map 1440
+step
+  when onquest 1033
+  turnin 1033
+step
+  when turnedin 1033
+  when level>=20
+  accept 1034
+step
+  accept 1025
+step
+  when turnedin 967
+  accept 973
+step
+  when turnedin 967
+  tip Bring Ilkrud Magthrull's Tome to Delgren the Purifier at Maestra's Post.
+  collect 5533 quest 973.1 @25.28,60.69 map 1440 -- Drops from: Ilkrud Magthrull
+step
+  when onquest 1034
+  tip Bring 5 Handfuls of Stardust to Pelturas in Astranaar.
+  collect 5494 x5 quest 1034.1 @33.33,67.98 map 1440 -- Drops from: Stardust Covered Bush
+step
+  when level>=20
+  accept 1016
+step
+  when onquest 1016
+  tip Collect 5 Intact Elemental Bracers and use the Divining Scroll on them. Afterwards, bring the Divined Scroll to Sentinel Velene Starstrike at the Silverwind Refuge.
+  collect 5455 quest 1016.1 @49.8,67.21 map 1440
+step
+  when onquest 1016
+  turnin 1016
+step
+  tip Kill 1 Den Watcher, 2 Ursas, 10 Totemics, and 12 Warriors of the Foulweald tribe, and then return to Raene Wolfrunner in Astranaar.
+  kill 3750 x10 quest 1025.3 @53.53,63 map 1440
+  kill 3743 x12 quest 1025.4 @54.12,62.98 map 1440
+  kill 3749 x2 quest 1025.2 @53.79,62.04 map 1440
+  kill 3746 quest 1025.1 @54.19,61.39 map 1440
+  kill 3749 x2 quest 1025.2 @54.19,61.39 map 1440
+  kill 3750 x10 quest 1025.3
+  kill 3743 x12 quest 1025.4 @54.19,61.39 map 1440
+step
+  turnin 1025
+step
+  when onquest 1034
+  turnin 1034
+step
+  accept 1054
+step
+  tip Bring Dal Bloodclaw's Skull to Raene Wolfrunner in Astranaar.
+  collect 5544 quest 1054.1 @39.61,36.31 map 1440 -- Drops from: Dal Bloodclaw
+step
+  turnin 1054
+step
+  accept 78132
+step
+  accept 78133
+step
+  accept 78134
+step
+  turnin 78132
+step
+  turnin 78133
+step
+  turnin 78134
+step
+  when turnedin 1016
+  when level>=20
+  accept 1017
+step
+  when turnedin 967
+  turnin 973
+step
+  when turnedin 967
+  accept 976
+step
+  zone map 1439
+  when turnedin 967
+  tip Speak with Delgren the Purifier at Maestra's Post after seeing Feero safely through Ashenvale Forest.
+  goto 43.54,94.39 "Protect Feero Ironhand" map 1439
+step
+  zone map 1440
+  when turnedin 967
+  turnin 976
+step
+  when turnedin 1007
+  accept 1009
+step
+  when onquest 1009
+  tip Bring the Ring of Zoram to Talen near the Zoram Strand.
+  collect 5445 quest 1009.1 @7.22,13.06 map 1440 -- Drops from: Ruuzel
+step
+  when onquest 1009
+  turnin 1009
+step
+  accept 1026
+step
+  tip Find the Wooden Key and a piece of Dartol's Rod before returning to Shael'dryn at the moonwell.
+  collect 5464 quest 1026.1 @54.42,35.4 map 1440 -- Drops from: Worn Chest
+step
+  turnin 1026
+step
+  accept 1027
+step
+  when turnedin 967
+  accept 1140
+step
+  when turnedin 967
+  tip Free the trapped Highborne souls in Night Run and Satyrnaar, then return to Delgren the Purifier at Maestra's Post.
+  interact 19901 quest 1140.1 @66.62,57 map 1440
+  interact 19901 quest 1140.1
+  interact 20352 quest 1140.2 @81.6,48.57 map 1440
+step
+  when turnedin 1082
+  accept 1081
+step
+  when turnedin 967
+  turnin 1140
+step
+  when turnedin 967
+  accept 1167
+step
+  when level>=24
+  accept 4581
+step
+  when onquest 4581
+  tip Take Shindrell's Note to Kayneth Stillwind in Forest Song.
+  turnin 4581
+step
+  when level>=24
+  accept 1011
+step
+  when level>=25
+  interact 669176
+  accept 98027
+step
+  when onquest 1011
+  tip Bring a Bottle of Disease to Kayneth Stillwind in Forest Song.
+  collect 5440 quest 1011.1 @75.31,71.93 map 1440
+step
+  tip Find the final piece of Dartol's Rod and return to Shael'dryn at the moonwell.
+  collect 5519 quest 1027.1 @74.41,73.38 map 1440 -- Drops from: Rusty Chest
+step
+  when onquest 1011
+  turnin 1011
+step
+  turnin 1027
+step
+  accept 1028
+step
+  tip Find the hidden shrine and re-enchant Dartol's Rod.
+  turnin 1028
+step
+  interact 19024
+  accept 1055
+step
+  tip Return to Shael'dryn at the moonwell.
+  turnin 1055
+step
+  accept 1029
+step
+  tip Return to Raene Wolfrunner in Astranaar.
+  turnin 1029
+step
+  when onquest 98027
+  tip Deliver the Crescent Necklace to Maliynn in Astranaar.
+  turnin 98027
+step
+  accept 1030
+step
+  tip Find an uncorrupted furbolg, and using the power of Dartol's Rod of Transformation, speak to him.
+  turnin 1030
+step
+  zone map 1442
+  tip Travel to Keeper Albagorm on Stonetalon Peak.
+  turnin 1056 -- Turn in at Stonetalon Mountains
+step
+  tip Bring 12 Pridewing Venom Sacs to Shindrell Swiftfire in Astranaar.
+  collect 5808 x12 quest 1134.1 @63.51,59.21 map 1442 -- Drops from: Young Pridewing, Pridewing Wyvern, Unsuspecting Pridewing
+step
+  tip Find Kaela Shadowspear overlooking the valley entering Windshear Crag in the Stonetalon Mountains.
+  turnin 1070 -- Turn in at Stonetalon Mountains
+step
+  zone map 1440
+  turnin 1134
+step
+  zone map 1413
+  when onquest 1017
+  tip Slay Sarilus Foulborne and bring his head to Sentinel Velene Starstrike in Silverwind Refuge.
+  collect 5537 quest 1017.1 @48.22,19.15 map 1413 -- Drops from: Sarilus Foulborne
+step
+  zone map 1440
+  when onquest 1017
+  turnin 1017
+step
+  zone map 1439
+  when turnedin 967
+  tip Speak with Balthule Shadowstrike near the Tower of Althalaxx.
+  turnin 1167 -- Turn in at Darkshore
+step
+  when turnedin 967
+  accept 1143
+step
+  when turnedin 967
+  tip Kill Athrikus Narassin and bring his head to Balthule Shadowstrike near the Tower of Althalaxx.
+  collect 5383 quest 1143.1 @56.02,26.33 map 1439 -- Drops from: Athrikus Narassin
+step
+  when turnedin 967
+  turnin 1143 -- Turn in at Darkshore
+step
+  when turnedin 967
+  accept 981
+step
+  zone map 1440
+  when turnedin 967
+  tip Talk to Delgren the Purifier at Maestra's Post.
+  turnin 981
+step
+  zone map 1453
+  tip Zone complete! Travel to Stormwind City.
+  goto 56.31,53.99 map 1453

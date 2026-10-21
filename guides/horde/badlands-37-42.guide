@@ -1,0 +1,206 @@
+guide lodestar/horde/badlands-37-42
+title "Badlands (37-42)"
+levels 37-42
+zone map 1418
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/swamp-of-sorrows-35-44
+step
+  level 36
+step
+  when level>=36
+  accept 2418
+step
+  accept 705
+step
+  accept 710
+step
+  when turnedin 713
+  accept 714
+step
+  zone map 1434
+  when turnedin 713
+  tip Bring a Gyrochronatom to Lotwil Veriatus in the Badlands.
+  talk 2687
+  buy 4389 npc 2687
+step
+  zone map 1418
+  when turnedin 713
+  turnin 714
+step
+  tip Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands.
+  collect 4626 x10 quest 710.1 @18.81,42.99 map 1418 -- Drops from: Lesser Rock Elemental
+step
+  turnin 710
+step
+  accept 711
+step
+  when turnedin 1106
+  accept 1108
+step
+  when turnedin 1106
+  tip Bring 10 Indurium Flakes to Martek the Exiled in the Badlands.
+  collect 5797 x10 quest 1108.1 @51.35,69.72 map 1418 -- Drops from: Stonevault Bonesnapper, Stonevault Basher, Stonevault Seer
+step
+  tip Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands.
+  collect 4627 x3 quest 711.1 @40.51,78.29 map 1418 -- Drops from: Rock Elemental
+step
+  when turnedin 1106
+  turnin 1108
+step
+  turnin 711
+step
+  getfp "Kargath, Badlands"
+step
+  when level>=36
+  accept 2258
+step
+  when onquest 2418
+  tip Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands.
+  collect 8009 x8 quest 2418.1 @48.2,11 map 1418 optional -- Shadowforge Surveyor is elite: grouping up is advised.
+  collect 8052 x8 quest 2418.2 @48.2,11 map 1418 optional -- Shadowforge Surveyor is elite: grouping up is advised.
+step
+  when onquest 2418
+  turnin 2418
+step
+  accept 703
+step
+  tip Bring 4 Buzzard Wings to Rigglefuzz.
+  collect 3404 x4 quest 703.1 @57.46,28.59 map 1418 -- Drops from: Starving Buzzard, Buzzard, Giant Buzzard
+step
+  when onquest 2258
+  tip Bring 5 Buzzard Gizzards, 10 Crag Coyote Fangs, and 5 Rock Elemental Shards to Jarkal Mossmeld in Kargath, Badlands.
+  collect 7847 x5 quest 2258.1 @57.46,28.59 map 1418 -- Drops from: Starving Buzzard, Buzzard, Giant Buzzard
+  collect 7846 x10 quest 2258.2 @49.87,41.92 map 1418 -- Drops from: Crag Coyote, Feral Crag Coyote, Elder Crag Coyote
+  collect 7847 x5 quest 2258.1 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus
+  collect 7846 x10 quest 2258.2 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus
+  collect 7848 x5 quest 2258.3 @40.51,78.29 map 1418 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus
+step
+  when onquest 2258
+  turnin 2258
+step
+  accept 1419
+step
+  accept 1420
+step
+  tip Bring 30 Coyote Jawbones to Neeka Bloodscar in Kargath.
+  collect 6166 x30 quest 1419.1 @49.87,41.92 map 1418 -- Drops from: Crag Coyote, Feral Crag Coyote, Elder Crag Coyote
+step
+  accept 709
+step
+  turnin 703
+step
+  tip Bring the Tablet of Ryun'eh to Theldurin the Lost.
+  collect 4631 quest 709.1 @39.34,18.82 map 1418 -- Drops from: Ancient Chest
+step
+  turnin 1419
+step
+  turnin 709
+step
+  accept 728
+step
+  when turnedin 687
+  accept 692
+step
+  when turnedin 687
+  tip Bring the Torn Scroll Fragment, the Crumpled Scroll Fragment and the Singed Scroll Fragment to Theldurin the Lost.
+  collect 4518 quest 692.1 @53.87,83.91 map 1418 -- Drops from: Enraged Rock Elemental
+  collect 4519 quest 692.2 @53.87,83.91 map 1418 -- Drops from: Enraged Rock Elemental
+  collect 4520 quest 692.3 @53.87,83.91 map 1418 -- Drops from: Enraged Rock Elemental
+step
+  when turnedin 687
+  turnin 692
+step
+  accept 712
+step
+  tip Bring 5 Bracers of Rock Binding to Lotwil Veriatus in the Badlands.
+  collect 4628 x5 quest 712.1 @5.48,82.27 map 1418 -- Drops from: Greater Rock Elemental
+step
+  turnin 712
+step
+  when turnedin 713
+  accept 734
+step
+  when turnedin 713
+  tip Speak to Lucien Tosselwrench in the Badlands.
+  turnin 734
+step
+  when turnedin 713
+  accept 777
+step
+  when turnedin 713
+  tip Bring Cog #5 to Lotwil Veriatus.
+  turnin 777
+step
+  when turnedin 2258
+  accept 2202
+step
+  when turnedin 2318
+  when level>=37
+  accept 2338
+step
+  when level>=40
+  accept 782
+step
+  when turnedin 2318
+  when onquest 2338
+  tip Let Jarkal borrow the necklace. In exchange, he will translate the journal for you.
+  turnin 2338
+step
+  when onquest 782
+  tip Kill Boss Tho'grun and bring the Sign of the Earth to Gorn in Kargath.
+  collect 4640 quest 782.1 @12.62,75.49 map 1418 -- Drops from: Boss Tho'grun
+step
+  when onquest 2202
+  tip Bring 12 Magenta Fungus Caps to Jarkal Mossmeld in Kargath.
+  collect 8047 x12 quest 2202.1 @37.57,15.26 map 1418 -- Drops from: Magenta Cap Clusters
+step
+  when onquest 782
+  turnin 782
+step
+  when onquest 2202
+  turnin 2202
+step
+  when turnedin 713
+  accept 778
+step
+  when turnedin 713
+  tip Defeat the Fam'retor Guardian and bring Lotwil's Shackles of Elemental Binding back to Lotwil Veriatus.
+  collect 4847 quest 778.1 @26.01,45.78 map 1418 -- Drops from: Fam'retor Guardian
+step
+  when turnedin 713
+  turnin 778
+step
+  zone map 1434
+  tip Bring 9 Blue Pearls to Rigglefuzz in the Badlands.
+  collect 4611 x9 quest 705.1 @26.3,26.1 map 1434 -- Drops from: Giant Clam
+step
+  zone map 1418
+  turnin 705
+step
+  zone map 1458
+  tip Bring the Sigil of the Hammer to Keeper Bel'dugur in the Undercity.
+  turnin 728 -- Turn in at Undercity
+step
+  accept 737 npc 2934
+step
+  accept 2342
+step
+  zone map 1418
+  tip Bring Yagyin's Digest to Theldurin.
+  turnin 737
+step
+  tip Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity.
+  collect 8026 quest 2342.1 @34.19,18.63 map 1418 -- Drops from: Garrett Family Chest
+step
+  zone map 1458
+  turnin 2342 -- Turn in at Undercity
+step
+  zone map 1435
+  tip Bring Neeka's Report to Helgrum the Swift in Stonard.
+  turnin 1420 -- Turn in at Swamp of Sorrows
+step
+  tip Zone complete! Travel to Swamp of Sorrows.
+  goto 25.98,31.4 map 1435

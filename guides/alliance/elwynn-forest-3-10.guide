@@ -1,0 +1,935 @@
+guide lodestar/alliance/elwynn-forest-3-10
+title "Elwynn Forest (3-10)"
+levels 3-10
+zone map 1429
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/westfall-12-16
+step
+  accept 783
+step
+  when onquest 783
+  tip Speak with Marshal McBride.
+  turnin 783
+step
+  when turnedin 783
+  accept 7
+step
+  when turnedin 783
+  accept 5261
+step
+  when onquest 5261
+  tip Speak with Eagan Peltskinner.
+  turnin 5261
+step
+  accept 33
+step
+  when onquest 33
+  tip Bring 8 pieces of Tough Wolf Meat to Eagan Peltskinner outside Northshire Abbey.
+  collect 750 x8 quest 33.1 @49.41,37.75 map 1429 -- Drops from: Timber Wolf, Young Wolf
+step
+  when onquest 33
+  turnin 33
+step
+  when turnedin 783
+  accept 18
+step
+  only Warlock
+  when !turnedin 1599
+  when !onquest 1599
+  accept 1598
+step
+  when onquest 18
+  tip Bring 12 Red Burlap Bandanas to Deputy Willem outside the Northshire Abbey.
+  collect 752 x12 quest 18.1 @54.14,47.84 map 1429 -- Drops from: Defias Thug
+step
+  only Warlock
+  when !turnedin 1599
+  when !onquest 1599
+  tip Retrieve the Powers of the Void for Drusilla La Salle.
+  collect 6785 quest 1598.1 @56.71,43.96 map 1429 -- Drops from: Stolen Books
+step
+  when onquest 18
+  turnin 18
+step
+  only Warlock
+  when !turnedin 1599
+  when !onquest 1599
+  turnin 1598
+step
+  when turnedin 18
+  accept 3903
+step
+  when turnedin 18
+  accept 3904
+step
+  when turnedin 18
+  accept 6
+step
+  accept 2158
+step
+  when onquest 3903
+  tip Speak with Milly Osworth.
+  turnin 3903
+step
+  kill 6 @49.17,36.55 map 1429 -- Loot the quest item here — it starts the quest.
+  accept 91741 @49.17,36.55 map 1429
+step
+  when onquest 7
+  tip Kill 10 Kobold Vermin, then return to Marshal McBride.
+  kill 6 x10 quest 7.1 @49.17,36.55 map 1429
+step
+  when onquest 7
+  turnin 7
+step
+  tip Return the book to Brother Paxton.
+  turnin 91741
+step
+  when turnedin 7
+  accept 15
+step
+  only Warrior,Human
+  when turnedin 7
+  accept 3100
+step
+  only Paladin,Human
+  when turnedin 7
+  accept 3101
+step
+  only Rogue,Human
+  when turnedin 7
+  accept 3102
+step
+  only Priest,Human
+  when turnedin 7
+  accept 3103
+step
+  only Mage,Human
+  when turnedin 7
+  accept 3104
+step
+  only Warlock,Human
+  when turnedin 7
+  accept 3105
+step
+  accept 92124
+step
+  only Hunter,Human
+  when turnedin 7
+  accept 92479
+step
+  only Warrior,Human
+  when onquest 3100
+  tip Read the Simple Letter and speak to Llane Beshere in Northshire Abbey.
+  turnin 3100
+step
+  only Paladin,Human
+  when onquest 3101
+  tip Read the Consecrated Letter and speak to Brother Sammuel in Northshire Abbey.
+  turnin 3101
+step
+  only Rogue,Human
+  when onquest 3102
+  tip Read the Encrypted Letter and speak to Jorik Kerridan in the stable behind Northshire Abbey.
+  turnin 3102
+step
+  only Priest,Human
+  when onquest 3103
+  tip Read the Hallowed Letter and speak to Priestess Anetta in Northshire Abbey.
+  turnin 3103
+step
+  only Mage,Human
+  when onquest 3104
+  tip Read the Glyphic Letter and speak to Khelden Bremen inside Northshire Abbey.
+  turnin 3104
+step
+  only Warlock,Human
+  when onquest 3105
+  tip Read the Tainted Letter and speak to Drusilla La Salle next to Northshire Abbey.
+  turnin 3105
+step
+  tip Speak to Daniel, Brother Paxton's assistant in the library.
+  turnin 92124
+step
+  only Hunter,Human
+  when onquest 92479
+  tip Read the Scribbled Letter and speak to Tordrin Stemblade in Northshire Abbey.
+  turnin 92479
+step
+  accept 91743
+step
+  when onquest 15
+  tip Kill 10 Kobold Workers, then report back to Marshal McBride.
+  kill 257 x10 quest 15.1 @48.09,34.03 map 1429
+step
+  tip Retrieve 8 Stolen Books from kobolds in Northshire Valley and return them to Brother Paxton.
+  collect 247839 x8 quest 91743.1 @49.17,36.55 map 1429 -- Drops from: Kobold Vermin, Kobold Worker, Kobold Laborer
+step
+  when onquest 15
+  turnin 15
+step
+  turnin 91743
+step
+  accept 91745
+step
+  when turnedin 15
+  accept 21
+step
+  tip Talk to Kelsey Fargo outside the Echo Ridge Mine in Northshire Valley.
+  turnin 91745
+step
+  accept 91752
+step
+  when onquest 21
+  tip Kill 12 Kobold Laborers, then return to Marshal McBride at Northshire Abbey.
+  kill 80 x12 quest 21.1 @48.47,28.05 map 1429
+step
+  tip Retrieve a Sack of "Picture" Books from Shinyfinder Narf. Bring the sack to Marshal McBride just inside Northshire's Abbey.
+  collect 247886 quest 91752.1 @49.22,28.01 map 1429 optional -- Shinyfinder Narf is elite: grouping up is advised.
+step
+  when onquest 21
+  turnin 21
+step
+  turnin 91752
+step
+  accept 91758
+step
+  when turnedin 21
+  accept 54
+step
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96656
+  when !onquest 96659
+  when turnedin 21
+  accept 96627
+step
+  only Priest,Human
+  accept 5623
+step
+  tip Speak to Tordrin Sternblade near the stable behind Northshire's Abbey.
+  turnin 91758
+step
+  accept 91772
+step
+  when onquest 6
+  tip Kill Garrick Padfoot and bring his head to Deputy Willem at Northshire Abbey.
+  collect 182 quest 6.1 @57.52,48.25 map 1429 -- Drops from: Garrick Padfoot
+step
+  when onquest 3904
+  tip Bring 8 crates of Milly's Harvest to Milly Osworth at Northshire Abbey.
+  collect 11119 x8 quest 3904.1 @53.93,48.78 map 1429
+step
+  when onquest 6
+  turnin 6
+step
+  when onquest 3904
+  turnin 3904
+step
+  when turnedin 3904
+  accept 3905
+step
+  when onquest 3905
+  tip Bring the Grape Manifest to Brother Neals in Northshire Abbey.
+  turnin 3905
+step
+  accept 99127
+step
+  tip Follow the kobold tracks and report to Marshal Dughan in Goldshire with your findings and the Kobold Tracking Kit.
+  interact 563442 quest 91772.1 @45.76,56.45 map 1429
+step
+  when onquest 54
+  tip Take Marshal McBride's Documents to Marshal Dughan in Goldshire.
+  turnin 54
+step
+  tip Speak with Innkeeper Farley at the Lion's Pride Inn.
+  turnin 2158
+step
+  only Priest,Human
+  tip Speak to Priestess Josetta in Elwynn Forest.
+  turnin 5623
+step
+  turnin 91772
+step
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96656
+  when !onquest 96659
+  when onquest 96627
+  tip Speak to Sam Sarsparilla near Goldshire.
+  turnin 96627
+step
+  accept 91775
+step
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  accept 95998
+step
+  accept 47
+step
+  accept 60
+step
+  accept 62
+step
+  only Priest,Human
+  accept 5624
+step
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  tip Sit near Sam's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.
+  interact 460003 quest 95998.1 @44.94,63.2 map 1429
+  interact 460003 quest 95998.2 @44.94,63.2 map 1429
+step
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  turnin 95998
+step
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  accept 96626
+step
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  tip Speak with Tomas in Goldshire to learn to become a cook.
+  talk 1430
+step
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  turnin 96626
+step
+  tip Explore the Fargodeep Mine, then return to Marshal Dughan in Goldshire.
+  goto 40.56,82.26 "Scout through the Fargodeep Mine" map 1429
+step
+  tip Find 6 Lost Books and "Fun with Elementals" and return them to Marshal Dughan.
+  collect 248002 quest 91775.1 @41.62,79.9 map 1429 optional -- Nimsy is elite: grouping up is advised.
+  collect 248002 quest 91775.1 @60.91,59.71 map 1429 optional -- Nimsy is elite: grouping up is advised.
+  collect 248001 x6 quest 91775.2 @60.91,59.71 map 1429 -- Drops from: Kobold Miner, Kobold Tunneler
+step
+  accept 85
+step
+  tip Speak with Billy Maclure.
+  turnin 85
+step
+  accept 86
+step
+  accept 106
+step
+  tip Give Maybell's Love Letter to Tommy Joe Stonefield.
+  turnin 106
+step
+  accept 111
+step
+  tip Bring 4 Chunks of Boar Meat to Auntie Bernice Stonefield at the Stonefield's Farm.
+  collect 769 x4 quest 86.1 @38.56,86.16 map 1429 -- Drops from: Stonetusk Boar, Porcine Entourage, Rockhide Boar
+step
+  turnin 86
+step
+  tip Speak with Gramma Stonefield.
+  turnin 111
+step
+  accept 84
+step
+  accept 107
+step
+  turnin 62
+step
+  tip Take Gramma Stonefield's Note to William Pestle.
+  turnin 107
+step
+  turnin 91775
+step
+  accept 112
+step
+  accept 91777
+step
+  accept 99143
+step
+  tip Bring 4 Crystal Kelp Fronds to William Pestle in Goldshire.
+  collect 1256 x4 quest 112.1 @54.9,66.75 map 1429 -- Drops from: Murloc, Murloc Streamrunner
+step
+  only Priest,Human
+  tip Find Guard Roberts and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Priestess Josetta in Goldshire.
+  talk 12423
+step
+  tip Check the fishing traps in Crystal Lake.
+  collect 286205 quest 99127.1 @48.8,64.7 map 1429 -- Drops from: Fishing Trap
+step
+  tip Collect 6 pieces of shiny junk from the nearby Murloc camp.
+  collect 286209 x6 quest 99143.1 @56.6,67.3 map 1429 -- Drops from: Junk Pile
+step
+  turnin 99143
+step
+  turnin 112
+step
+  only Priest,Human
+  turnin 5624
+step
+  accept 114
+step
+  turnin 99127
+step
+  accept 99128
+step
+  tip Bring 10 Gold Dust to Remy "Two Times" in Goldshire. Gold Dust is gathered from Kobolds in Elwynn Forest.
+  collect 773 x10 quest 47.1 @60.91,59.71 map 1429 -- Drops from: Kobold Miner, Kobold Tunneler, Kobold Geomancer
+step
+  tip Bring 8 Large Candles to William Pestle in Goldshire.
+  collect 772 x8 quest 60.1 @60.91,59.71 map 1429 -- Drops from: Kobold Miner, Kobold Tunneler, Kobold Geomancer
+step
+  tip Recover "Geomancy for Curious Young Wizards" and "Arcane Explainer: Magical Stuff in Simple Words" and return them to Brother Paxton inside Northshire's Abbey.
+  collect 248003 quest 91777.1 @61.38,48.93 map 1429 optional -- Geosculptor Yip is elite: grouping up is advised.
+  collect 248003 quest 91777.1 @62.14,48.05 map 1429 optional -- Geosculptor Yip is elite: grouping up is advised.
+  collect 248004 quest 91777.2 @62.14,48.05 map 1429 optional -- Mother Fang is elite: grouping up is advised.
+step
+  tip Kill the murlocs at Crystal Lake.
+  kill 285 quest 99128.2 @54.9,66.75 map 1429
+  kill 735 quest 99128.1 @51.98,66.25 map 1429
+  kill 285 quest 99128.2 @51.98,66.25 map 1429
+step
+  turnin 99128
+step
+  accept 99129
+step
+  turnin 47
+step
+  turnin 60
+step
+  tip Speak with Remy "Two Times" about Jason's murloc problems.
+  turnin 99129
+step
+  accept 61
+step
+  accept 99130
+step
+  tip Bring the Pork Belly Pie to Billy Maclure at the Maclure Vineyards.
+  turnin 84
+step
+  tip Take the Invisibility Liquor to Maybell Maclure.
+  turnin 114
+step
+  accept 87
+step
+  tip Collect ingredients for murloc bait.
+  collect 286215 x6 quest 99130.1 @41.2,86.1 map 1429 -- Drops from: Overgrown Duskweed
+  collect 286215 x6 quest 99130.1 @38.56,86.16 map 1429 -- Drops from: Stonetusk Boar, Young Forest Bear
+  collect 286214 x18 quest 99130.2 @38.56,86.16 map 1429 -- Drops from: Stonetusk Boar, Young Forest Bear
+step
+  tip Bring Bernice's Necklace to "Auntie" Bernice Stonefield at the Stonefield Farm.
+  collect 981 quest 87.1 @41.71,78.03 map 1429 -- Drops from: Goldtooth
+step
+  kill 116 @47.48,74.13 map 1429 -- Loot the quest item here — it starts the quest.
+  accept 184 @47.48,74.13 map 1429
+step
+  turnin 99130
+step
+  accept 99131
+step
+  accept 40
+step
+  accept 76
+step
+  tip Remy "Two Times" wants you to speak with Marshal Dughan in Goldshire.
+  turnin 40
+step
+  accept 35
+step
+  tip Return to Jason Mathers.
+  turnin 99131
+step
+  turnin 91777
+step
+  kill 97 @67.83,46.44 map 1429 -- Loot the quest item here — it starts the quest.
+  accept 123 @67.83,46.44 map 1429
+step
+  kill 248299 @74.66,40.77 map 1429 optional -- Elmpaw is elite: grouping up is advised.
+  accept 91746 @74.66,40.77 map 1429
+step
+  tip Explore the Jasperlode Mine, then report back to Marshal Dughan in Goldshire.
+  goto 61.93,53.16 "Scout through the Jasperlode Mine" map 1429
+step
+  accept 91723
+step
+  accept 91725
+step
+  tip Marshal Dughan wants you to speak with Guard Thomas.
+  turnin 35
+step
+  accept 83
+step
+  accept 37
+step
+  accept 52
+step
+  accept 91733
+step
+  tip Kill 8 Prowlers and 5 Young Forest Bears, and then return to Guard Thomas at the east Elwynn bridge.
+  kill 118 x8 quest 52.1 @83.83,71.99 map 1429
+  kill 118 x8 quest 52.1
+  kill 822 x5 quest 52.2 @63.4,76.8 map 1429
+step
+  tip Guard Thomas wants you to travel north up the river and search for the two lost guards, Rolf and Malakai.
+  turnin 37
+step
+  accept 5545
+step
+  interact 55
+  accept 45
+step
+  accept 91732
+step
+  tip Bring 8 Bundles of Wood to Raelen at the Eastvale Logging Camp.
+  collect 13872 x8 quest 5545.1 @80.24,61.47 map 1429
+step
+  tip Search the murloc village for Rolf, or signs of his death.
+  turnin 45
+step
+  turnin 5545
+step
+  interact 56
+  accept 71
+step
+  turnin 52
+step
+  tip Deliver Rolf and Malakai's Medallions to Guard Thomas at the eastern Elwynn bridge.
+  turnin 71
+step
+  accept 39
+step
+  kill 248278 @76.57,86.06 map 1429 optional -- Croaky is elite: grouping up is advised.
+  accept 91740 @76.57,86.06 map 1429
+step
+  tip Collect the Waterlogged Axe, Waterlogged Saw, and Waterlogged Toolbox that have washed downstream from Eastvale Logging Camp, then return to Ormin Pelford.
+  collect 247818 quest 91733.3 @77.3,86.7 map 1429
+  collect 247817 quest 91733.1 @76.7,82.5 map 1429
+  collect 247817 quest 91733.1 @74.2,76.5 map 1429
+  collect 247813 quest 91733.2 @74.2,76.5 map 1429
+  collect 247818 quest 91733.3 @74.2,76.5 map 1429
+step
+  tip Deliver Croaky's Head to Merell Ross at Ridgepoint Tower.
+  turnin 91740
+step
+  turnin 91733
+step
+  tip Kill 8 Kobold Geomancers in Jasperlode Mine, then return to Hamish Bergwort in the Tower of Azora.
+  kill 476 x8 quest 91723.1 @64.49,56.55 map 1429
+step
+  tip Collect 4 Mining Tools from Jasperlode Mine, then return to Hagar Lowe in Eastvale Logging Camp.
+  collect 247816 x4 quest 91732.1 @61.5,51.5 map 1429
+step
+  tip Collect 5 Stolen Enchanting Supplies from gnoll camps around Stone Cairn Lake, then return to Blixie Fitzwink near the Tower of Azora.
+  collect 247805 x5 quest 91725.1 @68,41.6 map 1429
+step
+  turnin 91732
+step
+  turnin 91723
+step
+  turnin 91725
+step
+  accept 91724
+step
+  tip Bring 6 Red Linen Bandanas to Sara Timberlain at the Eastvale Logging Camp.
+  collect 1019 x6 quest 83.1 @47.48,74.13 map 1429 -- Drops from: Defias Bandit, Defias Rogue Wizard, Defias Ambusher
+step
+  tip Report to Marshal Dughan in Goldshire.
+  turnin 39
+step
+  turnin 76
+step
+  tip Go to Marshal Dughan in Goldshire and give him The Collector's Schedule.
+  turnin 123
+step
+  tip Deliver Elmpaw's Head to Helene Peltskinner near Goldshire.
+  turnin 91746
+step
+  accept 59
+step
+  accept 147
+step
+  accept 239
+step
+  accept 109 npc 240
+step
+  tip Go to the Westbrook Garrison and speak with Deputy Rainer.
+  turnin 239
+step
+  accept 11
+step
+  accept 91738
+step
+  collect 247824 quest 91738.1 @24.08,73.2 map 1429 -- Crafted or bought.
+step
+  when level>=11
+  interact 68
+  accept 176
+step
+  turnin 91738
+step
+  when onquest 176
+  tip Slay the gnoll Hogger and bring his Huge Gnoll Claw to Marshal Dughan.
+  collect 1931 quest 176.1 @25.02,92.9 map 1429 optional -- Hogger is elite: grouping up is advised.
+step
+  turnin 87
+step
+  accept 88
+step
+  when onquest 176
+  turnin 176
+step
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1678
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1678
+  when !onquest 1683
+  accept 1638 npc 913
+step
+  only Warlock
+  accept 1685
+step
+  only Mage,Human,Gnome
+  when !turnedin 1880
+  when !onquest 1880
+  accept 1860
+step
+  only Rogue
+  accept 2205
+step
+  only Priest,Human,Dwarf
+  when !turnedin 5634
+  when !turnedin 5636
+  when !turnedin 5637
+  when !turnedin 5638
+  when !turnedin 5639
+  when !turnedin 5640
+  when !onquest 5634
+  when !onquest 5636
+  when !onquest 5637
+  when !onquest 5638
+  when !onquest 5639
+  when !onquest 5640
+  accept 5635
+step
+  only Priest,Human
+  accept 94774
+step
+  only Hunter
+  accept 94792
+step
+  only Hunter
+  tip Use the Taming Rod to tame a Rockhide Boar. Practice your skills, then return the Taming Rod to Josephine Carson.
+  kill 524 quest 94792.1 @57.17,76.38 map 1429 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter
+  turnin 94792
+step
+  only Hunter
+  accept 94863
+step
+  tip Bring 8 Painted Gnoll Armbands to Deputy Rainer at the Barracks.
+  collect 782 x8 quest 11.1 @67.83,46.44 map 1429 -- Drops from: Riverpaw Runt, Riverpaw Outrunner
+step
+  tip Kill 6 Defias Rogue Wizards at Stone Cairn Lake, then return to Hamish Bergwort in the Tower of Azora.
+  kill 474 x6 quest 91724.1 @73.38,52.48 map 1429
+step
+  tip Give Sara Timberlain the Stormwind Armor Marker.
+  turnin 59
+step
+  turnin 83
+step
+  accept 46
+step
+  tip Bring 8 Torn Murloc Fins to Guard Thomas at the east Elwynn bridge.
+  collect 780 x8 quest 46.1 @78.45,56.16 map 1429 -- Drops from: Murloc Forager, Murloc Lurker, Croaky
+step
+  turnin 46
+step
+  tip Kill Princess, grab her collar, then bring it back to Ma Stonefield at the Stonefield Farm.
+  collect 1006 quest 88.1 @69.66,79.25 map 1429 -- Drops from: Princess
+step
+  tip Find and kill "the Collector" then return to Marshal Dughan with The Collector's Ring.
+  collect 2239 quest 147.1 @71.09,80.65 map 1429 -- Drops from: Morgan the Collector
+step
+  turnin 91724
+step
+  only Hunter
+  tip Use the Taming Rod to tame a Gray Forest Wolf. Practice your skills, then return the Taming Rod to Josephine Carson.
+  kill 1922 quest 94863.1 @65.11,64.36 map 1429 -- Use the quest item on them, don't just kill them.
+step
+  turnin 147
+step
+  only Hunter
+  turnin 94863
+step
+  only Hunter
+  accept 94864
+step
+  turnin 11
+step
+  turnin 88
+step
+  only Hunter
+  tip Use the Taming Rod to tame a Young Forest Bear. Practice your skills, then return the Taming Rod to Josephine Carson.
+  kill 822 quest 94864.1 @63.4,76.8 map 1429 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter
+  turnin 94864
+step
+  only Hunter
+  accept 94793
+step
+  only Hunter
+  tip Speak to Isaac Chan in Goldshire.
+  turnin 94793
+step
+  accept 1097 npc 514
+step
+  zone map 1453
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1678
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1678
+  when !onquest 1683
+  tip Speak with Harry Burlguard.
+  turnin 1638 -- Turn in at Stormwind City
+step
+  only Warrior
+  when !turnedin 1678
+  when !turnedin 1683
+  when !onquest 1678
+  when !onquest 1683
+  accept 1639
+step
+  only Warrior
+  when !turnedin 1678
+  when !turnedin 1683
+  when !onquest 1678
+  when !onquest 1683
+  tip Speak with Bartleby.
+  turnin 1639 -- Turn in at Stormwind City
+step
+  only Warrior
+  accept 1640
+step
+  only Warrior
+  tip Beat Bartleby, then talk to him.
+  talk 6090
+step
+  only Warrior
+  turnin 1640 -- Turn in at Stormwind City
+step
+  only Warrior
+  accept 1665
+step
+  only Warrior
+  tip Bring Bartleby's Mug to Burlguard
+  turnin 1665 -- Turn in at Stormwind City
+step
+  only Warrior
+  accept 1666
+step
+  only Rogue
+  tip Deliver Keryn Sylvius's package to Master Mathias Shaw at the Stormwind Barracks.
+  turnin 2205 -- Turn in at Stormwind City
+step
+  only Rogue
+  accept 2206
+step
+  accept 332
+step
+  tip Bring William's Shipment to Morgan Pestle in the Stormwind Trade District.
+  turnin 61 -- Turn in at Stormwind City
+step
+  tip Go to the Gallina Winery, and bring Suzetta Gallina the Wine Ticket for a free bottle of wine.
+  turnin 332 -- Turn in at Stormwind City
+step
+  accept 333
+step
+  tip Go to the Canal Tailor Shop and bring Rema Schneider the Cloth Request from Harlan Bagley.
+  turnin 333 -- Turn in at Stormwind City
+step
+  accept 334
+step
+  tip Go to the Larson Clothiers in the Stormwind Mage Quarter, and give Thurman Schneider his Sewing Kit.
+  turnin 334 -- Turn in at Stormwind City
+step
+  only Mage,Human,Gnome
+  when !turnedin 1880
+  when !onquest 1880
+  tip Speak with Jennea Cannon in Stormwind.
+  turnin 1860 -- Turn in at Stormwind City
+step
+  only Mage,Human,Gnome,Skyborne
+  when !turnedin 1880
+  when !onquest 1880
+  accept 1861
+step
+  only Warlock
+  tip Report to Gakin the Darkbinder in the Mage Quarter of Stormwind.
+  turnin 1685 -- Turn in at Stormwind City
+step
+  only Warlock
+  accept 1688
+step
+  only Priest,Human,Dwarf
+  when !turnedin 5634
+  when !turnedin 5636
+  when !turnedin 5637
+  when !turnedin 5638
+  when !turnedin 5639
+  when !turnedin 5640
+  when !onquest 5634
+  when !onquest 5636
+  when !onquest 5637
+  when !onquest 5638
+  when !onquest 5639
+  when !onquest 5640
+  tip Speak to High Priestess Laurena in Stormwind.
+  turnin 5635 -- Turn in at Stormwind City
+step
+  only Priest,Human
+  tip Speak to High Priestess Laurena in Stormwind.
+  turnin 94774 -- Turn in at Stormwind City
+step
+  only Priest,Human
+  accept 94773
+step
+  only Priest,Human
+  turnin 94773 -- Turn in at Stormwind City
+step
+  tip Speak with Grimand Elmore.
+  turnin 1097 -- Turn in at Stormwind City
+step
+  zone map 1429
+  only Warrior
+  tip Speak with Marshal Haggard.
+  turnin 1666
+step
+  only Warrior
+  accept 1667
+step
+  only Warrior
+  tip Retrieve Haggard's Badge from Dead-tooth Jack's camp, and return to Marshal Haggard.
+  collect 6782 quest 1667.1 @89.33,78.88 map 1429 -- Drops from: Dead-tooth's Strongbox
+step
+  only Warrior
+  turnin 1667
+step
+  only Warlock
+  tip Retrieve Surena's Choker for Gakin the Darkbinder in Stormwind.
+  collect 6810 quest 1688.1 @71.01,80.77 map 1429 -- Drops from: Surena Caledon
+step
+  only Rogue
+  tip Find the Defias Dockmaster and recover the Shipping Schedule for Master Mathias Shaw.
+  collect 7675 quest 2206.1 @48.06,86.96 map 1429 -- Drops from: Defias Dockmaster
+step
+  only Mage,Human,Gnome,Skyborne
+  when !turnedin 1880
+  when !onquest 1880
+  tip Bring a Mirror Lake sample to Jennea Cannon in Stormwind.
+  collect 7206 quest 1861.1 @28.57,61.39 map 1429 -- Drops from: Mirror Lake Waterwall
+step
+  zone map 1453
+  only Warlock
+  turnin 1688 -- Turn in at Stormwind City
+step
+  only Warlock
+  accept 1689
+step
+  only Warlock
+  tip Using the Bloodstone Choker, summon and subdue a voidwalker, then return the Bloodstone Choker to Gakin the Darkbinder in Stormwind.
+  kill 5676 quest 1689.1 -- Use the quest item on them, don't just kill them.
+step
+  only Warlock
+  turnin 1689 -- Turn in at Stormwind City
+step
+  only Mage,Human,Gnome,Skyborne
+  when !turnedin 1880
+  when !onquest 1880
+  turnin 1861 -- Turn in at Stormwind City
+step
+  only Rogue
+  turnin 2206 -- Turn in at Stormwind City
+step
+  tip Zone complete! Travel to Stormwind City.
+  goto 26.27,47.08 map 1453

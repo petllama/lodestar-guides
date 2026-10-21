@@ -1,0 +1,251 @@
+guide lodestar/alliance/wetlands-30-33
+title "Wetlands (30-33)"
+levels 30-33
+zone map 1437
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/ashenvale-30-32
+step
+  level 28
+step
+  getfp "Menethil Harbor, Wetlands"
+step
+  when turnedin 289
+  accept 290
+step
+  when turnedin 464
+  accept 465
+step
+  when turnedin 289
+  tip Get the Intrepid Strongbox Key from Captain Halyndor.
+  collect 2629 quest 290.1 @15.45,23.61 map 1437 -- Drops from: Captain Halyndor
+step
+  when turnedin 289
+  turnin 290
+step
+  when turnedin 289
+  interact 112948
+  accept 292
+step
+  when turnedin 464
+  tip Destroy the Dragonmaw catapults.
+  turnin 465
+step
+  accept 98291
+step
+  accept 98283
+step
+  interact 672330
+  accept 98293
+step
+  tip Collect 30 Dragonmaw Armaments in Dragonmaw Retreat, then bring them to Captain Stoutfist in Menethil Keep.
+  collect 280369 x30 quest 98293.1 @58.83,45.04 map 1437
+step
+  accept 95646
+step
+  tip Bring Carnage's Head to Rethiel the Greenwarden in The Green Belt.
+  collect 280331 quest 98283.1 @61.67,40.21 map 1437 -- Drops from: Maddened Rotclaw
+  collect 280331 quest 98283.1 @69.61,29.05 map 1437 -- Drops from: Carnage
+  collect 280330 quest 98283.2 @69.61,29.05 map 1437 -- Drops from: Carnage
+step
+  turnin 98283
+step
+  tip Kill 8 Dragonmaw Reclaimers, 5 Dragonmaw Soulbinders, and 3 Dragonmaw Infiltrators in Dragonmaw Retreat for Howin Kindfeather.
+  kill 271346 x3 quest 98291.3 @66.99,46.07 map 1437 optional -- Dragonmaw Infiltrator is elite: grouping up is advised.
+  kill 271351 x8 quest 98291.1 @67.27,46.63 map 1437 optional -- Dragonmaw Reclaimer is elite: grouping up is advised.
+  kill 271351 x8 quest 98291.1 @68.97,45.99 map 1437 optional -- Dragonmaw Reclaimer is elite: grouping up is advised.
+  kill 271348 x5 quest 98291.2 @68.97,45.99 map 1437 optional -- Dragonmaw Soulbinder is elite: grouping up is advised.
+  kill 271346 x3 quest 98291.3 @68.97,45.99 map 1437 optional -- Dragonmaw Infiltrator is elite: grouping up is advised.
+step
+  turnin 98291
+step
+  interact 671518
+  accept 98223
+step
+  tip Kill a Highland Horror within Excavation Sites and bring its root core to Rethiel the Greenwarden in the Wetlands.
+  collect 270180 quest 95646.1 @49.49,59.69 map 1437 -- Drops from: Highland Horror
+step
+  accept 98216
+step
+  tip Use the Goaz Stone near the Goaz Warder and bring its Titanic Keystone back to Prospector Whelgar.
+  collect 279993 quest 98216.1 @34.01,51.72 map 1437 -- Drops from: Goaz Warder
+step
+  turnin 98216
+step
+  accept 98310
+step
+  accept 98313
+step
+  when turnedin 464
+  when level>=32
+  interact 1609
+  accept 474
+step
+  turnin 95646
+step
+  tip Use the Goaz Stone near Ados, Modr, Golm, and Neru and bring their hearts back to Prospector Whelgar.
+  collect 280398 quest 98310.4 @60.81,22.66 map 1437 -- Drops from: Neru
+  collect 280396 quest 98310.2 @50.66,17.88 map 1437 -- Drops from: Modr
+  collect 280395 quest 98310.1 @77.44,47.2 map 1437 -- Drops from: Ados
+  collect 280395 quest 98310.1 @67.63,70.59 map 1437 -- Drops from: Golm
+  collect 280396 quest 98310.2 @67.63,70.59 map 1437 -- Drops from: Golm
+  collect 280397 quest 98310.3 @67.63,70.59 map 1437 -- Drops from: Golm
+  collect 280398 quest 98310.4 @67.63,70.59 map 1437 -- Drops from: Golm
+step
+  when turnedin 464
+  when onquest 474
+  tip Kill Chieftain Nek'rosh
+  collect 3625 quest 474.1 @53.51,54.67 map 1437 optional -- Chieftain Nek'rosh is elite: grouping up is advised.
+step
+  turnin 98310
+step
+  when turnedin 289
+  tip Bring the Cursed Eye of Paleth to Glorin Steelbrow.
+  turnin 292
+step
+  when turnedin 464
+  when onquest 474
+  turnin 474
+step
+  tip Bring the Tattered Spellbook to Captain Stoutfist in Menethil Harbor.
+  turnin 98223
+step
+  turnin 98293
+step
+  when turnedin 289
+  accept 293
+step
+  when level>=30
+  accept 303
+step
+  accept 631
+step
+  accept 88756
+step
+  tip Retrieve 3 Stolen Explosives from the Dark Iron Dwarf camps.
+  collect 280806 x3 quest 88756.1 @50.05,18.17 map 1437
+step
+  tip Rhag Garmason wants you to locate Ol' Rustlocke.
+  turnin 631
+step
+  turnin 88756
+step
+  interact 2652
+  accept 632
+step
+  accept 87318
+step
+  accept 88757
+step
+  tip Bring back Essene's Necklace, Essene's Spellbook, and Essene's Waterskin.
+  collect 284705 quest 88757.1
+  collect 284150 quest 88757.2
+  collect 284146 quest 88757.3
+step
+  accept 88758
+step
+  tip Report back to Rhag Garmason and show him the parchment you found on Rustlocke's corpse.
+  turnin 632
+step
+  tip Search for Corma's partner Essene.
+  turnin 87318
+step
+  turnin 88757
+step
+  tip Bring Essene's note back to Corma Villard.
+  turnin 88758
+step
+  accept 633
+step
+  accept 87491
+step
+  tip Escort the captive fire elemental out of Dun Modr and to its freedom.
+  turnin 87491
+step
+  when onquest 303
+  tip Motley Garmason at Dun Modr wants you to kill 10 Dark Iron Dwarves, 5 Dark Iron Tunnelers, 5 Dark Iron Saboteurs and 5 Dark Iron Demolitionists.
+  kill 1052 x5 quest 303.3 @48.1,18.09 map 1437 optional -- Dark Iron Saboteur is elite: grouping up is advised.
+  kill 1053 x5 quest 303.2 @47.11,17.92 map 1437 optional -- Dark Iron Tunneler is elite: grouping up is advised.
+  kill 1051 x10 quest 303.1 @59.93,23.02 map 1437 optional -- Dark Iron Dwarf is elite: grouping up is advised.
+  kill 1051 x10 quest 303.1 @60.1,24.36 map 1437 optional -- Dark Iron Dwarf is elite: grouping up is advised.
+  kill 1053 x5 quest 303.2 @60.1,24.36 map 1437 optional -- Dark Iron Tunneler is elite: grouping up is advised.
+  kill 1052 x5 quest 303.3 @60.1,24.36 map 1437 optional -- Dark Iron Saboteur is elite: grouping up is advised.
+  kill 1054 x5 quest 303.4 @60.1,24.36 map 1437 optional -- Dark Iron Demolitionist is elite: grouping up is advised.
+step
+  when onquest 303
+  turnin 303
+step
+  when level>=34
+  accept 304
+step
+  when onquest 304
+  tip Kill Balgaras the Foul and bring his ear to Longbraid the Grim outside of Dun Modr.
+  collect 3639 quest 304.1 @62.49,28.42 map 1437 optional -- Balgaras the Foul is elite: grouping up is advised.
+step
+  when onquest 304
+  turnin 304
+step
+  accept 98297
+step
+  accept 98300
+step
+  tip Kill the Subdued Dragonspawn at the Dragonmaw Gates for Howin Kindfeather.
+  kill 271373 quest 98297.1 @77.05,45.56 map 1437
+step
+  turnin 98297
+step
+  zone map 1453
+  when turnedin 289
+  tip Bring Archbishop Benedictus the Cursed Eye of Paleth. Benedictus is in the Cathedral of Light, in the city of Stormwind.
+  turnin 293 -- Turn in at Stormwind City
+step
+  when turnedin 1247
+  accept 1248
+step
+  when level>=30
+  accept 1301
+step
+  zone map 1437
+  when turnedin 1247
+  tip Speak to Mikhail in the Wetlands.
+  turnin 1248
+step
+  when turnedin 1247
+  accept 1249
+step
+  when onquest 1301
+  tip Speak with Vincent Hyal in Menethil Harbor.
+  turnin 1301
+step
+  when turnedin 1247
+  tip Subdue Tapoke Jahn before he escapes, and then return to Mikhail in Menethil.
+  kill 4962 quest 1249.1 @10.54,60.26 map 1437 -- Use the quest item on them, don't just kill them.
+step
+  when turnedin 1247
+  turnin 1249
+step
+  when turnedin 1247
+  accept 1250
+step
+  when turnedin 1247
+  tip Speak to Mikhail in the Wetlands.
+  turnin 1250
+step
+  zone map 1417
+  tip Destroy the cache of explosives.
+  interact 2704 quest 633.1 @48.79,88.05 map 1417
+step
+  zone map 1437
+  turnin 633
+step
+  accept 634
+step
+  zone map 1417
+  tip Seek out Captain Nials at Refuge Pointe.
+  turnin 634 -- Turn in at Arathi Highlands
+step
+  zone map 1440
+  tip Zone complete! Travel to Ashenvale.
+  goto 22.23,52.98 map 1440

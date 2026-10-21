@@ -1,0 +1,346 @@
+guide lodestar/alliance/elwynn-forest-21-28
+title "Elwynn Forest (21-28)"
+levels 21-28
+zone map 1429
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/duskwood-30-35
+step
+  level 20
+step
+  zone map 1453
+  when turnedin 373
+  accept 389
+step
+  zone map 1429
+  when onquest 69
+  tip Go to The Lion's Pride Inn to see if anyone there has heard of the name Stalvan.
+  turnin 69
+step
+  when turnedin 118
+  accept 119
+step
+  when level>=20
+  accept 94
+step
+  when turnedin 69
+  when level>=22
+  accept 70
+step
+  when turnedin 69
+  when onquest 70
+  tip Retrieve Stalvan's Undelivered Letter from the chest and deliver it to the Canal District in Stormwind.
+  collect 910 quest 70.1 @44.3,65.82 map 1429 -- Drops from: Storage Chest
+step
+  zone map 1433
+  when turnedin 118
+  tip Return to Verner Osgood in Redridge. Give him the Crate of Horseshoes.
+  turnin 119 -- Turn in at Redridge Mountains
+step
+  when turnedin 118
+  accept 122
+step
+  when turnedin 118
+  accept 124
+step
+  when turnedin 118
+  tip Kill 10 Redridge Brutes and 8 Redridge Mystics, then return to Verner Osgood.
+  kill 426 x10 quest 124.1 @18.91,34.91 map 1433
+  kill 426 x10 quest 124.1 @22.97,28.89 map 1433
+  kill 430 x8 quest 124.2 @22.97,28.89 map 1433
+step
+  when turnedin 118
+  turnin 124 -- Turn in at Redridge Mountains
+step
+  when turnedin 118
+  accept 126
+step
+  when turnedin 118
+  tip Bring Yowler's Paw to Verner Osgood in Lakeshire.
+  collect 3614 quest 126.1 @22.56,21.38 map 1433 -- Drops from: Yowler
+step
+  when turnedin 118
+  turnin 126 -- Turn in at Redridge Mountains
+step
+  when turnedin 118
+  tip Gather 6 Underbelly Whelp Scales from Black Dragon Whelps, and bring them to Verner Osgood in Redridge.
+  collect 1221 x6 quest 122.1 @38.42,77.96 map 1433 -- Drops from: Black Dragon Whelp, Snarlflare
+step
+  when turnedin 118
+  turnin 122 -- Turn in at Redridge Mountains
+step
+  when onquest 94
+  tip Take the Glyph of Azora to the Lion Statue near the Tower of Ilgalar in Redridge.
+  turnin 94 -- Turn in at Redridge Mountains
+step
+  when turnedin 94
+  when level>=20
+  interact 31
+  accept 248
+step
+  when onquest 248
+  tip Climb the intact watch tower beside Stonewatch Keep.
+  turnin 248 -- Turn in at Redridge Mountains
+step
+  zone map 1455
+  when onquest 968
+  tip Bring the Book: The Powers Below to Gerrig Bonegrip in the Forlorn Cavern, Ironforge.
+  turnin 968 -- Turn in at Ironforge
+step
+  when onquest 2931
+  tip Speak with Master Mechanic Castpipe in Ironforge.
+  turnin 2931 -- Turn in at Ironforge
+step
+  when onquest 1072
+  tip Speak to Lomac Gearstrip in Ironforge.
+  turnin 1072 -- Turn in at Ironforge
+step
+  zone map 1453
+  when turnedin 373
+  tip Speak with Warden Thelwater in the Stockade.
+  turnin 389 -- Turn in at Stormwind City
+step
+  when turnedin 69
+  when onquest 70
+  turnin 70 -- Turn in at Stormwind City
+step
+  when turnedin 69
+  when turnedin 70
+  when level>=22
+  accept 72
+step
+  when turnedin 69
+  when onquest 72
+  tip Search through the packed up possessions for a clue.
+  turnin 72 -- Turn in at Stormwind City
+step
+  when turnedin 69
+  when turnedin 72
+  when level>=22
+  interact 1561
+  accept 74
+step
+  only Mage,Human,Gnome
+  when turnedin 1940
+  when level>=26
+  accept 1942
+step
+  only Mage,Human,Gnome
+  when turnedin 1940
+  when onquest 1942
+  turnin 1942 -- Turn in at Stormwind City
+step
+  only Mage,Human,Gnome
+  when level>=26
+  accept 1939 npc 5497
+step
+  only Mage,Human,Gnome
+  when onquest 1939
+  tip Speak with High Sorcerer Andromath.
+  turnin 1939 -- Turn in at Stormwind City
+step
+  accept 343
+step
+  accept 2923
+step
+  when level>=28
+  accept 1274
+step
+  only Warrior
+  when turnedin 1701
+  accept 1782
+step
+  only Warrior
+  when turnedin 1701
+  turnin 1782 -- Turn in at Stormwind City
+step
+  only Warrior,Human
+  when turnedin 1701
+  accept 1700
+step
+  only Warrior,Dwarf,Gnome
+  when turnedin 1701
+  accept 1704
+step
+  only Warrior,Human
+  when turnedin 1701
+  tip Bring Furen's Notes to Grimand Elmore.
+  turnin 1700 -- Turn in at Stormwind City
+step
+  only Warrior
+  when turnedin 1701
+  accept 1705
+step
+  tip Go to the Royal Library in Stormwind Keep and speak with Milton Sheaf. He can find for you the book on metallurgy that Brother Kristoff needs for his speech.
+  turnin 343 -- Turn in at Stormwind City
+step
+  accept 344
+step
+  accept 98191
+step
+  when onquest 1274
+  tip Find Bishop DeLavey in Stormwind Keep.
+  turnin 1274 -- Turn in at Stormwind City
+step
+  when turnedin 1274
+  when level>=28
+  accept 1241
+step
+  tip Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light.
+  turnin 98191 -- Turn in at Stormwind City
+step
+  when onquest 1241
+  tip Find Jorgen in Stormwind City.
+  turnin 1241 -- Turn in at Stormwind City
+step
+  when turnedin 1241
+  when level>=28
+  accept 1242
+step
+  when onquest 1242
+  tip Delivery Jorgen's Sealed Note to Elling Trias in Stormwind City.
+  turnin 1242 -- Turn in at Stormwind City
+step
+  when turnedin 1242
+  when level>=28
+  accept 1243
+step
+  zone map 1455
+  tip Speak with Tinkmaster Overspark in Ironforge.
+  turnin 2923 -- Turn in at Ironforge
+step
+  only Warrior,Dwarf,Gnome
+  when turnedin 1701
+  tip Bring Furen's Notes to Klockmort Spannerspan.
+  turnin 1704 -- Turn in at Ironforge
+step
+  only Warrior
+  when turnedin 1701
+  accept 1708
+step
+  zone map 1429
+  tip Speak with Brother Paxton in the Northshire Abbey.
+  turnin 344
+step
+  accept 345
+step
+  when turnedin 248
+  when level>=27
+  accept 249
+step
+  when turnedin 69
+  when onquest 74
+  tip The Torn Journal page you discovered provides your next clue.
+  turnin 74
+step
+  when turnedin 69
+  when turnedin 74
+  when level>=22
+  accept 75
+step
+  when turnedin 69
+  when onquest 75
+  tip Marshal Haggard wants you to check the chest upstairs for the Faded Journal Page.
+  collect 921 quest 75.1 @85.7,69.54 map 1429 -- Drops from: Marshal Haggard's Chest
+step
+  when turnedin 69
+  when onquest 75
+  turnin 75
+step
+  when turnedin 69
+  when turnedin 75
+  when level>=22
+  accept 78
+step
+  zone map 1431
+  when onquest 1243
+  tip Give the Sealed Note to Watcher Backus in Duskwood.
+  turnin 1243 -- Turn in at Duskwood
+step
+  when turnedin 69
+  when onquest 78
+  tip Take the Faded Journal Page to Tavernkeep Smitts.
+  turnin 78 -- Turn in at Duskwood
+step
+  when turnedin 69
+  when turnedin 78
+  when level>=22
+  accept 79
+step
+  when turnedin 69
+  when onquest 79
+  tip Take the muddy page to Commander Ebonlocke.
+  turnin 79 -- Turn in at Duskwood
+step
+  when turnedin 69
+  when turnedin 79
+  when level>=22
+  accept 80
+step
+  when turnedin 69
+  when onquest 80
+  tip Show Clerk Daltry the Bloodstained Journal Page.
+  turnin 80 -- Turn in at Duskwood
+step
+  when turnedin 69
+  when turnedin 80
+  when level>=22
+  accept 97
+step
+  when turnedin 69
+  when onquest 97
+  tip Report the news to Commander Ebonlocke.
+  turnin 97 -- Turn in at Duskwood
+step
+  only Warrior
+  when turnedin 1701
+  tip Bring 20 vials of Burning Blood and 1 Burning Rock to Grimand Elmore in Stormwind.
+  collect 6844 x20 quest 1705.1 @65.13,67.39 map 1431 -- Drops from: Nightbane Dark Runner, Nightbane Shadow Weaver, Nightbane Worgen
+  collect 6844 x20 quest 1705.1 @49.56,85.2 map 1421 -- Drops from: Old Fire-Eye
+  collect 6845 quest 1705.2 @49.56,85.2 map 1421 -- Drops from: Old Fire-Eye
+step
+  zone map 1453
+  only Warrior
+  when turnedin 1701
+  turnin 1705 -- Turn in at Stormwind City
+step
+  zone map 1437
+  only Warrior
+  when turnedin 1701
+  tip Bring 20 loads of Searing Coral to Klockmort Spannerspan in Ironforge.
+  collect 6848 x20 quest 1708.1 @8.92,70.18 map 1437 -- Drops from: Iron Coral
+step
+  zone map 1455
+  only Warrior
+  when turnedin 1701
+  turnin 1708 -- Turn in at Ironforge
+step
+  zone map 1433
+  tip Speak with Foreman Oslow in Lakeshire and ask him for Rethban Iron Ore.
+  turnin 345 -- Turn in at Redridge Mountains
+step
+  accept 347
+step
+  tip Gather 5 loads of Rethban Ore and bring it to Brother Paxton in the Northshire Library.
+  collect 2798 x5 quest 347.1 @16.19,17.37 map 1433 -- Drops from: Redridge Drudger, Tin Vein, Copper Vein
+step
+  when onquest 249
+  tip Defeat Morganth.
+  collect 3617 quest 249.1 @75.02,49.49 map 1433 optional -- Morganth is elite: grouping up is advised.
+step
+  zone map 1429
+  when onquest 249
+  turnin 249
+step
+  turnin 347
+step
+  accept 346
+step
+  zone map 1453
+  tip Return to Brother Kristoff in the Cathedral Square. Give him the book The Stresses of Iron.
+  turnin 346 -- Turn in at Stormwind City
+step
+  tip Zone complete! Travel to Stormwind City.
+  goto 40.14,85.31 map 1453

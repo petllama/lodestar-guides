@@ -1,0 +1,255 @@
+guide lodestar/horde/ashenvale-22-27
+title "Ashenvale (22-27)"
+levels 22-27
+zone map 1440
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/stonetalon-mountains-19-26
+step
+  level 21
+step
+  zone map 1454
+  when !turnedin 6382
+  when !turnedin 742
+  when !onquest 6382
+  when !onquest 742
+  accept 235
+step
+  zone map 1440
+  getfp "Zoram'gar Outpost, Ashenvale"
+step
+  accept 6442
+step
+  accept 6563
+step
+  accept 6641
+step
+  tip Keep Muglash safe as he travels to the brazier. Help him by putting the brazier out, then protect him as you fight against the Naga.
+  goto 9.59,27.58 "Defeat Vorsha the Lasher" map 1440
+step
+  turnin 6641
+step
+  tip Bring 20 Sapphires of Aku'Mai to Je'neu Sancrea in Ashenvale.
+  collect 16784 x20 quest 6563.1 @13.59,13.14 map 1440
+step
+  tip Bring 20 Wrathtail Heads to Marukai along the Zoram Strand.
+  collect 5490 x20 quest 6442.1 @10.48,29.74 map 1440 -- Drops from: Wrathtail Razortail, Wrathtail Wave Rider, Wrathtail Sea Witch
+step
+  turnin 6442
+step
+  turnin 6563
+step
+  when level>=21
+  accept 216
+step
+  accept 6462
+step
+  when onquest 216
+  tip Take down 8 Thistlefur Avengers and 8 Thistlefur Shaman; most are located east of Zoram Strand in Thistlefur Village. Once completed, return to Karang Amakkar at Zoram'gar Outpost, Ashenvale.
+  kill 3924 x8 quest 216.2 @34.08,38.44 map 1440
+  kill 3925 x8 quest 216.1 @36.71,36.96 map 1440
+  kill 3924 x8 quest 216.2 @36.71,36.96 map 1440
+step
+  tip Bring 8 Troll Charms to Mitsuwa at the Zoram'gar Outpost.
+  collect 16602 x8 quest 6462.1 @40.86,33.64 map 1440 -- Drops from: Troll Chest
+step
+  accept 6482
+step
+  tip Escort Ruul, then speak with Yama Snowhoof in Splintertree Post.
+  goto 38.53,37.32 "Escort Ruul from the Thistlefurs." map 1440
+step
+  when onquest 216
+  turnin 216
+step
+  turnin 6462
+step
+  accept 98251
+step
+  accept 98252
+step
+  tip Show Va'xug's Eye of Kilrogg the way back to the main Ashenvale road.
+  turnin 98252
+step
+  tip Kill 6 Shadowhorn Stag and 6 Ashenvale Bear and return to Va'xug Firefure northwest of Fallen Sky Lake.
+  kill 3809 x6 quest 98251.2 @45.14,61.34 map 1440
+  kill 3817 x6 quest 98251.1 @46.5,61.25 map 1440
+  kill 3809 x6 quest 98251.2 @46.5,61.25 map 1440
+step
+  turnin 98251
+step
+  accept 78132
+step
+  accept 78133
+step
+  accept 78134
+step
+  turnin 78132
+step
+  turnin 78133
+step
+  turnin 78134
+step
+  accept 6544
+step
+  tip Escort Torek on his attack against Silverwing Outpost and Duriel Moonfire, then report to Ertog Ragetusk at Splintertree Post.
+  goto 64.65,75.35 "Take Silverwing Outpost." map 1440
+step
+  accept 6503
+step
+  tip Kill 9 Ashenvale Outrunners, then return to Kuray'bin at Splintertree Outpost.
+  kill 12856 x9 quest 6503.1 @74.54,72.44 map 1440
+step
+  turnin 6503
+step
+  when !turnedin 6382
+  when !turnedin 742
+  when !onquest 6382
+  when !onquest 742
+  tip Speak with Senani Thunderheart at Splintertree Post, Ashenvale.
+  turnin 235
+step
+  turnin 6482
+step
+  turnin 6544
+step
+  accept 6383
+step
+  when level>=23
+  accept 25
+step
+  accept 6441
+step
+  turnin 6383
+step
+  kill 12677 @57.5,56.05 map 1440 -- Loot the quest item here — it starts the quest.
+  accept 24 @57.5,56.05 map 1440
+step
+  when level>=23
+  kill 12759 @46,70 map 1440 -- Loot the quest item here — it starts the quest.
+  accept 1918 @46,70 map 1440
+step
+  when onquest 25
+  tip Dispatch 12 Befouled Water Elementals at Mystral Lake, due east of the Talondeep Path and southwest of Splintertree Post.
+  kill 3917 x12 quest 25.1 @49.36,69.85 map 1440
+step
+  kill 12678 @39.76,65.21 map 1440 -- Loot the quest item here — it starts the quest.
+  accept 23 @39.76,65.21 map 1440
+step
+  tip Collect 16 Satyr Horns for Pixel in Splintertree Post.
+  collect 5481 x16 quest 6441.1 @66.8,52.57 map 1440 -- Drops from: Felmusk Satyr, Felmusk Rogue, Felmusk Felsworn
+step
+  tip Bring Ursangous's Paw to Senani Thunderheart at Splintertree Post, Ashenvale.
+  turnin 23
+step
+  tip Bring Shadumbra's Head to Senani Thunderheart at Splintertree Post, Ashenvale.
+  turnin 24
+step
+  when onquest 25
+  turnin 25
+step
+  when onquest 1918
+  tip Bring the Befouled Water Globe to Mastok Wrilehiss at Splintertree Post, Ashenvale.
+  turnin 1918
+step
+  turnin 6441
+step
+  when turnedin 1918
+  when level>=23
+  accept 824
+step
+  when onquest 824
+  tip Bring the Befouled Water Globe to Je'neu Sancrea at Zoram'gar Outpost, Ashenvale.
+  turnin 824
+step
+  only Paladin
+  accept 95042
+step
+  when turnedin 216
+  accept 6621
+step
+  only Paladin
+  tip Bring a Kor Gem to Ulric Frostveil in Ashenvale.
+  collect 6995 quest 95042.1 @13.55,12.06 map 1440 optional -- Blackfathom Tide Priestess is elite: grouping up is advised.
+step
+  when onquest 6621
+  tip Place Karang's Banner on the Foulweald Totem Mound. Do not let the furbolgs destroy the banner. Defeat Chief Murgut and bring Murgut's Totem to Karang Amakkar at Zoram'gar.
+  collect 16976 quest 6621.1 @56.43,63.5 map 1440 -- Drops from: Chief Murgut, Murgut's Totem Basket
+step
+  when onquest 6621
+  turnin 6621
+step
+  only Paladin
+  turnin 95042
+step
+  when level>=23
+  accept 6504
+step
+  when onquest 6504
+  tip Find the 12 missing pages of the Shredder Operating Manual, and put them together to form Chapters 1, 2, and 3. Return the pages to Gurda Ragescar near Splintertree Post.
+  collect 16642 quest 6504.1
+  collect 16643 quest 6504.2
+  collect 16644 quest 6504.3
+step
+  when onquest 6504
+  turnin 6504
+step
+  kill 12676 @74.98,70.06 map 1440 -- Loot the quest item here — it starts the quest.
+  accept 2 @74.98,70.06 map 1440
+step
+  tip Bring Sharptalon's Claw to Senani Thunderheart at Splintertree Post, Ashenvale.
+  turnin 2
+step
+  accept 247
+step
+  turnin 247
+step
+  zone map 1456
+  accept 1195
+step
+  zone map 1440
+  tip Return a Filled Etched Phial to Zangen Stonehoof in Thunder Bluff.
+  collect 5868 quest 1195.1 @60.2,72.91 map 1440 -- Drops from: Ashenvale Moonwell
+step
+  zone map 1456
+  turnin 1195 -- Turn in at Thunder Bluff
+step
+  zone map 1454
+  only Warlock
+  when turnedin 65601
+  when !turnedin 1472
+  when !onquest 1472
+  accept 65610
+step
+  only Mage,Troll,Undead
+  when level>=26
+  accept 1944
+step
+  zone map 1440
+  only Warlock
+  when turnedin 65601
+  when !turnedin 1472
+  when !onquest 1472
+  tip Investigate Fallen Sky Lake in Ashenvale and report your findings to Gan'rul Bloodeye in Orgrimmar.
+  collect 190232 quest 65610.1 @65.56,65.53 map 1440 -- Drops from: Shadethicket Stone Mover, Shadethicket Bark Ripper, Shadethicket Oracle
+step
+  only Mage,Troll,Undead
+  when onquest 1944
+  tip Bring the Xavian Water Sample to Deino in Orgrimmar.
+  collect 7268 quest 1944.1 @76.29,41.49 map 1440 -- Drops from: Xavian Waterfall
+step
+  zone map 1454
+  only Warlock
+  when turnedin 65601
+  when !turnedin 1472
+  when !onquest 1472
+  turnin 65610 -- Turn in at Orgrimmar
+step
+  only Mage,Troll,Undead
+  when onquest 1944
+  turnin 1944 -- Turn in at Orgrimmar
+step
+  zone map 1442
+  tip Zone complete! Travel to Stonetalon Mountains.
+  goto 47.22,64.04 map 1442

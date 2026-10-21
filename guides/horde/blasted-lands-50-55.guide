@@ -1,0 +1,80 @@
+guide lodestar/horde/blasted-lands-50-55
+title "Blasted Lands (50-55)"
+levels 50-55
+zone map 1419
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/badlands-50-54
+step
+  level 46
+step
+  accept 2581
+step
+  accept 2583
+step
+  accept 2585
+step
+  accept 2601
+step
+  accept 2603
+step
+  tip Bring three Blasted Boar Lungs, two Scorpok Pincers, and one Basilisk Brain to Bloodmage Drazial.
+  collect 8393 x2 quest 2583.2 @47.8,22.4 map 1419 -- Drops from: Scorpok Stinger, Clack the Reaver
+  collect 8392 x3 quest 2583.1 @58.22,30.36 map 1419 -- Drops from: Ashmane Boar, Helboar, Grunter
+  collect 8392 x3 quest 2583.1 @60.94,27.83 map 1419 -- Drops from: Redstone Basilisk, Redstone Crystalhide, Deatheye
+  collect 8393 x2 quest 2583.2 -- Drops from: Redstone Basilisk, Redstone Crystalhide, Deatheye
+  collect 8394 quest 2583.3 @60.94,27.83 map 1419 -- Drops from: Redstone Basilisk, Redstone Crystalhide, Deatheye
+step
+  tip Bring ten Basilisk Brains and two Vulture Gizzards to Bloodmage Lynnore.
+  collect 8394 x10 quest 2601.1 @60.94,27.83 map 1419 -- Drops from: Redstone Basilisk, Redstone Crystalhide, Deatheye
+  collect 8394 x10 quest 2601.1 -- Drops from: Black Slayer, Bonepicker
+  collect 8396 x2 quest 2601.2 @57.6,28.4 map 1419 -- Drops from: Black Slayer, Bonepicker
+step
+  tip Bring ten Vulture Gizzards and two Snickerfang Jowls to Bloodmage Lynnore.
+  collect 8396 x10 quest 2603.1 @57.6,28.4 map 1419 -- Drops from: Black Slayer, Bonepicker
+  collect 8396 x10 quest 2603.1 @46.67,20.94 map 1419 -- Drops from: Starving Snickerfang, Snickerfang Hyena, Ravage
+  collect 8391 x2 quest 2603.2 @46.67,20.94 map 1419 -- Drops from: Starving Snickerfang, Snickerfang Hyena, Ravage
+step
+  tip Bring three Snickerfang Jowls, two Blasted Boar Lungs, and one Scorpok Pincer to Bloodmage Drazial.
+  collect 8391 x3 quest 2581.1 @46.67,20.94 map 1419 -- Drops from: Starving Snickerfang, Snickerfang Hyena, Ravage
+  collect 8393 quest 2581.3 @47.8,22.4 map 1419 -- Drops from: Scorpok Stinger, Clack the Reaver
+  collect 8391 x3 quest 2581.1 -- Drops from: Ashmane Boar, Helboar, Grunter
+  collect 8392 x2 quest 2581.2 @58.22,30.36 map 1419 -- Drops from: Ashmane Boar, Helboar, Grunter
+  collect 8393 quest 2581.3 -- Drops from: Ashmane Boar, Helboar, Grunter
+step
+  tip Bring three Scorpok Pincers, two Vulture Gizzards, and one Blasted Boar Lung to Bloodmage Drazial.
+  collect 8392 quest 2585.3 @58.22,30.36 map 1419 -- Drops from: Ashmane Boar, Helboar, Grunter
+  collect 8396 x2 quest 2585.2 @57.6,28.4 map 1419 -- Drops from: Black Slayer, Bonepicker
+  collect 8393 x3 quest 2585.1 @47.8,22.4 map 1419 -- Drops from: Scorpok Stinger, Clack the Reaver
+  collect 8396 x2 quest 2585.2 -- Drops from: Scorpok Stinger, Clack the Reaver
+  collect 8392 quest 2585.3 -- Drops from: Scorpok Stinger, Clack the Reaver
+step
+  turnin 2581
+step
+  turnin 2583
+step
+  turnin 2585
+step
+  turnin 2601
+step
+  turnin 2603
+step
+  accept 2521
+step
+  accept 3501
+step
+  tip In your journeys throughout the Blasted Lands, should you ever come across a Flawless Draenethyst Sphere, take the item back to Kum'isha the Collector.
+  collect 8244 quest 2521.1 -- Drops from: Dreadmaul Ogre, Dreadmaul Ogre Mage, Dreadmaul Brute
+step
+  tip Bring Kum'isha Imperfect Draenethyst Fragments and be rewarded for each one you turn in.
+  collect 10593 quest 3501.1 @41.7,14.64 map 1419 -- Drops from: Dreadmaul Ogre, Dreadmaul Ogre Mage, Dreadmaul Brute
+step
+  turnin 2521
+step
+  turnin 3501
+step
+  zone map 1418
+  tip Zone complete! Travel to Badlands.
+  goto 3.36,48.06 map 1418

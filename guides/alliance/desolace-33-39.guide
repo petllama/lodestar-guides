@@ -1,0 +1,304 @@
+guide lodestar/alliance/desolace-33-39
+title "Desolace (33-39)"
+levels 33-39
+zone map 1443
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/hillsbrad-foothills-33-38
+step
+  level 32
+step
+  accept 5741
+step
+  getfp "Nijel's Point, Desolace"
+step
+  accept 1387
+step
+  accept 1437
+step
+  when turnedin 1453
+  accept 1458
+step
+  tip Find and search Tyranis and Dalinda Malem's wagon in Desolace.
+  turnin 1437
+step
+  interact 50961
+  accept 1465
+step
+  tip Get the Sceptre of Light and then return it to Azore Aldamort at the tower in Ethel Rethor.
+  collect 15750 quest 5741.1 @55.17,30.15 map 1443 -- Drops from: Burning Blade Seer
+step
+  when turnedin 1453
+  tip Bring 10 Hatefury Claws, and 10 Hatefury Horns to Kreldig Ungor in Desolace.
+  collect 6246 x10 quest 1458.1 @73.55,19.11 map 1443 -- Drops from: Hatefury Rogue, Hatefury Trickster, Hatefury Felsworn
+  collect 6247 x10 quest 1458.2 @73.55,19.11 map 1443 -- Drops from: Hatefury Rogue, Hatefury Trickster, Hatefury Felsworn
+step
+  when turnedin 1453
+  turnin 1458
+step
+  tip Return the Malem Pendant to Vahlarriel Demonslayer in Desolace.
+  turnin 1465
+step
+  accept 1438
+step
+  accept 1382
+step
+  accept 1385
+step
+  when turnedin 1453
+  accept 1459
+step
+  when turnedin 1453
+  tip Bring 7 vials of Scorpashi Venom and 3 Aged Kodo Hides to Kreldig Ungor in Desolace.
+  collect 6248 x7 quest 1459.1 @65.46,27.9 map 1443 -- Drops from: Scorpashi Snapper, Scorpashi Lasher, Scorpashi Venomlash
+  collect 6248 x7 quest 1459.1 -- Drops from: Aged Kodo
+  collect 6249 x3 quest 1459.2 @51.95,56.1 map 1443 -- Drops from: Aged Kodo
+step
+  tip Find Dalinda Malem in Desolace.
+  turnin 1438
+step
+  accept 1439
+step
+  tip Find Tyranis Malem in Desolace.
+  collect 6767 quest 1439.1 @53.01,29.08 map 1443 -- Drops from: Tyranis Malem
+step
+  turnin 1439
+step
+  accept 1440
+step
+  tip Escort Dalinda Malem from Thunder Axe Fortress and then return to Vahlarriel Demonslayer in Desolace.
+  goto 58.27,30.91 "Rescue Dalinda Malem" map 1443
+step
+  turnin 5741
+step
+  accept 5821
+step
+  tip Escort the Gizelton Caravan past the Kolkar Centaur village. Talk with Smeed at Scrabblescrew's Camp for your reward.
+  goto 67.17,56.62 "Escort Gizelton Caravan past Kolkar Centaur Village" map 1443
+step
+  turnin 5821
+step
+  accept 5561
+step
+  tip Bring five Tamed Kodos and the Kodo Kombobulator back to Smeed Scrabblescrew at Scrabblescrew's Camp.
+  turnin 5561
+step
+  tip Gain a Friendly reputation with the Magram, then speak with Warug.
+  turnin 1385
+step
+  accept 1386
+step
+  tip Maintain your reputation with the Magram. Kill 12 Kolkar Centaurs, 12 Kolkar Scouts and 6 Kolkar Maulers, then return to Warug in the Magram Village in Desolace.
+  kill 4632 x12 quest 1386.1 @69.35,46.87 map 1443
+  kill 4633 x12 quest 1386.2 @68.62,45.66 map 1443
+  kill 4632 x12 quest 1386.1
+  kill 4633 x12 quest 1386.2
+  kill 4634 x6 quest 1386.3 @72.26,44.71 map 1443
+step
+  tip Bring 15 Centaur Ears to Corporal Melkins at Nijel's Point in Desolace.
+  collect 6067 x15 quest 1387.1 @69.35,46.87 map 1443 -- Drops from: Kolkar Centaur, Kolkar Scout, Kolkar Mauler
+step
+  turnin 1387
+step
+  turnin 1440
+step
+  when turnedin 1453
+  turnin 1459
+step
+  interact 177787
+  accept 6161
+step
+  tip Find Rackmore's Silver Key. Find Rackmore's Golden Key. Find and open Rackmore's Chest.
+  collect 15881 quest 6161.2 @36.25,23.14 map 1443 -- Drops from: Slitherblade Naga, Slitherblade Sorceress, Slitherblade Warrior
+  collect 15878 quest 6161.1 @24.7,78.72 map 1443 -- Drops from: Drysnap Crawler, Drysnap Pincer
+  collect 15881 quest 6161.2 -- Drops from: Drysnap Crawler, Drysnap Pincer
+step
+  tip Gain a Friendly reputation with the Gelkis, then speak with Uthek the Wise.
+  turnin 1382
+step
+  accept 1384
+step
+  turnin 1386
+step
+  accept 1369
+step
+  when turnedin 1371
+  accept 1375
+step
+  tip Maintain your reputation with the Gelkis, and bring 10 Crude Charms to Uthek the Wise in the Gelkis Village in Desolace.
+  collect 6079 x10 quest 1384.1 @69.35,46.87 map 1443 -- Drops from: Kolkar Centaur, Kolkar Scout, Kolkar Mauler
+step
+  turnin 1384
+step
+  accept 1370
+step
+  tip Maintain your reputation with the Magram, and bring 3 Broken Tears to Warug in the Magram Village.
+  collect 6083 x3 quest 1369.1 @39.65,93.3 map 1443 -- Drops from: Tear of Theradras
+step
+  when turnedin 1371
+  tip Maintain your reputation with the Magram, and bring the Head of Khan Shaka to Warug in the Magram Village in Desolace.
+  collect 6073 quest 1375.1 @40.49,95.49 map 1443 -- Drops from: Khan Shaka
+step
+  tip Bring 6 bags of Crudely Dried Meat to Uthek the Wise in the Gelkis Village.
+  collect 6069 x6 quest 1370.1 @72.43,78.51 map 1443 -- Drops from: Sack of Meat
+step
+  turnin 1369
+step
+  when turnedin 1371
+  turnin 1375
+step
+  accept 5943
+step
+  tip Escort the Gizelton Caravan through Mannoroc Coven. Talk with Smeed at Scrabblescrew's Camp for your reward.
+  goto 55.69,67.79 "Escort Gizelton Caravan past Mannoroc Coven" map 1443
+step
+  turnin 1370
+step
+  accept 93034
+step
+  turnin 5943
+step
+  accept 6027
+step
+  turnin 6161
+step
+  tip Get the Book of the Ancients and return it to Azore Aldamort at the tower in Ethel Rethor.
+  collect 15803 quest 6027.1 @28.24,6.67 map 1443 -- Drops from: Lord Kragaru
+step
+  turnin 6027
+step
+  when level>=33
+  accept 5501
+step
+  when level>=34
+  accept 261
+step
+  when turnedin 1453
+  accept 1454
+step
+  when turnedin 1453
+  tip Find Karnitol's Chest in Desolace.
+  turnin 1454
+step
+  when turnedin 1453
+  interact 35251
+  accept 1455
+step
+  when turnedin 1453
+  tip Return to Kreldig Ungor in Desolace.
+  turnin 1455
+step
+  when turnedin 1453
+  accept 1456
+step
+  when turnedin 1453
+  accept 1466
+step
+  accept 93224
+step
+  when level>=34
+  accept 6134
+step
+  when onquest 5501
+  tip Bring 10 Kodo Bones from the Kodo Graveyard to Bibbly F'utzbuckle at Kormek's Hut.
+  collect 13703 x10 quest 5501.1 @53.26,61.24 map 1443 -- Drops from: Kodo Bones
+step
+  when turnedin 1453
+  tip Bring 10 Felhound Brains, 10 Nether Wings, and 10 vials of Doomwarder Blood to Kreldig Ungor in Desolace.
+  collect 6250 x10 quest 1466.1 @52.91,68.14 map 1443 -- Drops from: Mana Eater, Mage Hunter, Ley Hunter
+  collect 6251 x10 quest 1466.2 @49.97,73.2 map 1443 -- Drops from: Nether Maiden, Nether Sister, Nether Sorceress
+  collect 6250 x10 quest 1466.1 -- Drops from: Doomwarder Captain, Lord Azrethoc, Kaskk
+  collect 6251 x10 quest 1466.2 @51.79,83.52 map 1443 -- Drops from: Doomwarder Captain, Lord Azrethoc, Kaskk
+  collect 6252 x10 quest 1466.3 @51.79,83.52 map 1443 -- Drops from: Doomwarder Captain, Lord Azrethoc, Kaskk
+step
+  when onquest 261
+  tip Destroy 30 Undead Ravagers, then return to Brother Anton at Nijel's Point.
+  kill 11561 x30 quest 261.1 @64.24,90.37 map 1443
+step
+  when onquest 6134
+  tip Bring 8 Ghost-o-plasms and the Crate of Ghost Magnets to Hornizz Brimbuzzle in Desolace.
+  collect 15849 x8 quest 6134.1 @64.18,91.63 map 1443 -- Drops from: Magrami Spectre
+step
+  accept 92841
+step
+  when onquest 5501
+  turnin 5501
+step
+  when onquest 6134
+  turnin 6134
+step
+  when level>=34
+  accept 6132
+step
+  when onquest 6132
+  tip Escort Melizza Brimbuzzle, then speak with Hornizz Brimbuzzle at the Kodo Graveyard in Desolace.
+  goto 40.15,61.58 "Melizza Brimbuzzle escorted to safety" map 1443
+step
+  tip Acquire 5 Carved Centaur Totems by slaying centaur of any clan throughout Desolace, then return them to Captain Pentigast at Nijel's Point.
+  collect 254432 x5 quest 93224.1 @30.67,61.13 map 1443 -- Drops from: Maraudine Scout, Maraudine Wrangler, Maraudine Mauler
+step
+  when onquest 6132
+  turnin 6132
+step
+  when turnedin 1453
+  tip Find Karnitol's Satchel and return it to Kreldig Ungor in Desolace.
+  collect 6245 quest 1456.1 @28.58,11.06 map 1443 -- Drops from: Slitherblade Tidehunter, Slitherblade Sea Witch
+step
+  when onquest 261
+  turnin 261
+step
+  when turnedin 1453
+  turnin 1456
+step
+  when turnedin 1453
+  turnin 1466
+step
+  turnin 93224
+step
+  when turnedin 1453
+  accept 1457
+step
+  when turnedin 1453
+  accept 1467
+step
+  when turnedin 1371
+  when level>=42
+  accept 1381
+step
+  when turnedin 1371
+  when onquest 1381
+  tip Maintain your Magram reputation, and bring the Maraudine Key Fragment to Warug in the Magram Village in Desolace.
+  collect 6077 quest 1381.1 @29.55,52 map 1443 optional -- Khan Hratha is elite: grouping up is advised.
+step
+  when turnedin 1371
+  when onquest 1381
+  turnin 1381
+step
+  zone map 2652
+  tip Improve your reputation with the Gelkis, and locate Nerlokh near the Valley of Bones far east of Gelkis Village.
+  turnin 93034 -- Turn in at Shen'dralas
+step
+  accept 93035
+step
+  accept 93128
+step
+  tip Improve your reputation with the Magram, and locate Orgrul near the Valley of Bones south of Magram Village.
+  turnin 92841 -- Turn in at Shen'dralas
+step
+  zone map 1443
+  tip Maintain your reputation with the Gelkis Clan and slay 6 Undead Ravagers, then return to Nerlokh at the southern entrance to Valley of Bones.
+  note "Maintain your reputation with the Gelkis Clan and slay 6 Undead Ravagers, then return to Nerlokh at the southern entrance to Valley of Bones."
+step
+  tip Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. Once you have succeeded, report to Uthek the Wise in Gelkis Village in Desolace.
+  note "Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. Once you have succeeded, report to Uthek the Wise in Gelkis Village in Desolace."
+step
+  turnin 93128
+step
+  zone map 2652
+  turnin 93035 -- Turn in at Shen'dralas
+step
+  zone map 1424
+  tip Zone complete! Travel to Hillsbrad Foothills.
+  goto 48.14,59.11 map 1424

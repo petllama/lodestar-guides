@@ -1,0 +1,401 @@
+guide lodestar/horde/stranglethorn-vale-34-41
+title "Stranglethorn Vale (34-41)"
+levels 34-41
+zone map 1434
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/arathi-highlands-34-40
+step
+  level 33
+step
+  accept 583
+step
+  tip Speak with Hemet Nesingwary
+  turnin 583
+step
+  accept 185
+step
+  accept 190
+step
+  accept 194
+step
+  tip Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Young Stranglethorn Tigers.
+  kill 681 x10 quest 185.1 @35.65,12.14 map 1434
+step
+  turnin 185
+step
+  accept 186
+step
+  tip Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Stranglethorn Tigers.
+  kill 682 x10 quest 186.1 @37.4,12.8 map 1434
+step
+  turnin 186
+step
+  accept 187
+step
+  tip Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Young Panthers.
+  kill 683 x10 quest 190.1 @41.35,12.82 map 1434
+step
+  kill 587 @34.04,16.78 map 1434 -- Loot the quest item here — it starts the quest.
+  accept 635 @34.04,16.78 map 1434
+step
+  tip Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Elder Stranglethorn Tigers.
+  kill 1085 x10 quest 187.1 @33.53,18.31 map 1434
+step
+  tip Hemet Nesingwary wants you to kill 10 Stranglethorn Raptors.
+  kill 685 x10 quest 194.1 @25.72,15.81 map 1434
+step
+  turnin 187
+step
+  turnin 190
+step
+  turnin 194
+step
+  accept 191
+step
+  accept 195
+step
+  tip Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Panthers.
+  kill 736 x10 quest 191.1 @30.4,12.4 map 1434
+step
+  turnin 191
+step
+  accept 188
+step
+  getfp "Grom'gol, Stranglethorn"
+step
+  accept 581
+step
+  when level>=33
+  accept 568
+step
+  accept 596
+step
+  accept 629
+step
+  accept 638
+step
+  tip Hemet Nesingwary wants you to kill 10 Lashtail Raptors.
+  kill 686 x10 quest 195.1 @33.4,24.55 map 1434
+step
+  when onquest 568
+  tip Commander Aggro'gosh of the Grom'gol base camp wants you to kill 15 Lashtail Raptors.
+  kill 686 x15 quest 568.1 @33.4,24.55 map 1434
+step
+  when onquest 568
+  turnin 568
+step
+  when turnedin 568
+  when level>=33
+  accept 569
+step
+  tip Bring a Tablet Shard to Kin'weelay at the Grom'gol Base Camp.
+  collect 4094 quest 629.1 @24.82,23.03 map 1434 -- Drops from: Gri'lek the Wanderer
+step
+  turnin 629
+step
+  when onquest 569
+  tip Commander Aggro'gosh of the Grom'gol base camp wants you to kill 10 Ogre Brutes and 5 Ogre Witch Doctors.
+  kill 1144 x5 quest 569.2 @37.07,31.06 map 1434
+  kill 1142 x10 quest 569.1 @37.49,30.89 map 1434
+  kill 1144 x5 quest 569.2 @37.49,30.89 map 1434
+step
+  when onquest 569
+  turnin 569
+step
+  tip Ajeck Rouack of Nesingwary's Expedition wants you to kill Sin'Dall and return with her paw.
+  collect 3879 quest 188.1 @32.21,17.39 map 1434 -- Drops from: Sin'Dall
+step
+  tip Bring 9 Bloodscalp Tusks to Nimboya at the Grom'gol Base Camp.
+  collect 3901 x9 quest 581.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Bring 25 Bloody Bone Necklaces to Kin'weelay at the Grom'gol Base Camp.
+  collect 3915 x25 quest 596.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  turnin 188
+step
+  turnin 195
+step
+  accept 192
+step
+  turnin 581
+step
+  turnin 596
+step
+  accept 582
+step
+  accept 570
+step
+  tip Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Shadowmaw Panthers.
+  kill 684 x10 quest 192.1 @41.3,34.76 map 1434
+step
+  tip Far Seer Mok'thardin at the Grom'gol base camp wants 8 Shadowmaw Claws and a Pristine Tigress Fang.
+  collect 3838 x8 quest 570.1 @41.3,34.76 map 1434 -- Drops from: Shadowmaw Panther, Elder Shadowmaw Panther
+  collect 3839 quest 570.2 @41.3,34.76 map 1434 -- Drops from: Shadowmaw Panther, Elder Shadowmaw Panther
+step
+  turnin 192
+step
+  tip Bring 20 Shrunken Heads to Nimboya at the Grom'gol Base Camp.
+  collect 1532 x20 quest 582.1 @22.94,10.16 map 1434 -- Drops from: Bloodscalp Headhunter
+step
+  accept 575
+step
+  accept 201
+step
+  accept 189
+step
+  accept 605
+step
+  when turnedin 2842
+  accept 2843
+step
+  accept 213
+step
+  when turnedin 1115
+  accept 1116
+step
+  when turnedin 1180
+  accept 1181
+step
+  when turnedin 2842
+  tip Wait for Scooty to calibrate the Goblin Transponder.
+  talk 7853
+step
+  when turnedin 1180
+  tip Speak with Baron Revilgaz in Booty Bay.
+  turnin 1181
+step
+  when turnedin 2842
+  turnin 2843
+step
+  when turnedin 1180
+  accept 1182
+step
+  turnin 570
+step
+  turnin 582
+step
+  tip Acquire 15 Bloodscalp Ears and return them to Kebok in Booty Bay.
+  collect 1519 x15 quest 189.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Find the hunters' camp and report its location to Krazek in Booty Bay.
+  goto 35.65,10.59 "Locate the hunters' camp" map 1434
+step
+  tip Bring 2 Large River Crocolisk Skins to Drizzlik in Booty Bay.
+  collect 4053 x2 quest 575.1 @36.85,10.51 map 1434 -- Drops from: River Crocolisk
+step
+  tip Bring 10 Singing Crystal Shards to Crank Fizzlebub.
+  collect 3918 x10 quest 605.1 @34.68,6.74 map 1434 -- Drops from: Stone Maw Basilisk, Crystal Spine Basilisk, Cold Eye Basilisk
+step
+  tip Retrieve 8 Tumbled Crystals and return them to Kebok in Booty Bay.
+  collect 4106 x8 quest 213.1 @44.23,20.09 map 1434 -- Drops from: Venture Co. Geologist
+step
+  when turnedin 1180
+  tip Bring the Fuel Regulator Blueprints to Baron Revilgaz in Booty Bay.
+  collect 5852 quest 1182.1 @43.33,20.33 map 1434 -- Drops from: Cozzle's Footlocker
+step
+  turnin 189
+step
+  turnin 201
+step
+  turnin 213
+step
+  turnin 575
+step
+  turnin 605
+step
+  when turnedin 1180
+  turnin 1182
+step
+  accept 577
+step
+  when level>=40
+  accept 193
+step
+  accept 338
+step
+  tip Collect the missing pages from The Green Hills of Stranglethorn manuscript. Once all four chapters are complete, return them to Barnil.
+  collect 2756 quest 338.1
+  collect 2757 quest 338.2
+  collect 2758 quest 338.3
+  collect 2759 quest 338.4
+step
+  accept 339
+step
+  accept 340
+step
+  accept 341
+step
+  accept 342
+step
+  turnin 338
+step
+  tip Bring 5 Snapjaw Crocolisks Skins to Drizzlik in Booty Bay.
+  collect 4104 x5 quest 577.1 @40.74,22.18 map 1434 -- Drops from: Snapjaw Crocolisk
+step
+  when onquest 193
+  tip Sir S. J. Erlgadin of Nesingwary's Expedition wants you to bring him the Fang of Bhag'thera.
+  collect 3876 quest 193.1 @49.4,24 map 1434 optional -- Bhag'thera is elite: grouping up is advised.
+step
+  tip Bring pages 1, 4, 6, and 8 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter I.
+  collect 2725 quest 339.1 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2728 quest 339.2 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2730 quest 339.3 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2732 quest 339.4 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Bring pages 10, 11, 14 and 16 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter II.
+  collect 2734 quest 340.1 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2735 quest 340.2 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2738 quest 340.3 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2740 quest 340.4 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Bring pages 18, 20, 21and 24 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter III.
+  collect 2742 quest 341.1 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2744 quest 341.2 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2745 quest 341.3 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2748 quest 341.4 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  tip Bring pages 25, 26, and 27 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter IV.
+  collect 2749 quest 342.1 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2750 quest 342.2 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 2751 quest 342.3 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+step
+  when onquest 193
+  turnin 193
+step
+  turnin 339
+step
+  turnin 340
+step
+  turnin 341
+step
+  turnin 342
+step
+  turnin 577
+step
+  when level>=38
+  accept 628
+step
+  when level>=37
+  accept 595
+step
+  accept 600
+step
+  accept 606
+step
+  when onquest 595
+  tip First Mate Crazz wants you to check the cove north of Booty Bay.
+  turnin 595
+step
+  when turnedin 595
+  when level>=37
+  interact 2083
+  accept 597
+step
+  tip Bring 5 Mistvale Giblets to "Shaky" Phillipe in Booty Bay.
+  collect 3919 x5 quest 606.1 @33.48,65.45 map 1434 -- Drops from: Elder Mistvale Gorilla
+step
+  tip Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.
+  collect 3917 x10 quest 600.1 @41.55,43.48 map 1434 -- Drops from: Venture Co. Strip Miner, Venture Co. Surveyor, Venture Co. Tinkerer
+step
+  accept 572
+step
+  accept 584
+step
+  when onquest 628
+  tip Bring an Elder Crocolisk Skin to Drizzlik in Booty Bay.
+  collect 4105 quest 628.1 @29.83,25.48 map 1434 optional -- Elder Saltwater Crocolisk is elite: grouping up is advised.
+step
+  tip Bring 10 Jungle Stalker Feathers to Far Seer Mok'thardin at the Grom'gol base camp.
+  collect 3863 x10 quest 572.1 @28.91,44.16 map 1434 -- Drops from: Jungle Stalker
+step
+  turnin 572
+step
+  accept 571
+step
+  tip Bring Gan'zulah's Head and Nezzliok's Head to the bubbling cauldron at the Grom'gol Base Camp.
+  collect 3905 quest 584.2 @23.52,9.53 map 1434 -- Drops from: Nezzliok the Dire
+  collect 3904 quest 584.1 @23.44,8.12 map 1434 -- Drops from: Gan'zulah
+  collect 3905 quest 584.2 -- Drops from: Gan'zulah
+step
+  accept 196
+step
+  turnin 584
+step
+  interact 2076
+  accept 585
+step
+  tip Bring a Balia'mah Trophy, a Ziata'jai Trophy and a Zul'Mamwe Trophy to the Bubbling Cauldron at the Grom'gol Base Camp.
+  collect 3907 quest 585.2 @42.21,36.11 map 1434 -- Drops from: Ziata'jai Trophy Skulls
+  collect 3906 quest 585.1 @46.13,32.33 map 1434 -- Drops from: Balia'mah Trophy Skulls
+  collect 3906 quest 585.1 -- Drops from: Zul'Mamwe Trophy Skulls
+  collect 3907 quest 585.2 -- Drops from: Zul'Mamwe Trophy Skulls
+  collect 3908 quest 585.3 @47.65,39.54 map 1434 -- Drops from: Zul'Mamwe Trophy Skulls
+step
+  turnin 585
+step
+  tip Bring an Aged Gorilla Sinew to Far Seer Mok'thardin in Grom'gol.
+  collect 3862 quest 571.1 @33.48,65.45 map 1434 -- Drops from: Elder Mistvale Gorilla
+step
+  when onquest 597
+  tip Report your findings to First Mate Crazz in Booty Bay.
+  turnin 597
+step
+  turnin 600
+step
+  turnin 606
+step
+  when onquest 628
+  turnin 628
+step
+  when turnedin 597
+  when level>=37
+  accept 587
+step
+  when turnedin 597
+  when level>=37
+  accept 599
+step
+  accept 607
+step
+  when onquest 599
+  tip Report the planned Bloodsail attack to Fleet Master Seahorn.
+  turnin 599
+step
+  tip Bring Shaky's Payment to "Sea Wolf" MacKinley.
+  turnin 607
+step
+  when onquest 587
+  tip Deeg in Booty Bay wants you to bring him 15 shares of Snuff.
+  collect 3910 x15 quest 587.1 @32.34,71.67 map 1434 -- Drops from: Bloodsail Raider, Bloodsail Mage, "Pretty Boy" Duncan
+step
+  when onquest 587
+  turnin 587
+step
+  tip Hemet Nesingwary wants you to kill 10 Jungle Stalkers.
+  kill 687 x10 quest 196.1 @28.91,44.16 map 1434
+step
+  turnin 571
+step
+  turnin 196
+step
+  zone map 1435
+  when turnedin 1115
+  tip Bring 10 Specks of Dream Dust to Krazek in Booty Bay. Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.
+  collect 5803 x10 quest 1116.1 @14.31,61.27 map 1435 -- Drops from: Adolescent Whelp, Dreaming Whelp, Green Wyrmkin
+step
+  zone map 1434
+  when turnedin 1115
+  turnin 1116
+step
+  zone map 1417
+  tip Find the crystal from your vision.
+  turnin 635 -- Turn in at Arathi Highlands
+step
+  tip Travel to Hammerfall in the Arathi Highlands and speak with Zengu.
+  turnin 638 -- Turn in at Arathi Highlands
+step
+  tip Zone complete! Travel to Arathi Highlands.
+  goto 74.24,33.92 map 1417

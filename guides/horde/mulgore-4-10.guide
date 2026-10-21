@@ -1,0 +1,778 @@
+guide lodestar/horde/mulgore-4-10
+title "Mulgore (4-10)"
+levels 4-10
+zone map 1412
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/the-barrens-12-20
+step
+  accept 747
+step
+  accept 752
+step
+  when onquest 752
+  tip Chief Hawkwind wants you to search for his mother near the water well to the southeast of Camp Narache.
+  turnin 752
+step
+  accept 753
+step
+  when onquest 747
+  tip Grull Hawkwind in Camp Narache wants you to bring him 7 Plainstrider Feathers and 7 pieces of Plainstrider Meat.
+  collect 4739 x7 quest 747.1 @47.2,81.46 map 1412 -- Drops from: Plainstrider
+  collect 4740 x7 quest 747.2 @47.2,81.46 map 1412 -- Drops from: Plainstrider
+step
+  when onquest 753
+  tip Take a Water Pitcher from the water well.
+  collect 4755 quest 753.1 @49.04,81.09 map 1412
+step
+  when onquest 747
+  turnin 747
+step
+  when onquest 753
+  turnin 753
+step
+  when turnedin 747
+  accept 750
+step
+  when turnedin 753
+  accept 755
+step
+  only Warrior,Tauren
+  when turnedin 747
+  accept 3091
+step
+  only Hunter,Tauren
+  when turnedin 747
+  accept 3092
+step
+  only Shaman,Tauren
+  when turnedin 747
+  accept 3093
+step
+  only Druid,Tauren
+  when turnedin 747
+  accept 3094
+step
+  only Warrior,Tauren
+  when onquest 3091
+  tip Read the Simple Note and speak to Harutt Thunderhorn in Camp Narache.
+  turnin 3091
+step
+  only Hunter,Tauren
+  when onquest 3092
+  tip Read the Etched Note and speak to Lanka Farshot in Red Cloud Mesa.
+  turnin 3092
+step
+  only Shaman,Tauren
+  when onquest 3093
+  tip Read the Rune-Inscribed Note and speak to Meela Dawnstrider in Camp Narache.
+  turnin 3093
+step
+  only Druid,Tauren
+  when onquest 3094
+  tip Read the Verdant Note and speak to Gart Mistrunner in Camp Narache.
+  turnin 3094
+step
+  when onquest 755
+  tip Travel to Seer Graytongue who lives in the hills directly south of Camp Narache.
+  turnin 755
+step
+  when turnedin 755
+  accept 757
+step
+  when onquest 750
+  tip Grull Hawkwind in Camp Narache wants you to bring him 10 Mountain Cougar Pelts.
+  collect 4742 x10 quest 750.1 @47.51,88.11 map 1412 -- Drops from: Mountain Cougar
+step
+  accept 95805
+step
+  tip Carry the Smoldering Incense to the shrine of An'she and Mu'sha in the southeastern hills before the incense burns to ash in ten minutes!
+  turnin 95805
+step
+  accept 1656
+step
+  collect 3076 @59.8,82.2 map 1412 -- Loot the quest item here — it starts the quest.
+  accept 781 @59.8,82.2 map 1412
+step
+  when onquest 757
+  tip Kill Bristlebacks in Brambleblade Ravine and bring 12 Bristleback Belts to Chief Hawkwind in Camp Narache.
+  collect 4770 x12 quest 757.1 @58.41,78.91 map 1412 -- Drops from: Bristleback Quilboar, Bristleback Shaman
+step
+  when onquest 750
+  turnin 750
+step
+  when onquest 757
+  turnin 757
+step
+  tip Bring the Bristleback Attack Plans to Chief Hawkwind in Camp Narache.
+  turnin 781
+step
+  when turnedin 750
+  accept 780
+step
+  when turnedin 757
+  accept 763
+step
+  accept 3376
+step
+  only Shaman
+  when !turnedin 1516
+  when !turnedin 92466
+  when !onquest 1516
+  when !onquest 92466
+  accept 1519
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96656
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96656
+  accept 96659
+step
+  only Shaman
+  when turnedin 1517
+  accept 1518
+step
+  when onquest 780
+  tip Grull Hawkwind in Camp Narache wants you to kill Battleboars and bring back 8 Battleboar Snouts and 8 Battleboar Flanks.
+  collect 4848 x8 quest 780.1 @60.2,78.63 map 1412 -- Drops from: Bristleback Battleboar, Battleboar
+  collect 4849 x8 quest 780.2 @60.2,78.63 map 1412 -- Drops from: Bristleback Battleboar, Battleboar
+step
+  only Shaman
+  when !turnedin 1516
+  when !turnedin 92466
+  when !onquest 1516
+  when !onquest 92466
+  tip Bring 2 applications of Ritual Salve to Seer Ravenfeather in Camp Narache.
+  collect 6634 x2 quest 1519.1 @61.05,78.16 map 1412 -- Drops from: Bristleback Shaman
+step
+  tip Bring the head of Chief Sharptusk Thornmantle to Brave Windfeather in Red Cloud Mesa.
+  collect 10459 quest 3376.1 @61.02,78 map 1412 -- Drops from: Chief Sharptusk Thornmantle
+step
+  when onquest 780
+  turnin 780
+step
+  only Shaman
+  when !turnedin 1516
+  when !turnedin 92466
+  when !onquest 1516
+  when !onquest 92466
+  turnin 1519
+step
+  turnin 3376
+step
+  only Shaman
+  when !turnedin 92466
+  when !onquest 92466
+  accept 1520
+step
+  only Shaman
+  when !turnedin 92466
+  when !onquest 92466
+  tip Find Kodo Rock and drink the Earth Sapta.
+  turnin 1520
+step
+  only Shaman
+  when !turnedin 92466
+  when !onquest 92466
+  accept 1521
+step
+  only Shaman
+  when !turnedin 92466
+  when !onquest 92466
+  tip Bring the Rough Quartz to Seer Ravenfeather in Camp Narache.
+  turnin 1521
+step
+  when onquest 763
+  tip Take the Totem of Hawkwind to Baine Bloodhoof in Bloodhoof Village. Follow the road out of Camp Narache.
+  turnin 763
+step
+  tip Bring the Bundle of Furs to Innkeeper Kauth in Bloodhoof Village.
+  turnin 1656
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96630
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96656
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96630
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96656
+  tip Deliver the Supply Bundle to Kaga Wildhoof near Bloodhoof Village.
+  turnin 96659
+step
+  only Tauren
+  accept 748
+step
+  accept 761
+step
+  accept 767
+step
+  accept 96130
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  accept 96605
+step
+  accept 99108
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  tip Sit near Kaga's Basic Campfire by typing /sit in the chat window and wait until you receive the Boosted Rest buff.
+  interact 460003 quest 96605.1 @46.21,67.31 map 1412
+  interact 460003 quest 96605.2 @46.21,67.31 map 1412
+step
+  tip Defeat 3 other players in duels or Novice Warriors for Tang Stonehoof.
+  note "Defeat 3 other players in duels or Novice Warriors for Tang Stonehoof."
+step
+  tip Speak with Zarlman Two-Moons in Bloodhoof Village.
+  turnin 767
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96606
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96606
+  when !onquest 96607
+  when !onquest 96608
+  turnin 96605
+step
+  turnin 99108
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  accept 96661
+step
+  accept 771
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  tip Speak with Pyall Silentstride in Bloodhoof Village to learn to become a cook.
+  talk 3067
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96634
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96634
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  turnin 96661
+step
+  accept 743
+step
+  accept 745
+step
+  accept 746
+step
+  accept 766
+step
+  only Tauren
+  tip Bring 6 Prairie Wolf Paws and 4 Plainstrider Talons to Mull Thunderhorn in Bloodhoof.
+  collect 4758 x6 quest 748.1 @40.99,68.63 map 1412 -- Drops from: Prairie Wolf, Chakuyak, Prairie Stalker
+  collect 4758 x6 quest 748.1 @47.2,81.46 map 1412 -- Drops from: Plainstrider, Adult Plainstrider, Elder Plainstrider
+  collect 4759 x4 quest 748.2 @47.2,81.46 map 1412 -- Drops from: Plainstrider, Adult Plainstrider, Elder Plainstrider
+step
+  tip Bring 8 Trophy Swoop Quills to Harken Windtotem in Bloodhoof Village.
+  collect 4769 x8 quest 761.1 @41.23,68.49 map 1412 -- Drops from: Wiry Swoop, Swoop, Taloned Swoop
+step
+  tip Bring a Prairie Wolf Heart, Flatland Cougar Femur, Plainstrider Scale and Swoop Gizzard to Maur Raincaller at Bloodhoof Village.
+  collect 4807 quest 766.4 @41.23,68.49 map 1412 -- Drops from: Wiry Swoop, Swoop, Taloned Swoop
+  collect 4804 quest 766.1 @40.99,68.63 map 1412 -- Drops from: Prairie Wolf, Prairie Stalker, Chakuyak
+  collect 4806 quest 766.3 @40.37,60.65 map 1412 -- Drops from: Adult Plainstrider, Elder Plainstrider, Mazzranache
+  collect 4804 quest 766.1 @49.26,47.06 map 1412 -- Drops from: Flatland Cougar
+  collect 4805 quest 766.2 @49.26,47.06 map 1412 -- Drops from: Flatland Cougar
+  collect 4806 quest 766.3 @49.26,47.06 map 1412 -- Drops from: Flatland Cougar
+  collect 4807 quest 766.4 @49.26,47.06 map 1412 -- Drops from: Flatland Cougar
+step
+  tip Defeat Chakuyak and bring back her pelt.
+  collect 270302 quest 96130.1 @39.44,65.47 map 1412 -- Drops from: Chakuyak
+step
+  only Tauren
+  turnin 748
+step
+  turnin 761
+step
+  turnin 766
+step
+  turnin 96130
+step
+  only Tauren
+  accept 754
+step
+  accept 99079
+step
+  accept 99080
+step
+  accept 99082
+step
+  accept 99101
+step
+  accept 99411
+step
+  tip Ahab Wheathoof at Bloodhoof Village in Mulgore wants you to feed his prized puppy, Kyle the Frenzied.
+  talk 277154
+step
+  tip Bring Longwalker Malah's Report to Baine Bloodhoof.
+  turnin 99101
+step
+  turnin 99411
+step
+  tip Find Longwalker Malah Longwind east of Bloodhoof Village, near the edge of Mulgore.
+  turnin 99079
+step
+  accept 749
+step
+  accept 99081
+step
+  only Tauren
+  tip Use the Winterhoof Cleansing Totem at the Winterhoof Water Well, then return to Mull Thunderhorn.
+  goto 51.76,68.43 "Cleanse the Winterhoof Water Well" map 1412
+step
+  only Tauren
+  turnin 754
+step
+  tip Bring Longwalker Malah's Report to Brave Wildrunner in Bloodhoof Village.
+  turnin 99081
+step
+  only Tauren
+  accept 756
+step
+  tip Morin Cloudstalker wants you to examine the contents of a supply crate at the Ravaged Caravan.
+  turnin 749
+step
+  interact 2908
+  accept 751
+step
+  only Tauren
+  tip Bring 6 Stalker Claws and 6 Cougar Claws to Mull Thunderhorn.
+  collect 4801 x6 quest 756.1 @49.46,50.77 map 1412 -- Drops from: Prairie Stalker
+  collect 4801 x6 quest 756.1 @49.26,47.06 map 1412 -- Drops from: Flatland Cougar
+  collect 4802 x6 quest 756.2 @49.26,47.06 map 1412 -- Drops from: Flatland Cougar
+step
+  tip Collect 2 Well Stones and 2 Ambercorn and bring them back to Zarlman Two-Moons in Bloodhoof Village.
+  collect 4809 x2 quest 771.2 @48.15,60.07 map 1412
+  collect 4808 x2 quest 771.1 @44.4,51.29 map 1412
+  collect 4809 x2 quest 771.2 @44.4,51.29 map 1412
+step
+  only Tauren
+  turnin 756
+step
+  turnin 771
+step
+  accept 772
+step
+  only Tauren
+  accept 758
+step
+  accept 98435
+step
+  tip Return the Venture Co. Documents to Morin Cloudstalker near Bloodhoof Village.
+  turnin 751
+step
+  accept 764
+step
+  tip Bring 8 Windfury Talons to Ruul Eagletalon in Bloodhoof Village.
+  collect 4751 x8 quest 743.1 @59.55,72.03 map 1412 -- Drops from: Windfury Harpy, Windfury Wind Witch
+step
+  tip Kill 6 Galak Centaurs, 4 Galak Outrunners, and bring the head of Herak the Pillager to Baine Bloodhoof.
+  kill 2967 x6 quest 99080.1 @64.05,61.68 map 1412
+  kill 2968 x4 quest 99080.2 @64.05,61.68 map 1412
+  collect 286075 quest 99080.3 @64.05,61.68 map 1412
+step
+  kill 3051 @61.19,49.32 map 1412 -- Loot the quest item here — it starts the quest.
+  accept 98424 @61.19,49.32 map 1412
+step
+  tip Collect the rest of Supervisor Fizsprocket's pages inside The Venture Co. Mine and bring them to Morin Cloudstalker near Bloodhoof Village.
+  collect 281035 quest 98424.1
+  collect 281036 quest 98424.2
+  collect 281037 quest 98424.3
+step
+  tip Kill 14 Venture Co. Workers and 6 Venture Co. Supervisors for Morin Cloudstalker at Bloodhoof Village.
+  kill 2978 x14 quest 764.1 @59.02,47.26 map 1412
+  kill 2978 x14 quest 764.1 @58.93,46.2 map 1412
+  kill 2979 x6 quest 764.2 @58.93,46.2 map 1412
+step
+  only Tauren
+  tip Use the Thunderhorn Cleansing Totem at the Thunderhorn Water Well, then return to Mull.
+  goto 44.17,51.11 "Cleanse the Thunderhorn Water Well" map 1412
+step
+  turnin 764
+step
+  turnin 98424
+step
+  tip Kill 10 Palemane Tanners, 8 Palemane Skinners, and 5 Palemane Poachers, then return to Baine Bloodhoof in Bloodhoof Village.
+  kill 2949 x10 quest 745.1 @36.76,66.12 map 1412
+  kill 2950 x8 quest 745.2 @36.28,66.13 map 1412
+  kill 2949 x10 quest 745.1 @33.17,64.65 map 1412
+  kill 2950 x8 quest 745.2 @33.17,64.65 map 1412
+  kill 2951 x5 quest 745.3 @33.17,64.65 map 1412
+step
+  accept 98430
+step
+  tip Help Perith Stormhoof escape Palemane Rock, and report his safety to Cairne Bloodhoof in Thunder Bluff.
+  goto 37.19,64.62 "Escort Perith Stormhoof out of Palemane Rock" map 1412
+step
+  tip Collect 5 Prospector's Picks.
+  collect 4703 x5 quest 746.1 @33.1,54.8 map 1412 -- Drops from: Forge
+step
+  turnin 743
+step
+  turnin 745
+step
+  turnin 746
+step
+  only Tauren
+  turnin 758
+step
+  turnin 99080
+step
+  only Tauren
+  accept 759
+step
+  accept 833
+step
+  only Tauren
+  tip Bring 8 Prairie Alpha Teeth to Mull Thunderhorn in Bloodhoof Village.
+  collect 4803 x8 quest 759.1 @54.41,36.89 map 1412 -- Drops from: Prairie Wolf Alpha
+step
+  tip Lorekeeper Raintotem wants you to kill 8 Bristleback Interlopers at Red Rocks.
+  kill 3232 x8 quest 833.1 @57.96,30.92 map 1412
+step
+  turnin 833
+step
+  tip Consume the Water of the Seers in front of the tribal fire in Bloodhoof Village and follow the vision once it appears.
+  turnin 772
+step
+  accept 773
+step
+  only Tauren
+  turnin 759
+step
+  only Tauren
+  accept 760
+step
+  when !turnedin 844
+  when !onquest 844
+  accept 861
+step
+  only Warrior
+  when !turnedin 1819
+  when !onquest 1819
+  accept 1505 npc 3063
+step
+  only Shaman
+  when !turnedin 1522
+  when !turnedin 1523
+  when !turnedin 2983
+  when !onquest 1522
+  when !onquest 1523
+  when !onquest 2983
+  accept 2984
+step
+  only Priest,Troll
+  when !turnedin 5652
+  when !turnedin 5654
+  when !turnedin 5656
+  when !turnedin 5657
+  when !onquest 5652
+  when !onquest 5654
+  when !onquest 5656
+  when !onquest 5657
+  accept 5655
+step
+  only Druid,Tauren
+  when !turnedin 5926
+  when !turnedin 5927
+  when !onquest 5926
+  when !onquest 5927
+  accept 5928
+step
+  accept 765
+step
+  accept 98427
+step
+  tip Kill Supervisor Fizsprocket and return his clipboard to Morin Cloudstalker at Bloodhoof Village.
+  collect 4819 quest 765.1 @61.19,49.32 map 1412 -- Drops from: Supervisor Fizsprocket
+step
+  tip Bring the Clearcutter Key to Morin Cloudstalker outside Bloodhoof Village.
+  collect 281048 quest 98427.1 @56.76,43.07 map 1412 optional -- Venture Co. Clearclutter is elite: grouping up is advised.
+step
+  tip Travel to Red Rocks east of Thunder Bluff and speak with the Ancestral Spirit.
+  turnin 773
+step
+  accept 775
+step
+  when !turnedin 844
+  when !onquest 844
+  tip Bring 4 Flatland Prowler Claws to Melor Stonehoof in Thunder Bluff.
+  collect 5203 x4 quest 861.1 @48.56,28.22 map 1412 -- Drops from: Flatland Prowler
+step
+  only Tauren
+  tip Use the Wildmane Cleansing Totem at the Wildmane Water Well, then return to Mull Thunderhorn.
+  goto 42.7,24.98 "Cleanse the Wildmane Well" map 1412
+step
+  only Druid,Skyborne
+  accept 94911
+step
+  only Tauren
+  turnin 760
+step
+  turnin 765
+step
+  turnin 98427
+step
+  zone map 1411
+  only Shaman
+  when turnedin 1517
+  tip Bring the Rough Quartz to Canaga Earthcaller in the Valley of Trials.
+  turnin 1518 -- Turn in at Durotar
+step
+  zone map 1456
+  turnin 98430 -- Turn in at Thunder Bluff
+step
+  tip Seek audience with High Chieftain Cairne Bloodhoof in Thunder Bluff.
+  turnin 99082 -- Turn in at Thunder Bluff
+step
+  tip Speak with Cairne Bloodhoof in Thunder Bluff.
+  turnin 775 -- Turn in at Thunder Bluff
+step
+  accept 776
+step
+  accept 97485
+step
+  accept 744
+step
+  only Warrior,Shaman,Druid,Orc,Troll,Tauren
+  accept 76156
+step
+  only Orc,Troll,Tauren
+  accept 76160
+step
+  tip Purchase a Bundle of Herbs from Nida the herbalist, a Bundle of Ceder Twigs from Nata the enchanting supplier, and Sinew Thread from Mahu the leatherworking supplier and Ceremonial Flint and Tinder from Naal the cooking supplier.
+  collect 278078 quest 97485.1 @53.02,87.84 map 1456
+step
+  only Hunter,Tauren
+  when !turnedin 6066
+  when !turnedin 6067
+  when !onquest 6066
+  when !onquest 6067
+  accept 6065
+step
+  when !turnedin 844
+  when !onquest 844
+  turnin 861 -- Turn in at Thunder Bluff
+step
+  turnin 97485 -- Turn in at Thunder Bluff
+step
+  only Druid,Tauren
+  when !turnedin 5926
+  when !turnedin 5927
+  when !onquest 5926
+  when !onquest 5927
+  tip Speak with Turak Runetotem on the Elder Rise of Thunder Bluff.
+  turnin 5928 -- Turn in at Thunder Bluff
+step
+  only Druid,Skyborne
+  tip Speak with Turak Runetotem in Thunder Bluff.
+  turnin 94911 -- Turn in at Thunder Bluff
+step
+  only Druid,Tauren
+  when turnedin 5932
+  accept 6002
+step
+  only Druid,Tauren
+  when turnedin 5932
+  tip Use the Cenarion Lunardust on the Moonkin Stone between Mulgore and the Barrens to bring forth Lunaclaw. From there, you must face Lunaclaw and earn the strength of body and heart it possesses.
+  kill 12144 quest 6002.1 -- Use the quest item on them, don't just kill them.
+step
+  only Druid,Tauren
+  when turnedin 5932
+  turnin 6002 -- Turn in at Thunder Bluff
+step
+  only Druid,Skyborne
+  accept 94913
+step
+  only Druid,Tauren
+  accept 5922
+step
+  tip Bring Thunderhorn's Report to Arch Druid Hamuul Runetotem in Thunder Bluff.
+  turnin 98435 -- Turn in at Thunder Bluff
+step
+  zone map 1412
+  only Hunter,Tauren
+  when !turnedin 6066
+  when !turnedin 6067
+  when !onquest 6066
+  when !onquest 6067
+  tip Speak with Yaw Sharpmane in Bloodhoof Village.
+  turnin 6065
+step
+  only Hunter,Tauren
+  accept 6061
+step
+  only Hunter,Tauren
+  tip Use the Taming Rod to tame an Adult Plainstrider. Practice your skills, then return the Taming Rod to Yaw Sharpmane in Bloodhoof Village.
+  kill 2956 quest 6061.1 @40.37,60.65 map 1412 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Tauren
+  turnin 6061
+step
+  only Hunter,Tauren
+  accept 6087
+step
+  only Hunter,Tauren
+  tip Use the Taming Rod to tame a Prairie Stalker. Practice your skills, then return the Taming Rod to Yaw Sharpmane in Bloodhoof Village.
+  kill 2959 quest 6087.1 @49.46,50.77 map 1412 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Tauren
+  turnin 6087
+step
+  only Hunter,Tauren
+  accept 6088
+step
+  only Hunter,Tauren
+  tip Use the Taming Rod to tame a Swoop. Practice your skills, then return the Taming Rod to Yaw Sharpmane in Bloodhoof Village.
+  kill 2970 quest 6088.1 @48.6,50.19 map 1412 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,Tauren
+  turnin 6088
+step
+  only Hunter,Tauren
+  accept 6089
+step
+  only Warrior,Shaman,Druid,Orc,Troll,Tauren
+  tip Sneak into the Venture Company mine southeast of Thunder Bluff and collect 5 Seaforium Mining Charges from carts of blasting supplies, then return them to Boarton Shadetotem in Thunder Bluff.
+  note "Sneak into the Venture Company mine southeast of Thunder Bluff and collect 5 Seaforium Mining Charges from carts of blasting supplies, then return them to Boarton Shadetotem in Thunder Bluff."
+step
+  tip Cairne Bloodhoof in Thunder Bluff wants you to bring him the Horn of Arra'chea.
+  collect 4841 quest 776.1 @51.25,24.82 map 1412 -- Drops from: Arra'chea
+step
+  tip Collect 6 Azure Feathers and 6 Bronze Feathers, and bring them to Eyahn Eagletalon in Thunder Bluff.
+  collect 4753 x6 quest 744.2 @36.38,23.86 map 1412 -- Drops from: Windfury Matriarch
+  collect 4752 x6 quest 744.1 @36.23,24.57 map 1412 -- Drops from: Windfury Sorceress
+  collect 4753 x6 quest 744.2 @36.23,24.57 map 1412 -- Drops from: Windfury Sorceress
+step
+  only Orc,Troll,Tauren
+  tip Gather 8 Windfury Cones north of Thunder Bluff, use them with the Mortar and Pestle, then return to Boarton Shadetotem in Thunder Bluff with the result.
+  note "Gather 8 Windfury Cones north of Thunder Bluff, use them with the Mortar and Pestle, then return to Boarton Shadetotem in Thunder Bluff with the result."
+step
+  zone map 1456
+  only Warrior,Shaman,Druid,Orc,Troll,Tauren
+  turnin 76156 -- Turn in at Thunder Bluff
+step
+  only Orc,Troll,Tauren
+  turnin 76160 -- Turn in at Thunder Bluff
+step
+  turnin 744 -- Turn in at Thunder Bluff
+step
+  turnin 776 -- Turn in at Thunder Bluff
+step
+  only Hunter,Tauren
+  tip Speak with Holt Thunderhorn on Hunter Rise in Thunder Bluff.
+  turnin 6089 -- Turn in at Thunder Bluff
+step
+  zone map 1454
+  only Priest,Troll
+  when !turnedin 5652
+  when !turnedin 5654
+  when !turnedin 5656
+  when !turnedin 5657
+  when !onquest 5652
+  when !onquest 5654
+  when !onquest 5656
+  when !onquest 5657
+  tip Speak to Ur'kyo in Orgrimmar.
+  turnin 5655 -- Turn in at Orgrimmar
+step
+  zone map 1450
+  only Druid,Skyborne
+  tip Use the spell "Teleport: Moonglade" to travel to Moonglade. When you arrive, speak with Dendrite Starblaze in the village of Nighthaven.
+  turnin 94913 -- Turn in at Moonglade
+step
+  only Druid,Tauren
+  tip Use the spell "Teleport: Moonglade" to travel to Moonglade. When you arrive, speak with Dendrite Starblaze in the village of Nighthaven.
+  turnin 5922 -- Turn in at Moonglade
+step
+  zone map 1413
+  only Warrior
+  when !turnedin 1819
+  when !onquest 1819
+  tip Speak with Uzzek at Far Watch Post.
+  turnin 1505 -- Turn in at The Barrens
+step
+  only Shaman
+  when !turnedin 1522
+  when !turnedin 1523
+  when !turnedin 2983
+  when !onquest 1522
+  when !onquest 1523
+  when !onquest 2983
+  tip Find Kranal Fiss in the Barrens.
+  turnin 2984 -- Turn in at The Barrens
+step
+  tip Zone complete! Travel to The Barrens.
+  goto 51.44,30.15 map 1413

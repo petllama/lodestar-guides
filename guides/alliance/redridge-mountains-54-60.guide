@@ -1,0 +1,136 @@
+guide lodestar/alliance/redridge-mountains-54-60
+title "Redridge Mountains (54-60)"
+levels 54-60
+zone map 1433
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+step
+  level 51
+step
+  when onquest 4183
+  tip Travel to Lakeshire and deliver Helendis Riverhorn's Letter to Magistrate Solomon.
+  turnin 4183
+step
+  when turnedin 4183
+  accept 4184
+step
+  accept 95816 @10.64,71.24 map 1433
+step
+  tip Bring the completed form to Elaine Compton in Redridge Mountains.
+  collect 270897 quest 95816.1 @10.64,71.24 map 1433
+step
+  turnin 95816
+step
+  zone map 1453
+  when turnedin 4183
+  tip Travel to Stormwind and deliver Solomon's Plea to Highlord Bolvar Fordragon.
+  turnin 4184 -- Turn in at Stormwind City
+step
+  when level>=56
+  accept 6182
+step
+  when turnedin 4183
+  accept 4185
+step
+  when turnedin 4183
+  tip Speak with Highlord Bolvar Fordragon after speaking with Lady Katrana Prestor.
+  talk 1749
+step
+  when turnedin 4183
+  turnin 4185 -- Turn in at Stormwind City
+step
+  when turnedin 4183
+  accept 4186
+step
+  when onquest 6182
+  tip Speak with Mathias Shaw in Old Town Stormwind. He resides in the Barracks.
+  turnin 6182 -- Turn in at Stormwind City
+step
+  when turnedin 6182
+  when level>=56
+  accept 6183
+step
+  when onquest 6183
+  tip Speak with Mathias Shaw again if you wish to accept his task.
+  turnin 6183 -- Turn in at Stormwind City
+step
+  when turnedin 6183
+  when level>=56
+  accept 6184
+step
+  when turnedin 6402
+  accept 6403
+step
+  only Mage
+  accept 84396
+step
+  only Mage
+  turnin 84396 npc 5497 -- Turn in at Stormwind City
+step
+  when turnedin 6402
+  tip Follow Reginald Windsor through Stormwind. Protect him from harm!
+  turnin 6403 -- Turn in at Stormwind City
+step
+  zone map 1455
+  accept 7905
+step
+  zone map 1429
+  tip Deliver the Free Ticket Voucher to Gelvas Grimgate, located inside the Darkmoon Faire carnival.
+  turnin 7905 -- Turn in at Elwynn Forest
+step
+  zone map 1422
+  when onquest 6184
+  tip Travel to Chillwind Camp in the Western Plaguelands and meet up with your contact, Flint Shadowmore.
+  turnin 6184 -- Turn in at Western Plaguelands
+step
+  when turnedin 6184
+  when level>=56
+  accept 6185
+step
+  zone map 1433
+  when turnedin 4183
+  tip Take Bolvar's Decree to Magistrate Solomon in Lakeshire.
+  turnin 4186
+step
+  when turnedin 4183
+  accept 4223
+step
+  zone map 1423
+  when onquest 6185
+  tip Scour the Eastern Plaguelands for clues as to the "Blightcaller" and the missing SI:7 agents. If you find any SI:7 Insignias, return them to Flint Shadowmore at Chillwind Camp.
+  collect 16003 quest 6185.1 @24.28,68.11 map 1423 -- Drops from: Mangled Human Remains
+  collect 16002 quest 6185.3 @24.28,63.65 map 1423 -- Drops from: Mangled Human Remains
+  collect 16003 quest 6185.1 @22.79,63.72 map 1423 -- Drops from: Mangled Human Remains
+  collect 16001 quest 6185.2 @22.79,63.72 map 1423 -- Drops from: Mangled Human Remains
+  collect 16002 quest 6185.3 @22.79,63.72 map 1423 -- Drops from: Mangled Human Remains
+  kill 11878 quest 6185.4 @22.79,63.72 map 1423 optional -- Nathanos Blightcaller is elite: grouping up is advised.
+step
+  zone map 1422
+  when onquest 6185
+  turnin 6185 -- Turn in at Western Plaguelands
+step
+  when turnedin 6185
+  when level>=56
+  accept 6186
+step
+  zone map 1428
+  when turnedin 4183
+  tip Speak with Marshal Maxwell in the Burning Steppes.
+  turnin 4223 -- Turn in at Burning Steppes
+step
+  when turnedin 4183
+  accept 4224
+step
+  when turnedin 4183
+  tip Speak with Ragged John to learn of Marshal Windsor's fate and return to Marshal Maxwell when you have completed this task.
+  talk 9563
+step
+  when turnedin 4183
+  turnin 4224 -- Turn in at Burning Steppes
+step
+  zone map 1453
+  when onquest 6186
+  tip Return to Stormwind and inform Highlord Bolvar Fordragon of the fate of Nathanos Marris.
+  turnin 6186 -- Turn in at Stormwind City

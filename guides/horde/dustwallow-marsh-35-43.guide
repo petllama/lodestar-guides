@@ -1,0 +1,324 @@
+guide lodestar/horde/dustwallow-marsh-35-43
+title "Dustwallow Marsh (35-43)"
+levels 35-43
+zone map 1445
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/hillsbrad-foothills-32-40
+step
+  level 33
+step
+  getfp "Brackenwall Village, Dustwallow Marsh"
+step
+  accept 1201
+step
+  accept 1177
+step
+  tip Kill 9 Theramore Infiltrators, then return to Nazeer Bloodpike in Brackenwall Village.
+  kill 4834 x9 quest 1201.1 @38.95,26.4 map 1445
+step
+  turnin 1201
+step
+  accept 1202
+step
+  interact 20992
+  accept 1251
+step
+  interact 21015
+  accept 1268
+step
+  interact 21042
+  accept 1269
+step
+  accept 1218
+step
+  zone map 1456
+  tip Bring 3 Soothing Spices to "Swamp Eye" Jarl in Dustwallow Marsh.
+  talk 3027
+  buy 3713 x3 npc 3027
+step
+  zone map 1445
+  interact 20985
+  accept 1238
+step
+  turnin 1218
+step
+  accept 1206
+step
+  tip Mudcrush Durtfeet in northern Dustwallow wants 12 Mirefin Heads.
+  collect 5847 x12 quest 1177.1 @57.52,15.68 map 1445 -- Drops from: Mirefin Coastrunner, Mirefin Puddlejumper, Mirefin Muckdweller
+step
+  accept 1270
+step
+  tip Escort "Stinky" Ignatz, then speak with Mebok Mizzyrix in Ratchet.
+  goto 48.87,24.58 "Help Stinky find Bogbean Leaves" map 1445
+step
+  tip Bring 40 Unpopped Darkmist Eyes to "Swamp Eye" Jarl at the Swamplight Manor.
+  collect 5884 x40 quest 1206.1 @32.32,22.29 map 1445 -- Drops from: Darkmist Spider, Darkmist Lurker, Darkmist Recluse
+step
+  turnin 1177
+step
+  tip Bring the Spy's Report to Nazeer Bloodpike in Brackenwall Village.
+  turnin 1238
+step
+  tip Bring the Blackened Iron Shield to Krog in Brackenwall Village.
+  turnin 1251
+step
+  tip Report about the suspicious prints at the Shady Rest Inn to Krog in Brackenwall Village.
+  turnin 1268
+step
+  tip Bring Reethe's Badge to Krog in Brackenwall Village.
+  turnin 1269
+step
+  accept 1321
+step
+  when turnedin 1261
+  accept 1262
+step
+  tip Show the Blackened Iron Shield to Do'gol in Brackenwall Village.
+  turnin 1321
+step
+  accept 1322
+step
+  accept 1273
+step
+  tip Go with Ogron to speak with Reethe, then return to Krog in Brackenwall Village.
+  goto 42.47,38.07 "Question Reethe with Ogron" map 1445
+step
+  turnin 1206
+step
+  interact 20985
+  accept 1239
+step
+  tip Acquire 6 Acidic Venom Sacs for Do'gol in Brackenwall Village.
+  collect 5959 x6 quest 1322.1 @56.01,23.25 map 1445 -- Drops from: Darkfang Spider, Darkfang Venomspitter, Darkfang Creeper
+step
+  tip Bring the Captain's Documents to Nazeer Bloodpike in Brackenwall Village.
+  collect 5882 quest 1202.1 @71.53,51.19 map 1445 -- Drops from: Captain's Footlocker
+step
+  turnin 1202
+step
+  tip Bring the Defiant Orc Head to Nazeer Bloodpike in Brackenwall Village.
+  turnin 1239
+step
+  turnin 1273
+step
+  turnin 1322
+step
+  accept 1276
+step
+  accept 1323
+step
+  tip Talk with Krog in Brackenwall Village.
+  turnin 1323
+step
+  when level>=38
+  accept 1166
+step
+  when level>=38
+  accept 1168
+step
+  when level>=38
+  accept 1169
+step
+  when onquest 1166
+  tip Overlord Mok'Morokk in Brackenwall Village wants you to retrieve his grog, snuff and strongbox in Dustwallow Swamp.
+  collect 5835 quest 1166.2 @38.66,65.57 map 1445
+  collect 5836 quest 1166.3 @36.64,69.57 map 1445
+  collect 5834 quest 1166.1 @44.53,66.04 map 1445
+  collect 5835 quest 1166.2
+  collect 5836 quest 1166.3
+step
+  when onquest 1168
+  tip Tharg in Brackenwall Village wants you to kill 10 Firemane Scouts, 10 Firemane Ash Tails, and 5 Firemane Scalebanes.
+  kill 4331 x10 quest 1168.2 @42.6,66.6 map 1445
+  kill 4329 x10 quest 1168.1 @42.4,67.8 map 1445
+  kill 4329 x10 quest 1168.1
+  kill 4331 x10 quest 1168.2
+  kill 4328 x5 quest 1168.3 @53.32,72.97 map 1445
+step
+  when onquest 1169
+  tip Draz'Zilb in Brackenwall Village would like you to bring him 15 Searing Tongues and 15 Searing Hearts.
+  collect 5840 x15 quest 1169.1 @45.4,73 map 1445 -- Drops from: Searing Hatchling, Searing Whelp
+  collect 5841 x15 quest 1169.2 @45.4,73 map 1445 -- Drops from: Searing Hatchling, Searing Whelp
+step
+  only Warlock
+  when turnedin 1799
+  when turnedin 4962
+  when level>=40
+  accept 4961
+step
+  only Warlock
+  when turnedin 1799
+  when turnedin 4962
+  when onquest 4961
+  tip Kill the Demon of the Orb, then speak with Tabetha.
+  kill 6549 quest 4961.1 @45.79,56.97 map 1445 optional -- Demon of the Orb is elite: grouping up is advised.
+step
+  only Warlock
+  when turnedin 1799
+  when turnedin 4962
+  when onquest 4961
+  turnin 4961
+step
+  only Warlock
+  when turnedin 1799
+  when turnedin 4962
+  when turnedin 4961
+  when level>=35
+  accept 4976
+step
+  when onquest 1166
+  turnin 1166
+step
+  when onquest 1168
+  turnin 1168
+step
+  when onquest 1169
+  turnin 1169
+step
+  when turnedin 1169
+  when level>=38
+  accept 1170
+step
+  when onquest 1170
+  tip Speak with Overlord Mok'Morokk in Brackenwall Village.
+  turnin 1170
+step
+  when turnedin 1170
+  when level>=38
+  accept 1171
+step
+  when onquest 1171
+  tip Speak with Draz'Zilb in Brackenwall Village.
+  turnin 1171
+step
+  when turnedin 1171
+  when level>=38
+  accept 1172
+step
+  when onquest 1172
+  tip Draz'Zilb in Brackenwall Village wants you to destroy 5 Eggs of Onyxia.
+  interact 20359 quest 1172.1 @56.65,75.41 map 1445
+step
+  when onquest 1172
+  turnin 1172
+step
+  when turnedin 1172
+  when level>=38
+  accept 1173
+step
+  when onquest 1173
+  tip Defeat Mok'Morokk and report the news to Draz'Zilb in Brackenwall Village.
+  goto 36.41,31.43 "Drive Overlord Mok'Morokk from Brackenwall Village" map 1445
+step
+  when onquest 1173
+  turnin 1173
+step
+  zone map 1413
+  turnin 1270 -- Turn in at The Barrens
+step
+  only Warlock
+  when turnedin 1799
+  when turnedin 4962
+  when onquest 4976
+  tip Return the Cleansed Infernal Orb to Menara Voidrender in the Barrens.
+  turnin 4976 -- Turn in at The Barrens
+step
+  zone map 1456
+  tip Show the Blackened Iron Shield to Mosarn in Thunder Bluff.
+  turnin 1276 -- Turn in at Thunder Bluff
+step
+  when level>=35
+  accept 1205
+step
+  only Mage
+  accept 1947 npc 3048
+step
+  only Mage
+  when level>=35
+  accept 1953 npc 3048
+step
+  zone map 1445
+  only Mage
+  tip Speak with Tabetha.
+  turnin 1947
+step
+  only Mage
+  when onquest 1953
+  tip Speak with Tabetha.
+  turnin 1953
+step
+  only Mage
+  accept 1949
+step
+  only Mage
+  when level>=35
+  accept 1954
+step
+  when onquest 1205
+  tip Bring Deadmire's Tooth to Melor in Thunder Bluff.
+  collect 5945 quest 1205.1 @50.2,52.7 map 1445 -- Drops from: Deadmire
+step
+  zone map 1454
+  when turnedin 1261
+  tip Bring the Jeweled Pendant to Zor Lonetree in Orgrimmar.
+  turnin 1262 -- Turn in at Orgrimmar
+step
+  when level>=40
+  accept 2861 npc 5885
+step
+  zone map 1456
+  when onquest 1205
+  turnin 1205 -- Turn in at Thunder Bluff
+step
+  zone map 1445
+  when onquest 2861
+  tip Speak with Tabetha in Dustwallow Marsh.
+  turnin 2861
+step
+  zone map 1441
+  only Mage
+  tip Speak with Magus Tirth in the Shimmering Flats.
+  turnin 1949 -- Turn in at Thousand Needles
+step
+  only Mage
+  accept 1950
+step
+  only Mage
+  tip Find the phrase to Tirth's strongbox, then return to Tirth.
+  talk 6626
+step
+  only Mage
+  turnin 1950 -- Turn in at Thousand Needles
+step
+  zone map 1443
+  only Mage
+  when onquest 1954
+  tip Bring an Infernal Orb to Tabetha in Dustwallow Marsh.
+  collect 7291 quest 1954.1 @80.47,77.84 map 1443 -- Drops from: Burning Blade Summoner
+step
+  zone map 1445
+  only Mage
+  when onquest 1954
+  turnin 1954
+step
+  only Mage
+  when turnedin 1954
+  when level>=40
+  accept 1955
+step
+  only Mage
+  when onquest 1955
+  tip Kill the Demon of the Orb, then speak with Tabetha.
+  kill 6549 quest 1955.1 @45.79,56.97 map 1445 optional -- Demon of the Orb is elite: grouping up is advised.
+step
+  only Mage
+  when onquest 1955
+  turnin 1955
+step
+  zone map 1424
+  tip Zone complete! Travel to Hillsbrad Foothills.
+  goto 62.76,20.21 map 1424

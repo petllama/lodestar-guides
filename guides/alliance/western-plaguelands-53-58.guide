@@ -1,0 +1,404 @@
+guide lodestar/alliance/western-plaguelands-53-58
+title "Western Plaguelands (53-58)"
+levels 53-58
+zone map 1422
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/swamp-of-sorrows-55-57
+step
+  level 52
+step
+  zone map 1453
+  when !turnedin 5090
+  when !turnedin 5091
+  when !onquest 5090
+  when !onquest 5091
+  accept 5066
+step
+  only Paladin,Human,Dwarf
+  accept 8415 npc 928
+step
+  when onquest 6402
+  tip Travel to Stormwind City and venture to the city gates. Speak with Squire Rowe so that he may let Marshal Windsor know that you have arrived.
+  turnin 6402 -- Turn in at Stormwind City
+step
+  zone map 1422
+  accept 5021
+step
+  tip The ramblings of the ghostly woman indicated that she needed a package delivered. She claimed that it was where her horse was. As to where the horse is or where the package was to be delivered - the ghost remains incomprehensible.
+  turnin 5021
+step
+  interact 175894
+  accept 5022
+step
+  getfp "Chillwind Camp, Western Plaguelands"
+step
+  when !turnedin 5090
+  when !turnedin 5091
+  when !onquest 5090
+  when !onquest 5091
+  tip Seek out Commander Ashlam Valorfist. His base camp is located at Chillwind Camp, north of the Alterac Mountains.
+  turnin 5066
+step
+  only Paladin,Human,Dwarf
+  tip Speak to Commander Ashlam Valorfist at Chillwind Camp.
+  turnin 8415
+step
+  accept 5092
+step
+  only Paladin,Human,Dwarf
+  accept 8414
+step
+  accept 4984
+step
+  tip Destroy 8 Diseased Wolves, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.
+  kill 1817 x8 quest 4984.1 @46.52,44.91 map 1422
+step
+  tip Kill 10 Skeletal Flayers and 10 Slavering Ghouls in Sorrow Hill.
+  kill 1783 x10 quest 5092.1 @37.61,58.49 map 1422
+  kill 1783 x10 quest 5092.1 @49.93,76.67 map 1422
+  kill 1791 x10 quest 5092.2 @49.93,76.67 map 1422
+step
+  only Paladin,Human,Dwarf
+  tip Collect 20 Minion's Scourgestones and bring them to High Priest Thel'danis in the Western Plaguelands.
+  collect 12840 x20 quest 8414.1 @37.61,58.49 map 1422 -- Drops from: Skeletal Flayer, Skeletal Sorcerer, Slavering Ghoul
+step
+  turnin 4984
+step
+  only Paladin,Human,Dwarf
+  turnin 8414
+step
+  only Paladin,Human,Dwarf
+  accept 8416
+step
+  when !turnedin 5601
+  when !onquest 5601
+  accept 5142
+step
+  turnin 5092
+step
+  only Paladin,Human,Dwarf
+  tip Bring the Inert Scourgestone to Commander Ashlan Valorfist in Chillwind Point.
+  turnin 8416
+step
+  accept 5215
+step
+  when !turnedin 5405
+  when !turnedin 5503
+  when !onquest 5405
+  when !onquest 5503
+  accept 5401
+step
+  accept 5903
+step
+  tip Speak with High Priestess MacDonnell at Chillwind Point, Western Plaguelands.
+  turnin 5215
+step
+  when !turnedin 5405
+  when !turnedin 5503
+  when !onquest 5405
+  when !onquest 5503
+  turnin 5401
+step
+  accept 5216
+step
+  tip Go to Felstone Field in Western Plaguelands to locate and defeat the Cauldron Lord present there. It may have a key that will allow access to the cauldron. You must have the Empty Felstone Field Bottle with you to secure a sample of the poisons used inside the cauldron.
+  collect 13194 quest 5216.1 @36.93,57.41 map 1422 -- Drops from: Cauldron Lord Bilemaw
+step
+  turnin 5216
+step
+  interact 176361
+  accept 5217
+step
+  when level>=52
+  interact 175926
+  accept 5058
+step
+  when level>=52
+  interact 175924
+  accept 5060
+step
+  when onquest 5060
+  collect 12739 quest 5060.1 @48.23,49.67 map 1422 -- Drops from: Farmer Dalson
+step
+  when onquest 5058
+  turnin 5058
+step
+  when onquest 5060
+  turnin 5060
+step
+  accept 4985
+step
+  when level>=53
+  accept 4971
+step
+  tip Bring the Filled Felstone Field Bottle to High Priestess MacDonnell at Chillwind Camp, Western Plaguelands.
+  turnin 5217
+step
+  accept 5219
+step
+  accept 5097
+step
+  when onquest 4971
+  tip Use the Temporal Displacer near one of Andorhal's silos and uncover Temporal Parasites.
+  kill 10717 x10 quest 4971.1 @48.26,65.77 map 1422
+step
+  tip Go to Dalson's Tears in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron. You must have the Empty Dalson's Tears Bottle with you to secure a sample of the poisons used inside the cauldron.
+  collect 13195 quest 5219.1 @46.11,52.61 map 1422 -- Drops from: Cauldron Lord Malvinious
+step
+  turnin 5219
+step
+  interact 177289
+  accept 5220
+step
+  tip Destroy 8 Diseased Grizzlies, and then return to Mulgris Deepriver at the Writhing Haunt, Western Plaguelands.
+  kill 1816 x8 quest 4985.1 @59.01,51.61 map 1422
+step
+  turnin 4985
+step
+  accept 4986
+step
+  when onquest 4971
+  turnin 4971
+step
+  when turnedin 4971
+  when level>=53
+  accept 4972
+step
+  tip Using the Beacon Torch, mark each tower in Andorhal; you will need to stand in the doorway of the tower to successfully mark it.
+  kill 10902 quest 5097.1 @40.05,71.6 map 1422 -- Use the quest item on them, don't just kill them.
+  kill 10903 quest 5097.2 @42.33,66.24 map 1422 -- Use the quest item on them, don't just kill them.
+  kill 10904 quest 5097.3 @44.3,63.25 map 1422 -- Use the quest item on them, don't just kill them.
+  kill 10902 quest 5097.1 -- Use the quest item on them, don't just kill them.
+  kill 10903 quest 5097.2 -- Use the quest item on them, don't just kill them.
+  kill 10904 quest 5097.3 -- Use the quest item on them, don't just kill them.
+  kill 10905 quest 5097.4 @46.62,71.05 map 1422 -- Use the quest item on them, don't just kill them.
+step
+  when onquest 4972
+  tip Locate 5 Andorhal Watches, found in lockboxes amongst the rubble of the city. Return with them to Chromie in the Andorhal Inn, Western Plaguelands.
+  collect 12638 x5 quest 4972.1 @42.69,69.6 map 1422 -- Drops from: Small Lockbox
+step
+  when onquest 4972
+  turnin 4972
+step
+  turnin 5097
+step
+  tip Bring the Filled Dalson's Tears Bottle to High Priestess MacDonnell at Chillwind Camp, Western Plaguelands.
+  turnin 5220
+step
+  accept 5222
+step
+  when level>=55
+  accept 5533
+step
+  when onquest 5533
+  tip Speak with Alchemist Arbington at Chillwind Point, Western Plaguelands.
+  turnin 5533
+step
+  when turnedin 5533
+  when level>=55
+  accept 5537
+step
+  tip Go to the Writhing Haunt in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron. You must have the Empty Writhing Haunt Bottle with you to secure a sample of the poisons used inside the cauldron.
+  collect 13197 quest 5222.1 @52.88,66.08 map 1422 -- Drops from: Cauldron Lord Razarch
+step
+  turnin 5222
+step
+  interact 176393
+  accept 5223
+step
+  when onquest 5537
+  tip Bring 15 Skeletal Fragments to Alchemist Arbington at Chillwind Point, Western Plaguelands.
+  collect 14619 x15 quest 5537.1 @37.61,58.49 map 1422 -- Drops from: Skeletal Flayer, Skeletal Sorcerer, Skeletal Terror
+step
+  accept 5542 npc 12126
+step
+  accept 5543 npc 12126
+step
+  accept 5544 npc 12126
+step
+  accept 6004
+step
+  tip Kill 2 Scarlet Medics, 2 Scarlet Hunters, 2 Scarlet Magi and 2 Scarlet Knights before returning to Kirsta Deepshadow in Western Plaguelands.
+  kill 1833 x2 quest 6004.4 @53.18,36.97 map 1422
+  kill 1826 x2 quest 6004.3 @52.77,37.56 map 1422
+  kill 1831 x2 quest 6004.2 @47.33,51.38 map 1422
+  kill 10605 x2 quest 6004.1 @41.03,51.91 map 1422
+  kill 1831 x2 quest 6004.2 @41.03,51.91 map 1422
+  kill 1826 x2 quest 6004.3
+  kill 1833 x2 quest 6004.4
+step
+  turnin 6004
+step
+  accept 6023
+step
+  tip Kill Huntsman Radley and Cavalier Durgen before returning to Kirsta Deepshadow in Western Plaguelands.
+  kill 11611 quest 6023.2 @55.15,23.62 map 1422
+  kill 11613 quest 6023.1 @57.83,36.1 map 1422
+  kill 11611 quest 6023.2
+step
+  turnin 6023
+step
+  tip Bring the Filled Writhing Haunt Bottle to High Priestess MacDonnell at Chillwind Camp, Western Plaguelands.
+  turnin 5223
+step
+  when onquest 5537
+  turnin 5537
+step
+  accept 5225
+step
+  tip Go to Gahrron's Withering in Western Plaguelands to locate and defeat the Cauldron Lord present there, and use its key to gain access to the cauldron. You must have the Empty Gahrron's Withering Bottle with you to secure a sample of the poisons used inside the cauldron.
+  collect 13196 quest 5225.1 @62.18,59.06 map 1422 -- Drops from: Cauldron Lord Soulwrath
+step
+  turnin 5225
+step
+  interact 176392
+  accept 5226
+step
+  tip Bring the Filled Gahrron's Withering Bottle to High Priestess MacDonnell at Chillwind Camp, Western Plaguelands.
+  turnin 5226
+step
+  accept 5237
+step
+  turnin 5237
+step
+  accept 6025
+step
+  tip Enter Hearthglen and find a high vantage point from which you can see the town and gauge the Scarlet Crusade's forces, then return to Kirsta Deepshadow in Western Plaguelands.
+  goto 45.81,18.25 "Overlook Hearthglen from a high vantage point" map 1422
+step
+  turnin 6025
+step
+  when level>=60
+  accept 211
+step
+  when turnedin 5801
+  when level>=55
+  accept 5803
+step
+  when onquest 211
+  tip Bring Araj's Phylactery Shard to Commander Ashlam Valorfist at Chillwind Camp, Western Plaguelands.
+  kill 1852 optional -- Araj the Summoner is elite: grouping up is advised.
+  goto 45.27,69.21 map 1422
+step
+  when onquest 211
+  tip Bring Araj's Phylactery Shard to Commander Ashlam Valorfist at Chillwind Camp, Western Plaguelands.
+  collect 17114 quest 211.1 @45.27,69.21 map 1422 -- Drops from: Araj's Phylactery
+step
+  when turnedin 5801
+  when onquest 5803
+  tip Destroy Araj the Summoner and bring Araj's Scarab to Alchemist Arbington at Chillwind Point, Western Plaguelands.
+  collect 14610 quest 5803.1 @45.27,69.21 map 1422 -- Drops from: Araj's Phylactery
+step
+  when onquest 211
+  turnin 211
+step
+  when turnedin 5801
+  when onquest 5803
+  turnin 5803
+step
+  when turnedin 5801
+  when turnedin 5803
+  when level>=55
+  accept 5505
+step
+  when turnedin 5801
+  when onquest 5505
+  turnin 5505
+step
+  when turnedin 5162
+  when level>=57
+  accept 5164
+step
+  when turnedin 5162
+  when onquest 5164
+  tip Read from the Catalogue of the Wayward.
+  turnin 5164
+step
+  zone map 1423
+  when !turnedin 5601
+  when !onquest 5601
+  tip Find Pamela Redpath.
+  turnin 5142 -- Turn in at Eastern Plaguelands
+step
+  tip Slay 30 Plaguebats and return to Tirion Fordring.
+  kill 8600 x30 quest 5543.1 @28.22,64.82 map 1423
+step
+  tip Slay 20 Plaguehound Runts, 5 Plaguehounds and 5 Frenzied Plaguehounds. Return to Tirion Fordring when the task is complete.
+  kill 8596 x20 quest 5542.1 @20.15,61.44 map 1423
+  kill 8598 x5 quest 5542.3 @45.86,30.91 map 1423
+  kill 8596 x20 quest 5542.1 @59.53,53.87 map 1423
+  kill 8597 x20 quest 5542.2 @59.53,53.87 map 1423
+  kill 8598 x5 quest 5542.3 @59.53,53.87 map 1423
+step
+  tip Seek out the Carrion Grubs and Devourers of the region. Slay them and harvest their meat. Return to Tirion Fordring when you have gathered 15 Slabs of Carrion Worm Meat.
+  collect 13853 x15 quest 5544.1 @42.91,55.69 map 1423 -- Drops from: Carrion Grub, Carrion Devourer
+step
+  tip Use the Empty Termite Jar on the Termite Mounds in Eastern Plaguelands. After you've gathered 100 Plagueland Termites, return to Nathaniel Dumah at Chillwind Camp in Western Plaguelands.
+  collect 15043 x100 quest 5903.1 @28.82,23.2 map 1423 -- Drops from: Large Termite Mound
+step
+  turnin 5542 -- Turn in at Eastern Plaguelands
+step
+  turnin 5543 -- Turn in at Eastern Plaguelands
+step
+  turnin 5544 -- Turn in at Eastern Plaguelands
+step
+  zone map 1422
+  turnin 5903
+step
+  accept 5904
+step
+  tip Find someplace suitable in the center of the Northridge Lumber Mill in Western Plaguelands to place the Barrel of Plagueland Termites.
+  turnin 5904
+step
+  interact 177491
+  accept 6389
+step
+  tip Release the Plagueland Termites in the Northridge Lumber Mill, then return with the Barrel of Plagueland Termites to Nathaniel Dumah at Chillwind Camp in Western Plaguelands.
+  turnin 6389
+step
+  zone map 1453
+  tip Check with the Royal Factors of Stormwind to learn the whereabouts of an Emma Felstone. There is usually a census officer located in City Hall.
+  turnin 5022 -- Turn in at Stormwind City
+step
+  accept 5048
+step
+  tip Find Ol' Emma in Stormwind and see if she is in fact Emma Felstone. If she is, then perhaps she'd like the package Janice Felstone made for her.
+  turnin 5048 -- Turn in at Stormwind City
+step
+  accept 5050 npc 3520
+step
+  when level>=57
+  accept 4766
+step
+  zone map 1428
+  when onquest 4766
+  tip Speak with Mayara Brightwing in the Burning Steppes.
+  turnin 4766 -- Turn in at Burning Steppes
+step
+  when level>=55
+  accept 4866
+step
+  when onquest 4866
+  tip In the heart of Blackrock Spire you will find Mother Smolderweb. Engage her and get her to poison you. Chances are good that you will have to kill her as well. Return to Ragged John when you are poisoned so that he can 'milk' you.
+  talk 9563
+step
+  when onquest 4866
+  turnin 4866 -- Turn in at Burning Steppes
+step
+  zone map 1422
+  tip Return to Janice Felstone in Western Plaguelands her Good Luck Half-Charm.
+  turnin 5050
+step
+  accept 5051
+step
+  tip Locate the other half of the Good Luck Charm somewhere on the Felstone Farm in Western Plaguelands and reassemble it.
+  collect 12723 quest 5051.1 @38.4,54.05 map 1422
+step
+  turnin 5051
+step
+  zone map 1435
+  tip Zone complete! Travel to Swamp of Sorrows.
+  goto 22.16,50.23 map 1435

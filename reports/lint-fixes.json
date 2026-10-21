@@ -1,0 +1,3404 @@
+[
+ {
+  "file": "guides/alliance/alterac-mountains-34-40.guide",
+  "line": 159,
+  "kind": "elite",
+  "detail": "collect 6894 quest 1713.1 @80.32,62.14 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/alliance/alterac-mountains-34-40.guide",
+  "line": 178,
+  "kind": "elite",
+  "detail": "collect 3684 quest 543.1 @35.58,54.42 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/alliance/alterac-mountains-34-40.guide",
+  "line": 195,
+  "kind": "strip-at",
+  "detail": "collect 3672 quest 537.2 @62.34,40.58 map 1416"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 131,
+  "kind": "strip-at",
+  "detail": "collect 4484 quest 651.2 @25.46,30.11 map 1417 -- Drops from: Stone of West Binding"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 132,
+  "kind": "strip-at",
+  "detail": "collect 4485 quest 651.3 @25.46,30.11 map 1417 -- Drops from: Stone of West Binding"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 138,
+  "kind": "elite",
+  "detail": "collect 4506 x7 quest 682.1 @28.33,63.36 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 163,
+  "kind": "elite",
+  "detail": "collect 4515 quest 684.1 @29.47,64.14 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 167,
+  "kind": "elite",
+  "detail": "collect 4527 quest 694.1 @19.97,67.51 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 191,
+  "kind": "elite",
+  "detail": "collect 4516 quest 685.1 @26.22,65.55 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 192,
+  "kind": "elite",
+  "detail": "collect 4516 quest 685.1 @26.03,65.68 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 193,
+  "kind": "elite",
+  "detail": "collect 4517 quest 685.2 @26.03,65.68 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 238,
+  "kind": "strip-at",
+  "detail": "collect 4487 quest 662.1 @20.46,85.61 map 1417"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 239,
+  "kind": "strip-at",
+  "detail": "collect 4489 quest 662.2 @20.46,85.61 map 1417"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 247,
+  "kind": "strip-at",
+  "detail": "kill 2596 x3 quest 664.2 @22.57,86.91 map 1417"
+ },
+ {
+  "file": "guides/alliance/arathi-highlands-31-40.guide",
+  "line": 289,
+  "kind": "elite",
+  "detail": "collect 4469 quest 652.1 @63.9,30 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/alliance/ashenvale-20-28.guide",
+  "line": 127,
+  "kind": "strip-at",
+  "detail": "kill 3750 x10 quest 1025.3 @54.19,61.39 map 1440"
+ },
+ {
+  "file": "guides/alliance/ashenvale-20-28.guide",
+  "line": 198,
+  "kind": "strip-at",
+  "detail": "interact 19901 quest 1140.1 @81.6,48.57 map 1440"
+ },
+ {
+  "file": "guides/alliance/ashenvale-30-32.guide",
+  "line": 104,
+  "kind": "strip-at",
+  "detail": "kill 3940 quest 1012.1 @75.05,74.2 map 1440"
+ },
+ {
+  "file": "guides/alliance/ashenvale-30-32.guide",
+  "line": 105,
+  "kind": "strip-at",
+  "detail": "kill 3941 quest 1012.2 @75.05,74.2 map 1440"
+ },
+ {
+  "file": "guides/alliance/ashenvale-30-32.guide",
+  "line": 200,
+  "kind": "strip-at",
+  "detail": "collect 6989 x10 quest 4783.1 @51.45,75.61 map 1443 -- Drops from: Lesser Infernal, Demon Portal Guardian"
+ },
+ {
+  "file": "guides/alliance/azshara-52-58.guide",
+  "line": 180,
+  "kind": "elite",
+  "detail": "collect 10599 quest 3510.1 @56.73,44.79 map 1447 -- Elite"
+ },
+ {
+  "file": "guides/alliance/azshara-52-58.guide",
+  "line": 181,
+  "kind": "elite",
+  "detail": "collect 10598 quest 3510.2 @56.73,44.79 map 1447 -- Elite"
+ },
+ {
+  "file": "guides/alliance/azshara-52-58.guide",
+  "line": 182,
+  "kind": "elite",
+  "detail": "collect 10600 quest 3510.3 @56.73,44.79 map 1447 -- Elite"
+ },
+ {
+  "file": "guides/alliance/azshara-52-58.guide",
+  "line": 247,
+  "kind": "strip-at",
+  "detail": "kill 11744 x15 quest 6805.1 @22.6,14.2 map 1451"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 95,
+  "kind": "elite",
+  "detail": "collect 8009 x8 quest 2418.1 @48.2,11 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 96,
+  "kind": "elite",
+  "detail": "collect 8052 x8 quest 2418.2 @48.2,11 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 116,
+  "kind": "elite",
+  "detail": "collect 4635 quest 722.1 @38.99,19.73 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 125,
+  "kind": "elite",
+  "detail": "kill 4844 @48.2,11 map 1418 -- Loot the quest item here \u2014 it starts the quest."
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 146,
+  "kind": "strip-at",
+  "detail": "kill 2945 quest 739.1 @51.35,69.72 map 1418"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 206,
+  "kind": "elite",
+  "detail": "collect 4615 quest 717.1 @81.88,49.46 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 207,
+  "kind": "elite",
+  "detail": "collect 4615 quest 717.1 @82.03,49.93 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 208,
+  "kind": "elite",
+  "detail": "collect 4645 quest 717.2 @82.03,49.93 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 276,
+  "kind": "elite",
+  "detail": "collect 4621 quest 762.1 @42.1,28.88 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/alliance/badlands-37-43.guide",
+  "line": 348,
+  "kind": "elite",
+  "detail": "collect 4473 quest 656.1 @62.62,34.06 map 1417 -- Drops from: Myzrael"
+ },
+ {
+  "file": "guides/alliance/blasted-lands-50-55.guide",
+  "line": 41,
+  "kind": "strip-at",
+  "detail": "collect 8393 x2 quest 2583.2 @60.94,27.83 map 1419 -- Drops from: Redstone Basilisk, Redstone Crystalhide, Deatheye"
+ },
+ {
+  "file": "guides/alliance/blasted-lands-50-55.guide",
+  "line": 46,
+  "kind": "strip-at",
+  "detail": "collect 8394 x10 quest 2601.1 @57.6,28.4 map 1419 -- Drops from: Black Slayer, Bonepicker"
+ },
+ {
+  "file": "guides/alliance/blasted-lands-50-55.guide",
+  "line": 57,
+  "kind": "strip-at",
+  "detail": "collect 8391 x3 quest 2581.1 @58.22,30.36 map 1419 -- Drops from: Ashmane Boar, Helboar, Grunter"
+ },
+ {
+  "file": "guides/alliance/blasted-lands-50-55.guide",
+  "line": 59,
+  "kind": "strip-at",
+  "detail": "collect 8393 quest 2581.3 @58.22,30.36 map 1419 -- Drops from: Ashmane Boar, Helboar, Grunter"
+ },
+ {
+  "file": "guides/alliance/blasted-lands-50-55.guide",
+  "line": 65,
+  "kind": "strip-at",
+  "detail": "collect 8396 x2 quest 2585.2 @47.8,22.4 map 1419 -- Drops from: Scorpok Stinger, Clack the Reaver"
+ },
+ {
+  "file": "guides/alliance/blasted-lands-50-55.guide",
+  "line": 66,
+  "kind": "strip-at",
+  "detail": "collect 8392 quest 2585.3 @47.8,22.4 map 1419 -- Drops from: Scorpok Stinger, Clack the Reaver"
+ },
+ {
+  "file": "guides/alliance/blasted-lands-50-55.guide",
+  "line": 86,
+  "kind": "strip-at",
+  "detail": "collect 8244 quest 2521.1 @41.7,14.64 map 1419 -- Drops from: Dreadmaul Ogre, Dreadmaul Ogre Mage, Dreadmaul Brute"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 52,
+  "kind": "strip-at",
+  "detail": "collect 11080 quest 3824.1 @55.6,54 map 1428 -- Drops from: Grubbub, Gor'tesh"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 73,
+  "kind": "elite",
+  "detail": "kill 7044 quest 4182.3 @89.94,43.86 map 1428 -- Elite"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 74,
+  "kind": "elite",
+  "detail": "kill 7040 x10 quest 4182.2 @90.47,52.28 map 1428 -- Elite"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 75,
+  "kind": "strip-at",
+  "detail": "kill 7047 x15 quest 4182.1 @91.38,55.93 map 1428 -- Elite"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 76,
+  "kind": "elite",
+  "detail": "kill 7040 x10 quest 4182.2 @91.38,55.93 map 1428 -- Elite"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 77,
+  "kind": "strip-at",
+  "detail": "kill 7044 quest 4182.3 @91.38,55.93 map 1428 -- Elite"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 77,
+  "kind": "elite",
+  "detail": "kill 7044 quest 4182.3 -- Elite"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 78,
+  "kind": "elite",
+  "detail": "kill 7041 x4 quest 4182.4 @91.38,55.93 map 1428 -- Elite"
+ },
+ {
+  "file": "guides/alliance/burning-steppes-52-54.guide",
+  "line": 114,
+  "kind": "elite",
+  "detail": "kill 9026 quest 4262.1 @46.82,67.7 map 1415 -- Elite"
+ },
+ {
+  "file": "guides/alliance/darkshore-13-20.guide",
+  "line": 118,
+  "kind": "strip-at",
+  "detail": "interact 17188 quest 953.1 @42.65,63.14 map 1439"
+ },
+ {
+  "file": "guides/alliance/darkshore-13-20.guide",
+  "line": 235,
+  "kind": "strip-at",
+  "detail": "collect 12191 quest 982.1 @39.63,27.46 map 1439"
+ },
+ {
+  "file": "guides/alliance/darkshore-13-20.guide",
+  "line": 298,
+  "kind": "strip-at",
+  "detail": "collect 2449 x5 quest 6123.1 @43.8,50.23 map 1439 -- Drops from: Lunar Fungal Bloom"
+ },
+ {
+  "file": "guides/alliance/darkshore-13-20.guide",
+  "line": 439,
+  "kind": "strip-at",
+  "detail": "collect 7499 quest 2098.2 @36.12,50.61 map 1439 -- Drops from: Greymist Raider, Greymist Coastrunner, Greymist Seer"
+ },
+ {
+  "file": "guides/alliance/darkshore-13-20.guide",
+  "line": 440,
+  "kind": "strip-at",
+  "detail": "collect 7498 quest 2098.1 @51.73,22.54 map 1439 -- Drops from: Encrusted Tide Crawler, Raging Reef Crawler"
+ },
+ {
+  "file": "guides/alliance/darkshore-13-20.guide",
+  "line": 441,
+  "kind": "strip-at",
+  "detail": "collect 7499 quest 2098.2 @51.73,22.54 map 1439 -- Drops from: Encrusted Tide Crawler, Raging Reef Crawler"
+ },
+ {
+  "file": "guides/alliance/darkshore-13-20.guide",
+  "line": 450,
+  "kind": "strip-at",
+  "detail": "kill 2181 x12 quest 98013.1 @61.25,19.78 map 1439"
+ },
+ {
+  "file": "guides/alliance/darkshore-13-20.guide",
+  "line": 475,
+  "kind": "elite",
+  "detail": "kill 270294 @59.14,22.81 map 1439 -- Loot the quest item here \u2014 it starts the quest."
+ },
+ {
+  "file": "guides/alliance/desolace-33-39.guide",
+  "line": 56,
+  "kind": "strip-at",
+  "detail": "collect 6248 x7 quest 1459.1 @51.95,56.1 map 1443 -- Drops from: Aged Kodo"
+ },
+ {
+  "file": "guides/alliance/desolace-33-39.guide",
+  "line": 96,
+  "kind": "strip-at",
+  "detail": "kill 4632 x12 quest 1386.1 @72.26,44.71 map 1443"
+ },
+ {
+  "file": "guides/alliance/desolace-33-39.guide",
+  "line": 97,
+  "kind": "strip-at",
+  "detail": "kill 4633 x12 quest 1386.2 @72.26,44.71 map 1443"
+ },
+ {
+  "file": "guides/alliance/desolace-33-39.guide",
+  "line": 116,
+  "kind": "strip-at",
+  "detail": "collect 15881 quest 6161.2 @24.7,78.72 map 1443 -- Drops from: Drysnap Crawler, Drysnap Pincer"
+ },
+ {
+  "file": "guides/alliance/desolace-33-39.guide",
+  "line": 212,
+  "kind": "strip-at",
+  "detail": "collect 6250 x10 quest 1466.1 @51.79,83.52 map 1443 -- Drops from: Doomwarder Captain, Lord Azrethoc, Kaskk"
+ },
+ {
+  "file": "guides/alliance/desolace-33-39.guide",
+  "line": 273,
+  "kind": "elite",
+  "detail": "collect 6077 quest 1381.1 @29.55,52 map 1443 -- Elite"
+ },
+ {
+  "file": "guides/alliance/dun-morogh-13-26.guide",
+  "line": 51,
+  "kind": "elite",
+  "detail": "collect 3627 quest 314.1 @62.62,46.05 map 1426 -- Elite"
+ },
+ {
+  "file": "guides/alliance/dun-morogh-13-26.guide",
+  "line": 79,
+  "kind": "strip-at",
+  "detail": "kill 6123 x10 quest 96390.1 @72.41,52.9 map 1426"
+ },
+ {
+  "file": "guides/alliance/dun-morogh-13-26.guide",
+  "line": 337,
+  "kind": "elite",
+  "detail": "collect 9284 quest 2926.1 @20.9,36.02 map 1426 -- Elite"
+ },
+ {
+  "file": "guides/alliance/dun-morogh-13-26.guide",
+  "line": 341,
+  "kind": "elite",
+  "detail": "collect 9277 quest 2922.1 @19.78,31.93 map 1426 -- Elite"
+ },
+ {
+  "file": "guides/alliance/dun-morogh-4-10.guide",
+  "line": 242,
+  "kind": "strip-at",
+  "detail": "collect 16313 quest 3361.2 @20.88,76.07 map 1426"
+ },
+ {
+  "file": "guides/alliance/dun-morogh-4-10.guide",
+  "line": 243,
+  "kind": "strip-at",
+  "detail": "collect 16314 quest 3361.3 @20.88,76.07 map 1426"
+ },
+ {
+  "file": "guides/alliance/dun-morogh-4-10.guide",
+  "line": 500,
+  "kind": "strip-at",
+  "detail": "kill 1196 x6 quest 319.1 @48.29,56.53 map 1426"
+ },
+ {
+  "file": "guides/alliance/dun-morogh-4-10.guide",
+  "line": 501,
+  "kind": "strip-at",
+  "detail": "kill 1127 x8 quest 319.2 @48.29,56.53 map 1426"
+ },
+ {
+  "file": "guides/alliance/duskwood-21-28.guide",
+  "line": 88,
+  "kind": "strip-at",
+  "detail": "kill 923 x10 quest 96137.1 @68.37,33.3 map 1431"
+ },
+ {
+  "file": "guides/alliance/duskwood-21-28.guide",
+  "line": 111,
+  "kind": "strip-at",
+  "detail": "collect 1129 x10 quest 101.1 @80.57,70.2 map 1431 -- Drops from: Skeletal Warrior, Skeletal Horror, Skeletal Mage"
+ },
+ {
+  "file": "guides/alliance/duskwood-21-28.guide",
+  "line": 112,
+  "kind": "strip-at",
+  "detail": "collect 1130 x5 quest 101.2 @80.57,70.2 map 1431 -- Drops from: Skeletal Warrior, Skeletal Horror, Skeletal Mage"
+ },
+ {
+  "file": "guides/alliance/duskwood-21-28.guide",
+  "line": 246,
+  "kind": "strip-at",
+  "detail": "kill 892 quest 96138.2 @33.67,76.02 map 1431"
+ },
+ {
+  "file": "guides/alliance/duskwood-30-35.guide",
+  "line": 96,
+  "kind": "elite",
+  "detail": "collect 2382 quest 253.1 @28.82,30.91 map 1431 -- Elite"
+ },
+ {
+  "file": "guides/alliance/duskwood-30-35.guide",
+  "line": 110,
+  "kind": "strip-at",
+  "detail": "kill 920 x8 quest 222.2 @71.94,72.31 map 1431"
+ },
+ {
+  "file": "guides/alliance/duskwood-30-35.guide",
+  "line": 149,
+  "kind": "elite",
+  "detail": "kill 1200 quest 55.1 @16.9,33.4 map 1431 -- Elite"
+ },
+ {
+  "file": "guides/alliance/duskwood-30-35.guide",
+  "line": 178,
+  "kind": "elite",
+  "detail": "collect 3514 quest 228.1 @16.67,37.35 map 1431 -- Elite"
+ },
+ {
+  "file": "guides/alliance/eastern-plaguelands-55-60.guide",
+  "line": 289,
+  "kind": "strip-at",
+  "detail": "collect 12954 quest 5168.1 @63.79,57.19 map 1422"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-21-28.guide",
+  "line": 331,
+  "kind": "elite",
+  "detail": "collect 3617 quest 249.1 @75.02,49.49 map 1433 -- Elite"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 190,
+  "kind": "elite",
+  "detail": "collect 247886 quest 91752.1 @49.22,28.01 map 1429 -- Drops from: Shinyfinder Narf"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 382,
+  "kind": "elite",
+  "detail": "collect 248002 quest 91775.1 @41.62,79.9 map 1429 -- Drops from: Nimsy"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 383,
+  "kind": "elite",
+  "detail": "collect 248002 quest 91775.1 @60.91,59.71 map 1429 -- Drops from: Kobold Miner, Kobold Tunneler"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 458,
+  "kind": "elite",
+  "detail": "collect 248003 quest 91777.1 @61.38,48.93 map 1429 -- Drops from: Geosculptor Yip"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 459,
+  "kind": "elite",
+  "detail": "collect 248003 quest 91777.1 @62.14,48.05 map 1429 -- Drops from: Mother Fang"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 460,
+  "kind": "elite",
+  "detail": "collect 248004 quest 91777.2 @62.14,48.05 map 1429 -- Drops from: Mother Fang"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 522,
+  "kind": "elite",
+  "detail": "kill 248299 @74.66,40.77 map 1429 -- Loot the quest item here \u2014 it starts the quest."
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 545,
+  "kind": "strip-at",
+  "detail": "kill 118 x8 quest 52.1 @63.4,76.8 map 1429"
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 576,
+  "kind": "elite",
+  "detail": "kill 248278 @76.57,86.06 map 1429 -- Loot the quest item here \u2014 it starts the quest."
+ },
+ {
+  "file": "guides/alliance/elwynn-forest-3-10.guide",
+  "line": 647,
+  "kind": "elite",
+  "detail": "collect 1931 quest 176.1 @25.02,92.9 map 1429 -- Elite"
+ },
+ {
+  "file": "guides/alliance/felwood-52-56.guide",
+  "line": 97,
+  "kind": "strip-at",
+  "detail": "collect 20614 x4 quest 8421.2 @46.58,23.75 map 1448 -- Drops from: Irontree Wanderer, Irontree Stomper, Withered Protector"
+ },
+ {
+  "file": "guides/alliance/felwood-52-56.guide",
+  "line": 106,
+  "kind": "strip-at",
+  "detail": "kill 7111 x8 quest 4906.1 @42.81,16.94 map 1448"
+ },
+ {
+  "file": "guides/alliance/felwood-52-56.guide",
+  "line": 109,
+  "kind": "strip-at",
+  "detail": "kill 10648 quest 4906.4 @42.81,16.94 map 1448"
+ },
+ {
+  "file": "guides/alliance/felwood-52-56.guide",
+  "line": 170,
+  "kind": "strip-at",
+  "detail": "interact 176158 quest 5165.1 @37.68,52.69 map 1448"
+ },
+ {
+  "file": "guides/alliance/felwood-52-56.guide",
+  "line": 172,
+  "kind": "strip-at",
+  "detail": "interact 176160 quest 5165.3 @37.68,52.69 map 1448"
+ },
+ {
+  "file": "guides/alliance/felwood-52-56.guide",
+  "line": 173,
+  "kind": "strip-at",
+  "detail": "interact 176161 quest 5165.4 @37.68,52.69 map 1448"
+ },
+ {
+  "file": "guides/alliance/feralas-43-48.guide",
+  "line": 72,
+  "kind": "strip-at",
+  "detail": "kill 5240 x8 quest 2982.1 @75.69,34.02 map 1444"
+ },
+ {
+  "file": "guides/alliance/feralas-43-48.guide",
+  "line": 73,
+  "kind": "strip-at",
+  "detail": "kill 5236 x8 quest 2982.2 @75.69,34.02 map 1444"
+ },
+ {
+  "file": "guides/alliance/hillsbrad-foothills-29-32.guide",
+  "line": 149,
+  "kind": "strip-at",
+  "detail": "collect 4306 x3 quest 2746.1 @33.95,57.16 map 1429 -- Drops from: Clara's Fresh Apples"
+ },
+ {
+  "file": "guides/alliance/hillsbrad-foothills-33-38.guide",
+  "line": 27,
+  "kind": "strip-at",
+  "detail": "kill 2406 x8 quest 564.1 @66.75,51.11 map 1416"
+ },
+ {
+  "file": "guides/alliance/hillsbrad-foothills-33-38.guide",
+  "line": 88,
+  "kind": "strip-at",
+  "detail": "collect 3658 x5 quest 540.1 @38.42,46.38 map 1416 -- Drops from: Weathered Bookcase"
+ },
+ {
+  "file": "guides/alliance/hillsbrad-foothills-33-38.guide",
+  "line": 93,
+  "kind": "elite",
+  "detail": "kill 2287 x15 quest 504.1 @36.3,53.79 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-11-18.guide",
+  "line": 48,
+  "kind": "strip-at",
+  "detail": "collect 3172 x3 quest 418.1 @32.46,29.75 map 1432 -- Drops from: Elder Black Bear, Grizzled Black Bear, Black Bear Patriarch"
+ },
+ {
+  "file": "guides/alliance/loch-modan-11-18.guide",
+  "line": 366,
+  "kind": "strip-at",
+  "detail": "collect 7343 quest 2038.1 @48.38,20.51 map 1432 -- Drops from: Bingles's Toolbucket"
+ },
+ {
+  "file": "guides/alliance/loch-modan-11-18.guide",
+  "line": 368,
+  "kind": "strip-at",
+  "detail": "collect 7346 quest 2038.3 @48.38,20.51 map 1432 -- Drops from: Bingles's Toolbucket"
+ },
+ {
+  "file": "guides/alliance/loch-modan-11-18.guide",
+  "line": 369,
+  "kind": "strip-at",
+  "detail": "collect 7376 quest 2038.4 @48.38,20.51 map 1432 -- Drops from: Bingles's Toolbucket"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 24,
+  "kind": "elite",
+  "detail": "kill 1178 x4 quest 255.1 @69.67,25.54 map 1432 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 25,
+  "kind": "elite",
+  "detail": "kill 1179 x4 quest 255.3 @70.83,23.85 map 1432 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 26,
+  "kind": "strip-at",
+  "detail": "kill 1178 x4 quest 255.1 @75.09,15.98 map 1432 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 26,
+  "kind": "elite",
+  "detail": "kill 1178 x4 quest 255.1 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 27,
+  "kind": "elite",
+  "detail": "kill 1180 x4 quest 255.2 @75.09,15.98 map 1432 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 28,
+  "kind": "elite",
+  "detail": "kill 1179 x4 quest 255.3 @75.09,15.98 map 1432 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 43,
+  "kind": "elite",
+  "detail": "collect 2713 quest 271.1 @37.92,63.38 map 1432 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 60,
+  "kind": "elite",
+  "detail": "collect 2561 quest 256.1 @79.59,14.7 map 1432 -- Elite"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 118,
+  "kind": "strip-at",
+  "detail": "collect 7847 x5 quest 2500.1 @40.51,78.29 map 1418 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus"
+ },
+ {
+  "file": "guides/alliance/loch-modan-20-38.guide",
+  "line": 119,
+  "kind": "strip-at",
+  "detail": "collect 7846 x10 quest 2500.2 @40.51,78.29 map 1418 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus"
+ },
+ {
+  "file": "guides/alliance/redridge-mountains-15-24.guide",
+  "line": 195,
+  "kind": "elite",
+  "detail": "collect 1261 x3 quest 115.1 @63.08,54.64 map 1433 -- Elite"
+ },
+ {
+  "file": "guides/alliance/redridge-mountains-15-24.guide",
+  "line": 246,
+  "kind": "elite",
+  "detail": "collect 1260 quest 19.1 @64.36,59.41 map 1433 -- Elite"
+ },
+ {
+  "file": "guides/alliance/redridge-mountains-15-24.guide",
+  "line": 249,
+  "kind": "elite",
+  "detail": "collect 271872 quest 95999.1 @71.61,84.4 map 1433 -- Drops from: Incinerator Gar'im"
+ },
+ {
+  "file": "guides/alliance/redridge-mountains-15-24.guide",
+  "line": 268,
+  "kind": "elite",
+  "detail": "collect 3633 quest 169.1 @64.52,55.79 map 1433 -- Elite"
+ },
+ {
+  "file": "guides/alliance/redridge-mountains-54-60.guide",
+  "line": 108,
+  "kind": "elite",
+  "detail": "kill 11878 quest 6185.4 @22.79,63.72 map 1423 -- Drops from: Mangled Human Remains"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 29,
+  "kind": "elite",
+  "detail": "kill 5833 @73.52,82.31 map 1427 -- Loot the quest item here \u2014 it starts the quest. Elite"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 44,
+  "kind": "strip-at",
+  "detail": "collect 10509 x4 quest 3442.1 @62.56,59.8 map 1427 -- Drops from: Tempered War Golem, Heavy War Golem, Magma Elemental"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 80,
+  "kind": "strip-at",
+  "detail": "collect 18959 quest 7728.1 @42.72,62.57 map 1427 -- Drops from: Dark Iron Lookout"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 120,
+  "kind": "elite",
+  "detail": "collect 10458 quest 3378.1 @23.52,36.55 map 1427 -- Elite"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 124,
+  "kind": "elite",
+  "detail": "collect 10552 quest 3452.1 @23.52,36.55 map 1427 -- Elite"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 138,
+  "kind": "elite",
+  "detail": "collect 18946 quest 7701.1 @40.77,35.89 map 1427 -- Elite"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 173,
+  "kind": "strip-at",
+  "detail": "interact 149025 quest 3463.1 @50.07,54.74 map 1427"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 174,
+  "kind": "strip-at",
+  "detail": "interact 149030 quest 3463.2 @50.07,54.74 map 1427"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 176,
+  "kind": "strip-at",
+  "detail": "interact 149032 quest 3463.4 @50.07,54.74 map 1427"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 235,
+  "kind": "elite",
+  "detail": "collect 10447 quest 3566.1 @41.32,25.53 map 1427 -- Elite"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 236,
+  "kind": "elite",
+  "detail": "collect 10447 quest 3566.1 @41.76,24.33 map 1427 -- Elite"
+ },
+ {
+  "file": "guides/alliance/searing-gorge-48-50.guide",
+  "line": 237,
+  "kind": "elite",
+  "detail": "collect 10446 quest 3566.2 @41.76,24.33 map 1427 -- Elite"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 52,
+  "kind": "strip-at",
+  "detail": "collect 20376 x8 quest 8277.2 @59.92,28.13 map 1451 -- Drops from: Stonelash Scorpid"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 78,
+  "kind": "elite",
+  "detail": "collect 20385 quest 8283.1 @45.07,92.31 map 1451 -- Elite"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 83,
+  "kind": "strip-at",
+  "detail": "collect 20375 x3 quest 8278.1 @38.44,55.6 map 1451 -- Drops from: Stonelash Pincer"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 85,
+  "kind": "strip-at",
+  "detail": "collect 20377 x3 quest 8278.3 @38.44,55.6 map 1451 -- Drops from: Stonelash Pincer"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 143,
+  "kind": "strip-at",
+  "detail": "collect 20394 quest 8279.1 @16.09,86.37 map 1451 -- Drops from: Twilight Keeper Exeter"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 145,
+  "kind": "strip-at",
+  "detail": "collect 20396 quest 8279.3 @16.09,86.37 map 1451 -- Drops from: Twilight Keeper Exeter"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 175,
+  "kind": "elite",
+  "detail": "collect 20459 quest 8310.3 @58.08,86.89 map 1451 -- Elite"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 176,
+  "kind": "strip-at",
+  "detail": "collect 20457 quest 8310.1 @27.87,61.78 map 1451 -- Drops from: Hive'Zora Wasp, Hive'Zora Waywatcher, Hive'Zora Tunneler"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 178,
+  "kind": "strip-at",
+  "detail": "collect 20459 quest 8310.3 @27.87,61.78 map 1451 -- Drops from: Hive'Zora Wasp, Hive'Zora Waywatcher, Hive'Zora Tunneler"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 178,
+  "kind": "elite",
+  "detail": "collect 20459 quest 8310.3 -- Drops from: Hive'Zora Wasp, Hive'Zora Waywatcher, Hive'Zora Tunneler"
+ },
+ {
+  "file": "guides/alliance/silithus-57-60.guide",
+  "line": 214,
+  "kind": "elite",
+  "detail": "kill 15215 quest 8306.1 @44.4,86.11 map 1414 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stonetalon-mountains-21-27.guide",
+  "line": 86,
+  "kind": "strip-at",
+  "detail": "kill 4022 x7 quest 1057.1 @34.86,69.12 map 1442"
+ },
+ {
+  "file": "guides/alliance/stonetalon-mountains-21-27.guide",
+  "line": 87,
+  "kind": "strip-at",
+  "detail": "kill 4025 x7 quest 1057.2 @34.86,69.12 map 1442"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 221,
+  "kind": "strip-at",
+  "detail": "collect 2005 quest 207.1 @24.7,8.93 map 1434 -- Drops from: The Emperor's Tomb"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 222,
+  "kind": "strip-at",
+  "detail": "collect 2006 quest 207.2 @24.7,8.93 map 1434 -- Drops from: The Emperor's Tomb"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 223,
+  "kind": "strip-at",
+  "detail": "collect 2007 quest 207.3 @24.7,8.93 map 1434 -- Drops from: The Emperor's Tomb"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 266,
+  "kind": "elite",
+  "detail": "collect 4105 quest 628.1 @29.83,25.48 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 314,
+  "kind": "strip-at",
+  "detail": "kill 978 x4 quest 202.2 @47.88,6.86 map 1434"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 315,
+  "kind": "strip-at",
+  "detail": "collect 3615 quest 202.3 @47.88,6.86 map 1434"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 315,
+  "kind": "elite",
+  "detail": "collect 3615 quest 202.3"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 318,
+  "kind": "strip-at",
+  "detail": "collect 2725 quest 339.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 319,
+  "kind": "strip-at",
+  "detail": "collect 2728 quest 339.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 320,
+  "kind": "strip-at",
+  "detail": "collect 2730 quest 339.3 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 321,
+  "kind": "strip-at",
+  "detail": "collect 2732 quest 339.4 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 324,
+  "kind": "strip-at",
+  "detail": "collect 2734 quest 340.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 325,
+  "kind": "strip-at",
+  "detail": "collect 2735 quest 340.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 326,
+  "kind": "strip-at",
+  "detail": "collect 2738 quest 340.3 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 327,
+  "kind": "strip-at",
+  "detail": "collect 2740 quest 340.4 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 330,
+  "kind": "strip-at",
+  "detail": "collect 2742 quest 341.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 331,
+  "kind": "strip-at",
+  "detail": "collect 2744 quest 341.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 332,
+  "kind": "strip-at",
+  "detail": "collect 2745 quest 341.3 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 333,
+  "kind": "strip-at",
+  "detail": "collect 2748 quest 341.4 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 336,
+  "kind": "strip-at",
+  "detail": "collect 2749 quest 342.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 337,
+  "kind": "strip-at",
+  "detail": "collect 2750 quest 342.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 338,
+  "kind": "strip-at",
+  "detail": "collect 2751 quest 342.3 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-32-40.guide",
+  "line": 342,
+  "kind": "elite",
+  "detail": "collect 3876 quest 193.1 @49.4,24 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 58,
+  "kind": "strip-at",
+  "detail": "collect 3926 quest 609.3 @35.26,51.27 map 1434 -- Drops from: Maury \"Club Foot\" Wilkins"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 102,
+  "kind": "elite",
+  "detail": "collect 3616 quest 206.1 @52.93,27.6 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 107,
+  "kind": "elite",
+  "detail": "collect 3930 quest 613.1 @51.48,27.13 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 112,
+  "kind": "elite",
+  "detail": "collect 3877 quest 197.1 @32.2,42.8 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 135,
+  "kind": "elite",
+  "detail": "collect 3880 quest 208.1 @38.21,35.58 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 151,
+  "kind": "strip-at",
+  "detail": "kill 2548 quest 608.2 @32.87,88.2 map 1434"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 152,
+  "kind": "strip-at",
+  "detail": "kill 2546 quest 608.3 @32.87,88.2 map 1434"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 179,
+  "kind": "elite",
+  "detail": "collect 3932 quest 8551.1 @36.95,69.73 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 187,
+  "kind": "elite",
+  "detail": "kill 1493 @23.25,72.1 map 1434 -- Loot the quest item here \u2014 it starts the quest. Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 207,
+  "kind": "elite",
+  "detail": "collect 3935 quest 8554.1 @32.45,81.57 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 218,
+  "kind": "elite",
+  "detail": "collect 4103 quest 630.1 @40.95,83.9 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 277,
+  "kind": "elite",
+  "detail": "collect 10755 quest 3627.1 @66.69,29.24 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 278,
+  "kind": "elite",
+  "detail": "collect 10754 quest 3627.3 @40.75,29.97 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 279,
+  "kind": "strip-at",
+  "detail": "collect 10755 quest 3627.1 @42.57,13.01 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 279,
+  "kind": "elite",
+  "detail": "collect 10755 quest 3627.1 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 280,
+  "kind": "elite",
+  "detail": "collect 10753 quest 3627.2 @42.57,13.01 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 281,
+  "kind": "strip-at",
+  "detail": "collect 10754 quest 3627.3 @42.57,13.01 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 281,
+  "kind": "elite",
+  "detail": "collect 10754 quest 3627.3 -- Elite"
+ },
+ {
+  "file": "guides/alliance/stranglethorn-vale-43-51.guide",
+  "line": 297,
+  "kind": "elite",
+  "detail": "collect 10759 quest 3628.1 @47.64,29.83 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/alliance/swamp-of-sorrows-35-42.guide",
+  "line": 25,
+  "kind": "strip-at",
+  "detail": "kill 1084 x8 quest 1396.1 @37.24,45.15 map 1435"
+ },
+ {
+  "file": "guides/alliance/swamp-of-sorrows-35-42.guide",
+  "line": 26,
+  "kind": "strip-at",
+  "detail": "kill 858 x10 quest 1396.2 @37.24,45.15 map 1435"
+ },
+ {
+  "file": "guides/alliance/swamp-of-sorrows-55-57.guide",
+  "line": 62,
+  "kind": "strip-at",
+  "detail": "kill 7668 x9 quest 2681.1 @41.22,14.43 map 1419"
+ },
+ {
+  "file": "guides/alliance/swamp-of-sorrows-55-57.guide",
+  "line": 64,
+  "kind": "strip-at",
+  "detail": "kill 7670 x3 quest 2681.3 @41.22,14.43 map 1419"
+ },
+ {
+  "file": "guides/alliance/swamp-of-sorrows-55-57.guide",
+  "line": 65,
+  "kind": "strip-at",
+  "detail": "kill 7671 x3 quest 2681.4 @41.22,14.43 map 1419"
+ },
+ {
+  "file": "guides/alliance/tanaris-44-50.guide",
+  "line": 56,
+  "kind": "strip-at",
+  "detail": "kill 5623 x6 quest 1691.2 @61.97,35.46 map 1446"
+ },
+ {
+  "file": "guides/alliance/tanaris-44-50.guide",
+  "line": 72,
+  "kind": "strip-at",
+  "detail": "kill 7855 x10 quest 8366.1 @74.42,47.71 map 1446"
+ },
+ {
+  "file": "guides/alliance/tanaris-44-50.guide",
+  "line": 73,
+  "kind": "strip-at",
+  "detail": "kill 7856 x10 quest 8366.2 @74.42,47.71 map 1446"
+ },
+ {
+  "file": "guides/alliance/tanaris-44-50.guide",
+  "line": 75,
+  "kind": "strip-at",
+  "detail": "kill 7858 x10 quest 8366.4 @74.42,47.71 map 1446"
+ },
+ {
+  "file": "guides/alliance/tanaris-44-50.guide",
+  "line": 148,
+  "kind": "strip-at",
+  "detail": "kill 5474 x10 quest 5863.1 @41.5,57.81 map 1446"
+ },
+ {
+  "file": "guides/alliance/tanaris-44-50.guide",
+  "line": 149,
+  "kind": "strip-at",
+  "detail": "kill 5472 x10 quest 5863.2 @41.5,57.81 map 1446"
+ },
+ {
+  "file": "guides/alliance/tanaris-53-54.guide",
+  "line": 43,
+  "kind": "strip-at",
+  "detail": "collect 11837 quest 4496.1 @47,52.9 map 1449 -- Drops from: Un'Goro Dirt Pile"
+ },
+ {
+  "file": "guides/alliance/teldrassil-4-11.guide",
+  "line": 146,
+  "kind": "strip-at",
+  "detail": "collect 10639 x7 quest 3521.1 @56.9,28.42 map 1438 -- Drops from: Webwood Spider"
+ },
+ {
+  "file": "guides/alliance/teldrassil-4-11.guide",
+  "line": 147,
+  "kind": "strip-at",
+  "detail": "collect 10641 x4 quest 3521.2 @56.9,28.42 map 1438 -- Drops from: Webwood Spider"
+ },
+ {
+  "file": "guides/alliance/teldrassil-4-11.guide",
+  "line": 247,
+  "kind": "strip-at",
+  "detail": "collect 3411 x3 quest 488.2 @60.14,60.26 map 1438 -- Drops from: Webwood Lurker, Webwood Venomfang, Webwood Silkspinner"
+ },
+ {
+  "file": "guides/alliance/teldrassil-4-11.guide",
+  "line": 408,
+  "kind": "strip-at",
+  "detail": "collect 3406 quest 483.2 @45.65,57.44 map 1438 -- Drops from: Chest of the Raven Claw"
+ },
+ {
+  "file": "guides/alliance/teldrassil-4-11.guide",
+  "line": 409,
+  "kind": "strip-at",
+  "detail": "collect 3407 quest 483.3 @45.65,57.44 map 1438 -- Drops from: Chest of the Raven Claw"
+ },
+ {
+  "file": "guides/alliance/teldrassil-4-11.guide",
+  "line": 410,
+  "kind": "strip-at",
+  "detail": "collect 3408 quest 483.4 @45.65,57.44 map 1438 -- Drops from: Chest of the Raven Claw"
+ },
+ {
+  "file": "guides/alliance/teldrassil-4-11.guide",
+  "line": 613,
+  "kind": "elite",
+  "detail": "collect 281023 quest 98403.2 @49.61,45.07 map 1438"
+ },
+ {
+  "file": "guides/alliance/teldrassil-4-11.guide",
+  "line": 830,
+  "kind": "elite",
+  "detail": "collect 8136 quest 2499.1 @53.76,75.12 map 1438 -- Elite"
+ },
+ {
+  "file": "guides/alliance/the-barrens-14-21.guide",
+  "line": 44,
+  "kind": "strip-at",
+  "detail": "collect 5077 quest 888.2 @62.63,49.63 map 1413 -- Drops from: Drizzlik's Emporium"
+ },
+ {
+  "file": "guides/alliance/the-barrens-14-21.guide",
+  "line": 127,
+  "kind": "elite",
+  "detail": "collect 276070 quest 97005.1 @57.64,27.37 map 1413 -- Drops from: Chol'aruk"
+ },
+ {
+  "file": "guides/alliance/the-hinterlands-43-48.guide",
+  "line": 50,
+  "kind": "strip-at",
+  "detail": "interact 144068 quest 2988.3 @23.13,58.82 map 1425"
+ },
+ {
+  "file": "guides/alliance/thousand-needles-30-41.guide",
+  "line": 72,
+  "kind": "strip-at",
+  "detail": "kill 4151 x10 quest 1175.2 @73.64,59.44 map 1441"
+ },
+ {
+  "file": "guides/alliance/thousand-needles-30-41.guide",
+  "line": 73,
+  "kind": "strip-at",
+  "detail": "kill 4150 x6 quest 1175.3 @73.64,59.44 map 1441"
+ },
+ {
+  "file": "guides/alliance/thousand-needles-30-41.guide",
+  "line": 82,
+  "kind": "elite",
+  "detail": "collect 19861 @30.73,24.35 map 1441 -- Loot the quest item here \u2014 it starts the quest."
+ },
+ {
+  "file": "guides/alliance/ungoro-crater-50-55.guide",
+  "line": 28,
+  "kind": "strip-at",
+  "detail": "collect 11830 x8 quest 4503.1 @78.7,39.55 map 1449 -- Drops from: Fledgling Pterrordax, Pterrordax, Frenzied Pterrordax"
+ },
+ {
+  "file": "guides/alliance/ungoro-crater-50-55.guide",
+  "line": 79,
+  "kind": "strip-at",
+  "detail": "collect 22435 x8 quest 9052.1 @44.62,42.45 map 1449 -- Drops from: Bloodpetal Sprout"
+ },
+ {
+  "file": "guides/alliance/ungoro-crater-50-55.guide",
+  "line": 109,
+  "kind": "strip-at",
+  "detail": "collect 11113 quest 3881.1 @38.45,66.06 map 1449"
+ },
+ {
+  "file": "guides/alliance/ungoro-crater-50-55.guide",
+  "line": 198,
+  "kind": "strip-at",
+  "detail": "kill 9167 x15 quest 4501.2 @56.2,88.2 map 1449"
+ },
+ {
+  "file": "guides/alliance/western-plaguelands-53-58.guide",
+  "line": 174,
+  "kind": "strip-at",
+  "detail": "kill 10902 quest 5097.1 @46.62,71.05 map 1422 -- Use the quest item on them, don't just kill them."
+ },
+ {
+  "file": "guides/alliance/western-plaguelands-53-58.guide",
+  "line": 175,
+  "kind": "strip-at",
+  "detail": "kill 10903 quest 5097.2 @46.62,71.05 map 1422 -- Use the quest item on them, don't just kill them."
+ },
+ {
+  "file": "guides/alliance/western-plaguelands-53-58.guide",
+  "line": 176,
+  "kind": "strip-at",
+  "detail": "kill 10904 quest 5097.3 @46.62,71.05 map 1422 -- Use the quest item on them, don't just kill them."
+ },
+ {
+  "file": "guides/alliance/western-plaguelands-53-58.guide",
+  "line": 230,
+  "kind": "strip-at",
+  "detail": "kill 1826 x2 quest 6004.3 @41.03,51.91 map 1422"
+ },
+ {
+  "file": "guides/alliance/western-plaguelands-53-58.guide",
+  "line": 231,
+  "kind": "strip-at",
+  "detail": "kill 1833 x2 quest 6004.4 @41.03,51.91 map 1422"
+ },
+ {
+  "file": "guides/alliance/western-plaguelands-53-58.guide",
+  "line": 240,
+  "kind": "strip-at",
+  "detail": "kill 11611 quest 6023.2 @57.83,36.1 map 1422"
+ },
+ {
+  "file": "guides/alliance/western-plaguelands-53-58.guide",
+  "line": 283,
+  "kind": "elite",
+  "detail": "kill 1852 -- Elite"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 78,
+  "kind": "strip-at",
+  "detail": "kill 1236 x4 quest 92745.1 @30.27,49.65 map 1436"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 116,
+  "kind": "strip-at",
+  "detail": "kill 590 x15 quest 13.2 @38.76,69.61 map 1436"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 134,
+  "kind": "strip-at",
+  "detail": "collect 729 x3 quest 38.1 @34.28,15.91 map 1436 -- Drops from: Murloc Minor Oracle, Murloc Coastrunner, Murloc Raider"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 136,
+  "kind": "strip-at",
+  "detail": "collect 731 x3 quest 38.3 @34.28,15.91 map 1436 -- Drops from: Murloc Minor Oracle, Murloc Coastrunner, Murloc Raider"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 137,
+  "kind": "strip-at",
+  "detail": "collect 732 x3 quest 38.4 @34.28,15.91 map 1436 -- Drops from: Murloc Minor Oracle, Murloc Coastrunner, Murloc Raider"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 157,
+  "kind": "strip-at",
+  "detail": "collect 4363 x4 quest 92911.2 @47.88,33.47 map 1436 -- Drops from: Harvest Golem, Harvest Watcher, Rusty Harvest Golem"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 215,
+  "kind": "strip-at",
+  "detail": "kill 122 x15 quest 14.1 @37.41,75.38 map 1436"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 237,
+  "kind": "strip-at",
+  "detail": "kill 171 x7 quest 152.2 @45.02,8.89 map 1436"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 238,
+  "kind": "strip-at",
+  "detail": "kill 127 x7 quest 152.3 @45.02,8.89 map 1436"
+ },
+ {
+  "file": "guides/alliance/westfall-12-16.guide",
+  "line": 239,
+  "kind": "strip-at",
+  "detail": "kill 517 x7 quest 152.4 @45.02,8.89 map 1436"
+ },
+ {
+  "file": "guides/alliance/wetlands-21-29.guide",
+  "line": 95,
+  "kind": "strip-at",
+  "detail": "kill 1020 x10 quest 294.1 @24.22,52.53 map 1437"
+ },
+ {
+  "file": "guides/alliance/wetlands-21-29.guide",
+  "line": 249,
+  "kind": "strip-at",
+  "detail": "kill 1022 x10 quest 295.1 @33.85,48.27 map 1437"
+ },
+ {
+  "file": "guides/alliance/wetlands-21-29.guide",
+  "line": 392,
+  "kind": "elite",
+  "detail": "collect 2607 quest 278.2 @69.67,25.54 map 1432 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-21-29.guide",
+  "line": 395,
+  "kind": "strip-at",
+  "detail": "collect 2607 quest 278.2 @62.62,64.13 map 1432 -- Drops from: Cliff Lurker, Wood Lurker, Forest Lurker"
+ },
+ {
+  "file": "guides/alliance/wetlands-21-29.guide",
+  "line": 395,
+  "kind": "elite",
+  "detail": "collect 2607 quest 278.2 -- Drops from: Cliff Lurker, Wood Lurker, Forest Lurker"
+ },
+ {
+  "file": "guides/alliance/wetlands-21-29.guide",
+  "line": 396,
+  "kind": "strip-at",
+  "detail": "collect 2939 quest 278.3 @62.62,64.13 map 1432 -- Drops from: Cliff Lurker, Wood Lurker, Forest Lurker"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 56,
+  "kind": "elite",
+  "detail": "kill 271346 x3 quest 98291.3 @66.99,46.07 map 1437"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 57,
+  "kind": "elite",
+  "detail": "kill 271351 x8 quest 98291.1 @67.27,46.63 map 1437"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 58,
+  "kind": "elite",
+  "detail": "kill 271351 x8 quest 98291.1 @68.97,45.99 map 1437"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 59,
+  "kind": "elite",
+  "detail": "kill 271348 x5 quest 98291.2 @68.97,45.99 map 1437"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 60,
+  "kind": "elite",
+  "detail": "kill 271346 x3 quest 98291.3 @68.97,45.99 map 1437"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 100,
+  "kind": "elite",
+  "detail": "collect 3625 quest 474.1 @53.51,54.67 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 169,
+  "kind": "elite",
+  "detail": "kill 1052 x5 quest 303.3 @48.1,18.09 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 170,
+  "kind": "elite",
+  "detail": "kill 1053 x5 quest 303.2 @47.11,17.92 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 171,
+  "kind": "elite",
+  "detail": "kill 1051 x10 quest 303.1 @59.93,23.02 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 172,
+  "kind": "elite",
+  "detail": "kill 1051 x10 quest 303.1 @60.1,24.36 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 173,
+  "kind": "elite",
+  "detail": "kill 1053 x5 quest 303.2 @60.1,24.36 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 174,
+  "kind": "elite",
+  "detail": "kill 1052 x5 quest 303.3 @60.1,24.36 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 175,
+  "kind": "elite",
+  "detail": "kill 1054 x5 quest 303.4 @60.1,24.36 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/wetlands-30-33.guide",
+  "line": 185,
+  "kind": "elite",
+  "detail": "collect 3639 quest 304.1 @62.49,28.42 map 1437 -- Elite"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 81,
+  "kind": "strip-at",
+  "detail": "kill 7442 x8 quest 5082.1 @66.54,35.92 map 1452"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 83,
+  "kind": "strip-at",
+  "detail": "kill 7441 x8 quest 5082.3 @66.54,35.92 map 1452"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 113,
+  "kind": "strip-at",
+  "detail": "kill 7439 x8 quest 8464.1 @66.54,35.92 map 1452"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 115,
+  "kind": "strip-at",
+  "detail": "kill 7438 x8 quest 8464.3 @66.54,35.92 map 1452"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 162,
+  "kind": "strip-at",
+  "detail": "collect 12525 quest 4864.1 @64.3,24.98 map 1452 -- Drops from: Crazed Owlbeast, Moontouched Owlbeast, Berserk Owlbeast"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 288,
+  "kind": "elite",
+  "detail": "kill 10738 quest 5121.1 @69.56,38.31 map 1452 -- Elite"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 291,
+  "kind": "elite",
+  "detail": "kill 10738 @69.56,38.31 map 1452 -- Loot the quest item here \u2014 it starts the quest. Elite"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 334,
+  "kind": "strip-at",
+  "detail": "collect 11172 x11 quest 4084.1 @46.58,23.75 map 1448 -- Drops from: Irontree Wanderer, Irontree Stomper"
+ },
+ {
+  "file": "guides/alliance/winterspring-54-59.guide",
+  "line": 366,
+  "kind": "elite",
+  "detail": "kill 9376 quest 3962.1 @49.41,49.33 map 1449 -- Elite"
+ },
+ {
+  "file": "guides/alliance/zephras-isle-5-12.guide",
+  "line": 370,
+  "kind": "elite",
+  "detail": "collect 257942 quest 93318.1 @42.66,52.8 map 2521 live -- Drops from: Vulgara the Insatiable"
+ },
+ {
+  "file": "guides/alliance/zephras-isle-5-12.guide",
+  "line": 521,
+  "kind": "strip-at",
+  "detail": "kill 252800 quest 92693.1 @47.8,78.31 map 2521 live"
+ },
+ {
+  "file": "guides/alliance/zephras-isle-5-12.guide",
+  "line": 580,
+  "kind": "strip-at",
+  "detail": "kill 254588 quest 94978.1 @52.11,60.7 map 2521 live -- Use the quest item on them, don't just kill them."
+ },
+ {
+  "file": "guides/horde/alterac-mountains-34-40.guide",
+  "line": 119,
+  "kind": "elite",
+  "detail": "collect 6894 quest 1713.1 @80.32,62.14 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 63,
+  "kind": "strip-at",
+  "detail": "kill 2554 x10 quest 677.1 @68.55,76.41 map 1417"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 105,
+  "kind": "strip-at",
+  "detail": "collect 4484 quest 651.2 @25.46,30.11 map 1417 -- Drops from: Stone of West Binding"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 106,
+  "kind": "strip-at",
+  "detail": "collect 4485 quest 651.3 @25.46,30.11 map 1417 -- Drops from: Stone of West Binding"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 112,
+  "kind": "elite",
+  "detail": "collect 4440 quest 639.1 @28.33,63.36 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 139,
+  "kind": "elite",
+  "detail": "collect 4450 x11 quest 640.1 @23.89,60.57 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 143,
+  "kind": "elite",
+  "detail": "collect 4510 quest 673.1 @29.47,64.14 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 147,
+  "kind": "elite",
+  "detail": "kill 2570 x7 quest 679.1 @19.97,67.51 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 148,
+  "kind": "elite",
+  "detail": "kill 2570 x7 quest 679.1 @19.22,67.66 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 149,
+  "kind": "elite",
+  "detail": "kill 2571 x3 quest 679.2 @19.22,67.66 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 153,
+  "kind": "elite",
+  "detail": "collect 4551 quest 680.1 @18.63,65.96 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 183,
+  "kind": "strip-at",
+  "detail": "collect 4487 quest 662.1 @20.46,85.61 map 1417"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 184,
+  "kind": "strip-at",
+  "detail": "collect 4489 quest 662.2 @20.46,85.61 map 1417"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 192,
+  "kind": "strip-at",
+  "detail": "kill 2596 x3 quest 664.2 @22.57,86.91 map 1417"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 248,
+  "kind": "elite",
+  "detail": "collect 4458 quest 643.1 @33.47,52.08 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 252,
+  "kind": "elite",
+  "detail": "collect 4469 quest 652.1 @63.9,30 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 263,
+  "kind": "elite",
+  "detail": "collect 4466 quest 644.1 @28.36,58.11 map 1417 -- Elite"
+ },
+ {
+  "file": "guides/horde/arathi-highlands-34-40.guide",
+  "line": 304,
+  "kind": "strip-at",
+  "detail": "collect 5830 quest 1164.1 @54.18,38.09 map 1417 -- Drops from: Marcel Dabyrie"
+ },
+ {
+  "file": "guides/horde/ashenvale-22-27.guide",
+  "line": 174,
+  "kind": "elite",
+  "detail": "collect 6995 quest 95042.1 @13.55,12.06 map 1440 -- Drops from: Blackfathom Tide Priestess"
+ },
+ {
+  "file": "guides/horde/azshara-52-58.guide",
+  "line": 83,
+  "kind": "strip-at",
+  "detail": "collect 10538 quest 3517.1 @39.8,59.7 map 1447"
+ },
+ {
+  "file": "guides/horde/azshara-52-58.guide",
+  "line": 85,
+  "kind": "strip-at",
+  "detail": "collect 10540 quest 3517.3 @39.8,59.7 map 1447"
+ },
+ {
+  "file": "guides/horde/azshara-52-58.guide",
+  "line": 247,
+  "kind": "elite",
+  "detail": "collect 10599 quest 3510.1 @56.73,44.79 map 1447 -- Elite"
+ },
+ {
+  "file": "guides/horde/azshara-52-58.guide",
+  "line": 248,
+  "kind": "elite",
+  "detail": "collect 10598 quest 3510.2 @56.73,44.79 map 1447 -- Elite"
+ },
+ {
+  "file": "guides/horde/azshara-52-58.guide",
+  "line": 249,
+  "kind": "elite",
+  "detail": "collect 10600 quest 3510.3 @56.73,44.79 map 1447 -- Elite"
+ },
+ {
+  "file": "guides/horde/azshara-52-58.guide",
+  "line": 287,
+  "kind": "strip-at",
+  "detail": "kill 11744 x15 quest 6805.1 @22.6,14.2 map 1451"
+ },
+ {
+  "file": "guides/horde/badlands-37-42.guide",
+  "line": 62,
+  "kind": "elite",
+  "detail": "collect 8009 x8 quest 2418.1 @48.2,11 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/horde/badlands-37-42.guide",
+  "line": 63,
+  "kind": "elite",
+  "detail": "collect 8052 x8 quest 2418.2 @48.2,11 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/horde/badlands-37-42.guide",
+  "line": 77,
+  "kind": "strip-at",
+  "detail": "collect 7847 x5 quest 2258.1 @40.51,78.29 map 1418 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus"
+ },
+ {
+  "file": "guides/horde/badlands-37-42.guide",
+  "line": 78,
+  "kind": "strip-at",
+  "detail": "collect 7846 x10 quest 2258.2 @40.51,78.29 map 1418 -- Drops from: Rock Elemental, Lesser Rock Elemental, Ambassador Infernus"
+ },
+ {
+  "file": "guides/horde/badlands-50-54.guide",
+  "line": 25,
+  "kind": "elite",
+  "detail": "collect 4615 quest 793.1 @81.88,49.46 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/horde/badlands-50-54.guide",
+  "line": 26,
+  "kind": "elite",
+  "detail": "collect 4615 quest 793.1 @82.03,49.93 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/horde/badlands-50-54.guide",
+  "line": 27,
+  "kind": "elite",
+  "detail": "collect 4645 quest 793.2 @82.03,49.93 map 1418 -- Elite"
+ },
+ {
+  "file": "guides/horde/badlands-50-54.guide",
+  "line": 48,
+  "kind": "elite",
+  "detail": "collect 4473 quest 656.1 @62.62,34.06 map 1417 -- Drops from: Myzrael"
+ },
+ {
+  "file": "guides/horde/badlands-50-54.guide",
+  "line": 90,
+  "kind": "elite",
+  "detail": "kill 9026 quest 3906.1 @46.82,67.7 map 1415 -- Elite"
+ },
+ {
+  "file": "guides/horde/blasted-lands-50-55.guide",
+  "line": 27,
+  "kind": "strip-at",
+  "detail": "collect 8393 x2 quest 2583.2 @60.94,27.83 map 1419 -- Drops from: Redstone Basilisk, Redstone Crystalhide, Deatheye"
+ },
+ {
+  "file": "guides/horde/blasted-lands-50-55.guide",
+  "line": 32,
+  "kind": "strip-at",
+  "detail": "collect 8394 x10 quest 2601.1 @57.6,28.4 map 1419 -- Drops from: Black Slayer, Bonepicker"
+ },
+ {
+  "file": "guides/horde/blasted-lands-50-55.guide",
+  "line": 43,
+  "kind": "strip-at",
+  "detail": "collect 8391 x3 quest 2581.1 @58.22,30.36 map 1419 -- Drops from: Ashmane Boar, Helboar, Grunter"
+ },
+ {
+  "file": "guides/horde/blasted-lands-50-55.guide",
+  "line": 45,
+  "kind": "strip-at",
+  "detail": "collect 8393 quest 2581.3 @58.22,30.36 map 1419 -- Drops from: Ashmane Boar, Helboar, Grunter"
+ },
+ {
+  "file": "guides/horde/blasted-lands-50-55.guide",
+  "line": 51,
+  "kind": "strip-at",
+  "detail": "collect 8396 x2 quest 2585.2 @47.8,22.4 map 1419 -- Drops from: Scorpok Stinger, Clack the Reaver"
+ },
+ {
+  "file": "guides/horde/blasted-lands-50-55.guide",
+  "line": 52,
+  "kind": "strip-at",
+  "detail": "collect 8392 quest 2585.3 @47.8,22.4 map 1419 -- Drops from: Scorpok Stinger, Clack the Reaver"
+ },
+ {
+  "file": "guides/horde/blasted-lands-50-55.guide",
+  "line": 69,
+  "kind": "strip-at",
+  "detail": "collect 8244 quest 2521.1 @41.7,14.64 map 1419 -- Drops from: Dreadmaul Ogre, Dreadmaul Ogre Mage, Dreadmaul Brute"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 76,
+  "kind": "strip-at",
+  "detail": "kill 4670 x7 quest 1434.1 @77.63,17.94 map 1443"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 77,
+  "kind": "strip-at",
+  "detail": "kill 4672 x7 quest 1434.2 @77.63,17.94 map 1443"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 79,
+  "kind": "strip-at",
+  "detail": "kill 4675 x7 quest 1434.4 @77.63,17.94 map 1443"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 155,
+  "kind": "strip-at",
+  "detail": "collect 15878 quest 6161.1 @36.25,23.14 map 1443 -- Drops from: Slitherblade Naga, Slitherblade Sorceress, Slitherblade Warrior"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 202,
+  "kind": "strip-at",
+  "detail": "kill 4711 x7 quest 6143.2 @32.74,14.68 map 1443"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 203,
+  "kind": "strip-at",
+  "detail": "kill 4712 x5 quest 6143.3 @32.74,14.68 map 1443"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 259,
+  "kind": "elite",
+  "detail": "kill 5760 quest 1488.1 @56.95,75.74 map 1443 -- Elite"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 260,
+  "kind": "strip-at",
+  "detail": "kill 5760 quest 1488.1 @55.91,77.76 map 1443"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 260,
+  "kind": "elite",
+  "detail": "kill 5760 quest 1488.1"
+ },
+ {
+  "file": "guides/horde/desolace-33-39.guide",
+  "line": 283,
+  "kind": "elite",
+  "detail": "collect 6077 quest 1381.1 @29.55,52 map 1443 -- Elite"
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 420,
+  "kind": "strip-at",
+  "detail": "kill 3129 x8 quest 784.2 @57.11,57.24 map 1411"
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 421,
+  "kind": "strip-at",
+  "detail": "kill 3192 quest 784.3 @57.11,57.24 map 1411"
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 450,
+  "kind": "elite",
+  "detail": "kill 266851 @50.8,56.57 map 1411 -- Loot the quest item here \u2014 it starts the quest."
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 486,
+  "kind": "strip-at",
+  "detail": "interact 3190 quest 786.2 @49.81,81.29 map 1411"
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 487,
+  "kind": "strip-at",
+  "detail": "interact 3192 quest 786.3 @49.81,81.29 map 1411"
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 529,
+  "kind": "strip-at",
+  "detail": "collect 4866 quest 826.3 @67.7,83.67 map 1411"
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 563,
+  "kind": "strip-at",
+  "detail": "kill 3111 x4 quest 837.1 @42,40.4 map 1411"
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 564,
+  "kind": "strip-at",
+  "detail": "kill 3112 x4 quest 837.2 @42,40.4 map 1411"
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 624,
+  "kind": "elite",
+  "detail": "kill 266852 @41.77,25.1 map 1411 -- Loot the quest item here \u2014 it starts the quest."
+ },
+ {
+  "file": "guides/horde/durotar-5-12.guide",
+  "line": 688,
+  "kind": "elite",
+  "detail": "collect 286009 quest 99052.1 @59.22,17.6 map 1411 -- Drops from: Aggor the Young"
+ },
+ {
+  "file": "guides/horde/dustwallow-marsh-35-43.guide",
+  "line": 131,
+  "kind": "strip-at",
+  "detail": "collect 5835 quest 1166.2 @44.53,66.04 map 1445"
+ },
+ {
+  "file": "guides/horde/dustwallow-marsh-35-43.guide",
+  "line": 132,
+  "kind": "strip-at",
+  "detail": "collect 5836 quest 1166.3 @44.53,66.04 map 1445"
+ },
+ {
+  "file": "guides/horde/dustwallow-marsh-35-43.guide",
+  "line": 138,
+  "kind": "strip-at",
+  "detail": "kill 4329 x10 quest 1168.1 @53.32,72.97 map 1445"
+ },
+ {
+  "file": "guides/horde/dustwallow-marsh-35-43.guide",
+  "line": 139,
+  "kind": "strip-at",
+  "detail": "kill 4331 x10 quest 1168.2 @53.32,72.97 map 1445"
+ },
+ {
+  "file": "guides/horde/dustwallow-marsh-35-43.guide",
+  "line": 158,
+  "kind": "elite",
+  "detail": "kill 6549 quest 4961.1 @45.79,56.97 map 1445 -- Elite"
+ },
+ {
+  "file": "guides/horde/dustwallow-marsh-35-43.guide",
+  "line": 316,
+  "kind": "elite",
+  "detail": "kill 6549 quest 1955.1 @45.79,56.97 map 1445 -- Elite"
+ },
+ {
+  "file": "guides/horde/eastern-plaguelands-56-60.guide",
+  "line": 234,
+  "kind": "elite",
+  "detail": "collect 15850 quest 6135.1 @26.08,59.03 map 1423 -- Elite"
+ },
+ {
+  "file": "guides/horde/eastern-plaguelands-56-60.guide",
+  "line": 241,
+  "kind": "elite",
+  "detail": "kill 11896 quest 6136.1 @47.69,24.87 map 1423 -- Elite"
+ },
+ {
+  "file": "guides/horde/eastern-plaguelands-56-60.guide",
+  "line": 340,
+  "kind": "elite",
+  "detail": "collect 15868 quest 6145.1 @51.39,30.59 map 1423 -- Elite"
+ },
+ {
+  "file": "guides/horde/eastern-plaguelands-56-60.guide",
+  "line": 370,
+  "kind": "elite",
+  "detail": "kill 12339 quest 6148.1 @63.3,67.22 map 1423 -- Elite"
+ },
+ {
+  "file": "guides/horde/eastern-plaguelands-56-60.guide",
+  "line": 378,
+  "kind": "strip-at",
+  "detail": "collect 12954 quest 5168.1 @63.79,57.19 map 1422"
+ },
+ {
+  "file": "guides/horde/felwood-52-56.guide",
+  "line": 110,
+  "kind": "strip-at",
+  "detail": "collect 20614 x4 quest 8421.2 @46.58,23.75 map 1448 -- Drops from: Irontree Wanderer, Irontree Stomper, Withered Protector"
+ },
+ {
+  "file": "guides/horde/felwood-52-56.guide",
+  "line": 191,
+  "kind": "strip-at",
+  "detail": "kill 7450 x15 quest 4521.2 @59.83,31.69 map 1452"
+ },
+ {
+  "file": "guides/horde/feralas-43-48.guide",
+  "line": 110,
+  "kind": "strip-at",
+  "detail": "kill 5236 x10 quest 2980.1 @61.11,57.53 map 1444"
+ },
+ {
+  "file": "guides/horde/feralas-43-48.guide",
+  "line": 173,
+  "kind": "elite",
+  "detail": "collect 9528 quest 3062.1 @40.55,8.6 map 1444 -- Elite"
+ },
+ {
+  "file": "guides/horde/feralas-43-48.guide",
+  "line": 180,
+  "kind": "strip-at",
+  "detail": "kill 5362 x4 quest 3063.1 @41.55,14.39 map 1444"
+ },
+ {
+  "file": "guides/horde/feralas-43-48.guide",
+  "line": 182,
+  "kind": "strip-at",
+  "detail": "kill 5364 x4 quest 3063.3 @41.55,14.39 map 1444"
+ },
+ {
+  "file": "guides/horde/feralas-43-48.guide",
+  "line": 183,
+  "kind": "strip-at",
+  "detail": "kill 5366 x4 quest 3063.4 @41.55,14.39 map 1444"
+ },
+ {
+  "file": "guides/horde/feralas-43-48.guide",
+  "line": 251,
+  "kind": "strip-at",
+  "detail": "collect 9591 x20 quest 3128.3 @44.26,22.29 map 1444 -- Drops from: Sprite Dragon, Sprite Darter, Land Walker"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-22-28.guide",
+  "line": 66,
+  "kind": "strip-at",
+  "detail": "kill 2403 quest 527.4 @33.22,34.76 map 1424"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-22-28.guide",
+  "line": 89,
+  "kind": "strip-at",
+  "detail": "interact 1721 quest 498.1 @79.79,39.65 map 1424"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-22-28.guide",
+  "line": 170,
+  "kind": "strip-at",
+  "detail": "kill 2448 quest 567.1 @31.8,52.7 map 1424"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-22-28.guide",
+  "line": 171,
+  "kind": "strip-at",
+  "detail": "kill 2449 quest 567.2 @31.8,52.7 map 1424"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-22-28.guide",
+  "line": 173,
+  "kind": "strip-at",
+  "detail": "kill 2451 quest 567.4 @31.8,52.7 map 1424"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 44,
+  "kind": "elite",
+  "detail": "kill 2345 x4 quest 541.2 @71.49,78.59 map 1424 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 45,
+  "kind": "elite",
+  "detail": "kill 2344 x8 quest 541.1 @71.58,79.57 map 1424 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 46,
+  "kind": "elite",
+  "detail": "kill 2346 x2 quest 541.3 @71.78,80.45 map 1424 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 47,
+  "kind": "elite",
+  "detail": "kill 2344 x8 quest 541.1 @72.53,79.65 map 1424 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 48,
+  "kind": "elite",
+  "detail": "kill 2345 x4 quest 541.2 @72.53,79.65 map 1424 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 49,
+  "kind": "elite",
+  "detail": "kill 2346 x2 quest 541.3 @72.53,79.65 map 1424 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 50,
+  "kind": "elite",
+  "detail": "kill 2304 quest 541.4 @72.53,79.65 map 1424 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 53,
+  "kind": "elite",
+  "detail": "collect 3693 quest 547.1 @71.58,79.57 map 1424 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 73,
+  "kind": "strip-at",
+  "detail": "interact 1768 quest 553.1 @37.55,66.24 map 1416"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 74,
+  "kind": "strip-at",
+  "detail": "interact 1769 quest 553.2 @37.55,66.24 map 1416"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 107,
+  "kind": "strip-at",
+  "detail": "collect 3691 quest 544.1 @17.8,83.2 map 1416 -- Drops from: Kegan Darkmar"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 108,
+  "kind": "strip-at",
+  "detail": "collect 3689 quest 544.2 @17.8,83.2 map 1416 -- Drops from: Kegan Darkmar"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 109,
+  "kind": "strip-at",
+  "detail": "collect 3690 quest 544.3 @17.8,83.2 map 1416 -- Drops from: Kegan Darkmar"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 150,
+  "kind": "strip-at",
+  "detail": "kill 2562 x8 quest 676.1 @32.39,44.74 map 1417"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 170,
+  "kind": "elite",
+  "detail": "kill 2254 x10 quest 518.1 @43.11,46.89 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 194,
+  "kind": "elite",
+  "detail": "collect 3550 quest 519.1 @39.57,52.89 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 195,
+  "kind": "elite",
+  "detail": "collect 3551 quest 519.2 @38.65,46.75 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 196,
+  "kind": "strip-at",
+  "detail": "collect 3550 quest 519.1 @39.5,41.82 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 196,
+  "kind": "elite",
+  "detail": "collect 3550 quest 519.1 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 197,
+  "kind": "strip-at",
+  "detail": "collect 3551 quest 519.2 @39.5,41.82 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 197,
+  "kind": "elite",
+  "detail": "collect 3551 quest 519.2 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 198,
+  "kind": "elite",
+  "detail": "collect 3552 quest 519.3 @39.5,41.82 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 211,
+  "kind": "elite",
+  "detail": "collect 3553 quest 520.1 @35.68,54.25 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/hillsbrad-foothills-32-40.guide",
+  "line": 212,
+  "kind": "elite",
+  "detail": "collect 3554 quest 520.2 @35.68,54.25 map 1416 -- Elite"
+ },
+ {
+  "file": "guides/horde/mulgore-4-10.guide",
+  "line": 562,
+  "kind": "elite",
+  "detail": "collect 281048 quest 98427.1 @56.76,43.07 map 1412 -- Drops from: Venture Co. Clearclutter"
+ },
+ {
+  "file": "guides/horde/searing-gorge-48-50.guide",
+  "line": 64,
+  "kind": "elite",
+  "detail": "collect 18946 quest 7701.1 @40.77,35.89 map 1427 -- Elite"
+ },
+ {
+  "file": "guides/horde/searing-gorge-48-50.guide",
+  "line": 79,
+  "kind": "strip-at",
+  "detail": "collect 18959 quest 7728.1 @42.72,62.57 map 1427 -- Drops from: Dark Iron Lookout"
+ },
+ {
+  "file": "guides/horde/searing-gorge-48-50.guide",
+  "line": 95,
+  "kind": "elite",
+  "detail": "collect 10552 quest 3452.1 @23.52,36.55 map 1427 -- Elite"
+ },
+ {
+  "file": "guides/horde/searing-gorge-48-50.guide",
+  "line": 145,
+  "kind": "strip-at",
+  "detail": "interact 149025 quest 3463.1 @50.07,54.74 map 1427"
+ },
+ {
+  "file": "guides/horde/searing-gorge-48-50.guide",
+  "line": 146,
+  "kind": "strip-at",
+  "detail": "interact 149030 quest 3463.2 @50.07,54.74 map 1427"
+ },
+ {
+  "file": "guides/horde/searing-gorge-48-50.guide",
+  "line": 148,
+  "kind": "strip-at",
+  "detail": "interact 149032 quest 3463.4 @50.07,54.74 map 1427"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 45,
+  "kind": "strip-at",
+  "detail": "collect 20376 x8 quest 8277.2 @59.92,28.13 map 1451 -- Drops from: Stonelash Scorpid"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 74,
+  "kind": "strip-at",
+  "detail": "collect 20374 x3 quest 8278.2 @36.03,78.08 map 1451 -- Drops from: Stonelash Flayer"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 145,
+  "kind": "elite",
+  "detail": "collect 20385 quest 8283.1 @45.07,92.31 map 1451 -- Elite"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 159,
+  "kind": "strip-at",
+  "detail": "collect 20394 quest 8279.1 @16.09,86.37 map 1451 -- Drops from: Twilight Keeper Exeter"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 161,
+  "kind": "strip-at",
+  "detail": "collect 20396 quest 8279.3 @16.09,86.37 map 1451 -- Drops from: Twilight Keeper Exeter"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 233,
+  "kind": "elite",
+  "detail": "collect 20459 quest 8310.3 @58.08,86.89 map 1451 -- Elite"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 235,
+  "kind": "strip-at",
+  "detail": "collect 20457 quest 8310.1 @27.87,61.78 map 1451 -- Drops from: Hive'Zora Wasp, Hive'Zora Waywatcher, Hive'Zora Tunneler"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 237,
+  "kind": "strip-at",
+  "detail": "collect 20459 quest 8310.3 @27.87,61.78 map 1451 -- Drops from: Hive'Zora Wasp, Hive'Zora Waywatcher, Hive'Zora Tunneler"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 237,
+  "kind": "elite",
+  "detail": "collect 20459 quest 8310.3 -- Drops from: Hive'Zora Wasp, Hive'Zora Waywatcher, Hive'Zora Tunneler"
+ },
+ {
+  "file": "guides/horde/silithus-55-60.guide",
+  "line": 265,
+  "kind": "elite",
+  "detail": "kill 15215 quest 8306.1 @44.4,86.11 map 1414 -- Elite"
+ },
+ {
+  "file": "guides/horde/silverpine-forest-11-20.guide",
+  "line": 39,
+  "kind": "strip-at",
+  "detail": "collect 3253 x6 quest 447.1 @35.63,14.14 map 1421 -- Drops from: Moss Stalker, Mist Creeper, Krethis Shadowspinner"
+ },
+ {
+  "file": "guides/horde/silverpine-forest-11-20.guide",
+  "line": 176,
+  "kind": "strip-at",
+  "detail": "collect 3157 x3 quest 423.2 @46.63,28.36 map 1421 -- Drops from: Moonrage Glutton"
+ },
+ {
+  "file": "guides/horde/silverpine-forest-11-20.guide",
+  "line": 230,
+  "kind": "elite",
+  "detail": "collect 3218 x6 quest 99.1 @45.35,72.52 map 1421 -- Elite"
+ },
+ {
+  "file": "guides/horde/silverpine-forest-11-20.guide",
+  "line": 414,
+  "kind": "elite",
+  "detail": "kill 259897 quest 95140.1 @49.56,85.2 map 1421"
+ },
+ {
+  "file": "guides/horde/silverpine-forest-11-20.guide",
+  "line": 462,
+  "kind": "strip-at",
+  "detail": "collect 2589 x10 quest 94434.1 @65.68,37.74 map 1458 -- Drops from: humanoids"
+ },
+ {
+  "file": "guides/horde/silverpine-forest-11-20.guide",
+  "line": 561,
+  "kind": "elite",
+  "detail": "collect 3623 quest 442.1 @65.71,23.67 map 1421 -- Elite"
+ },
+ {
+  "file": "guides/horde/silverpine-forest-11-20.guide",
+  "line": 576,
+  "kind": "strip-at",
+  "detail": "collect 3256 x6 quest 451.1 @60.46,15.55 map 1421 -- Drops from: Vile Fin Shredder, Vile Fin Tidehunter, Vile Fin Lakestalker"
+ },
+ {
+  "file": "guides/horde/silverpine-forest-11-20.guide",
+  "line": 577,
+  "kind": "strip-at",
+  "detail": "collect 3257 x6 quest 451.2 @60.46,15.55 map 1421 -- Drops from: Vile Fin Shredder, Vile Fin Tidehunter, Vile Fin Lakestalker"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 31,
+  "kind": "strip-at",
+  "detail": "kill 4005 x10 quest 6461.1 @53.97,61.45 map 1442"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 41,
+  "kind": "elite",
+  "detail": "kill 11920 quest 6481.1 @57.4,89.4 map 1442 -- Elite"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 51,
+  "kind": "elite",
+  "detail": "collect 16192 quest 6284.1 @52.8,72.6 map 1442 -- Elite"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 125,
+  "kind": "strip-at",
+  "detail": "kill 4022 x7 quest 6282.1 @34.86,69.12 map 1442"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 126,
+  "kind": "strip-at",
+  "detail": "kill 4025 x7 quest 6282.2 @34.86,69.12 map 1442"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 144,
+  "kind": "strip-at",
+  "detail": "collect 5582 x5 quest 1058.1 @33.28,9.93 map 1442 -- Drops from: Twilight Runner"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 146,
+  "kind": "strip-at",
+  "detail": "collect 5585 x30 quest 1058.3 @33.28,9.93 map 1442 -- Drops from: Twilight Runner"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 147,
+  "kind": "strip-at",
+  "detail": "collect 5583 quest 1058.4 @33.28,9.93 map 1442 -- Drops from: Twilight Runner"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 171,
+  "kind": "elite",
+  "detail": "collect 16190 quest 6283.1 @30.75,61.91 map 1442 -- Elite"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 231,
+  "kind": "elite",
+  "detail": "kill 4802 @13.55,12.06 map 1440 -- Loot the quest item here \u2014 it starts the quest. Elite"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 272,
+  "kind": "strip-at",
+  "detail": "collect 5690 quest 1089.2 @25.55,11.36 map 1442 -- Drops from: Sleepers' Cache"
+ },
+ {
+  "file": "guides/horde/stonetalon-mountains-19-26.guide",
+  "line": 273,
+  "kind": "strip-at",
+  "detail": "collect 5691 quest 1089.3 @25.55,11.36 map 1442 -- Drops from: Sleepers' Cache"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 240,
+  "kind": "elite",
+  "detail": "collect 3876 quest 193.1 @49.4,24 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 243,
+  "kind": "strip-at",
+  "detail": "collect 2725 quest 339.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 244,
+  "kind": "strip-at",
+  "detail": "collect 2728 quest 339.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 245,
+  "kind": "strip-at",
+  "detail": "collect 2730 quest 339.3 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 246,
+  "kind": "strip-at",
+  "detail": "collect 2732 quest 339.4 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 249,
+  "kind": "strip-at",
+  "detail": "collect 2734 quest 340.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 250,
+  "kind": "strip-at",
+  "detail": "collect 2735 quest 340.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 251,
+  "kind": "strip-at",
+  "detail": "collect 2738 quest 340.3 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 252,
+  "kind": "strip-at",
+  "detail": "collect 2740 quest 340.4 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 255,
+  "kind": "strip-at",
+  "detail": "collect 2742 quest 341.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 256,
+  "kind": "strip-at",
+  "detail": "collect 2744 quest 341.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 257,
+  "kind": "strip-at",
+  "detail": "collect 2745 quest 341.3 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 258,
+  "kind": "strip-at",
+  "detail": "collect 2748 quest 341.4 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 261,
+  "kind": "strip-at",
+  "detail": "collect 2749 quest 342.1 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 262,
+  "kind": "strip-at",
+  "detail": "collect 2750 quest 342.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 263,
+  "kind": "strip-at",
+  "detail": "collect 2751 quest 342.3 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 309,
+  "kind": "elite",
+  "detail": "collect 4105 quest 628.1 @29.83,25.48 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 321,
+  "kind": "strip-at",
+  "detail": "collect 3905 quest 584.2 @23.44,8.12 map 1434 -- Drops from: Gan'zulah"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 333,
+  "kind": "strip-at",
+  "detail": "collect 3906 quest 585.1 @47.65,39.54 map 1434 -- Drops from: Zul'Mamwe Trophy Skulls"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-34-41.guide",
+  "line": 334,
+  "kind": "strip-at",
+  "detail": "collect 3907 quest 585.2 @47.65,39.54 map 1434 -- Drops from: Zul'Mamwe Trophy Skulls"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 51,
+  "kind": "strip-at",
+  "detail": "collect 3926 quest 609.3 @35.26,51.27 map 1434 -- Drops from: Maury \"Club Foot\" Wilkins"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 85,
+  "kind": "elite",
+  "detail": "collect 3930 quest 613.1 @51.48,27.13 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 109,
+  "kind": "elite",
+  "detail": "collect 3877 quest 197.1 @32.2,42.8 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 114,
+  "kind": "strip-at",
+  "detail": "kill 781 x6 quest 586.2 @45.93,42.4 map 1434"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 115,
+  "kind": "strip-at",
+  "detail": "kill 783 x4 quest 586.3 @45.93,42.4 map 1434"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 116,
+  "kind": "strip-at",
+  "detail": "collect 3909 quest 586.4 @45.93,42.4 map 1434"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 165,
+  "kind": "elite",
+  "detail": "collect 3880 quest 208.1 @38.21,35.58 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 186,
+  "kind": "elite",
+  "detail": "collect 3616 quest 591.1 @52.93,27.6 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 224,
+  "kind": "strip-at",
+  "detail": "kill 2548 quest 608.2 @32.87,88.2 map 1434"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 225,
+  "kind": "strip-at",
+  "detail": "kill 2546 quest 608.3 @32.87,88.2 map 1434"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 237,
+  "kind": "elite",
+  "detail": "collect 3932 quest 8551.1 @36.95,69.73 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 248,
+  "kind": "strip-at",
+  "detail": "collect 737 quest 573.2 @26.2,62.42 map 1434"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 261,
+  "kind": "elite",
+  "detail": "kill 1493 @23.25,72.1 map 1434 -- Loot the quest item here \u2014 it starts the quest. Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 281,
+  "kind": "elite",
+  "detail": "collect 3935 quest 8554.1 @32.45,81.57 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 292,
+  "kind": "elite",
+  "detail": "collect 4103 quest 630.1 @40.95,83.9 map 1434 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 364,
+  "kind": "elite",
+  "detail": "collect 10755 quest 3627.1 @66.69,29.24 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 365,
+  "kind": "elite",
+  "detail": "collect 10754 quest 3627.3 @40.75,29.97 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 366,
+  "kind": "strip-at",
+  "detail": "collect 10755 quest 3627.1 @42.57,13.01 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 366,
+  "kind": "elite",
+  "detail": "collect 10755 quest 3627.1 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 367,
+  "kind": "elite",
+  "detail": "collect 10753 quest 3627.2 @42.57,13.01 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 368,
+  "kind": "strip-at",
+  "detail": "collect 10754 quest 3627.3 @42.57,13.01 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 368,
+  "kind": "elite",
+  "detail": "collect 10754 quest 3627.3 -- Elite"
+ },
+ {
+  "file": "guides/horde/stranglethorn-vale-43-50.guide",
+  "line": 384,
+  "kind": "elite",
+  "detail": "collect 10759 quest 3628.1 @47.64,29.83 map 1419 -- Elite"
+ },
+ {
+  "file": "guides/horde/swamp-of-sorrows-35-44.guide",
+  "line": 105,
+  "kind": "strip-at",
+  "detail": "kill 747 x10 quest 1426.1 @63.22,84.91 map 1435"
+ },
+ {
+  "file": "guides/horde/swamp-of-sorrows-35-44.guide",
+  "line": 128,
+  "kind": "strip-at",
+  "detail": "kill 750 x10 quest 1428.1 @61.41,84.34 map 1435"
+ },
+ {
+  "file": "guides/horde/swamp-of-sorrows-50-57.guide",
+  "line": 83,
+  "kind": "strip-at",
+  "detail": "kill 7668 x9 quest 2681.1 @41.22,14.43 map 1419"
+ },
+ {
+  "file": "guides/horde/swamp-of-sorrows-50-57.guide",
+  "line": 85,
+  "kind": "strip-at",
+  "detail": "kill 7670 x3 quest 2681.3 @41.22,14.43 map 1419"
+ },
+ {
+  "file": "guides/horde/swamp-of-sorrows-50-57.guide",
+  "line": 86,
+  "kind": "strip-at",
+  "detail": "kill 7671 x3 quest 2681.4 @41.22,14.43 map 1419"
+ },
+ {
+  "file": "guides/horde/tanaris-44-50.guide",
+  "line": 54,
+  "kind": "strip-at",
+  "detail": "kill 7855 x10 quest 8366.1 @74.42,47.71 map 1446"
+ },
+ {
+  "file": "guides/horde/tanaris-44-50.guide",
+  "line": 55,
+  "kind": "strip-at",
+  "detail": "kill 7856 x10 quest 8366.2 @74.42,47.71 map 1446"
+ },
+ {
+  "file": "guides/horde/tanaris-44-50.guide",
+  "line": 57,
+  "kind": "strip-at",
+  "detail": "kill 7858 x10 quest 8366.4 @74.42,47.71 map 1446"
+ },
+ {
+  "file": "guides/horde/tanaris-44-50.guide",
+  "line": 95,
+  "kind": "strip-at",
+  "detail": "kill 5623 x6 quest 1691.2 @61.97,35.46 map 1446"
+ },
+ {
+  "file": "guides/horde/tanaris-44-50.guide",
+  "line": 159,
+  "kind": "strip-at",
+  "detail": "kill 5474 x10 quest 5863.1 @41.5,57.81 map 1446"
+ },
+ {
+  "file": "guides/horde/tanaris-44-50.guide",
+  "line": 160,
+  "kind": "strip-at",
+  "detail": "kill 5472 x10 quest 5863.2 @41.5,57.81 map 1446"
+ },
+ {
+  "file": "guides/horde/tanaris-53-54.guide",
+  "line": 35,
+  "kind": "strip-at",
+  "detail": "collect 11837 quest 4496.1 @47,52.9 map 1449 -- Drops from: Un'Goro Dirt Pile"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 95,
+  "kind": "strip-at",
+  "detail": "kill 3267 x8 quest 871.1 @57.81,24.44 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 96,
+  "kind": "strip-at",
+  "detail": "kill 3268 x8 quest 871.2 @57.81,24.44 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 172,
+  "kind": "strip-at",
+  "detail": "collect 5063 quest 872.3 @57.32,24.6 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 274,
+  "kind": "strip-at",
+  "detail": "collect 5076 quest 888.1 @63.58,49.25 map 1413 -- Drops from: Fragile - Do Not Drop"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 289,
+  "kind": "strip-at",
+  "detail": "collect 2449 x5 quest 6128.1 @54.06,41.46 map 1413 -- Drops from: Lost Barrens Kodo, Barrens Kodo"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 300,
+  "kind": "strip-at",
+  "detail": "collect 4893 x5 quest 821.1 @46.95,51.1 map 1413 -- Drops from: Stormsnout, Thunderhead, Stormhide"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 301,
+  "kind": "strip-at",
+  "detail": "collect 4894 x5 quest 821.2 @46.95,51.1 map 1413 -- Drops from: Stormsnout, Thunderhead, Stormhide"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 389,
+  "kind": "strip-at",
+  "detail": "interact 6907 quest 905.1 @52.02,46.47 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 513,
+  "kind": "elite",
+  "detail": "collect 253710 quest 92706.1 @64.38,39.21 map 1413 -- Drops from: Bruuz"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 546,
+  "kind": "strip-at",
+  "detail": "kill 3455 quest 891.2 @61.85,54.65 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 547,
+  "kind": "strip-at",
+  "detail": "kill 3454 quest 891.3 @61.85,54.65 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 595,
+  "kind": "elite",
+  "detail": "collect 276070 quest 97003.1 @57.64,27.37 map 1413 -- Drops from: Chol'aruk"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 607,
+  "kind": "strip-at",
+  "detail": "kill 3261 x12 quest 878.2 @52.56,52.43 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-12-20.guide",
+  "line": 1045,
+  "kind": "strip-at",
+  "detail": "kill 11858 quest 6629.1 @77.79,86.33 map 1442"
+ },
+ {
+  "file": "guides/horde/the-barrens-23-27.guide",
+  "line": 30,
+  "kind": "elite",
+  "detail": "collect 8074 quest 2478.4 @54.72,5.75 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-23-27.guide",
+  "line": 80,
+  "kind": "strip-at",
+  "detail": "collect 5074 quest 879.1 @40.15,80.54 map 1413 -- Drops from: Lok Orcbane"
+ },
+ {
+  "file": "guides/horde/the-barrens-23-27.guide",
+  "line": 81,
+  "kind": "strip-at",
+  "detail": "collect 5073 quest 879.2 @40.15,80.54 map 1413 -- Drops from: Lok Orcbane"
+ },
+ {
+  "file": "guides/horde/the-barrens-23-27.guide",
+  "line": 88,
+  "kind": "strip-at",
+  "detail": "collect 5092 quest 893.2 @43.97,80.51 map 1413 -- Drops from: Razormane Pathfinder, Razormane Stalker"
+ },
+ {
+  "file": "guides/horde/the-barrens-23-27.guide",
+  "line": 89,
+  "kind": "strip-at",
+  "detail": "collect 5094 quest 893.3 @43.97,80.51 map 1413 -- Drops from: Razormane Pathfinder, Razormane Stalker"
+ },
+ {
+  "file": "guides/horde/the-barrens-23-27.guide",
+  "line": 98,
+  "kind": "elite",
+  "detail": "kill 268623 quest 97250.2 @48.86,77.29 map 1413"
+ },
+ {
+  "file": "guides/horde/the-barrens-23-27.guide",
+  "line": 195,
+  "kind": "strip-at",
+  "detail": "kill 4074 quest 1068.2 @67.2,46.69 map 1442"
+ },
+ {
+  "file": "guides/horde/the-barrens-55-60.guide",
+  "line": 54,
+  "kind": "strip-at",
+  "detail": "interact 176158 quest 5165.1 @37.68,52.69 map 1448"
+ },
+ {
+  "file": "guides/horde/the-barrens-55-60.guide",
+  "line": 56,
+  "kind": "strip-at",
+  "detail": "interact 176160 quest 5165.3 @37.68,52.69 map 1448"
+ },
+ {
+  "file": "guides/horde/the-barrens-55-60.guide",
+  "line": 57,
+  "kind": "strip-at",
+  "detail": "interact 176161 quest 5165.4 @37.68,52.69 map 1448"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 27,
+  "kind": "strip-at",
+  "detail": "interact 144072 quest 2995.2 @31.99,46.82 map 1425"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 28,
+  "kind": "strip-at",
+  "detail": "interact 144073 quest 2995.3 @31.99,46.82 map 1425"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 66,
+  "kind": "strip-at",
+  "detail": "kill 2926 x10 quest 7828.1 @43.97,61.76 map 1425"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 80,
+  "kind": "strip-at",
+  "detail": "kill 4466 x30 quest 7844.1 @48.04,65.62 map 1425"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 103,
+  "kind": "strip-at",
+  "detail": "kill 2694 x15 quest 7841.3 @33.04,51.52 map 1425"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 104,
+  "kind": "strip-at",
+  "detail": "kill 2693 x15 quest 7841.4 @33.04,51.52 map 1425"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 137,
+  "kind": "strip-at",
+  "detail": "collect 19070 quest 7849.2 @58.56,64.76 map 1425 -- Drops from: Pile of Skulls"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 144,
+  "kind": "elite",
+  "detail": "collect 19023 quest 7816.1 @80.4,58.23 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 179,
+  "kind": "elite",
+  "detail": "kill 2646 x20 quest 7862.3 @62.93,77.78 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 180,
+  "kind": "elite",
+  "detail": "kill 2645 x20 quest 7862.2 @63.18,73.02 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 181,
+  "kind": "elite",
+  "detail": "kill 2643 x20 quest 7862.1 @64.22,71.67 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 182,
+  "kind": "strip-at",
+  "detail": "kill 2643 x20 quest 7862.1 @61.4,72.85 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 182,
+  "kind": "elite",
+  "detail": "kill 2643 x20 quest 7862.1 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 183,
+  "kind": "elite",
+  "detail": "kill 2645 x20 quest 7862.2 @61.4,72.85 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 184,
+  "kind": "elite",
+  "detail": "kill 2646 x20 quest 7862.3 @61.4,72.85 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 185,
+  "kind": "elite",
+  "detail": "kill 2647 x20 quest 7862.4 @61.4,72.85 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 195,
+  "kind": "elite",
+  "detail": "kill 7995 quest 7861.1 @59.47,78.26 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 196,
+  "kind": "strip-at",
+  "detail": "kill 7995 quest 7861.1 @57.66,81.51 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 196,
+  "kind": "elite",
+  "detail": "kill 7995 quest 7861.1 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 197,
+  "kind": "elite",
+  "detail": "kill 2648 x20 quest 7861.2 @57.66,81.51 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/the-hinterlands-47-50.guide",
+  "line": 201,
+  "kind": "elite",
+  "detail": "collect 19064 quest 7846.1 @57.32,86.64 map 1425 -- Elite"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 83,
+  "kind": "elite",
+  "detail": "collect 12946 quest 5151.1 @22.76,24.62 map 1441 -- Elite"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 129,
+  "kind": "strip-at",
+  "detail": "collect 12766 quest 5064.2 @33.76,39.99 map 1441 -- Drops from: Document Chest"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 130,
+  "kind": "strip-at",
+  "detail": "collect 12768 quest 5064.3 @39.34,41.53 map 1441 -- Drops from: Document Chest"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 142,
+  "kind": "strip-at",
+  "detail": "kill 4100 x5 quest 98070.1 @27.35,51 map 1441"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 158,
+  "kind": "elite",
+  "detail": "collect 5844 quest 1151.1 @17.1,38.1 map 1441 -- Elite"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 214,
+  "kind": "strip-at",
+  "detail": "kill 4151 x10 quest 1175.2 @73.64,59.44 map 1441"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 215,
+  "kind": "strip-at",
+  "detail": "kill 4150 x6 quest 1175.3 @73.64,59.44 map 1441"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 275,
+  "kind": "elite",
+  "detail": "collect 12925 quest 5088.1 @38.06,35.37 map 1441"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 414,
+  "kind": "strip-at",
+  "detail": "kill 4130 x5 quest 1147.1 @65.31,86.73 map 1441"
+ },
+ {
+  "file": "guides/horde/thousand-needles-27-33.guide",
+  "line": 461,
+  "kind": "strip-at",
+  "detail": "collect 6989 x10 quest 4783.1 @51.45,75.61 map 1443 -- Drops from: Lesser Infernal, Demon Portal Guardian"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 154,
+  "kind": "strip-at",
+  "detail": "kill 1504 x10 quest 380.1 @24.8,59.69 map 1420"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 383,
+  "kind": "strip-at",
+  "detail": "kill 1675 x5 quest 358.2 @55.78,42.27 map 1420"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 465,
+  "kind": "strip-at",
+  "detail": "kill 1662 quest 370.1 @78.38,56.03 map 1420"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 467,
+  "kind": "strip-at",
+  "detail": "kill 1536 x3 quest 370.3 @78.38,56.03 map 1420"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 489,
+  "kind": "elite",
+  "detail": "kill 260396 @9.52,60.28 map 1420 -- Loot the quest item here \u2014 it starts the quest."
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 496,
+  "kind": "elite",
+  "detail": "collect 268812 quest 95328.1 @9.52,60.28 map 1420 -- Drops from: Whispering Horror"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 554,
+  "kind": "strip-at",
+  "detail": "kill 1664 quest 371.1 @81.6,53.1 map 1420"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 572,
+  "kind": "strip-at",
+  "detail": "collect 2828 quest 354.2 @46.74,29.31 map 1420 -- Drops from: Gregor Agamand"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 573,
+  "kind": "strip-at",
+  "detail": "collect 2830 quest 354.3 @46.74,29.31 map 1420 -- Drops from: Gregor Agamand"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 662,
+  "kind": "strip-at",
+  "detail": "kill 267006 x8 quest 96897.1 @57.81,52.71 map 1420"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 663,
+  "kind": "strip-at",
+  "detail": "kill 275437 x8 quest 96897.2 @57.81,52.71 map 1420"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 677,
+  "kind": "elite",
+  "detail": "collect 286326 quest 99156.1 @83.69,44.83 map 1420 -- Drops from: Riptear"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 687,
+  "kind": "strip-at",
+  "detail": "collect 3082 quest 408.3 @51.87,28.76 map 1420"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-5-12.guide",
+  "line": 696,
+  "kind": "strip-at",
+  "detail": "collect 7569 quest 1821.3 @51.68,25.69 map 1420 -- Drops from: Agamand Weapon Rack"
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-53-60.guide",
+  "line": 108,
+  "kind": "strip-at",
+  "detail": "kill 10902 quest 5098.1 @46.62,71.05 map 1422 -- Use the quest item on them, don't just kill them."
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-53-60.guide",
+  "line": 109,
+  "kind": "strip-at",
+  "detail": "kill 10903 quest 5098.2 @46.62,71.05 map 1422 -- Use the quest item on them, don't just kill them."
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-53-60.guide",
+  "line": 110,
+  "kind": "strip-at",
+  "detail": "kill 10904 quest 5098.3 @46.62,71.05 map 1422 -- Use the quest item on them, don't just kill them."
+ },
+ {
+  "file": "guides/horde/tirisfal-glades-53-60.guide",
+  "line": 138,
+  "kind": "elite",
+  "detail": "kill 1852 -- Elite"
+ },
+ {
+  "file": "guides/horde/ungoro-crater-51-55.guide",
+  "line": 38,
+  "kind": "strip-at",
+  "detail": "kill 6509 x5 quest 4145.1 @35.65,43.71 map 1449"
+ },
+ {
+  "file": "guides/horde/ungoro-crater-51-55.guide",
+  "line": 40,
+  "kind": "strip-at",
+  "detail": "kill 6510 x5 quest 4145.3 @35.65,43.71 map 1449"
+ },
+ {
+  "file": "guides/horde/ungoro-crater-51-55.guide",
+  "line": 41,
+  "kind": "strip-at",
+  "detail": "kill 6511 x5 quest 4145.4 @35.65,43.71 map 1449"
+ },
+ {
+  "file": "guides/horde/ungoro-crater-51-55.guide",
+  "line": 45,
+  "kind": "strip-at",
+  "detail": "collect 11830 x8 quest 4503.1 @78.7,39.55 map 1449 -- Drops from: Fledgling Pterrordax, Pterrordax, Frenzied Pterrordax"
+ },
+ {
+  "file": "guides/horde/ungoro-crater-51-55.guide",
+  "line": 73,
+  "kind": "strip-at",
+  "detail": "collect 22435 x8 quest 9052.1 @44.62,42.45 map 1449 -- Drops from: Bloodpetal Sprout"
+ },
+ {
+  "file": "guides/horde/ungoro-crater-51-55.guide",
+  "line": 133,
+  "kind": "strip-at",
+  "detail": "collect 11113 quest 3881.1 @38.45,66.06 map 1449"
+ },
+ {
+  "file": "guides/horde/ungoro-crater-51-55.guide",
+  "line": 206,
+  "kind": "strip-at",
+  "detail": "kill 9167 x15 quest 4501.2 @56.2,88.2 map 1449"
+ },
+ {
+  "file": "guides/horde/western-plaguelands-53-57.guide",
+  "line": 116,
+  "kind": "strip-at",
+  "detail": "kill 1826 x2 quest 6004.3 @41.03,51.91 map 1422"
+ },
+ {
+  "file": "guides/horde/western-plaguelands-53-57.guide",
+  "line": 117,
+  "kind": "strip-at",
+  "detail": "kill 1833 x2 quest 6004.4 @41.03,51.91 map 1422"
+ },
+ {
+  "file": "guides/horde/western-plaguelands-53-57.guide",
+  "line": 126,
+  "kind": "strip-at",
+  "detail": "kill 11611 quest 6023.2 @57.83,36.1 map 1422"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 45,
+  "kind": "elite",
+  "detail": "kill 10806 quest 5054.1 @60.92,32.9 map 1452 -- Elite"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 69,
+  "kind": "strip-at",
+  "detail": "kill 7442 x8 quest 5082.1 @66.54,35.92 map 1452"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 71,
+  "kind": "strip-at",
+  "detail": "kill 7441 x8 quest 5082.3 @66.54,35.92 map 1452"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 94,
+  "kind": "elite",
+  "detail": "kill 10807 quest 5055.1 @62.54,57.9 map 1452 -- Elite"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 102,
+  "kind": "strip-at",
+  "detail": "kill 7439 x8 quest 8464.1 @66.54,35.92 map 1452"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 104,
+  "kind": "strip-at",
+  "detail": "kill 7438 x8 quest 8464.3 @66.54,35.92 map 1452"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 137,
+  "kind": "elite",
+  "detail": "kill 10737 quest 5056.1 @49.81,9.8 map 1452 -- Elite"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 266,
+  "kind": "strip-at",
+  "detail": "collect 11172 x11 quest 4084.1 @46.58,23.75 map 1448 -- Drops from: Irontree Wanderer, Irontree Stomper"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 293,
+  "kind": "elite",
+  "detail": "kill 10738 quest 5121.1 @69.56,38.31 map 1452 -- Elite"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 296,
+  "kind": "elite",
+  "detail": "kill 10738 @69.56,38.31 map 1452 -- Loot the quest item here \u2014 it starts the quest. Elite"
+ },
+ {
+  "file": "guides/horde/winterspring-54-59.guide",
+  "line": 337,
+  "kind": "elite",
+  "detail": "kill 9376 quest 3962.1 @49.41,49.33 map 1449 -- Elite"
+ },
+ {
+  "file": "guides/horde/zephras-isle-5-12.guide",
+  "line": 403,
+  "kind": "elite",
+  "detail": "collect 257942 quest 93318.1 @42.66,52.8 map 2521 live -- Drops from: Vulgara the Insatiable"
+ },
+ {
+  "file": "guides/horde/zephras-isle-5-12.guide",
+  "line": 631,
+  "kind": "strip-at",
+  "detail": "kill 254588 quest 94978.1 @52.11,60.7 map 2521 live -- Use the quest item on them, don't just kill them."
+ },
+ {
+  "file": "guides/horde/zephras-isle-5-12.guide",
+  "line": 850,
+  "kind": "strip-at",
+  "detail": "kill 252800 quest 92693.1 @47.8,78.31 map 2521 live"
+ }
+]

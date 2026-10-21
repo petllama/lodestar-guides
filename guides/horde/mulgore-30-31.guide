@@ -1,0 +1,72 @@
+guide lodestar/horde/mulgore-30-31
+title "Mulgore (30-31)"
+levels 30-31
+zone map 1412
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/desolace-33-39
+step
+  level 24
+step
+  zone map 1456
+  only Warrior
+  when turnedin 1844
+  accept 1845
+step
+  zone map 1412
+  accept 96241
+step
+  accept 96259
+step
+  accept 96260
+step
+  accept 96261
+step
+  kill 264082 @33.51,7.33 map 1412 -- Loot the quest item here — it starts the quest.
+  accept 96294 @33.51,7.33 map 1412
+step
+  tip Use the Toxin Extractor to gather 5 Gloomrise Toxin Samples from the Gnawed Corpses at Gloomrise.
+  collect 273001 x5 quest 96241.1 @33.33,10.16 map 1412 -- Drops from: Gnawed Corpse
+step
+  tip Kill 10 Gloomrise Hatchlings and 5 Gloomrise Soldiers.
+  kill 264079 x10 quest 96259.2 @33.18,9.43 map 1412
+  kill 264083 x5 quest 96259.1 @33.41,11.1 map 1412
+  kill 264079 x10 quest 96259.2 @33.41,11.1 map 1412
+step
+  tip Gather 3 strands of Crystalline Silk from Gloomrise Spinners.
+  collect 273181 x3 quest 96260.1 @33.21,9.62 map 1412 -- Drops from: Gloomrise Spinner
+step
+  tip Kill Broodmother Valraxx at Gloomrise.
+  kill 264082 quest 96261.1 @33.51,7.33 map 1412
+step
+  turnin 96241
+step
+  turnin 96259
+step
+  turnin 96260
+step
+  turnin 96261
+step
+  tip Bring the letter you recovered from Broodmother Valraxx to Muln Earthfury at Skywatcher Plateau.
+  turnin 96294
+step
+  when level>=30
+  accept 96774
+step
+  when onquest 96774
+  tip Recover an Ancient Gurubashi Idol from the Drowned City.
+  collect 276894 quest 96774.1 @32.54,20.67 map 1412
+step
+  when onquest 96774
+  turnin 96774
+step
+  zone map 1456
+  only Warrior
+  when turnedin 1844
+  turnin 1845 -- Turn in at Thunder Bluff
+step
+  zone map 1443
+  tip Zone complete! Travel to Desolace.
+  goto 60.86,61.86 map 1443

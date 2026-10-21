@@ -1,0 +1,139 @@
+guide lodestar/alliance/burning-steppes-52-54
+title "Burning Steppes (52-54)"
+levels 52-54
+zone map 1428
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/western-plaguelands-53-58
+step
+  level 51
+step
+  accept 3801
+step
+  tip Speak with Franclorn Forgewright if you are interested in obtaining a key to the city major.
+  turnin 3801
+step
+  accept 4296
+step
+  accept 4726
+step
+  tip Bring the Tablet Transcript to Maxwort Uberglint in the Burning Steppes.
+  collect 11470 quest 4296.1 @54.12,40.76 map 1428 -- Drops from: Tablet of the Seven
+step
+  turnin 4296
+step
+  tip Bring 8 Broodling Essence and the Draco-Incarcinatrix 900 to Tinkee Steamboil at the Flame Crest in the Burning Steppes.
+  collect 12283 x8 quest 4726.1 @63.78,57.27 map 1428
+step
+  getfp "Morgan's Vigil, Burning Steppes"
+step
+  accept 3823
+step
+  when level>=52
+  accept 4262
+step
+  tip Slay 15 Firegut Ogre-Mages, 7 Firegut Ogres, and 7 Firegut Ogre Brutes, and return to Oralius when you are finished.
+  kill 7033 x15 quest 3823.2 @77.38,47.17 map 1428
+  kill 7034 x15 quest 3823.1 @80.04,42.62 map 1428
+  kill 7034 x15 quest 3823.1 @80.56,42.82 map 1428
+  kill 7033 x15 quest 3823.2 @80.56,42.82 map 1428
+  kill 7035 x7 quest 3823.3 @80.56,42.82 map 1428
+step
+  turnin 3823
+step
+  accept 3824
+step
+  when level>=54
+  accept 4182
+step
+  tip Find Gor'tesh, somewhere to the west of Dreadmaul Rock. Kill Gor'tesh and then take Gor'tesh's Lopped Off Head back to Oralius in Burning Steppes.
+  collect 11080 quest 3824.1 -- Drops from: Grubbub, Gor'tesh
+step
+  turnin 4726
+step
+  when turnedin 3481
+  when !turnedin 4023
+  when !onquest 4023
+  when level>=54
+  accept 4022
+step
+  when turnedin 3481
+  when !turnedin 4023
+  when !onquest 4023
+  when onquest 4022
+  tip Show Cyrus Therepentous the Black Dragonflight Molt you received from Kalaran Windblade.
+  collect 10575 quest 4022.1 @94.4,31.8 map 1428 -- Elite
+  kill 9459 quest 4022.2 @94.4,31.8 map 1428 -- Elite
+step
+  when onquest 4182
+  tip Slay 15 Black Broodlings, 10 Black Dragonspawn, 4 Black Wyrmkin and 1 Black Drake. Return to Helendis Riverhorn when the task is complete.
+  kill 7047 x15 quest 4182.1 @91.67,35.54 map 1428
+  kill 7044 quest 4182.3 @89.94,43.86 map 1428 optional -- Black Drake is elite: grouping up is advised.
+  kill 7040 x10 quest 4182.2 @90.47,52.28 map 1428 optional -- Black Dragonspawn is elite: grouping up is advised.
+  kill 7047 x15 quest 4182.1 -- Elite
+  kill 7040 x10 quest 4182.2 @91.38,55.93 map 1428 optional -- Black Dragonspawn is elite: grouping up is advised.
+  kill 7044 quest 4182.3 optional -- Black Drake is elite: grouping up is advised.
+  kill 7041 x4 quest 4182.4 @91.38,55.93 map 1428 optional -- Black Wyrmkin is elite: grouping up is advised.
+step
+  when turnedin 3481
+  when !turnedin 4023
+  when !onquest 4023
+  when onquest 4022
+  turnin 4022
+step
+  turnin 3824
+step
+  when onquest 4182
+  turnin 4182
+step
+  accept 3825
+step
+  when turnedin 4182
+  accept 4183
+step
+  tip Take Gor'tesh's Lopped Off Head and place it at the top of Dreadmaul Rock. Look for a soft dirt mound to plant the pike.
+  interact 160840 quest 3825.1 @81,46.79 map 1428
+step
+  turnin 3825
+step
+  accept 4283
+step
+  tip Oralius wants 50 Blackrock Medallions. Chances are high that these medallions can be found on the orcs in the Burning Steppes.
+  collect 11467 x50 quest 4283.1 @45.02,56.8 map 1428 -- Drops from: Blackrock Soldier, Blackrock Sorcerer, Blackrock Slayer
+step
+  turnin 4283
+step
+  when turnedin 4322
+  accept 6402
+step
+  zone map 1415
+  when onquest 4262
+  tip Slay Overmaster Pyron and return to Jalinda Sprig.
+  kill 9026 quest 4262.1 @46.82,67.7 map 1415 optional -- Overmaster Pyron is elite: grouping up is advised.
+step
+  zone map 1428
+  when onquest 4262
+  turnin 4262
+step
+  zone map 1455
+  accept 3702
+step
+  tip Listen to Royal Historian Archesonus recant the history of Thaurissan.
+  talk 8879
+step
+  turnin 3702 -- Turn in at Ironforge
+step
+  accept 3701
+step
+  zone map 1428
+  tip Venture to the Ruins of Thaurissan in the Burning Steppes and recover information from the Thaurissan Relics. Return to Royal Historian Archesonus when you have recovered the information.
+  interact 153556 quest 3701.1 @62.71,39.6 map 1428
+step
+  zone map 1455
+  turnin 3701 -- Turn in at Ironforge
+step
+  zone map 1422
+  tip Zone complete! Travel to Western Plaguelands.
+  goto 38.4,54.05 map 1422

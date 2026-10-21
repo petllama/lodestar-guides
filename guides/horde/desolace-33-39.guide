@@ -1,0 +1,371 @@
+guide lodestar/horde/desolace-33-39
+title "Desolace (33-39)"
+levels 33-39
+zone map 1443
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/dustwallow-marsh-35-43
+step
+  level 32
+step
+  zone map 1454
+  when turnedin 1431
+  accept 1432
+step
+  zone map 1443
+  accept 5561
+step
+  tip Bring five Tamed Kodos and the Kodo Kombobulator back to Smeed Scrabblescrew at Scrabblescrew's Camp.
+  turnin 5561
+step
+  kill 4663 @55.95,27.4 map 1443 -- Loot the quest item here — it starts the quest.
+  accept 1480 @55.95,27.4 map 1443
+step
+  when onquest 1362
+  tip Speak with Felgur Twocuts at Ghost Walker Post in Desolace.
+  turnin 1362
+step
+  when turnedin 1431
+  tip Speak to Takata Steelblade in Desolace.
+  turnin 1432
+step
+  tip Bring the Flayed Demon Skin to Maurin Bonesplitter in Desolace.
+  turnin 1480
+step
+  when onquest 5361
+  tip Deliver Cliffwatcher Longhorn Report to Nataka Longhorn at Ghost Walker Post in Desolace.
+  turnin 5361
+step
+  accept 1367
+step
+  accept 1368
+step
+  when turnedin 1431
+  accept 1433
+step
+  when turnedin 1431
+  accept 1434
+step
+  accept 1481
+step
+  accept 1365
+step
+  when turnedin 1431
+  tip Speak to Maurin Bonesplitter in Desolace.
+  turnin 1433
+step
+  when turnedin 1431
+  accept 1435
+step
+  accept 5821
+step
+  tip Escort the Gizelton Caravan past the Kolkar Centaur village. Talk with Smeed at Scrabblescrew's Camp for your reward.
+  goto 67.17,56.62 "Escort Gizelton Caravan past Kolkar Centaur Village" map 1443
+step
+  when turnedin 1431
+  tip Return the Burning Gem and 15 Infused Burning Gems to Maurin Bonesplitter in Desolace.
+  collect 6435 x15 quest 1435.1 @55.95,27.4 map 1443 -- Drops from: Burning Blade Augur, Burning Blade Reaver, Burning Blade Adept
+step
+  when turnedin 1431
+  tip Slay 7 Hatefury Rogues, 7 Hatefury Felsworn, 7 Hatefury Betrayers, and 7 Hatefury Hellcallers, and return to Takata Steelblade in Desolace.
+  kill 4670 x7 quest 1434.1 @73.55,19.11 map 1443
+  kill 4672 x7 quest 1434.2 @74.73,19.86 map 1443
+  kill 4675 x7 quest 1434.4 @76.02,19.85 map 1443
+  kill 4670 x7 quest 1434.1
+  kill 4672 x7 quest 1434.2
+  kill 4673 x7 quest 1434.3 @77.63,17.94 map 1443
+  kill 4675 x7 quest 1434.4
+step
+  tip Bring a Shadowstalker Scalp to Maurin Bonesplitter in Desolace.
+  collect 6441 quest 1481.1 @75.33,21.26 map 1443 -- Drops from: Hatefury Shadowstalker
+step
+  tip Bring Khan Dez'hepah's Head to Felgur Twocuts in Desolace.
+  collect 6066 quest 1365.1 @74.4,44.8 map 1443 -- Drops from: Khan Dez'hepah
+step
+  turnin 1365
+step
+  when turnedin 1431
+  turnin 1434
+step
+  when turnedin 1431
+  turnin 1435
+step
+  turnin 1481
+step
+  accept 1366
+step
+  when turnedin 1431
+  accept 1436
+step
+  accept 1482
+step
+  turnin 5821
+step
+  tip Gain a Friendly reputation with the Magram, then speak with Warug.
+  turnin 1367
+step
+  accept 1369
+step
+  when turnedin 1371
+  accept 1375
+step
+  tip Bring 15 Centaur Ears to Felgur Twocuts in Desolace.
+  collect 6067 x15 quest 1366.1 @69.35,46.87 map 1443 -- Drops from: Kolkar Centaur, Kolkar Scout, Kolkar Mauler
+step
+  accept 5741
+step
+  interact 177787
+  accept 6161
+step
+  tip Bring an Oracle Crystal to Maurin Bonesplitter in Desolace.
+  collect 6442 quest 1482.1 @33.89,10.15 map 1443 -- Drops from: Slitherblade Oracle
+step
+  tip Get the Sceptre of Light and then return it to Azore Aldamort at the tower in Ethel Rethor.
+  collect 15750 quest 5741.1 @55.17,30.15 map 1443 -- Drops from: Burning Blade Seer
+step
+  turnin 1366
+step
+  turnin 1482
+step
+  accept 1484
+step
+  accept 5386
+step
+  tip Speak to Takata Steelblade in Desolace.
+  turnin 1484
+step
+  tip Gain a Friendly reputation with the Gelkis, then speak with Uthek the Wise.
+  turnin 1368
+step
+  accept 1370
+step
+  getfp "Shadowprey Village, Desolace"
+step
+  accept 6142
+step
+  accept 6143
+step
+  tip Talk to Jinar'Zillen at Shadowprey Village, and then bring Nataka Longhorn 2 Bloodbelly fish.
+  collect 13546 x2 quest 5386.1 @22.45,73.12 map 1443 -- Drops from: Jinar'Zillen
+step
+  tip Find Rackmore's Silver Key. Find Rackmore's Golden Key. Find and open Rackmore's Chest.
+  collect 15878 quest 6161.1 @24.7,78.72 map 1443 -- Drops from: Drysnap Crawler, Drysnap Pincer
+  collect 15878 quest 6161.1 -- Drops from: Slitherblade Naga, Slitherblade Sorceress, Slitherblade Warrior
+  collect 15881 quest 6161.2 @36.25,23.14 map 1443 -- Drops from: Slitherblade Naga, Slitherblade Sorceress, Slitherblade Warrior
+step
+  tip Maintain your reputation with the Magram, and bring 3 Broken Tears to Warug in the Magram Village.
+  collect 6083 x3 quest 1369.1 @39.65,93.3 map 1443 -- Drops from: Tear of Theradras
+step
+  when turnedin 1371
+  tip Maintain your reputation with the Magram, and bring the Head of Khan Shaka to Warug in the Magram Village in Desolace.
+  collect 6073 quest 1375.1 @40.49,95.49 map 1443 -- Drops from: Khan Shaka
+step
+  tip Bring 6 bags of Crudely Dried Meat to Uthek the Wise in the Gelkis Village.
+  collect 6069 x6 quest 1370.1 @72.43,78.51 map 1443 -- Drops from: Sack of Meat
+step
+  turnin 1369
+step
+  when turnedin 1371
+  turnin 1375
+step
+  accept 5943
+step
+  tip Escort the Gizelton Caravan through Mannoroc Coven. Talk with Smeed at Scrabblescrew's Camp for your reward.
+  goto 55.69,67.79 "Escort Gizelton Caravan past Mannoroc Coven" map 1443
+step
+  turnin 1370
+step
+  accept 93034
+step
+  accept 5381
+step
+  turnin 5943
+step
+  turnin 5386
+step
+  tip Retrieve the Demon Box from Thunder Axe Fortress, and return it, along with the Demon Pick to Taiga Wisemane in Shadowprey Village.
+  collect 13542 quest 5381.1 @55,26.6 map 1443 -- Drops from: Demon Spirit
+step
+  turnin 5741
+step
+  accept 6027
+step
+  tip Find 10 pieces of Soft-shelled Clam Meat and bring it back to Mai'Lahii at Shadowprey Village.
+  collect 15924 x10 quest 6142.1 @34.48,29.06 map 1443 -- Drops from: Enraged Reef Crawler, Giant Softshell Clam
+step
+  tip Slay 7 Slitherblade Myrmidon, 7 Slitherblade Naga, and 5 Slitherblade Sorceresses, and then talk to Drulzegar at Shadowprey in Desolace.
+  kill 4712 x5 quest 6143.3 @32.94,23.32 map 1443
+  kill 4711 x7 quest 6143.2 @36.25,23.14 map 1443
+  kill 4714 x7 quest 6143.1 @32.74,14.68 map 1443
+  kill 4711 x7 quest 6143.2
+  kill 4712 x5 quest 6143.3
+step
+  turnin 6161
+step
+  tip Get the Book of the Ancients and return it to Azore Aldamort at the tower in Ethel Rethor.
+  collect 15803 quest 6027.1 @28.24,6.67 map 1443 -- Drops from: Lord Kragaru
+step
+  turnin 6027
+step
+  turnin 5381
+step
+  turnin 6142
+step
+  turnin 6143
+step
+  accept 5581
+step
+  when level>=34
+  accept 6132
+step
+  when onquest 6132
+  tip Escort Melizza Brimbuzzle, then speak with Hornizz Brimbuzzle at the Kodo Graveyard in Desolace.
+  goto 40.15,61.58 "Melizza Brimbuzzle escorted to safety" map 1443
+step
+  when onquest 6132
+  turnin 6132
+step
+  when level>=34
+  accept 6134
+step
+  tip Banish 6 Portals at Mannoroc Coven and return to Taiga Wisemane at Shadowprey Village.
+  kill 11937 x6 quest 5581.1 @52.6,77.4 map 1443
+step
+  when onquest 6134
+  tip Bring 8 Ghost-o-plasms and the Crate of Ghost Magnets to Hornizz Brimbuzzle in Desolace.
+  collect 15849 x8 quest 6134.1 @64.18,91.63 map 1443 -- Drops from: Magrami Spectre
+step
+  turnin 5581
+step
+  accept 5501
+step
+  when onquest 6134
+  turnin 6134
+step
+  tip Bring 10 Kodo Bones from the Kodo Graveyard to Bibbly F'utzbuckle at Kormek's Hut.
+  collect 13703 x10 quest 5501.1 @53.26,61.24 map 1443 -- Drops from: Kodo Bones
+step
+  turnin 5501
+step
+  when level>=40
+  accept 1488
+step
+  accept 93225
+step
+  when onquest 1488
+  tip Slay Lord Azrethoc and Jugkar Grim'rod and return to Takata Steelblade in Desolace.
+  kill 5760 quest 1488.1 @56.95,75.74 map 1443 optional -- Lord Azrethoc is elite: grouping up is advised.
+  kill 5760 quest 1488.1 optional -- Lord Azrethoc is elite: grouping up is advised.
+  kill 5771 quest 1488.2 @55.91,77.76 map 1443
+step
+  tip Acquire 5 Carved Centaur Totems by slaying centaur of any clan throughout Desolace, then return them to Gurda Wildmane at Ghost Walker Post.
+  collect 254432 x5 quest 93225.1 @30.67,61.13 map 1443 -- Drops from: Maraudine Scout, Maraudine Wrangler, Maraudine Mauler
+step
+  when onquest 1488
+  turnin 1488
+step
+  turnin 93225
+step
+  accept 94872
+step
+  when turnedin 1371
+  when level>=42
+  accept 1381
+step
+  tip Bring the Totem Tote to the Magram Quartermaster at Magram Village in the Desolace to significantly increase your reputation with that clan. You must be of at least Neutral standing with the Magram Clan Centaur.
+  turnin 94872
+step
+  when turnedin 1371
+  when onquest 1381
+  tip Maintain your Magram reputation, and bring the Maraudine Key Fragment to Warug in the Magram Village in Desolace.
+  collect 6077 quest 1381.1 @29.55,52 map 1443 optional -- Khan Hratha is elite: grouping up is advised.
+step
+  when turnedin 1371
+  when onquest 1381
+  turnin 1381
+step
+  zone map 1454
+  when turnedin 1431
+  tip Speak to Keldran in Orgrimmar.
+  turnin 1436 -- Turn in at Orgrimmar
+step
+  only Warlock
+  when !turnedin 4965
+  when !turnedin 4968
+  when !turnedin 4969
+  when !onquest 4965
+  when !onquest 4968
+  when !onquest 4969
+  when level>=35
+  accept 4967
+step
+  zone map 1413
+  only Warlock
+  when !turnedin 4965
+  when !turnedin 4968
+  when !turnedin 4969
+  when !onquest 4965
+  when !onquest 4968
+  when !onquest 4969
+  when onquest 4967
+  tip Speak to Menara Voidrender in the Barrens.
+  turnin 4967 -- Turn in at The Barrens
+step
+  only Warlock
+  when level>=35
+  accept 1799
+step
+  only Warlock
+  when !turnedin 4963
+  when !onquest 4963
+  when level>=35
+  accept 4962
+step
+  zone map 2652
+  tip Improve your reputation with the Gelkis, and locate Nerlokh near the Valley of Bones far east of Gelkis Village.
+  turnin 93034 -- Turn in at Shen'dralas
+step
+  accept 93035
+step
+  accept 93128
+step
+  zone map 1443
+  tip Maintain your reputation with the Gelkis Clan and slay 6 Undead Ravagers, then return to Nerlokh at the southern entrance to Valley of Bones.
+  note "Maintain your reputation with the Gelkis Clan and slay 6 Undead Ravagers, then return to Nerlokh at the southern entrance to Valley of Bones."
+step
+  tip Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. Once you have succeeded, report to Uthek the Wise in Gelkis Village in Desolace.
+  note "Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. Once you have succeeded, report to Uthek the Wise in Gelkis Village in Desolace."
+step
+  only Warlock
+  when onquest 1799
+  tip Speak to Menara's acolytes inside the tower above Ratchet and choose one of their paths to follow.
+  collect 7291 quest 1799.1 @80.47,77.84 map 1443 -- Drops from: Burning Blade Summoner
+step
+  only Warlock
+  when !turnedin 4963
+  when !onquest 4963
+  when onquest 4962
+  tip Take the Felhas Ruby and use it on one of the Felhounds found in Desolace. After successful, bring the Felhas Ruby and the Imprisoned Felhound Spirit back to Menara Voidrender in the Barrens.
+  collect 12648 quest 4962.1 @52.91,68.14 map 1443 -- Drops from: Mana Eater
+step
+  turnin 93128
+step
+  zone map 2652
+  turnin 93035 -- Turn in at Shen'dralas
+step
+  zone map 1413
+  only Warlock
+  when !turnedin 4963
+  when !onquest 4963
+  when onquest 4962
+  turnin 4962 -- Turn in at The Barrens
+step
+  zone map 1445
+  only Warlock
+  when onquest 1799
+  turnin 1799 -- Turn in at Dustwallow Marsh
+step
+  tip Zone complete! Travel to Dustwallow Marsh.
+  goto 35.21,30.66 map 1445

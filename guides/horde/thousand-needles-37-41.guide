@@ -1,0 +1,100 @@
+guide lodestar/horde/thousand-needles-37-41
+title "Thousand Needles (37-41)"
+levels 37-41
+zone map 1441
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/feralas-43-48
+step
+  level 36
+step
+  when turnedin 1176
+  accept 1178
+step
+  when turnedin 1183
+  accept 1186
+step
+  when turnedin 1183
+  tip Speak with Razzeric on the Shimmering Flats.
+  turnin 1186
+step
+  when turnedin 1183
+  accept 1187
+step
+  when turnedin 1137
+  accept 1190
+step
+  when turnedin 1137
+  tip Have Zamek create a diversion, then steal Rizzle's plans for Pozzik on the Shimmering Flats.
+  turnin 1190
+step
+  when turnedin 1137
+  interact 20805
+  accept 1194
+step
+  when turnedin 1137
+  tip Bring the Sample of Indurium Ore to Pozzik on the Shimmering Flats.
+  turnin 1194
+step
+  when turnedin 1119
+  when !turnedin 1121
+  when !onquest 1121
+  accept 1120
+step
+  when turnedin 1119
+  when !turnedin 1121
+  when !onquest 1121
+  tip Bring the Fool's Stout to the Gnome Pit Boss.
+  turnin 1120
+step
+  zone map 1413
+  when turnedin 1176
+  tip Speak to Gazlowe in Ratchet.
+  turnin 1178 -- Turn in at The Barrens
+step
+  zone map 1454
+  when turnedin 1262
+  accept 7541
+step
+  when turnedin 1262
+  turnin 7541 -- Turn in at Orgrimmar
+step
+  only Warlock
+  when !turnedin 4487
+  when !turnedin 4488
+  when !turnedin 4489
+  when !onquest 4487
+  when !onquest 4488
+  when !onquest 4489
+  when level>=40
+  accept 3631
+step
+  zone map 1413
+  only Warlock
+  when !turnedin 4487
+  when !turnedin 4488
+  when !turnedin 4489
+  when !onquest 4487
+  when !onquest 4488
+  when !onquest 4489
+  when onquest 3631
+  tip Speak to Strahad Farsan in the Barrens.
+  turnin 3631 -- Turn in at The Barrens
+step
+  zone map 1445
+  when turnedin 1183
+  tip Retrieve the Seaforium Booster for Razzeric in the Shimmering Flats.
+  collect 5862 quest 1187.1 @54.07,56.49 map 1445 -- Drops from: Gizmorium Shipping Crate
+step
+  zone map 1441
+  when turnedin 1183
+  turnin 1187
+step
+  when turnedin 1183
+  accept 1188
+step
+  zone map 1454
+  tip Zone complete! Travel to Orgrimmar.
+  goto 75.23,34.24 map 1454

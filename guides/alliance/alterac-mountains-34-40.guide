@@ -1,0 +1,202 @@
+guide lodestar/alliance/alterac-mountains-34-40
+title "Alterac Mountains (34-40)"
+levels 34-40
+zone map 1416
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/loch-modan-20-38
+step
+  level 33
+step
+  only Rogue
+  accept 96779
+step
+  only Rogue
+  accept 96783
+step
+  only Rogue
+  tip Steal a Syndicate uniform from Northfold Manor to infiltrate Stromgarde Keep.
+  turnin 96783 @84.93,80.38 map 1416
+step
+  interact 1740
+  accept 510
+step
+  interact 1740
+  accept 511
+step
+  only Rogue
+  accept 96781
+step
+  only Rogue
+  tip Steal Barton's Scouting Report by pickpocketing it from him. Then, bring the report to Myrokos Silentform at Ravenholdt Manor.
+  collect 275482 quest 96781.1 @62.59,46.86 map 1416
+step
+  only Rogue
+  turnin 96781
+step
+  when turnedin 602
+  accept 603
+step
+  collect 1765 "Worn Wooden Chest" @39.18,14.66 map 1416 -- Loot the quest item here — it starts the quest.
+  accept 551 @39.18,14.66 map 1416
+step
+  only Warrior
+  when turnedin 1791
+  accept 1712
+step
+  zone map 1424
+  tip Bring the Foreboding Plans to Magistrate Maleb in Southshore.
+  turnin 510 -- Turn in at Hillsbrad Foothills
+step
+  accept 512
+step
+  tip Bring the Encrypted Letter to Loremaster Dibbs in Southshore.
+  turnin 511 -- Turn in at Hillsbrad Foothills
+step
+  tip Take the Ensorcelled Parchment to Loremaster Dibbs in Southshore.
+  turnin 551 -- Turn in at Hillsbrad Foothills
+step
+  accept 514
+step
+  accept 554
+step
+  only Rogue
+  tip Find Lord Tomas inside Durnholde Keep, in Hillsbrad Foothills, and kill him. Then, return to Myrokos Silentform.
+  kill 266216 quest 96779.1 @79.32,46.24 map 1424
+step
+  zone map 1416
+  only Rogue
+  turnin 96779
+step
+  tip Bring 7 Alterac Signet Rings to Magistrate Maleb in Southshore.
+  collect 3505 x7 quest 512.1 @60.76,43.88 map 1416 -- Drops from: Syndicate Spy, Syndicate Sentry, Syndicate Wizard
+step
+  zone map 1455
+  when onquest 98313
+  tip Bring the Whelgar Relic Package to Historian Karnik in Ironforge.
+  turnin 98313 -- Turn in at Ironforge
+step
+  tip Take the Cleverly Encrypted Letter to Prospector Stormpike in Ironforge.
+  turnin 514 -- Turn in at Ironforge
+step
+  tip Take the Ensorcelled Parchment to Prospector Stormpike in Ironforge.
+  turnin 554 -- Turn in at Ironforge
+step
+  accept 525
+step
+  when onquest 1457
+  tip Bring Karnitol's Satchel to Roetten Stonehammer in Ironforge.
+  turnin 1457 -- Turn in at Ironforge
+step
+  when onquest 1467
+  tip Bring Leftwitch's Package back to Roetten Stonehammer in Ironforge.
+  turnin 1467 -- Turn in at Ironforge
+step
+  when onquest 98300
+  tip Deliver Howin's Missive to King Magni Bronzebeard in Ironforge.
+  turnin 98300 -- Turn in at Ironforge
+step
+  zone map 1434
+  when turnedin 602
+  tip Talk to Catelyn in Booty Bay.
+  turnin 603 -- Turn in at Stranglethorn Vale
+step
+  when turnedin 602
+  accept 610
+step
+  when turnedin 602
+  tip Get Catelyn's dagger from "Pretty Boy" Duncan.
+  collect 4027 quest 610.1 @27.39,69.42 map 1434 -- Drops from: "Pretty Boy" Duncan
+step
+  when turnedin 602
+  turnin 610 -- Turn in at Stranglethorn Vale
+step
+  when turnedin 602
+  accept 611
+step
+  when turnedin 602
+  tip Destroy the Altar of the Tides with Catelyn's Blade, kill Gazban and bring the Stone of the Tides and Catelyn's Blade back to Baron Revilgaz.
+  collect 4034 quest 611.1 @24.97,23.58 map 1434 -- Drops from: Gazban
+step
+  only Warrior
+  when turnedin 1791
+  tip Bring the items on Bath'rah's Parchment to Bath'rah the Windwatcher in Alterac.
+  collect 3901 x30 quest 1712.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 3357 x8 quest 1712.1 @25.95,43.98 map 1416
+  collect 3357 x8 quest 1712.1 -- Crafted or bought.
+  collect 3901 x30 quest 1712.2 -- Crafted or bought.
+  collect 6851 quest 1712.3 -- Crafted or bought.
+step
+  when turnedin 602
+  turnin 611 -- Turn in at Stranglethorn Vale
+step
+  zone map 1453
+  when turnedin 1222
+  accept 1271
+step
+  when turnedin 1222
+  turnin 1271 -- Turn in at Stormwind City
+step
+  when level>=40
+  accept 543
+step
+  zone map 1416
+  only Warrior
+  when turnedin 1791
+  turnin 1712
+step
+  only Warrior
+  when turnedin 1791
+  when level>=40
+  accept 1713
+step
+  only Warrior
+  when turnedin 1791
+  when onquest 1713
+  tip Bring the Whirlwind Heart to Bath'rah Windwatcher.
+  collect 6894 quest 1713.1 @80.32,62.14 map 1416 optional -- Cyclonian is elite: grouping up is advised.
+step
+  only Warrior
+  when turnedin 1791
+  when onquest 1713
+  turnin 1713
+step
+  only Warrior
+  when turnedin 1791
+  when turnedin 1713
+  accept 1792
+step
+  only Warrior
+  when turnedin 1791
+  when onquest 1792
+  turnin 1792
+step
+  when onquest 543
+  tip Bring the Perenolde Tiara to Remington Ridgewell in Stormwind.
+  collect 3684 quest 543.1 @35.58,54.42 map 1416 optional -- Grel'borg the Miser is elite: grouping up is advised.
+step
+  zone map 1453
+  when onquest 543
+  turnin 543 -- Turn in at Stormwind City
+step
+  zone map 1424
+  turnin 512 -- Turn in at Hillsbrad Foothills
+step
+  tip Bring the Decrypted Letter to Magistrate Maleb in Southshore.
+  turnin 525 -- Turn in at Hillsbrad Foothills
+step
+  accept 537
+step
+  zone map 1416
+  tip Kill 4 Argus Shadow Mages.
+  kill 2318 x4 quest 537.1 @62.34,40.58 map 1416
+  collect 3672 quest 537.2
+step
+  zone map 1424
+  turnin 537 -- Turn in at Hillsbrad Foothills
+step
+  zone map 1432
+  tip Zone complete! Travel to Loch Modan.
+  goto 49.49,13.05 map 1432

@@ -1,0 +1,114 @@
+guide lodestar/alliance/teldrassil-48-55
+title "Teldrassil (48-55)"
+levels 48-55
+zone map 1438
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/ungoro-crater-50-55
+step
+  level 43
+step
+  getfp "Rut'theran Village, Teldrassil"
+step
+  when turnedin 2939
+  interact 142958
+  accept 2940
+step
+  when turnedin 2944
+  accept 2943
+step
+  when turnedin 2939
+  tip Ask Daryn Lightwind if you may borrow her book.
+  turnin 2940
+step
+  when turnedin 2939
+  accept 2941
+step
+  when !turnedin 5249
+  when !onquest 5249
+  when level>=53
+  accept 5250
+step
+  zone map 1444
+  when turnedin 2944
+  tip Deliver the book to Troyas Moonbreeze in Feathermoon Stronghold.
+  turnin 2943 -- Turn in at Feralas
+step
+  when turnedin 2944
+  accept 2879
+step
+  when turnedin 2944
+  tip Energize Troyas' Stave and find the Equinex Monolith.
+  collect 9306 quest 2879.1 @38.83,13.17 map 1444 -- Drops from: Equinex Monolith
+step
+  when turnedin 2944
+  turnin 2879 -- Turn in at Feralas
+step
+  when turnedin 2944
+  interact 144063
+  accept 2942
+step
+  when turnedin 2944
+  tip Return the Sparkling Stone and the Stave of Equinex to Troyas Moonbreeze in Feathermoon Stronghold.
+  collect 9307 quest 2942.1 @38.83,13.17 map 1444
+step
+  when turnedin 2944
+  turnin 2942 -- Turn in at Feralas
+step
+  zone map 1457
+  when !turnedin 3789
+  when !turnedin 3790
+  when !onquest 3789
+  when !onquest 3790
+  when level>=47
+  accept 3763
+step
+  when !turnedin 3789
+  when !turnedin 3790
+  when !onquest 3789
+  when !onquest 3790
+  when onquest 3763
+  tip Speak with Arch Druid Fandral Staghelm in Darnassus.
+  turnin 3763 -- Turn in at Darnassus
+step
+  when !turnedin 1015
+  when !turnedin 1019
+  when !onquest 1015
+  when !onquest 1019
+  when level>=54
+  accept 1047
+step
+  when level>=54
+  accept 7494 npc 10878
+step
+  when !turnedin 1015
+  when !turnedin 1019
+  when !onquest 1015
+  when !onquest 1019
+  when onquest 1047
+  tip Speak with Arch Druid Fandral Staghelm at the Cenarion Enclave of Darnassus about the Cenarion Circle's call to explore the frontiers of Kalimdor.
+  turnin 1047 -- Turn in at Darnassus
+step
+  when turnedin 1047
+  when level>=54
+  accept 6761
+step
+  when onquest 6761
+  tip Speak with Mathrengyl Bearwalker at the Cenarion Enclave of Darnassus.
+  turnin 6761 -- Turn in at Darnassus
+step
+  zone map 1444
+  when onquest 7494
+  tip Speak with Latronicus Moonspear at the Feathermoon Stronghold in Feralas.
+  turnin 7494 -- Turn in at Feralas
+step
+  zone map 1446
+  when turnedin 2939
+  tip Take the letter to Curgle Cranklehop in Tanaris.
+  turnin 2941 -- Turn in at Tanaris
+step
+  zone map 1457
+  tip Zone complete! Travel to Darnassus.
+  goto 34.81,9.26 map 1457

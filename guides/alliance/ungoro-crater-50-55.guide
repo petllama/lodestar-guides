@@ -1,0 +1,290 @@
+guide lodestar/alliance/ungoro-crater-50-55
+title "Un'Goro Crater (50-55)"
+levels 50-55
+zone map 1449
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/searing-gorge-48-50
+step
+  level 49
+step
+  zone map 1457
+  accept 3764
+step
+  zone map 1449
+  getfp "Marshal's Refuge, Un'Goro Crater"
+step
+  when level>=49
+  accept 3882
+step
+  when level>=49
+  accept 4503
+step
+  when onquest 4503
+  tip Collect 8 Webbed Diemetradon Scales and 8 Webbed Pterrordax Scales for Shizzle in Marshal's Refuge.
+  collect 11830 x8 quest 4503.1 @65.42,35.31 map 1449 -- Drops from: Young Diemetradon, Diemetradon, Elder Diemetradon
+  collect 11830 x8 quest 4503.1 -- Drops from: Fledgling Pterrordax, Pterrordax, Frenzied Pterrordax
+  collect 11831 x8 quest 4503.2 @78.7,39.55 map 1449 -- Drops from: Fledgling Pterrordax, Pterrordax, Frenzied Pterrordax
+step
+  tip Bring 20 Un'Goro Soil samples to Jenal at the Cenarion Enclave in Darnassus.
+  collect 11018 x20 quest 3764.1 @47,52.9 map 1449 -- Drops from: Un'Goro Dirt Pile
+step
+  kill 6505 @64.16,74.25 map 1449 -- Loot the quest item here — it starts the quest.
+  accept 3884 @64.16,74.25 map 1449
+step
+  when onquest 3882
+  tip Bring 8 Dinosaur Bones to Spark Nilminer in Un'Goro Crater.
+  collect 11114 x8 quest 3882.1 @32.66,73.52 map 1449
+step
+  when onquest 3882
+  turnin 3882
+step
+  tip Return the journal to Williden Marshal somewhere in Un'Goro Crater.
+  turnin 3884
+step
+  when onquest 4503
+  turnin 4503
+step
+  accept 3883
+step
+  accept 4141
+step
+  interact 161505
+  accept 3844
+step
+  tip Look around in the pond for a clue about who this wrecked raft may belong to.
+  turnin 3844
+step
+  interact 161504
+  accept 3845
+step
+  tip Examine the items inside the pack and bring them to their owner.
+  collect 11104 quest 3845.1
+  collect 11105 quest 3845.2
+  collect 11106 quest 3845.3
+step
+  only Druid
+  when level>=50
+  accept 9052
+step
+  tip Use the Scraping Vial to collect a Hive Wall Sample from one of the Gorishi hive hatcheries in Un'Goro Crater. Look for the chambers with the hanging larval spawns.
+  collect 11131 quest 3883.1 @48.69,85.32 map 1449 -- Drops from: Gorishi Hive Hatchery
+step
+  only Druid
+  when onquest 9052
+  tip Collect 8 Bloodcap and 8 Gorishi Stings, and return to Torwa Pathfinder in Un'Goro Crater.
+  collect 22435 x8 quest 9052.1 @50.14,75.97 map 1449 -- Drops from: Gorishi Wasp, Gorishi Stinger
+  collect 22435 x8 quest 9052.1 -- Drops from: Bloodpetal Sprout
+  collect 22434 x8 quest 9052.2 @44.62,42.45 map 1449 -- Drops from: Bloodpetal Sprout
+step
+  tip Collect 15 Bloodpetals and return to Muigin.
+  collect 11316 x15 quest 4141.1 @67.79,31.77 map 1449 -- Drops from: Bloodpetal Lasher, Bloodpetal Flayer, Bloodpetal Thresher
+step
+  turnin 3845
+step
+  turnin 3883
+step
+  turnin 4141
+step
+  accept 3908
+step
+  accept 4142
+step
+  accept 3881
+step
+  when turnedin 4143
+  accept 4144
+step
+  accept 4243
+step
+  accept 4284
+step
+  tip Find A-Me 01 in Un'Goro Crater.
+  turnin 4243
+step
+  tip Bring a Crate of Foodstuffs and Research Equipment to Williden Marshal in Un'Goro Crater.
+  collect 11113 quest 3881.1 @68.54,36.54 map 1449
+  collect 11113 quest 3881.1
+  collect 11112 quest 3881.2 @38.45,66.06 map 1449
+step
+  tip Collect 7 Power Crystals of each color: red, blue, yellow, and green. Bring them to J.D. Collie at Marshal's Refuge.
+  collect 11186 x7 quest 4284.1 @58.1,49.8 map 1449
+  collect 11188 x7 quest 4284.2 @58.1,49.8 map 1449
+  collect 11185 x7 quest 4284.3 @58.1,49.8 map 1449
+  collect 11184 x7 quest 4284.4 @58.1,49.8 map 1449
+step
+  when turnedin 4143
+  collect 11315 x3 quest 4144.1 @44.62,42.45 map 1449
+step
+  turnin 3881
+step
+  when turnedin 4143
+  turnin 4144
+step
+  turnin 4284
+step
+  accept 4285
+step
+  accept 4287
+step
+  accept 4288
+step
+  tip Discover the location of the Western Crystal Pylon.
+  interact 164956 quest 4288.1 @23.86,59.19 map 1449
+step
+  only Druid
+  when onquest 9052
+  turnin 9052
+step
+  only Druid
+  when turnedin 9052
+  when level>=50
+  accept 9051
+step
+  accept 4290
+step
+  only Druid
+  when onquest 9051
+  tip Stab a Devilsaur with the Devilsaur Barb. Return to Torwa Pathfinder in Un'Goro Crater when you have completed this task.
+  turnin 9051
+step
+  tip Find the carcass of Lar'korwi's freshest kill and steal a Piece of Threshadon Carcass before returning to Torwa Pathfinder in Un'Goro Crater.
+  collect 11504 quest 4290.1 @68.74,56.71 map 1449 -- Drops from: Fresh Threshadon Carcass
+step
+  turnin 4290
+step
+  accept 4291
+step
+  tip Bring 2 Ravasaur Pheromone Glands to Torwa Pathfinder near the entrance to Un'Goro Crater.
+  collect 11509 x2 quest 4291.1 @66,66 map 1449 -- Drops from: Lar'korwi Mate
+step
+  turnin 4291
+step
+  tip Discover the location of the Eastern Crystal Pylon in Un'Goro Crater.
+  interact 164957 quest 4287.1 @77.16,49.98 map 1449
+step
+  tip Discover the location of the Northern Crystal Pylon in Un'Goro Crater.
+  interact 164955 quest 4285.1 @56.52,12.54 map 1449
+step
+  turnin 4285
+step
+  turnin 4287
+step
+  turnin 4288
+step
+  accept 4321
+step
+  tip Speak with J.D. Collie in a moment.
+  turnin 4321
+step
+  interact 174682
+  accept 4501
+step
+  when level>=50
+  accept 4492
+step
+  when onquest 4492
+  tip Find Ringo at Fire Plume Ridge.
+  goto 43.71,8.29 "Escort Ringo to Spraggle Frock at Marshal's Refuge" map 1449
+step
+  when level>=51
+  accept 974
+step
+  tip Kill 10 Pterrordax and 15 Frenzied Pterrordax, then speak to Spraggle Frock at Marshal's Refuge.
+  kill 9167 x15 quest 4501.2 @32.4,42 map 1449
+  kill 9166 x10 quest 4501.1 @56.2,88.2 map 1449
+  kill 9167 x15 quest 4501.2
+step
+  accept 4289
+step
+  when onquest 4492
+  turnin 4492
+step
+  when onquest 974
+  tip Krakle in Un'Goro Crater wants you to find the hottest area of Fire Plume Ridge.
+  interact 148503 quest 974.1 @49.69,45.64 map 1449
+step
+  when turnedin 4492
+  when level>=50
+  accept 4491
+step
+  when onquest 4491
+  tip Lead Ringo to Spraggle Frock at Marshal's Refuge.
+  goto 43.71,8.29 "Escort Ringo to Spraggle Frock at Marshal's Refuge" map 1449
+step
+  when onquest 4491
+  turnin 4491
+step
+  turnin 4501
+step
+  when onquest 974
+  turnin 974
+step
+  when turnedin 974
+  when level>=51
+  accept 980
+step
+  tip Bring 2 Un'Goro Gorilla Pelts, 2 Un'Goro Stomper Pelts, and 2 Un'Goro Thunderer Pelts to Torwa Pathfinder at the entrance of Un'Goro Crater.
+  collect 11478 x2 quest 4289.1 @67.66,16.62 map 1449 -- Drops from: Un'Goro Gorilla
+  collect 11479 x2 quest 4289.2 @67.66,16.62 map 1449 -- Drops from: Un'Goro Gorilla
+  collect 11480 x2 quest 4289.3 @67.66,16.62 map 1449 -- Drops from: Un'Goro Gorilla
+step
+  turnin 4289
+step
+  when level>=50
+  accept 4301
+step
+  accept 4292
+step
+  when onquest 4301
+  tip Bring U'cha's Pelt to Torwa Pathfinder at the entrance of Un'Goro Crater.
+  collect 11476 quest 4301.1 @68.14,12.56 map 1449 -- Drops from: U'cha
+step
+  tip Using the contents of Torwa's Pouch, summon Lar'korwi and defeat him. Then bring Lar'korwi's Head to Torwa Pathfinder near the entrance to Un'Goro Crater.
+  collect 11510 quest 4292.1 @79.65,49.83 map 1449 -- Drops from: Lar'korwi
+step
+  turnin 4292
+step
+  when onquest 4301
+  turnin 4301
+step
+  zone map 1457
+  turnin 3764 -- Turn in at Darnassus
+step
+  accept 3781
+step
+  tip Take the Arch Druid's Seed Voucher to Mathrengyl Bearwalker in the Cenarion Enclave of Darnassus.
+  turnin 3781 -- Turn in at Darnassus
+step
+  accept 3785
+step
+  tip Use an Evergreen Pouch with a Packet of Tharlendis Seeds and two Un'Goro Soil samples to try and cultivate samples of Morrowgrain.
+  collect 11040 x10 quest 3785.1 @35.37,8.4 map 1457
+step
+  turnin 3785 -- Turn in at Darnassus
+step
+  zone map 1444
+  tip Take a Bloodpetal to Gregan Brewspewer in Feralas.
+  turnin 4142 -- Turn in at Feralas
+step
+  accept 3791
+step
+  tip Bring 10 Morrowgrain to Quintis Jonespyre in Feathermoon Stronghold.
+  collect 11040 x10 quest 3791.1 @32.45,43.79 map 1444
+step
+  turnin 3791 -- Turn in at Feralas
+step
+  when !turnedin 3787
+  when !onquest 3787
+  accept 3788
+step
+  when !turnedin 3787
+  when !onquest 3787
+  tip Speak with Quintis Jonespyre in Feathermoon Stronghold.
+  turnin 3788 -- Turn in at Feralas
+step
+  zone map 1427
+  tip Zone complete! Travel to Searing Gorge.
+  goto 39.06,38.99 map 1427

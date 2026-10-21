@@ -1,0 +1,342 @@
+guide lodestar/horde/arathi-highlands-34-40
+title "Arathi Highlands (34-40)"
+levels 34-40
+zone map 1417
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/badlands-37-42
+step
+  level 31
+step
+  getfp "Hammerfall, Arathi"
+step
+  accept 677
+step
+  accept 671
+step
+  accept 655
+step
+  tip Speak with Tor'gan in Hammerfall.
+  turnin 655
+step
+  accept 672
+step
+  tip Acquire 10 Highland Raptor Eyes from Highland Striders and Highland Thrashers for Tor'gan in Hammerfall.
+  collect 4512 x10 quest 672.1 @46.76,41.11 map 1417 -- Drops from: Highland Strider, Highland Thrasher
+step
+  interact 406918
+  accept 79976
+step
+  tip Get 10 Bloodstone Amulets for Tor'gan in Hammerfall.
+  collect 4495 x10 quest 671.1 @30.97,29.79 map 1417 -- Drops from: Syndicate Highwayman, Syndicate Pathstalker, Syndicate Mercenary
+step
+  tip Whoever was here, you just missed them.
+  turnin 79976
+step
+  turnin 671
+step
+  turnin 672
+step
+  accept 674
+step
+  tip Give the Raptor Talon Amulet to Gor'mul.
+  turnin 674
+step
+  accept 675
+step
+  when level>=37
+  accept 639
+step
+  tip Speak with Tor'gan.
+  turnin 675
+step
+  accept 701
+step
+  interact 138492
+  accept 642
+step
+  tip Slay 10 Witherbark Axe Throwers, 10 Headhunters and 8 Witch Doctors, and return to Drum Fel in the Hammerfall outpost.
+  kill 2554 x10 quest 677.1 @65.25,67.59 map 1417
+  kill 2555 x8 quest 677.3 @69.34,68.69 map 1417
+  kill 2554 x10 quest 677.1
+  kill 2556 x10 quest 677.2 @68.55,76.41 map 1417
+  kill 2555 x8 quest 677.3 @68.55,76.41 map 1417
+step
+  tip Acquire 12 Raptor Hearts from Highland Fleshstalkers for Tor'gan.
+  collect 4513 x12 quest 701.1 @49.61,69.12 map 1417 -- Drops from: Highland Fleshstalker
+step
+  when level>=35
+  accept 663
+step
+  when onquest 663
+  tip Talk to Captain O'Breen in Faldir's Cove.
+  turnin 663
+step
+  turnin 677
+step
+  turnin 701
+step
+  accept 702
+step
+  accept 678
+step
+  tip Gather 12 Motes of Myzrael, then bring them to the Iridescent Shards in Drywhisker Gorge.
+  collect 4435 x12 quest 642.1 @78.55,37.77 map 1417 -- Drops from: Drywhisker Kobold, Drywhisker Surveyor, Drywhisker Digger
+step
+  turnin 642
+step
+  tip Give Tor'gan's Orb to Gor'mul.
+  turnin 702
+step
+  accept 847
+step
+  interact 2701
+  accept 651
+step
+  tip Speak with Tor'gan.
+  turnin 847
+step
+  tip Gather the Burning Key, the Cresting Key and the Thundering Key from the Stone of West Binding, the Stone of East Binding and the Stone of Outer Binding.
+  collect 4484 quest 651.2 @66.7,29.72 map 1417 -- Drops from: Stone of East Binding
+  collect 4485 quest 651.3 @52.04,50.73 map 1417 -- Drops from: Stone of Outer Binding
+  collect 4483 quest 651.1 @25.46,30.11 map 1417 -- Drops from: Stone of West Binding
+  collect 4484 quest 651.2 -- Drops from: Stone of West Binding
+  collect 4485 quest 651.3 -- Drops from: Stone of West Binding
+step
+  turnin 651
+step
+  when onquest 639
+  tip Get the Sigil of Strom for Zengu in Hammerfall.
+  collect 4440 quest 639.1 @28.33,63.36 map 1417 optional -- Syndicate Conjuror is elite: grouping up is advised.
+step
+  tip Kill 10 Boulderfist Brutes and 4 Boulderfist Magi, and return to Drum Fel in the Hammerfall outpost.
+  kill 2566 x10 quest 678.1 @53.1,75.93 map 1417
+  kill 2566 x10 quest 678.1 @52.96,77.02 map 1417
+  kill 2567 x4 quest 678.2 @52.96,77.02 map 1417
+step
+  when onquest 639
+  turnin 639
+step
+  turnin 678
+step
+  when turnedin 639
+  when level>=40
+  accept 640
+step
+  when level>=40
+  accept 673
+step
+  when level>=40
+  accept 679
+step
+  when level>=40
+  accept 680
+step
+  when onquest 640
+  tip Retrieve the 11 Sigil Fragments from the defenders in Stromgarde, and bring them to Tor'gan in Hammerfall.
+  collect 4450 x11 quest 640.1 @23.89,60.57 map 1417 optional -- Stromgarde Troll Hunter is elite: grouping up is advised.
+step
+  when onquest 673
+  tip Retrieve Marez Cowl's Bloodstone Orb and bring it to Tor'gan in Hammerfall.
+  collect 4510 quest 673.1 @29.47,64.14 map 1417 optional -- Marez Cowl is elite: grouping up is advised.
+step
+  when onquest 679
+  tip Kill 7 Boulderfist Shaman and 3 Boulderfist Lords and return to Drum Fel in the Hammerfall outpost.
+  kill 2570 x7 quest 679.1 @19.97,67.51 map 1417 optional -- Boulderfist Shaman is elite: grouping up is advised.
+  kill 2570 x7 quest 679.1 @19.22,67.66 map 1417 optional -- Boulderfist Shaman is elite: grouping up is advised.
+  kill 2571 x3 quest 679.2 @19.22,67.66 map 1417 optional -- Boulderfist Lord is elite: grouping up is advised.
+step
+  when onquest 680
+  tip Slay Or'Kalar and bring his Head to Korin Fel in the Hammerfall outpost.
+  collect 4551 quest 680.1 @18.63,65.96 map 1417 optional -- Or'Kalar is elite: grouping up is advised.
+step
+  when turnedin 663
+  when level>=35
+  accept 662
+step
+  when turnedin 663
+  when level>=35
+  accept 664
+step
+  when turnedin 663
+  when level>=35
+  accept 665
+step
+  when onquest 665
+  tip Escort Professor Phizzlethorpe to the cave and back.
+  goto 33.87,80.6 "Defend Professor Phizzlethorpe" map 1417
+step
+  when onquest 665
+  turnin 665
+step
+  when turnedin 665
+  when level>=35
+  accept 666
+step
+  when onquest 662
+  tip First Mate Nilzlix wants you to retrieve the Charts and Logs from the Maiden's Folly and the Spirit of Silverpine.
+  collect 4489 quest 662.2 @23.39,85.09 map 1417
+  collect 4487 quest 662.1 @23.05,84.51 map 1417
+  collect 4490 quest 662.4 @20.65,85.1 map 1417
+  collect 4487 quest 662.1
+  collect 4489 quest 662.2
+  collect 4488 quest 662.3 @20.46,85.61 map 1417
+  collect 4490 quest 662.4 @20.46,85.61 map 1417
+step
+  when onquest 664
+  tip Captain Steelgut in Faldir's Cove wants you to kill 10 Daggerspine Raiders and 3 Daggerspine Sorceresses.
+  kill 2596 x3 quest 664.2 @22.45,84.35 map 1417
+  kill 2595 x10 quest 664.1 @22.57,86.91 map 1417
+  kill 2596 x3 quest 664.2
+step
+  when onquest 666
+  tip Doctor Draxlegauge in Faldir's Cove wants you to collect 10 Elven Gems and return the Goggles of Gem Hunting once you are done.
+  collect 4492 x10 quest 666.1 @23,89 map 1417 -- Drops from: Calcified Elven Gem
+step
+  when onquest 662
+  turnin 662
+step
+  when onquest 664
+  turnin 664
+step
+  when onquest 666
+  turnin 666
+step
+  when turnedin 666
+  when level>=35
+  accept 668
+step
+  when onquest 668
+  tip Take the Elven Gems to Captain O'Breen.
+  turnin 668
+step
+  when turnedin 668
+  when level>=35
+  accept 669
+step
+  when onquest 640
+  turnin 640
+step
+  when onquest 673
+  turnin 673
+step
+  when onquest 679
+  turnin 679
+step
+  when onquest 680
+  turnin 680
+step
+  when turnedin 640
+  accept 641
+step
+  when onquest 641
+  tip Bring the restored Sigil of Thoradin to Zengu in Hammerfall.
+  turnin 641
+step
+  when turnedin 641
+  when level>=41
+  accept 643
+step
+  when level>=42
+  interact 2702
+  accept 652
+step
+  when onquest 643
+  tip Retrieve the Sigil of Arathor and return it to Zengu in Hammerfall.
+  collect 4458 quest 643.1 @33.47,52.08 map 1417 optional -- Lieutenant Valorcall is elite: grouping up is advised.
+step
+  when onquest 652
+  tip Find and kill Fozruk. Bring the Rod of Order to the Keystone in the Arathi Highlands.
+  collect 4469 quest 652.1 @63.9,30 map 1417 optional -- Fozruk is elite: grouping up is advised.
+step
+  when onquest 643
+  turnin 643
+step
+  when turnedin 643
+  when level>=42
+  accept 644
+step
+  when onquest 644
+  tip Kill Prince Galen Trollbane and bring the Sigil of Trollbane to Zengu in Hammerfall.
+  collect 4466 quest 644.1 @28.36,58.11 map 1417 optional -- Prince Galen Trollbane is elite: grouping up is advised.
+step
+  when onquest 652
+  turnin 652
+step
+  when turnedin 652
+  interact 2688
+  accept 688
+step
+  when onquest 644
+  turnin 644
+step
+  when onquest 688
+  tip Speak with Zaruk in Hammerfall.
+  turnin 688
+step
+  when turnedin 688
+  accept 687 npc 2787
+step
+  when turnedin 644
+  accept 645
+step
+  when onquest 645
+  tip Retrieve Trol'kalar from Trollbane's tomb in Stromgarde.
+  turnin 645
+step
+  when turnedin 645
+  interact 2703
+  accept 646
+step
+  when onquest 646
+  tip Deliver Trol'kalar to Zengu in Hammerfall.
+  turnin 646
+step
+  zone map 1458
+  accept 1164
+step
+  zone map 1417
+  tip Bring Kenata, Fardel, and Marcel Dabyrie's Heads to Genavie Callow in Undercity.
+  collect 5830 quest 1164.1 @56.38,36.09 map 1417 -- Drops from: Kenata Dabyrie
+  collect 5831 quest 1164.3 @56.55,38.7 map 1417 -- Drops from: Fardel Dabyrie
+  collect 5830 quest 1164.1 -- Drops from: Marcel Dabyrie
+  collect 5832 quest 1164.2 @54.18,38.09 map 1417 -- Drops from: Marcel Dabyrie
+  collect 5831 quest 1164.3 @54.18,38.09 map 1417 -- Drops from: Marcel Dabyrie
+step
+  zone map 1458
+  turnin 1164 -- Turn in at Undercity
+step
+  zone map 1434
+  when onquest 669
+  tip Take the Sample Elven Gem to Fleet Master Seahorn in Booty Bay.
+  turnin 669 -- Turn in at Stranglethorn Vale
+step
+  when turnedin 669
+  when level>=35
+  accept 670
+step
+  zone map 1417
+  when onquest 670
+  tip Deliver Seahorn's Letter to Shakes O'Breen in Arathi Highlands.
+  turnin 670
+step
+  when turnedin 670
+  when level>=35
+  accept 667
+step
+  when onquest 667
+  tip Protect Shakes O'Breen during the attack.
+  goto 31.93,81.82 "Defend Shakes O'Breen" map 1417
+step
+  when onquest 667
+  turnin 667
+step
+  zone map 1418
+  when onquest 687
+  tip Find Theldurin the Lost.
+  turnin 687 -- Turn in at Badlands
+step
+  tip Zone complete! Travel to Badlands.
+  goto 42.39,52.93 map 1418

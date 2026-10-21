@@ -1,0 +1,254 @@
+guide lodestar/horde/the-barrens-23-27
+title "The Barrens (23-27)"
+levels 23-27
+zone map 1413
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/hillsbrad-foothills-22-28
+step
+  level 22
+step
+  accept 868
+step
+  when turnedin 1062
+  accept 1068
+step
+  only Rogue
+  when turnedin 2458
+  when level>=24
+  accept 2478
+step
+  only Rogue
+  when turnedin 2458
+  when onquest 2478
+  tip Steal Silixiz's Tower Key from Foreman Silixiz, then kill two Mutated Venture Co. Drones, two Venture Co. Patrollers, and two Venture Co. Lookouts.
+  kill 7310 x2 quest 2478.1 @54.72,5.75 map 1413
+  kill 7307 x2 quest 2478.2 @54.72,5.75 map 1413
+  kill 7308 x2 quest 2478.3 @54.72,5.75 map 1413
+  collect 8074 quest 2478.4 @54.72,5.75 map 1413 optional -- Grand Foreman Puzik Gallywix is elite: grouping up is advised.
+  collect 8072 quest 2478.5 @54.72,5.75 map 1413
+  collect 8073 quest 2478.6 @54.72,5.75 map 1413
+step
+  only Shaman
+  accept 1530
+step
+  kill 3474 @47.41,51.29 map 1413 -- Loot the quest item here — it starts the quest.
+  accept 883 @47.41,51.29 map 1413
+step
+  getfp "Camp Taurajo, The Barrens"
+step
+  accept 97250
+step
+  kill 3473 @49.2,61.6 map 1413 -- Loot the quest item here — it starts the quest.
+  accept 884 @49.2,61.6 map 1413
+step
+  accept 893
+step
+  tip Bring the Hoof of Lakota'mani to Jorn at Camp Taurajo.
+  turnin 883
+step
+  tip Bring Owatanka's Tailspike to Jorn at Camp Taurajo.
+  turnin 884
+step
+  when turnedin 5052
+  accept 879
+step
+  only Shaman
+  tip Find Brine in Southern Barrens.
+  turnin 1530
+step
+  only Shaman
+  accept 1535
+step
+  accept 843
+step
+  interact 415106
+  accept 79192
+step
+  kill 3472 @44.81,78.88 map 1413 -- Loot the quest item here — it starts the quest.
+  accept 885 @44.81,78.88 map 1413
+step
+  tip Bring 12 Silithid Eggs and the Digging Claw to Korran at the Crossroads.
+  collect 5058 x12 quest 868.1 @45.1,72.18 map 1413 -- Drops from: Silithid Mound
+step
+  when turnedin 5052
+  tip Kill Nak, Kuz, and Lok Orcbane and bring their skulls to Mangletooth at Camp Taurajo in the Barrens.
+  collect 5074 quest 879.1 @45.12,80.07 map 1413 -- Drops from: Kuz
+  collect 5073 quest 879.2 @43.75,83.26 map 1413 -- Drops from: Nak
+  collect 5074 quest 879.1 -- Drops from: Lok Orcbane
+  collect 5073 quest 879.2 -- Drops from: Lok Orcbane
+  collect 5072 quest 879.3 @40.15,80.54 map 1413 -- Drops from: Lok Orcbane
+step
+  tip Bring a Razormane Backstabber, a Charred Razormane Wand and a Razormane War Shield to Tatternack Steelforge at Camp Taurajo in the Barrens.
+  collect 5094 quest 893.3 @41.83,80.8 map 1413 -- Drops from: Razormane Warfrenzy
+  collect 5092 quest 893.2 @42.05,81.53 map 1413 -- Drops from: Razormane Seer
+  collect 5093 quest 893.1 @43.97,80.51 map 1413 -- Drops from: Razormane Pathfinder, Razormane Stalker
+  collect 5092 quest 893.2 -- Drops from: Razormane Pathfinder, Razormane Stalker
+  collect 5094 quest 893.3 -- Drops from: Razormane Pathfinder, Razormane Stalker
+step
+  only Shaman
+  tip Fill the Empty Brown Waterskin at the watering hole below Brine's hut and return it to her in the Barrens.
+  collect 7769 quest 1535.1 @44.28,76.75 map 1413 -- Drops from: Quilboar Watering Hole
+step
+  tip Slay Alliance soldiers encroaching into the Barrens at the border to Dustwallow Marsh, then return to Grunt Logmar at Camp Taurajo.
+  kill 268622 quest 97250.1 @48.77,77.21 map 1413
+  kill 268622 quest 97250.1 @48.86,77.29 map 1413
+  kill 268623 quest 97250.2 @48.86,77.29 map 1413 optional -- Outraged Pillager is elite: grouping up is advised.
+step
+  only Shaman
+  turnin 1535
+step
+  tip Gann Stonespire wants you to kill 15 Bael'dun Excavators and 5 Bael'dun Foremen.
+  kill 3374 x15 quest 843.1 @47.61,85.33 map 1413
+  kill 3375 x5 quest 843.2 @47.61,85.33 map 1413
+  collect 5006 quest 843.3 @47.61,85.33 map 1413
+step
+  turnin 843
+step
+  when turnedin 5052
+  turnin 879
+step
+  tip Bring Washte Pawne's Feather to Jorn Skyseer at Camp Taurajo.
+  turnin 885
+step
+  turnin 893
+step
+  turnin 97250
+step
+  when turnedin 5052
+  accept 906
+step
+  when turnedin 913
+  accept 874
+step
+  accept 846
+step
+  tip Gann Stonespire wants you to bring him 6 vials of Nitroglycerin, 6 bundles of Wood Pulp, and 6 samples of Sodium Nitrate.
+  collect 5017 x6 quest 846.1 @49.18,84.13 map 1413 -- Drops from: Bael'dun Soldier, Bael'dun Rifleman, Bael'dun Officer
+  collect 5018 x6 quest 846.2 @49.18,84.13 map 1413 -- Drops from: Bael'dun Soldier, Bael'dun Rifleman, Bael'dun Officer
+  collect 5019 x6 quest 846.3 @49.18,84.13 map 1413 -- Drops from: Bael'dun Soldier, Bael'dun Rifleman, Bael'dun Officer
+step
+  turnin 846
+step
+  accept 849
+step
+  tip Destroy the flying machine at Bael Modan and return to Gann Stonespire.
+  interact 3644 quest 849.1 @46.97,85.63 map 1413
+step
+  turnin 849
+step
+  when turnedin 913
+  tip Speak with Mahren Skyseer.
+  turnin 874
+step
+  when turnedin 913
+  accept 873
+step
+  when turnedin 913
+  tip Bring the Heart of Isha Awak to Mahren Skyseer.
+  collect 5104 quest 873.1 @64.2,50.6 map 1413 -- Drops from: Isha Awak
+step
+  when turnedin 913
+  turnin 873
+step
+  when turnedin 1094
+  accept 1095
+step
+  turnin 868
+step
+  when turnedin 5052
+  tip Bring Lok's Skull to Thork at the Crossroads in the Barrens.
+  turnin 906
+step
+  when turnedin 6981
+  accept 3369
+step
+  when level>=25
+  accept 1153
+step
+  accept 1130
+step
+  accept 857
+step
+  tip Feegly the Exiled wants you to retrieve for him the Tear of the Moons.
+  collect 5038 quest 857.1 @49.13,84.25 map 1413 -- Drops from: General Twinbraid's Strongbox
+step
+  turnin 857
+step
+  zone map 1442
+  tip You tear the note from the plank and read the scrawled writing.
+  turnin 79192 -- Turn in at Stonetalon Mountains
+step
+  when turnedin 1094
+  tip Bring the new orders to Ziz Fizziks in the Stonetalon Mountains.
+  turnin 1095 -- Turn in at Stonetalon Mountains
+step
+  when turnedin 1094
+  accept 1096
+step
+  when turnedin 1062
+  tip Kill the shredders XT:4 and XT:9, then return to Seereth Stonebreak at the border of the Stonetalon Mountains and the Barrens.
+  kill 4074 quest 1068.2 @64.09,56.62 map 1442
+  kill 4073 quest 1068.1 @67.2,46.69 map 1442
+  kill 4074 quest 1068.2
+step
+  when turnedin 1094
+  tip Bring Gerenzo Wrenchwhistle's Mechanical Arm to Ziz Fizziks in the Stonetalon Mountains.
+  collect 5736 quest 1096.1 @64.49,40.25 map 1442 -- Drops from: Gerenzo Wrenchwhistle
+step
+  when turnedin 1094
+  turnin 1096 -- Turn in at Stonetalon Mountains
+step
+  zone map 1413
+  when turnedin 1062
+  turnin 1068
+step
+  zone map 1454
+  only Rogue
+  when turnedin 2458
+  when onquest 2478
+  turnin 2478 -- Turn in at Orgrimmar
+step
+  only Mage,Troll,Undead
+  when turnedin 1944
+  when level>=26
+  accept 1945
+step
+  zone map 1440
+  only Mage,Troll,Undead
+  when turnedin 1944
+  when onquest 1945
+  tip Bring 12 Laughing Sister's Hairs to Kil'hala at the Crossroads.
+  collect 7270 x12 quest 1945.1 @59.79,55.37 map 1440 -- Drops from: Laughing Sister
+step
+  zone map 1413
+  only Mage,Troll,Undead
+  when turnedin 1944
+  when onquest 1945
+  turnin 1945
+step
+  only Mage,Troll,Undead
+  when turnedin 1944
+  when turnedin 1945
+  when level>=26
+  accept 1946
+step
+  only Mage,Troll,Undead
+  when turnedin 1944
+  when onquest 1946
+  turnin 1946
+step
+  zone map 1441
+  when onquest 1153
+  tip Find an Unrefined Ore Sample on a Gravelsnout Digger or Surveyor and bring it to Tatternack Steelforge at Camp Taurajo in the Barrens.
+  collect 5842 quest 1153.1 @11.85,21.31 map 1441 -- Drops from: Gravelsnout Digger, Gravelsnout Surveyor, Gibblesnik
+step
+  zone map 1413
+  when onquest 1153
+  turnin 1153
+step
+  zone map 1424
+  tip Zone complete! Travel to Hillsbrad Foothills.
+  goto 61.44,19.06 map 1424

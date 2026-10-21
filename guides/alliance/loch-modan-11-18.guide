@@ -1,0 +1,408 @@
+guide lodestar/alliance/loch-modan-11-18
+title "Loch Modan (11-18)"
+levels 11-18
+zone map 1432
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/redridge-mountains-15-24
+step
+  level 10
+step
+  getfp "Thelsamar, Loch Modan"
+step
+  when onquest 414
+  tip Take the Cask of Shimmer Stout to Mountaineer Kadrell.
+  turnin 414
+step
+  accept 418
+step
+  when level>=10
+  accept 416
+step
+  only Dwarf,Gnome
+  when level>=10
+  accept 6387
+step
+  when level>=10
+  accept 86667
+step
+  when onquest 86667
+  tip Deliver a Jar of Snow to Norric Lochthane at his house on the northwest coast of the Loch.
+  collect 279379 quest 86667.1 @36.57,48.41 map 1432
+step
+  only Dwarf,Gnome
+  when onquest 6387
+  tip Bring Brock's List to Thorgrum Borrelson in Thelsamar.
+  turnin 6387
+step
+  only Dwarf,Gnome
+  when turnedin 6387
+  when level>=10
+  accept 6391
+step
+  tip Bring 3 pieces of Bear Meat, 3 Boar Intestines, and 3 Spider Ichor to Vidra Hearthstove in Thelsamar.
+  collect 3174 x3 quest 418.3 @31.08,41.56 map 1432 -- Drops from: Forest Lurker, Wood Lurker, Cliff Lurker
+  collect 3172 x3 quest 418.1 @33.34,33.45 map 1432 -- Drops from: Mountain Boar, Mangy Mountain Boar, Elder Mountain Boar
+  collect 3172 x3 quest 418.1 -- Drops from: Elder Black Bear, Grizzled Black Bear, Black Bear Patriarch
+  collect 3173 x3 quest 418.2 @32.46,29.75 map 1432 -- Drops from: Elder Black Bear, Grizzled Black Bear, Black Bear Patriarch
+  collect 3174 x3 quest 418.3 @32.46,29.75 map 1432 -- Drops from: Elder Black Bear, Grizzled Black Bear, Black Bear Patriarch
+step
+  when onquest 416
+  tip Bring 12 Tunnel Rat Ears to Mountaineer Kadrell in Thelsamar.
+  collect 3110 x12 quest 416.1 @35.84,26.76 map 1432 -- Drops from: Tunnel Rat Vermin, Tunnel Rat Scout, Tunnel Rat Forager
+step
+  when onquest 86667
+  turnin 86667
+step
+  when onquest 416
+  turnin 416
+step
+  turnin 418
+step
+  accept 224
+step
+  accept 267
+step
+  tip Mountaineer Cobbleflint of the southern guard tower wants you to kill 10 Stonesplinter Troggs and 10 Stonesplinter Scouts.
+  kill 1162 x10 quest 224.2 @31.01,71.74 map 1432
+  kill 1161 x10 quest 224.1 @32.37,72.36 map 1432
+  kill 1162 x10 quest 224.2 @32.37,72.36 map 1432
+step
+  tip Bring 8 Trogg Stone Teeth to Captain Rugelfuss in the southern guard tower.
+  collect 2536 x8 quest 267.1 @32.37,72.36 map 1432 -- Drops from: Stonesplinter Trogg, Stonesplinter Scout, Stonesplinter Skullthumper
+step
+  turnin 224
+step
+  turnin 267
+step
+  only Shaman
+  when turnedin 94465
+  accept 94466
+step
+  only Shaman
+  when turnedin 94465
+  tip Bring 1 Fire Tar and 1 Reagent Pouch to Braldir Ashmantle in Loch Modan.
+  collect 5026 quest 94466.1 @35.3,82.56 map 1432 -- Drops from: Stonesplinter Seer
+  collect 5026 quest 94466.1 @35.15,23.93 map 1432 -- Drops from: Tunnel Rat Geomancer
+  collect 6652 quest 94466.2 @35.15,23.93 map 1432 -- Drops from: Tunnel Rat Geomancer
+step
+  only Shaman
+  when turnedin 94465
+  turnin 94466
+step
+  only Shaman
+  when turnedin 94465
+  accept 94467
+step
+  only Shaman
+  when turnedin 94465
+  tip Defeat the Minor Manifestation of Fire, and place the Glowing Ember in the brazier atop the Shrine of Eternal Flame.
+  collect 6655 quest 94467.1 @31.96,64.42 map 1432 -- Drops from: Minor Manifestation of Fire
+step
+  only Shaman
+  when turnedin 94465
+  turnin 94467
+step
+  only Shaman
+  when turnedin 94465
+  interact 61934
+  accept 94468
+step
+  accept 237
+step
+  tip Mountaineer Gravelgaw in the southern guard tower wants you to kill 10 Stonesplinter Skullthumpers and 10 Stonesplinter Seers and report back to him.
+  kill 1166 x10 quest 237.2 @35.3,82.56 map 1432
+  kill 1163 x10 quest 237.1 @35.91,84.2 map 1432
+  kill 1166 x10 quest 237.2 @35.91,84.2 map 1432
+step
+  turnin 237
+step
+  accept 263
+step
+  tip Mountaineer Wallbang in the southern guard tower wants you to kill 10 Stonesplinter Shaman and 10 Stonesplinter Bonesnappers.
+  kill 1164 x10 quest 263.2 @37.88,87.01 map 1432
+  kill 1197 x10 quest 263.1 @37.52,90.07 map 1432
+  kill 1164 x10 quest 263.2 @37.52,90.07 map 1432
+step
+  turnin 263
+step
+  accept 1339
+step
+  tip Speak with Mountaineer Stormpike.
+  turnin 1339
+step
+  accept 1338
+step
+  accept 307
+step
+  tip Go to the Silver Stream Mine and collect 4 loads of Miners' Gear.
+  collect 2640 x4 quest 307.1 @35.3,24.38 map 1432 -- Drops from: Miners' League Crates
+step
+  turnin 307
+step
+  accept 298
+step
+  accept 385
+step
+  when level>=12
+  accept 86758
+step
+  accept 257
+step
+  tip Kill 6 Mountain Buzzards and return to Daryl the Youngling in the Farstrider Lodge within 15 minutes.
+  kill 1194 x6 quest 257.1 @75.79,70.46 map 1432
+step
+  turnin 257
+step
+  when onquest 86758
+  tip Find and defeat the crocolisk Daggerfang and bring back Marek's knife.
+  collect 279591 quest 86758.1 @62.78,46.8 map 1432 -- Drops from: Daggerfang
+step
+  tip Get 5 pieces of Crocolisk Meat and 6 Crocolisk Skins for Marek Ironheart at the Farstrider Lodge.
+  collect 2924 x5 quest 385.1 @56.87,39.12 map 1432 -- Drops from: Loch Crocolisk, Daggerfang, Large Loch Crocolisk
+  collect 2925 x6 quest 385.2 @56.87,39.12 map 1432 -- Drops from: Loch Crocolisk, Daggerfang, Large Loch Crocolisk
+step
+  tip Bring Ironband's Progress Report to Jern Hornhelm in Thelsamar.
+  turnin 298
+step
+  accept 301
+step
+  turnin 385
+step
+  when onquest 86758
+  turnin 86758
+step
+  accept 258
+step
+  tip Kill 5 Elder Mountain Boars and return to Daryl the Youngling in the Farstrider Lodge within 12 minutes.
+  kill 1192 x5 quest 258.1 @64.94,38.83 map 1432
+step
+  turnin 258
+step
+  when level>=13
+  accept 436
+step
+  accept 217
+step
+  accept 86585
+step
+  tip Raise the standard of Ironforge, call out the trogg Headsplitter and kill it, then report to Captain Rugelfuss.
+  kill 269185 quest 86585.1 @31.82,86.59 map 1432
+step
+  tip Kill the Trogg leader, Grawmug, and his two guards, Gnasher and Brawler then report back to Captain Rugelfuss in the southern guard tower.
+  kill 1205 quest 217.1 @34.77,90.45 map 1432
+  kill 1207 quest 217.3 @34.64,90.55 map 1432
+  kill 1205 quest 217.1 @34.71,90.82 map 1432
+  kill 1206 quest 217.2 @34.71,90.82 map 1432
+  kill 1207 quest 217.3 @34.71,90.82 map 1432
+step
+  turnin 217
+step
+  turnin 86585
+step
+  when onquest 436
+  tip Speak with Explorer Fellhew.
+  turnin 436
+step
+  accept 297
+step
+  collect 665282 "Excavation Tools" @69.4,67.5 map 1432 -- Loot the quest item here — it starts the quest.
+  accept 86613 @69.4,67.5 map 1432
+step
+  tip Return 6 Excavation Tools to Magmar Fellhew.
+  collect 278398 x6 quest 86613.1 @69.4,67.5 map 1432
+  collect 278049 x6 quest 86613.2 @69.4,67.5 map 1432
+step
+  turnin 86613
+step
+  tip Bring Magmar Fellhew 8 Carved Stone Idols.
+  collect 2636 x8 quest 297.1 @70.03,62.68 map 1432 -- Drops from: Stonesplinter Geomancer, Stonesplinter Digger, Berserk Trogg
+step
+  turnin 297
+step
+  when level>=16
+  accept 250
+step
+  when onquest 250
+  tip Investigate the area near the eastern ramp of the Dam and bring Chief Engineer Hinderweir a clue that might reveal what the Dark Iron Dwarves are up to.
+  turnin 250
+step
+  when turnedin 250
+  when level>=16
+  interact 257
+  accept 199
+step
+  when onquest 199
+  tip Return to Chief Engineer Hinderweir and show him the clue that you discovered.
+  turnin 199
+step
+  when turnedin 199
+  when level>=16
+  accept 161
+step
+  interact 665289
+  accept 86614
+step
+  tip Return the Monogrammed Silver Hair clip to its owner.
+  turnin 86614
+step
+  zone map 1453
+  tip Bring Stormpike's Request to Furen Longbeard in Stormwind.
+  turnin 1338 -- Turn in at Stormwind City
+step
+  accept 353
+step
+  accept 92750
+step
+  accept 97237
+step
+  tip Find each of the reading materials located somewhere in the library and then return to Roy Lewells in Stormwind's Park.
+  collect 277196 quest 97237.1
+  collect 277194 quest 97237.2
+  collect 277195 quest 97237.3
+  collect 277197 quest 97237.4
+step
+  tip Talk to someone in Stormwind Intelligence about acquiring a remote detonator.
+  turnin 92750 -- Turn in at Stormwind City
+step
+  accept 92751
+step
+  only Mage,Human,Gnome,Skyborne
+  when level>=15
+  accept 1920
+step
+  only Mage,Human,Gnome,Skyborne
+  when onquest 1920
+  tip Obtain a Cantation of Manifestation and a Chest of Containment coffers from behind Jennea Cannon. Bring 3 Filled Containment Coffers to Jennea at the Wizard's Sanctum.
+  collect 7308 quest 1920.3 @49.61,85.42 map 1453
+  collect 7247 quest 1920.2 @49.51,85.6 map 1453
+  collect 7292 x3 quest 1920.1
+  collect 7247 quest 1920.2
+  collect 7308 quest 1920.3
+step
+  only Mage,Human,Gnome,Skyborne
+  when onquest 1920
+  turnin 1920 -- Turn in at Stormwind City
+step
+  only Mage,Human,Gnome
+  when turnedin 1920
+  when level>=15
+  accept 1921
+step
+  zone map 1432
+  only Mage,Human,Gnome
+  when onquest 1921
+  tip Bring 10 Linen Cloth and the 6 Charged Rift Gems to Wynne Larson in Stormwind.
+  collect 2589 x10 quest 1921.1 -- Drops from: humanoids
+  collect 2589 x10 quest 1921.1 @35.3,24.38 map 1432 -- Drops from: Miners' League Crates
+  collect 7249 x6 quest 1921.2 @35.3,24.38 map 1432 -- Drops from: Miners' League Crates
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  when onquest 1921
+  turnin 1921 -- Turn in at Stormwind City
+step
+  only Mage,Human,Gnome
+  when turnedin 1921
+  when level>=15
+  accept 1941
+step
+  only Mage,Human,Gnome
+  when onquest 1941
+  turnin 1941 -- Turn in at Stormwind City
+step
+  turnin 97237 -- Turn in at Stormwind City
+step
+  accept 97234
+step
+  tip Bring the Remote Detonator Kit to Sprite Jumpsprocket in the Dwarven District of Stormwind.
+  turnin 92751 -- Turn in at Stormwind City
+step
+  tip Bring the wrapped reading material to the Stormwind library.
+  turnin 97234 -- Turn in at Stormwind City
+step
+  zone map 1432
+  tip Deliver the Package for Stormpike to Mountaineer Stormpike in Loch Modan.
+  turnin 353
+step
+  zone map 1455
+  only Dwarf,Gnome
+  when onquest 6391
+  tip Buy a gryphon to Ironforge from the gryphon master Thorgrum Borrelson, then bring Brock's List to Golnir Bouldertoe in Ironforge.
+  turnin 6391 -- Turn in at Ironforge
+step
+  only Dwarf,Gnome
+  when turnedin 6391
+  accept 6388
+step
+  only Dwarf,Gnome
+  when onquest 6388
+  tip Bring the Honorary Picks to Gryth Thurden in Ironforge.
+  turnin 6388 -- Turn in at Ironforge
+step
+  only Dwarf,Gnome
+  when turnedin 6388
+  accept 6392
+step
+  accept 2039
+step
+  tip Take Ironband's Progress Report to Prospector Stormpike.
+  turnin 301 -- Turn in at Ironforge
+step
+  accept 302
+step
+  zone map 1432
+  tip Find Bingles Blastenheimer in Loch Modan.
+  turnin 2039
+step
+  accept 2038
+step
+  tip Find and return Bingles' supplies:
+  collect 7343 quest 2038.1 @48.73,30.09 map 1432 -- Drops from: Bingles's Toolbucket
+  collect 7376 quest 2038.4 @54.21,26.6 map 1432 -- Drops from: Bingles's Blastencapper
+  collect 7346 quest 2038.3 @51.78,24.09 map 1432 -- Drops from: Bingles's Toolbucket
+  collect 7343 quest 2038.1 -- Drops from: Bingles's Toolbucket
+  collect 7345 quest 2038.2 @48.38,20.51 map 1432 -- Drops from: Bingles's Toolbucket
+  collect 7346 quest 2038.3 -- Drops from: Bingles's Toolbucket
+  collect 7376 quest 2038.4 -- Drops from: Bingles's Toolbucket
+step
+  tip Speak with Jern Hornhelm in Thelsamar.
+  turnin 302
+step
+  accept 273
+step
+  only Dwarf,Gnome
+  when onquest 6392
+  tip Buy a gryphon to Thelsamar from the gryphon master Gryth Thurden, then bring the Honorary Picks to Brock Stoneseeker in Thelsamar.
+  turnin 6392
+step
+  tip Speak with Huldar.
+  goto 51.16,68.96 "Find Huldar, Miran, and Saean" map 1432
+step
+  turnin 273
+step
+  accept 454
+step
+  tip Speak with Miran.
+  turnin 454
+step
+  accept 309
+step
+  tip Ensure Miran and the shipment arrive at the excavation site, then inform Prospector Ironband.
+  goto 65.12,65.77 "Escort Miran to the excavation site" map 1432
+step
+  turnin 309
+step
+  turnin 2038
+step
+  zone map 1426
+  only Shaman
+  when turnedin 94465
+  tip Bring the Torch of Eternal Flame to Bruegs Kindleborn in Dun Morogh.
+  turnin 94468 -- Turn in at Dun Morogh
+step
+  zone map 1433
+  tip Zone complete! Travel to Redridge Mountains.
+  goto 21.39,43.96 map 1433

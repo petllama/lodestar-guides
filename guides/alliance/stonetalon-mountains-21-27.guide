@@ -1,0 +1,137 @@
+guide lodestar/alliance/stonetalon-mountains-21-27
+title "Stonetalon Mountains (21-27)"
+levels 21-27
+zone map 1442
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/ashenvale-20-28
+step
+  level 20
+step
+  accept 1085
+step
+  accept 1093
+step
+  tip Speak to Gaxim.
+  turnin 1085
+step
+  accept 1071
+step
+  accept 1090
+step
+  tip Get the mysterious ore from Piznik after he finishes mining it.
+  talk 4276
+step
+  turnin 1090
+step
+  accept 1092
+step
+  tip Kill 10 Venture Co. Loggers, and 10 Venture Co. Deforesters and return to Gaxim Rustfizzle in Stonetalon.
+  kill 3989 x10 quest 1071.1 @66.4,52.49 map 1442
+  kill 3989 x10 quest 1071.1 @65.24,53.45 map 1442
+  kill 3991 x10 quest 1071.2 @65.24,53.45 map 1442
+step
+  tip Get the Super Reaper 6000 Blueprints for Ziz Fizziks in the Stonetalon Mountains.
+  collect 5734 quest 1093.1 @71.8,50.03 map 1442 -- Drops from: Venture Co. Operator
+step
+  turnin 1071
+step
+  tip Deliver the Unidentified Ore to Ziz Fizziks in the Stonetalon Mountains.
+  turnin 1092
+step
+  turnin 1093
+step
+  accept 1072
+step
+  accept 1075
+step
+  accept 1094
+step
+  interact 424005
+  accept 79980
+step
+  tip Find what awaits you.
+  turnin 79980
+step
+  when level>=20
+  accept 86574
+step
+  when onquest 86574
+  tip Collect 6 Stonetalon Supplies from Pridewing Wyverns and deliver them to Innkeeper Faralia.
+  collect 277917 quest 86574.1 @63.51,59.21 map 1442 -- Drops from: Young Pridewing, Pridewing Wyvern, Pridewing Skyhunter
+step
+  getfp "Stonetalon Peak, Stonetalon Mountains"
+step
+  when onquest 86574
+  turnin 86574
+step
+  when turnedin 1091
+  accept 1083
+step
+  when turnedin 1091
+  tip Bring 8 Smoldering Embers from any of the fire elementals in the Charred Vale to Kaela Shadowspear in Stonetalon.
+  collect 5659 x8 quest 1083.1 @36.55,51.37 map 1442 -- Drops from: Rogue Flame Spirit, Burning Ravager, Burning Destroyer
+step
+  when turnedin 1091
+  turnin 1083
+step
+  accept 1057
+step
+  tip Keeper Albagorm on Stonetalon Peak wants you to slay 7 Bloodfury Harpies, 7 Bloodfury Ambushers, 7 Bloodfury Slayers and 7 Bloodfury Roguefeathers.
+  kill 4022 x7 quest 1057.1 @32.57,60.66 map 1442
+  kill 4025 x7 quest 1057.2 @30.8,61.32 map 1442
+  kill 4024 x7 quest 1057.3 @30.24,69.58 map 1442
+  kill 4022 x7 quest 1057.1
+  kill 4025 x7 quest 1057.2
+  kill 4024 x7 quest 1057.3 @34.86,69.12 map 1442
+  kill 4023 x7 quest 1057.4 @34.86,69.12 map 1442
+step
+  turnin 1057
+step
+  when turnedin 1091
+  when level>=22
+  accept 1084
+step
+  when turnedin 1091
+  when onquest 1084
+  tip Bring a piece of Corroded Shrapnel to Kaela Shadowspear in Stonetalon.
+  collect 5664 quest 1084.1 @34.15,67.58 map 1442 -- Drops from: Charred Ancient, Blackened Ancient, Vengeful Ancient
+step
+  when turnedin 1091
+  when onquest 1084
+  turnin 1084
+step
+  when turnedin 1091
+  when turnedin 1084
+  accept 1082
+step
+  when level>=25
+  accept 2931
+step
+  zone map 1413
+  tip Deliver the Sealed Envelope to Sputtervalve in the Barrens.
+  turnin 1094 -- Turn in at The Barrens
+step
+  accept 1095
+step
+  zone map 1442
+  tip Bring the new orders to Ziz Fizziks in the Stonetalon Mountains.
+  turnin 1095
+step
+  accept 1096
+step
+  tip Bring Gerenzo Wrenchwhistle's Mechanical Arm to Ziz Fizziks in the Stonetalon Mountains.
+  collect 5736 quest 1096.1 @64.49,40.25 map 1442 -- Drops from: Gerenzo Wrenchwhistle
+step
+  turnin 1096
+step
+  zone map 1440
+  when turnedin 1091
+  when onquest 1082
+  tip Return to Sentinel Thenysil in Ashenvale.
+  turnin 1082 -- Turn in at Ashenvale
+step
+  tip Zone complete! Travel to Ashenvale.
+  goto 34.67,48.84 map 1440

@@ -1,0 +1,350 @@
+guide lodestar/alliance/duskwood-21-28
+title "Duskwood (21-28)"
+levels 21-28
+zone map 1431
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/wetlands-21-29
+step
+  level 20
+step
+  zone map 1453
+  accept 95161
+step
+  when onquest 1075
+  tip Find Collin Mauren in Stormwind.
+  turnin 1075 -- Turn in at Stormwind City
+step
+  when onquest 97914
+  tip Bring Thundris' Letter to Baros Alexston in Stormwind.
+  turnin 97914 -- Turn in at Stormwind City
+step
+  zone map 1431
+  accept 245
+step
+  getfp "Darkshire, Duskwood"
+step
+  tip Deliver the Blood-Stained Letter to Avette Fellwood in Duskwood.
+  turnin 95161
+step
+  when turnedin 145
+  accept 146
+step
+  accept 163
+step
+  accept 96139
+step
+  accept 164
+step
+  tip Kill 15 Pygmy Venom Web Spiders, and then report back to Watcher Dodds in Duskwood.
+  kill 539 x15 quest 245.1 @23.85,27.8 map 1431
+step
+  tip Deliver the supplies to Sven.
+  turnin 164
+step
+  accept 226
+step
+  tip Find out what is haunting Raven Hill.
+  turnin 163
+step
+  accept 5
+step
+  tip Search Raven Hill for anything of interest and return to Sirra Von'Indi in Darkshire.
+  collect 281046 quest 96139.1 @21.1,55.6 map 1431 -- Drops from: Memory of Valor
+step
+  turnin 245
+step
+  tip Speak with Chef Grual.
+  turnin 5
+step
+  turnin 96139
+step
+  accept 93
+step
+  accept 56
+step
+  tip Commander Althea Ebonlocke of Darkshire wants you to kill 8 Skeletal Warriors and 6 Skeletal Mages.
+  kill 48 x8 quest 56.1 @80.57,70.2 map 1431
+  kill 48 x8 quest 56.1 @79.54,71.24 map 1431
+  kill 203 x6 quest 56.2 @79.54,71.24 map 1431
+step
+  kill 272260 @60.2,25.74 map 1431 -- Loot the quest item here — it starts the quest.
+  accept 96137 @60.2,25.74 map 1431
+step
+  tip Gather 6 Gooey Spider Legs and bring them to Chef Grual in Darkshire.
+  collect 2251 x6 quest 93.1 @41.79,20.83 map 1431 -- Drops from: Venom Web Spider, Pygmy Venom Web Spider, Green Recluse
+step
+  tip Kill 12 Starving Dire Wolves and 8 Rabid Dire Wolves, then return to Lars at Sven's Camp on the western border of Duskwood.
+  kill 213 x12 quest 226.1 @33.64,24.48 map 1431
+  kill 213 x12 quest 226.1 @20.39,28.09 map 1431
+  kill 565 x8 quest 226.2 @20.39,28.09 map 1431
+step
+  turnin 226
+step
+  tip Defeat 10 Young Black Ravagers and 7 Black Ravagers then return to Sirra Von'Indi in Darkshire for more information.
+  kill 923 x10 quest 96137.1 @48.99,65.24 map 1431
+  kill 923 x10 quest 96137.1
+  kill 628 x7 quest 96137.2 @68.37,33.3 map 1431
+step
+  turnin 56
+step
+  turnin 93
+step
+  turnin 96137
+step
+  accept 240
+step
+  accept 101
+step
+  accept 165
+step
+  accept 174
+step
+  kill 3 @23.81,39.21 map 1431 -- Loot the quest item here — it starts the quest.
+  accept 337 @23.81,39.21 map 1431
+step
+  tip Bring 10 Ghoul Fangs, 10 Skeleton Fingers and 5 Vials of Spider Venom to Madame Eva in Darkshire.
+  collect 1129 x10 quest 101.1 @23.81,39.21 map 1431 -- Drops from: Flesh Eater, Rotted One, Bone Chewer
+  collect 1130 x5 quest 101.2 @41.79,20.83 map 1431 -- Drops from: Venom Web Spider, Pygmy Venom Web Spider, Green Recluse
+  collect 1129 x10 quest 101.1 -- Drops from: Skeletal Warrior, Skeletal Horror, Skeletal Mage
+  collect 1130 x5 quest 101.2 -- Drops from: Skeletal Warrior, Skeletal Horror, Skeletal Mage
+  collect 2378 x10 quest 101.3 @80.57,70.2 map 1431 -- Drops from: Skeletal Warrior, Skeletal Horror, Skeletal Mage
+step
+  tip Check on the old man in the shack near Raven Hill cemetery.
+  turnin 165
+step
+  accept 148
+step
+  accept 95
+step
+  tip Return to Jitters with the Dusky Crab Cakes.
+  turnin 240
+step
+  tip Go to Sven's Farm and find what was buried behind the old stump.
+  turnin 95
+step
+  interact 59
+  accept 230
+step
+  turnin 101
+step
+  tip Speak with Madame Eva.
+  turnin 148
+step
+  accept 149
+step
+  tip Bring the Spectral Comb to Blind Mary.
+  turnin 149
+step
+  accept 154
+step
+  tip Return the Ghost Hair Comb to Madame Eva in Darkshire.
+  turnin 154
+step
+  accept 157
+step
+  accept 57
+step
+  tip Bring the Ghost Hair Thread to Abercrombie, in his shack north of the Raven Hill Cemetery.
+  turnin 157
+step
+  accept 158
+step
+  tip Bring the Book from Sven's Farm to Sven.
+  turnin 230
+step
+  accept 262
+step
+  tip Speak with Tavernkeep Smitts.
+  turnin 158
+step
+  tip Take the book you found at Sven's farm and show it to townsfolk in Darkshire.
+  turnin 262
+step
+  accept 156
+step
+  accept 265
+step
+  tip See if other townsfolk have clues about the shadowy figure.
+  turnin 265
+step
+  accept 266
+step
+  tip Search the inn for clues about the shadowy figure.
+  turnin 266
+step
+  accept 453
+step
+  tip Find the Shadowy Figure. Your clues:
+  turnin 453
+step
+  accept 268
+step
+  tip Return to Sven with Jitters' completed journal.
+  turnin 268
+step
+  tip Commander Althea Ebonlocke of Darkshire wants you to kill 15 Skeletal Fiends and 15 Skeletal Horrors.
+  kill 531 x15 quest 57.1 @22.39,43.04 map 1431
+  kill 531 x15 quest 57.1 @23.06,47.11 map 1431
+  kill 202 x15 quest 57.2 @23.06,47.11 map 1431
+step
+  tip Gather 8 Rot Blossoms and bring them to Tavernkeep Smitts in Darkshire.
+  collect 1598 x8 quest 156.1 @23.06,47.11 map 1431 -- Drops from: Skeletal Horror, Skeletal Fiend
+step
+  turnin 57
+step
+  turnin 156
+step
+  accept 159
+step
+  tip Bring the Zombie Juice to Abercrombie at his shack.
+  turnin 159
+step
+  accept 133
+step
+  tip Gather 7 Ghoul Ribs and bring them to Abercrombie at his shack.
+  collect 884 x7 quest 133.1 @23.81,39.21 map 1431 -- Drops from: Flesh Eater, Bone Chewer, Plague Spreader
+step
+  turnin 133
+step
+  accept 323
+step
+  tip Kill 15 Skeletal Raiders, 3 Skeletal Healers and 3 Skeletal Warders, and then return to Sven.
+  kill 785 x3 quest 323.3 @15.96,34.65 map 1431
+  kill 1110 x15 quest 323.1 @17.56,37 map 1431
+  kill 1110 x15 quest 323.1 @17.33,37.43 map 1431
+  kill 787 x3 quest 323.2 @17.33,37.43 map 1431
+  kill 785 x3 quest 323.3 @17.33,37.43 map 1431
+step
+  turnin 323
+step
+  accept 66
+step
+  when level>=23
+  accept 173
+step
+  tip Seek out the Clerk Daltry in the Darkshire Town Hall.
+  turnin 66
+step
+  accept 67
+step
+  when onquest 173
+  tip Kill 6 Nightbane Shadow Weaver worgen for Calor in Darkshire.
+  kill 533 x6 quest 173.1 @61.94,52.05 map 1431
+step
+  when onquest 173
+  turnin 173
+step
+  kill 272273 @62.42,63.5 map 1431 -- Loot the quest item here — it starts the quest.
+  accept 96138 @62.42,63.5 map 1431
+step
+  tip Defeat 8 Splint Fist Warriors and 4 Splint Fist Taskmasters then return to Sirra Von'Indi in Darkshire for more information.
+  kill 892 quest 96138.2 @36.57,72.44 map 1431
+  kill 212 quest 96138.1 @33.67,76.02 map 1431
+  kill 892 quest 96138.2
+step
+  turnin 96138
+step
+  when turnedin 173
+  when level>=23
+  accept 221
+step
+  when onquest 221
+  tip Kill 12 Nightbane Dark Runner worgen for Calor in Darkshire.
+  kill 205 x12 quest 221.1 @65.13,67.39 map 1431
+step
+  when onquest 221
+  turnin 221
+step
+  accept 269
+step
+  zone map 1433
+  when turnedin 145
+  tip Return to Magistrate Solomon with Lord Ebonlocke's letter of response.
+  turnin 146 -- Turn in at Redridge Mountains
+step
+  zone map 1436
+  tip Travel to the Moonbrook Schoolhouse and bring back any updated information about Stalvan to Clerk Daltry.
+  turnin 67 -- Turn in at Westfall
+step
+  interact 3643
+  accept 68
+step
+  tip Viktori Prism'Antras of Darkshire wants you to bring him a bronze tube.
+  collect 4371 quest 174.1 @41.27,66.41 map 1436 -- Drops from: Box of Assorted Parts
+step
+  zone map 1431
+  turnin 174
+step
+  accept 175
+step
+  tip Take the Dusty Unsent Letter to Clerk Daltry.
+  turnin 68
+step
+  accept 69
+step
+  tip Locate Mary and persuade her to give up a reflective surface for Viktori's project.
+  turnin 175
+step
+  accept 177
+step
+  tip Retrieve Blind Mary's Looking Glass from the Insane Ghoul and give it to Viktori in Darkshire.
+  collect 1946 quest 177.1 @80.9,71.96 map 1431 -- Drops from: Insane Ghoul
+step
+  turnin 177
+step
+  zone map 1453
+  tip Return the book: The History of Stormwind, to the Stormwind Library.
+  turnin 337 -- Turn in at Stormwind City
+step
+  tip Give Jitters' Completed Journal to Bishop Farthing in Stormwind.
+  turnin 269 -- Turn in at Stormwind City
+step
+  when turnedin 1075
+  accept 1076
+step
+  only Mage,Human,Gnome
+  when level>=26
+  accept 1938
+step
+  zone map 1433
+  only Mage,Human,Gnome
+  when onquest 1938
+  tip Bring Ur's Treatise on Shadow Magic to High Sorcerer Andromath in Stormwind.
+  collect 7266 quest 1938.1 @73.77,47.61 map 1433
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  when onquest 1938
+  turnin 1938 -- Turn in at Stormwind City
+step
+  only Mage,Human,Gnome
+  when turnedin 1938
+  when level>=26
+  accept 1940
+step
+  zone map 1436
+  when turnedin 1075
+  tip Bring Dust Devil Debris to Collin Mauren in Stormwind.
+  collect 5669 quest 1076.1 @45.61,49.32 map 1436 -- Drops from: Dust Devil
+step
+  zone map 1453
+  when turnedin 1075
+  turnin 1076 -- Turn in at Stormwind City
+step
+  zone map 1431
+  only Mage,Human,Gnome
+  when onquest 1940
+  tip Bring 8 Pristine Spider Silk to Wynne Larson in Stormwind.
+  collect 7267 x8 quest 1940.1 @32.82,51.72 map 1431 -- Drops from: Black Widow Hatchling, Carrion Recluse
+step
+  zone map 1453
+  only Mage,Human,Gnome
+  when onquest 1940
+  turnin 1940 -- Turn in at Stormwind City
+step
+  zone map 1437
+  tip Zone complete! Travel to Wetlands.
+  goto 8.55,55.74 map 1437

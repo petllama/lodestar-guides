@@ -1,0 +1,131 @@
+guide lodestar/alliance/the-hinterlands-43-48
+title "The Hinterlands (43-48)"
+levels 43-48
+zone map 1425
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/feralas-43-48
+step
+  level 41
+step
+  zone map 1453
+  when turnedin 1448
+  accept 1449
+step
+  zone map 1425
+  getfp "Aerie Peak, The Hinterlands"
+step
+  when turnedin 1448
+  tip Speak with High Thane Falstad Wildhammer at Aerie Peak in the Hinterlands.
+  turnin 1449
+step
+  when turnedin 1448
+  accept 1450
+step
+  when turnedin 1448
+  tip Speak with Gryphon Master Talonaxe inside the Aerie Peak Aviary.
+  turnin 1450
+step
+  when turnedin 1448
+  accept 1451
+step
+  accept 2880
+step
+  accept 2988
+step
+  when turnedin 1448
+  tip Seek out Rhapsody Shindigger in The Hinterlands.
+  turnin 1451
+step
+  tip Bring 5 Troll Tribal Necklaces to Fraggar Thundermantle in Aerie Peak.
+  collect 9259 x5 quest 2880.1 @46.28,66.93 map 1425 -- Drops from: Vilebranch Axe Thrower, Witherbark Scalper, Witherbark Zealot
+step
+  tip Check the cages at the two Witherbark villages, then return to Gryphon Master Talonaxe.
+  interact 144068 quest 2988.3 @31.99,57.31 map 1425
+  interact 144066 quest 2988.1 @23.28,58.81 map 1425
+  interact 144066 quest 2988.1 @23.13,58.82 map 1425
+  interact 144067 quest 2988.2 @23.13,58.82 map 1425
+  interact 144068 quest 2988.3
+step
+  turnin 2880
+step
+  turnin 2988
+step
+  when turnedin 3843
+  accept 4297
+step
+  when turnedin 3843
+  tip Bring 5 Silvermane Stalker Flanks to Agnar Beastamer in Hinterlands.
+  collect 11472 x5 quest 4297.1 @68,52.86 map 1425 -- Drops from: Silvermane Stalker
+step
+  when turnedin 3843
+  turnin 4297
+step
+  accept 2877
+step
+  accept 2989
+step
+  when turnedin 3843
+  accept 4298
+step
+  when turnedin 3843
+  tip Speak to Agnar Beastamer in the Hinterlands.
+  turnin 4298
+step
+  tip Kill 10 Green Sludges and 10 Jade Oozes, and then report back to Fraggar Thundermantle in Aerie Peak.
+  kill 2655 x10 quest 2877.1 @47.98,42.25 map 1425
+  kill 2655 x10 quest 2877.1 @56.9,42.99 map 1425
+  kill 2656 x10 quest 2877.2 @56.9,42.99 map 1425
+step
+  tip Check the top of the Altar of Zul, then return to Gryphon Master Talonaxe.
+  goto 48.98,68.66 "Search the Altar of Zul" map 1425
+step
+  when level>=43
+  kill 2505 @81.48,60.46 map 1425 -- Loot the quest item here — it starts the quest.
+  accept 485 @81.48,60.46 map 1425
+step
+  when onquest 485
+  tip Take the distress beacon to Oglethorpe's homing robot at the head of the river in the Hinterlands, near Skulk Rock.
+  turnin 485
+step
+  when turnedin 485
+  when level>=43
+  accept 836
+step
+  when onquest 836
+  tip Escort OOX-09/HL to the shoreline beyond Overlook Cliff, then report to Oglethorpe Obnoticus in Booty Bay.
+  goto 79.14,61.36 "Escort OOX-09/HL to the shoreline beyond Overlook Cliff" map 1425
+step
+  turnin 2877
+step
+  turnin 2989
+step
+  accept 2990
+step
+  when turnedin 2993
+  accept 2994
+step
+  when turnedin 2993
+  tip Fight to the top of Jintha'Alor, kill Vile Priestess Hexx for the key to Sharpbeak's cage, and save Sharpbeak.
+  interact 144070 quest 2994.1 @53.38,67.11 map 1425
+step
+  when turnedin 2993
+  turnin 2994
+step
+  zone map 1455
+  when turnedin 2279
+  accept 2439
+step
+  when turnedin 2279
+  tip Take your reward voucher to Dinita Stonemantle in the Vault of Ironforge.
+  turnin 2439 -- Turn in at Ironforge
+step
+  zone map 1434
+  when onquest 836
+  turnin 836 -- Turn in at Stranglethorn Vale
+step
+  zone map 1444
+  tip Zone complete! Travel to Feralas.
+  goto 30.28,46.17 map 1444

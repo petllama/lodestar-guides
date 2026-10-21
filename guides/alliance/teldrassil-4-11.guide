@@ -1,0 +1,840 @@
+guide lodestar/alliance/teldrassil-4-11
+title "Teldrassil (4-11)"
+levels 4-11
+zone map 1438
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/darkshore-13-20
+step
+  accept 456
+step
+  accept 458
+step
+  when onquest 456
+  tip Kill 7 Young Nightsabers and 4 Young Thistle Boars and return to Conservator Ilthalaine.
+  kill 1984 x4 quest 456.2 @59.1,43.34 map 1438
+  kill 2031 x7 quest 456.1 @61.58,44.19 map 1438
+  kill 1984 x4 quest 456.2 @61.58,44.19 map 1438
+step
+  when onquest 456
+  turnin 456
+step
+  when onquest 458
+  tip Seek out the dryad known as Tarindrella.
+  turnin 458
+step
+  when turnedin 456
+  accept 457
+step
+  when turnedin 458
+  accept 459
+step
+  only Warrior,NightElf
+  when turnedin 456
+  accept 3116
+step
+  only Hunter,NightElf
+  when turnedin 456
+  accept 3117
+step
+  only Rogue,NightElf
+  when turnedin 456
+  accept 3118
+step
+  only Priest,NightElf
+  when turnedin 456
+  accept 3119
+step
+  only Druid,NightElf
+  when turnedin 456
+  accept 3120
+step
+  when turnedin 458
+  accept 97977
+step
+  only NightElf
+  when turnedin 456
+  accept 97979
+step
+  when onquest 459
+  tip Collect 8 Fel Moss and bring them to Tarindrella.
+  collect 3297 x8 quest 459.1 @55.97,45.97 map 1438 -- Drops from: Grell, Grellkin
+step
+  when onquest 97977
+  tip Collect 4 Gnarlpine Totems and bring them to Tarindrella.
+  collect 279082 x4 quest 97977.1 @55.1,39.7 map 1438
+step
+  when onquest 459
+  turnin 459
+step
+  only Hunter,NightElf
+  when onquest 3117
+  tip Read the Etched Sigil and speak to Ayanna Everstride at the top of Aldrassil in Shadowglen.
+  turnin 3117
+step
+  only Priest,NightElf
+  when onquest 3119
+  tip Read the Hallowed Sigil and speak to Shanda in Aldrassil.
+  turnin 3119
+step
+  only Druid,NightElf
+  when onquest 3120
+  tip Read the Verdant Sigil and speak to Mardant Strongoak, in the tree Aldrassil in Shadowglen.
+  turnin 3120
+step
+  when onquest 97977
+  turnin 97977
+step
+  only NightElf
+  when onquest 97979
+  tip Cast Elune's Light and Shadowmeld.
+  turnin 97979
+step
+  accept 4495
+step
+  accept 916
+step
+  accept 2159
+step
+  tip Find Iverron by the cave to the north.
+  turnin 4495
+step
+  accept 3519
+step
+  kill 1994 @56.65,26.31 map 1438 -- Loot the quest item here — it starts the quest.
+  accept 97236 @56.65,26.31 map 1438
+step
+  tip Bring 10 Webwood Venom Sacs to Gilshalan Windwalker at Aldrassil.
+  collect 5166 x10 quest 916.1 @56.9,28.42 map 1438 -- Drops from: Webwood Spider
+step
+  only Warrior,NightElf
+  when onquest 3116
+  tip Read the Simple Sigil and speak to Alyissia in Shadowglen.
+  turnin 3116
+step
+  only Rogue,NightElf
+  when onquest 3118
+  tip Read the Encrypted Sigil and speak to Frahun Shadewhisper in Shadowglen.
+  turnin 3118
+step
+  when onquest 457
+  tip Conservator Ilthalaine needs you to kill 7 Mangy Nightsabers and 7 Thistle Boars.
+  kill 1985 x7 quest 457.2 @59.64,36.91 map 1438
+  kill 2032 x7 quest 457.1 @62.04,36.87 map 1438
+  kill 1985 x7 quest 457.2 @62.04,36.87 map 1438
+step
+  when onquest 457
+  turnin 457
+step
+  turnin 916
+step
+  tip Speak to Dirania Silvershine in Shadowglen.
+  turnin 3519
+step
+  tip Deliver the Fang of Githyiss to someone interested in the study of spiders in Aldrassil.
+  turnin 97236
+step
+  accept 3521
+step
+  accept 917
+step
+  tip Collect 7 Hyacinth Mushrooms, 4 Moonpetal Lilies, and 1 Webwood Ichor for Dirania Silveshine in Shadowglen.
+  collect 10639 x7 quest 3521.1 @58.58,41.47 map 1438
+  collect 10641 x4 quest 3521.2 @57.73,37.53 map 1438
+  collect 10639 x7 quest 3521.1 -- Drops from: Webwood Spider
+  collect 10641 x4 quest 3521.2 -- Drops from: Webwood Spider
+  collect 10640 quest 3521.3 @56.9,28.42 map 1438 -- Drops from: Webwood Spider
+step
+  turnin 3521
+step
+  only Priest,NightElf
+  accept 5622
+step
+  accept 3522
+step
+  tip Bring Iverron's Antidote to Iverron before the time limit is up. Iverron can be found by the cave to the north.
+  turnin 3522
+step
+  tip Bring a Webwood Egg to Gilshalan in Aldrassil.
+  collect 5167 quest 917.1 @56.8,26.46 map 1438 -- Drops from: Webwood Eggs
+step
+  turnin 917
+step
+  accept 920
+step
+  tip Speak with Tenaron Stormgrip atop Aldrassil in Shadowglen.
+  turnin 920
+step
+  accept 921
+step
+  tip Fill the Crystal Phial and bring it back to Tenaron Stormgrip atop Aldrassil.
+  collect 5184 quest 921.1 @59.95,33.05 map 1438 -- Drops from: Shadowglen Moonwell
+step
+  turnin 921
+step
+  accept 928
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96656
+  when !onquest 96659
+  interact 654846
+  accept 96630
+step
+  tip Bring the Dolanaar Delivery to Innkeeper Keldamyr.
+  turnin 2159
+step
+  only Priest,NightElf
+  tip Speak to Laurna Morninglight in Teldrassil.
+  turnin 5622
+step
+  when !turnedin 96627
+  when !turnedin 96628
+  when !turnedin 96638
+  when !turnedin 96652
+  when !turnedin 96656
+  when !turnedin 96659
+  when !onquest 96627
+  when !onquest 96628
+  when !onquest 96638
+  when !onquest 96652
+  when !onquest 96656
+  when !onquest 96659
+  tip Bring the journal to Lyreena Duskblade near Dolanaar.
+  turnin 96630
+step
+  accept 475
+step
+  accept 488
+step
+  accept 997
+step
+  accept 2438
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96607
+  when !onquest 96608
+  accept 96606
+step
+  only Priest,NightElf
+  accept 5621
+step
+  accept 87288
+step
+  tip Bring Zenn Foulhoof outside of Dolanaar 3 Nightsaber Fangs, 3 Strigid Owl Feathers and 3 swatches of Webwood Spider Silk.
+  collect 3409 x3 quest 488.1 @52.86,58.53 map 1438 -- Drops from: Nightsaber, Nightsaber Stalker, Elder Nightsaber
+  collect 3411 x3 quest 488.2 @58.86,60.29 map 1438 -- Drops from: Strigid Owl, Strigid Screecher, Strigid Hunter
+  collect 3409 x3 quest 488.1 @60.14,60.26 map 1438 -- Drops from: Webwood Lurker, Webwood Venomfang, Webwood Silkspinner
+  collect 3411 x3 quest 488.2 -- Drops from: Webwood Lurker, Webwood Venomfang, Webwood Silkspinner
+  collect 3412 x3 quest 488.3 @60.14,60.26 map 1438 -- Drops from: Webwood Lurker, Webwood Venomfang, Webwood Silkspinner
+step
+  tip Bring 6 Soft Nightsaber Pelts to Aldria.
+  collect 280087 x6 quest 87288.1 @52.86,58.53 map 1438 -- Drops from: Nightsaber
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96607
+  when !onquest 96608
+  tip Sit near Lyreena's Basic Campfire and wait until you receive the Boosted Rest buff.
+  interact 460003 quest 96606.1 @57.66,56.74 map 1438
+  interact 460003 quest 96606.2 @57.66,56.74 map 1438
+step
+  turnin 488
+step
+  turnin 87288
+step
+  when !turnedin 95998
+  when !turnedin 96101
+  when !turnedin 96604
+  when !turnedin 96605
+  when !turnedin 96607
+  when !turnedin 96608
+  when !onquest 95998
+  when !onquest 96101
+  when !onquest 96604
+  when !onquest 96605
+  when !onquest 96607
+  when !onquest 96608
+  turnin 96606
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  accept 96634
+step
+  accept 489 npc 2081
+step
+  accept 487
+step
+  accept 932
+step
+  tip Bring the Partially Filled Vessel to Corithras Moonrage in Dolanaar.
+  turnin 928
+step
+  accept 929
+step
+  tip Collect 3 Fel Cones and give them to Zenn Foulhoof outside of Dolanaar.
+  collect 3418 x3 quest 489.1 @54.28,61.9 map 1438
+step
+  only Priest,NightElf
+  tip Find Sentinel Shaya and heal her wounds using Lesser Heal (Rank 2). Afterwards, grant her Power Word: Fortitude and then return to Laurna Morninglight in Dolanaar.
+  talk 12429
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  tip Speak with Zarrin in Dolanaar to learn to become a cook.
+  talk 6286
+step
+  when !turnedin 96626
+  when !turnedin 96629
+  when !turnedin 96646
+  when !turnedin 96655
+  when !turnedin 96658
+  when !turnedin 96661
+  when !onquest 96626
+  when !onquest 96629
+  when !onquest 96646
+  when !onquest 96655
+  when !onquest 96658
+  when !onquest 96661
+  turnin 96634
+step
+  tip Bring the package of Rare Earth to Denalan at Lake Al'Ameth.
+  turnin 997
+step
+  accept 918
+step
+  accept 919
+step
+  tip Bring 8 Timberling Seeds to Denelan at Lake Al'Ameth.
+  collect 5168 x8 quest 918.1 @60.27,66.39 map 1438 -- Drops from: Timberling, Timberling Bark Ripper, Timberling Trampler
+step
+  turnin 918
+step
+  accept 922
+step
+  tip Seek out Gaerolas Talvethren in Starbreeze Village.
+  turnin 475
+step
+  accept 476
+step
+  tip Fill the Jade Phial and bring it back to Corithras Moonrage in Dolanaar.
+  collect 5639 quest 929.1 @63.38,58.09 map 1438 -- Drops from: Starbreeze Village Moonwell
+step
+  tip Bring the Emerald Dreamcatcher to Tallonkai Swiftroot in Dolanaar.
+  collect 8048 quest 2438.1 @68.02,59.65 map 1438 -- Drops from: Tallonkai's Dresser
+step
+  turnin 929
+step
+  accept 933
+step
+  tip Return to Athridas Bearmantle in Dolanaar.
+  turnin 476
+step
+  turnin 489
+step
+  turnin 2438
+step
+  only Priest,NightElf
+  turnin 5621
+step
+  accept 2459
+step
+  accept 483
+step
+  accept 99046
+step
+  tip Kill Lord Melenas and bring his head to Tallonkai Swiftroot in Dolanaar.
+  collect 5221 quest 932.1 @51.31,50.19 map 1438 -- Drops from: Lord Melenas
+step
+  accept 490
+step
+  tip Slay 6 Gnarlpine Ambushers and return to Sentinel Amara Nightwalker outside of Dolanaar.
+  kill 2152 x6 quest 487.1 @46.47,53.42 map 1438
+step
+  accept 2541
+step
+  tip Retrieve the Relics of Wakening and bring them to Athridas Bearmantle in Dolanaar.
+  collect 3407 quest 483.3 @44.7,62.44 map 1438 -- Drops from: Chest of the Sky
+  collect 3406 quest 483.2 @43.7,61.22 map 1438 -- Drops from: Chest of the Black Feather
+  collect 3408 quest 483.4 @44.4,60.66 map 1438 -- Drops from: Chest of Nesting
+  collect 3405 quest 483.1 @45.65,57.44 map 1438 -- Drops from: Chest of the Raven Claw
+  collect 3406 quest 483.2 -- Drops from: Chest of the Raven Claw
+  collect 3407 quest 483.3 -- Drops from: Chest of the Raven Claw
+  collect 3408 quest 483.4 -- Drops from: Chest of the Raven Claw
+step
+  tip Bring a Shaman Voodoo Charm to Oben Rageclaw in the Ban'ethil Barrow Den.
+  collect 8363 quest 2541.1 @44.41,61.24 map 1438 -- Drops from: Gnarlpine Shaman
+step
+  turnin 2541
+step
+  accept 99053
+step
+  tip Help Sentinel Lynessa Duskblossom escape Ban'ethil Barrow Den, and report her safety to Sentinel Kyra Starsong in Dolanaar.
+  goto 43.08,51.65 "Escort Lynessa Duskblossom out of Ban'ethil" map 1438
+step
+  tip Fill the Tourmaline Phial and bring it back to Corithras Moonrage in Dolanaar.
+  collect 5645 quest 933.1 @42.41,67.07 map 1438 -- Drops from: Pools of Arlithrien Moonwell
+step
+  tip Bring 12 Timberling Sprouts to Denalan at Lake Al'Ameth.
+  collect 5169 x12 quest 919.1 @55.08,69.93 map 1438
+step
+  turnin 933
+step
+  turnin 919
+step
+  tip Shayla Nightbreeze on the road outside of Darnassus wants you to bring her 15 Gnarlpine Fangs.
+  collect 5220 x15 quest 490.1 @66.7,63.34 map 1438 -- Drops from: Gnarlpine Ursa, Gnarlpine Gardener, Gnarlpine Warrior
+step
+  tip Tallonkai Swiftroot in Dolanaar wants you to kill 7 Gnarlpine Mystics and find the Missing Jewel.
+  kill 7235 x7 quest 2459.1 @68.64,52.3 map 1438
+  collect 8050 quest 2459.2 @68.64,52.3 map 1438
+step
+  turnin 483
+step
+  turnin 487
+step
+  turnin 932
+step
+  turnin 2459
+step
+  turnin 99053
+step
+  accept 98391
+step
+  accept 2561
+step
+  tip Oben Rageclaw wants you to kill his soulless body, and then use the Voodoo Charm.
+  kill 7318 quest 2561.1 @45.53,58.58 map 1438
+step
+  turnin 2561
+step
+  interact 6751
+  accept 930
+step
+  tip Bring the glowing fruit to Denalan at Lake Al'Ameth.
+  turnin 930
+step
+  accept 7383
+step
+  tip Search for Sentinel Eralya Leafshadow on the road leading to the Oracle Glade.
+  turnin 99046
+step
+  accept 99047
+step
+  accept 937
+step
+  tip Fill the Amethyst Phial and bring it back to Corithras Moonrage in Dolanaar.
+  collect 18151 quest 7383.1 @38.44,34.06 map 1438 -- Drops from: Oracle Glade Moonwell
+step
+  interact 6752
+  accept 931
+step
+  tip Acquire 6 Bloodfeather Belts and bring them to Sentinel Arynia Cloudsbreak in the Oracle Glade.
+  collect 5204 x6 quest 937.1 @37.73,41.07 map 1438 -- Drops from: Bloodfeather Harpy, Bloodfeather Rogue, Bloodfeather Sorceress
+step
+  turnin 490
+step
+  tip Seek aid from Byancie in Dolaanar for Sentinel Eralya Leafshadow.
+  turnin 99047
+step
+  accept 99050
+step
+  turnin 7383
+step
+  accept 935
+step
+  tip Collect 6 Dewy Lasher Fronds, an Empty Vial, and a Refreshing Spring Water for Byancie in Dolanaar.
+  talk 3614
+  buy 3371 npc 3614
+  collect 286017 x6 quest 99050.1 @57.91,66.56 map 1438 -- Drops from: Lasher Sproutling, Blooming Lasher, Wrathvine
+  talk 3587
+  buy 159 npc 3614
+step
+  tip Bring a Shimmering Frond to Denalan at Lake Al'Ameth
+  turnin 931
+step
+  interact 7510
+  accept 2399
+step
+  turnin 2399
+step
+  turnin 99050
+step
+  accept 99073
+step
+  turnin 937
+step
+  tip Take the Lashwater Salve to Sentinel Eralya Leafshadow on the road to the Oracle Tree.
+  turnin 99073
+step
+  accept 98392
+step
+  accept 938
+step
+  tip Escort Mist to Sentinel Arynia Cloudsbreak at the moon well near the Oracle Tree.
+  goto 38.33,34.39 "Lead Mist safely to Sentinel Arynia Cloudsbreak" map 1438
+step
+  turnin 938
+step
+  tip Collect Hatescreech's Amulet, Windmistress Gaedress' Amulet, and Witchmother Arysa's Amulet for Sentinel Arynia Cloudsbreak in the Oracle Glade.
+  collect 280832 quest 98392.2 @33.18,36.13 map 1438 -- Drops from: Windmistress Gaedress
+  collect 280831 quest 98392.1 @35.05,39.29 map 1438 -- Drops from: Hatescreech
+  collect 280831 quest 98392.1 @34.22,27.94 map 1438 -- Drops from: Witchmother Arysa
+  collect 280832 quest 98392.2 @34.22,27.94 map 1438 -- Drops from: Witchmother Arysa
+  collect 280834 quest 98392.3 @34.22,27.94 map 1438 -- Drops from: Witchmother Arysa
+step
+  turnin 98392
+step
+  accept 98398
+step
+  tip Find the Oracle Tree Bark nearby to receive its message.
+  turnin 98398
+step
+  interact 673378
+  accept 940
+step
+  only Hunter,NightElf
+  when !turnedin 6071
+  when !turnedin 6073
+  when !turnedin 6721
+  when !turnedin 6722
+  when !onquest 6071
+  when !onquest 6073
+  when !onquest 6721
+  when !onquest 6722
+  accept 6072
+step
+  only Hunter,NightElf
+  when !turnedin 6071
+  when !turnedin 6073
+  when !turnedin 6721
+  when !turnedin 6722
+  when !onquest 6071
+  when !onquest 6073
+  when !onquest 6721
+  when !onquest 6722
+  tip Speak with Dazalar in Dolanaar.
+  turnin 6072
+step
+  accept 486
+step
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1678
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1678
+  when !onquest 1683
+  accept 1684 npc 2151
+step
+  only Rogue
+  accept 2241
+step
+  only Priest,NightElf
+  when !turnedin 5627
+  when !turnedin 5628
+  when !turnedin 5630
+  when !turnedin 5631
+  when !turnedin 5632
+  when !turnedin 5633
+  when !onquest 5627
+  when !onquest 5628
+  when !onquest 5630
+  when !onquest 5631
+  when !onquest 5632
+  when !onquest 5633
+  accept 5629
+step
+  only Hunter,NightElf
+  accept 6063
+step
+  accept 98403
+step
+  only Druid,NightElf
+  when !turnedin 5923
+  when !turnedin 5924
+  when !onquest 5923
+  when !onquest 5924
+  accept 5925
+step
+  only Hunter,NightElf
+  tip Use the Taming Rod to tame a Webwood Lurker. Practice your skills, then return the Taming Rod to Dazalar in Dolanaar.
+  kill 1998 quest 6063.1 @60.14,60.26 map 1438 -- Use the quest item on them, don't just kill them.
+step
+  tip Kill 8 Befouled Webwoods and bring Xethorr the Wicked's Mature Fel Moss to Tallonkai Swiftroot in Dolanaar.
+  kill 272096 x8 quest 98403.1 @49.61,45.07 map 1438
+  collect 281023 quest 98403.2 @49.61,45.07 map 1438 optional -- Xethorr the Wicked is elite: grouping up is advised.
+step
+  only Hunter,NightElf
+  turnin 6063
+step
+  turnin 98403
+step
+  only Hunter,NightElf
+  accept 6101
+step
+  only Hunter,NightElf
+  tip Use the Taming Rod to tame a Nightsaber Stalker. Practice your skills, then return the Taming Rod to Dazalar in Dolanaar.
+  kill 2043 quest 6101.1 @46.59,71.34 map 1438 -- Use the quest item on them, don't just kill them.
+step
+  tip Kill Ursal the Mauler and return to Athridas Bearmantle in Dolanaar.
+  kill 2039 quest 486.1 @38.83,79.81 map 1438
+step
+  turnin 486
+step
+  only Hunter,NightElf
+  turnin 6101
+step
+  only Hunter,NightElf
+  accept 6102
+step
+  only Hunter,NightElf
+  tip Use the Taming Rod to tame a Strigid Screecher. Practice your skills, then return the Taming Rod to Dazalar in Dolanaar.
+  kill 1996 quest 6102.1 @41.05,68.39 map 1438 -- Use the quest item on them, don't just kill them.
+step
+  only Hunter,NightElf
+  turnin 6102
+step
+  only Hunter,NightElf
+  accept 6103
+step
+  zone map 1457
+  tip Speak to Sister Aquinne in Darnassus.
+  turnin 98391 -- Turn in at Darnassus
+step
+  accept 2519
+step
+  only Rogue
+  tip Take Jannok's Rose to Syurna in Darnassus.
+  turnin 2241 -- Turn in at Darnassus
+step
+  only Rogue
+  accept 2242
+step
+  tip Bring a Timberling Seed to Rellian Greenspyre in Darnassus.
+  turnin 922 -- Turn in at Darnassus
+step
+  accept 923
+step
+  tip Deliver the Oracle Tree's report to Arch Druid Fandral Staghelm in Darnassus.
+  turnin 940 -- Turn in at Darnassus
+step
+  tip Bring the Filled Vessel to Arch Druid Fandral Staghelm in Darnassus.
+  turnin 935 -- Turn in at Darnassus
+step
+  accept 98046
+step
+  only Druid,NightElf
+  when !turnedin 5923
+  when !turnedin 5924
+  when !onquest 5923
+  when !onquest 5924
+  tip Speak with Mathrengyl Bearwalker in the Cenarion Enclave, Darnassus.
+  turnin 5925 -- Turn in at Darnassus
+step
+  only Druid,NightElf
+  when turnedin 5931
+  accept 6001
+step
+  only Druid,NightElf
+  when turnedin 5931
+  tip Use the Cenarion Moondust on the Moonkin Stone of Auberdine to bring forth Lunaclaw. From there, you must face Lunaclaw and earn the strength of body and heart it possesses.
+  kill 12144 quest 6001.1 -- Use the quest item on them, don't just kill them.
+step
+  only Druid,NightElf
+  when turnedin 5931
+  turnin 6001 -- Turn in at Darnassus
+step
+  only Druid,NightElf
+  accept 5921
+step
+  only Hunter,NightElf
+  tip Speak to Jocaste in the Cenarion Enclave, in Darnassus.
+  turnin 6103 -- Turn in at Darnassus
+step
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1678
+  when !turnedin 1683
+  when !onquest 1639
+  when !onquest 1678
+  when !onquest 1683
+  tip Speak with Elanaria.
+  turnin 1684 -- Turn in at Darnassus
+step
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1678
+  when !onquest 1639
+  when !onquest 1678
+  accept 1683
+step
+  only NightElf
+  accept 6344
+step
+  only Priest,NightElf
+  when !turnedin 5627
+  when !turnedin 5628
+  when !turnedin 5630
+  when !turnedin 5631
+  when !turnedin 5632
+  when !turnedin 5633
+  when !onquest 5627
+  when !onquest 5628
+  when !onquest 5630
+  when !onquest 5631
+  when !onquest 5632
+  when !onquest 5633
+  tip Speak to Priestess Alathea in Darnassus.
+  turnin 5629 -- Turn in at Darnassus
+step
+  tip Sister Aquinne wants you to speak with Priestess A'moora in the Temple of the Moon.
+  turnin 2519 -- Turn in at Darnassus
+step
+  accept 2518
+step
+  tip Bring the Drained Vessel to Lariia in the Temple of the Moon in Darnassus.
+  turnin 98046 -- Turn in at Darnassus
+step
+  accept 98065
+step
+  accept 98067
+step
+  tip Place Sentinel Owls at the entrance to the Cenarion Hold depths, the Darnassus Bank, the Craftsman's Terrace Inn, and the City Gate for Sentinel Dalia Sunblade in the Temple of the Moon in Darnassus.
+  goto 41.04,43.55 map 1457
+  goto 33.39,16.77 map 1457
+  goto 66.46,15.35 map 1457
+  goto 89.14,34.76 map 1457
+step
+  turnin 98067 -- Turn in at Darnassus
+step
+  tip Bring the Moonwell Remnants to Tyrande Whisperwind in the Temple of the Moon in Darnassus.
+  turnin 98065 -- Turn in at Darnassus
+step
+  zone map 1438
+  only NightElf
+  tip Speak with Nessa Shadowsong.
+  turnin 6344
+step
+  only NightElf
+  accept 6341
+step
+  only NightElf
+  tip Bring Nessa's Collection to Vesprystus.
+  turnin 6341
+step
+  only NightElf
+  accept 6342
+step
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1678
+  when !onquest 1639
+  when !onquest 1678
+  tip Bring the Horn of Vorlus to Elanaria in Darnassus.
+  collect 6805 quest 1683.1 @47.25,63.6 map 1438 -- Drops from: Vorlus Vilehoof
+step
+  tip Bring 5 Mossy Tumors to Rellian Greenspyre in Darnassus.
+  collect 5170 x5 quest 923.1 @43.91,42.69 map 1438 -- Drops from: Timberling Trampler, Timberling Mire Beast, Elder Timberling
+step
+  tip Priestess A'moora in the Temple of the Moon at Darnassus wants you to bring her Lady Sathrah's Silvery Spinnerets.
+  collect 8344 quest 2518.1 @42,25.4 map 1438 -- Drops from: Lady Sathrah
+step
+  only Rogue
+  tip Find Sethir the Ancient and bring back any clues that you may discover to Syurna.
+  collect 7737 quest 2242.1 @37.11,22.83 map 1438 -- Drops from: Sethir the Ancient
+step
+  zone map 1457
+  only Warrior
+  when !turnedin 1639
+  when !turnedin 1678
+  when !onquest 1639
+  when !onquest 1678
+  turnin 1683 -- Turn in at Darnassus
+step
+  turnin 923 -- Turn in at Darnassus
+step
+  accept 2498
+step
+  only Rogue
+  turnin 2242 -- Turn in at Darnassus
+step
+  turnin 2518 -- Turn in at Darnassus
+step
+  accept 2520
+step
+  tip Priestess A'moora wants you to place Lady Sathrah's silvery spinnerets at the fountain inside the temple, and then return to her.
+  interact 138498 quest 2520.1 @39.18,85.59 map 1457
+step
+  turnin 2520 -- Turn in at Darnassus
+step
+  zone map 1450
+  only Druid,NightElf
+  tip Use the spell "Teleport: Moonglade" to travel to Moonglade. When you arrive, speak with Dendrite Starblaze in the village of Nighthaven.
+  turnin 5921 -- Turn in at Moonglade
+step
+  zone map 1438
+  tip Rellian Greenspyre wants you to speak with Denalan at Lake Al'Ameth.
+  turnin 2498
+step
+  accept 2499
+step
+  tip Denalan at Lake Al'Ameth wants you to collect the Gargantuan Tumor from Oakenscowl.
+  collect 8136 quest 2499.1 @53.76,75.12 map 1438 optional -- Oakenscowl is elite: grouping up is advised.
+step
+  turnin 2499
+step
+  zone map 1439
+  only NightElf
+  tip Ride a hippogryph to Auberdine from the hippogryph master Vesprystus, then bring Nessa's Collection to Laird.
+  turnin 6342 -- Turn in at Darkshore
+step
+  tip Zone complete! Travel to Darkshore.
+  goto 36.97,44.13 map 1439

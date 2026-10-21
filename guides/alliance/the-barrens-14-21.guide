@@ -1,0 +1,193 @@
+guide lodestar/alliance/the-barrens-14-21
+title "The Barrens (14-21)"
+levels 14-21
+zone map 1413
+coords era
+faction Alliance
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/alliance/stonetalon-mountains-21-27
+step
+  level 13
+step
+  getfp "Ratchet, The Barrens"
+step
+  accept 887
+step
+  accept 894
+step
+  tip Kill 12 Southsea Brigands and 6 Southsea Cannoneers for Gazlowe in Ratchet.
+  kill 3381 x12 quest 887.1 @63.67,46.13 map 1413
+  kill 3381 x12 quest 887.1 @63.58,46.69 map 1413
+  kill 3382 x6 quest 887.2 @63.58,46.69 map 1413
+step
+  turnin 887
+step
+  accept 890
+step
+  interact 3972
+  accept 895
+step
+  tip Bring Gazlowe's Ledger to Wharfmaster Dizzywig.
+  turnin 890
+step
+  accept 892
+step
+  tip Return Gazlowe's Ledger to Gazlowe in Ratchet.
+  turnin 892
+step
+  accept 888
+step
+  tip Retrieve the Shipment of Boots and Telescopic Lens for Gazlowe in Ratchet.
+  collect 5077 quest 888.2 @63.58,49.25 map 1413 -- Drops from: Fragile - Do Not Drop
+  collect 5076 quest 888.1 @62.63,49.63 map 1413 -- Drops from: Drizzlik's Emporium
+  collect 5077 quest 888.2 -- Drops from: Drizzlik's Emporium
+step
+  tip Bring the head of Baron Longshore to Gazlowe in Ratchet.
+  collect 5084 quest 895.1 @63.3,49 map 1413 -- Drops from: Baron Longshore
+step
+  turnin 888
+step
+  turnin 895
+step
+  when level>=13
+  accept 865
+step
+  when level>=13
+  accept 896
+step
+  when onquest 865
+  tip Gather 5 Intact Raptor Horns from Sunscale Scytheclaws, and bring them to Mebok Mizzyrix in Ratchet.
+  collect 5055 x5 quest 865.1 @52.58,45.99 map 1413 -- Drops from: Sunscale Scytheclaw, Ishamuhale, Takk the Leaper
+step
+  tip Access the control console at the Venture Company research site.
+  turnin 894
+step
+  interact 4141
+  accept 900
+step
+  accept 858
+step
+  tip Get the Ignition Key and bring it to Wizzlecrank.
+  collect 5050 quest 858.1 @56.27,8.58 map 1413 -- Drops from: Supervisor Lugwizzle
+step
+  when onquest 896
+  tip Retrieve the Cats Eye Emerald from one of the Venture Co. Overseers or Enforcers for Wharfmaster Dizzywig at Ratchet.
+  collect 5097 quest 896.1 @60.81,3.79 map 1413 -- Drops from: Venture Co. Enforcer, Venture Co. Overseer, Boss Copperplug
+step
+  tip Close off the Fuel Control Valve, the Regulator Valve and the Main Control Valve then use the control console again.
+  interact 61936 quest 900.2 @52.4,11.41 map 1413
+  interact 61935 quest 900.3 @52.3,11.42 map 1413
+  interact 4072 quest 900.1 @52.33,11.56 map 1413
+  interact 61936 quest 900.2 @52.33,11.56 map 1413
+  interact 61935 quest 900.3 @52.33,11.56 map 1413
+step
+  turnin 858
+step
+  turnin 900
+step
+  interact 4141
+  accept 901
+step
+  tip Get the Console Key from Tinkerer Sniggles to use on the control console.
+  collect 5089 quest 901.1 @52.84,10.39 map 1413 -- Drops from: Tinkerer Sniggles
+step
+  turnin 901
+step
+  interact 4141
+  accept 902
+step
+  accept 863
+step
+  tip Protect Wizzlecrank and the stolen goblin shredder on the way to Sputtervalve in Ratchet.
+  goto 55.36,7.68 "Escort Wizzlecrank out of the Venture Co. drill site" map 1413
+step
+  turnin 863
+step
+  when onquest 865
+  turnin 865
+step
+  when onquest 896
+  turnin 896
+step
+  tip Return the Samophlange to Sputtervalve in Ratchet.
+  turnin 902
+step
+  when level>=15
+  accept 1069
+step
+  when level>=16
+  accept 1483
+step
+  when level>=15
+  accept 97005
+step
+  when onquest 97005
+  tip Bring Chol'aruk's Head to Bainham in the Barrens.
+  collect 276070 quest 97005.1 @57.64,27.37 map 1413 optional -- Chol'aruk is elite: grouping up is advised.
+step
+  when onquest 97005
+  turnin 97005
+step
+  when turnedin 6981
+  when level>=15
+  accept 3370
+step
+  interact 415106
+  accept 79192
+step
+  zone map 1442
+  when onquest 1069
+  tip Bring 15 Deepmoss Eggs to Mebok Mizzyrix in Ratchet.
+  collect 5570 x15 quest 1069.1 @61.39,56.74 map 1442 -- Drops from: Deepmoss Eggs
+step
+  zone map 1413
+  when onquest 1069
+  turnin 1069
+step
+  zone map 1457
+  when turnedin 6981
+  when onquest 3370
+  tip Bring the Nightmare Shard to Mathrengyl Bearwalker in Darnassus.
+  turnin 3370 -- Turn in at Darnassus
+step
+  only Druid,NightElf,Skyborne
+  when level>=20
+  accept 98393
+step
+  only Priest,NightElf
+  when !turnedin 5673
+  when !turnedin 5674
+  when !turnedin 5675
+  when !onquest 5673
+  when !onquest 5674
+  when !onquest 5675
+  when level>=20
+  accept 5672
+step
+  only Priest,NightElf
+  when !turnedin 5673
+  when !turnedin 5674
+  when !turnedin 5675
+  when !onquest 5673
+  when !onquest 5674
+  when !onquest 5675
+  when onquest 5672
+  turnin 5672 -- Turn in at Darnassus
+step
+  zone map 1450
+  only Druid,NightElf,Skyborne
+  when onquest 98393
+  tip Speak with Dendrite Starblaze in the village of Nighthaven, Moonglade.
+  turnin 98393 -- Turn in at Moonglade
+step
+  zone map 1442
+  when onquest 1483
+  tip Speak with Ziz Fizziks in Windshear Crag.
+  turnin 1483 -- Turn in at Stonetalon Mountains
+step
+  tip You tear the note from the plank and read the scrawled writing.
+  turnin 79192 -- Turn in at Stonetalon Mountains
+step
+  tip Zone complete! Travel to Stonetalon Mountains.
+  goto 59.9,66.85 map 1442

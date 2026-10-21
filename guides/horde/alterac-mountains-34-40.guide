@@ -1,0 +1,143 @@
+guide lodestar/horde/alterac-mountains-34-40
+title "Alterac Mountains (34-40)"
+levels 34-40
+zone map 1416
+coords era
+faction Horde
+author Lodestar
+pitch "Lodestar's free 1-60 route, converted for Polestar (unofficial)."
+next lodestar/horde/stranglethorn-vale-34-41
+step
+  level 31
+step
+  only Shaman,Orc,Troll,Tauren
+  accept 79362
+step
+  only Shaman,Orc,Troll,Tauren
+  accept 79363
+step
+  accept 535
+step
+  tip Bring a mug of Southshore Stout to Valik in the Syndicate camp.
+  collect 3703 quest 535.1 @59.3,69.76 map 1416 -- Drops from: Drunken Footpad
+step
+  turnin 535
+step
+  only Rogue
+  accept 96779
+step
+  only Rogue
+  accept 96783
+step
+  only Rogue
+  accept 96781
+step
+  only Rogue
+  tip Steal a Syndicate uniform from Northfold Manor to infiltrate Stromgarde Keep.
+  turnin 96783 @84.93,80.38 map 1416
+step
+  when turnedin 503
+  accept 506
+step
+  only Rogue
+  tip Steal Barton's Scouting Report by pickpocketing it from him. Then, bring the report to Myrokos Silentform at Ravenholdt Manor.
+  collect 275482 quest 96781.1 @62.59,46.86 map 1416
+step
+  only Rogue
+  turnin 96781
+step
+  only Warrior
+  when turnedin 1791
+  accept 1712
+step
+  zone map 1431
+  only Shaman,Orc,Troll,Tauren
+  tip Find Grant's Mace on one of the skeletons in Raven Hill Cemetery then return to Sirra Von'Indie in Darkshire for more information.
+  collect 281146 quest 79362.1 @23.06,47.11 map 1431 -- Drops from: Skeletal Horror, Skeletal Fiend, Skeletal Healer
+step
+  only Shaman,Orc,Troll,Tauren
+  tip Defeat 7 Defias Night Blades and 7 Defias Enchanters in Addle's Stead then return to Sirra Von'Indi in Darkshire for more information.
+  kill 909 x7 quest 79363.1 @23.37,73.31 map 1431
+  kill 909 x7 quest 79363.1 @23.65,71.95 map 1431
+  kill 910 x7 quest 79363.2 @23.65,71.95 map 1431
+step
+  zone map 1416
+  only Shaman,Orc,Troll,Tauren
+  turnin 79362 npc 6176
+step
+  only Shaman,Orc,Troll,Tauren
+  turnin 79363 npc 6176
+step
+  zone map 1424
+  when turnedin 503
+  tip Return the information gathered by Gol'dir to Krusk in Tarren Mill.
+  turnin 506 -- Turn in at Hillsbrad Foothills
+step
+  when turnedin 503
+  accept 507
+step
+  only Rogue
+  tip Find Lord Tomas inside Durnholde Keep, in Hillsbrad Foothills, and kill him. Then, return to Myrokos Silentform.
+  kill 266216 quest 96779.1 @79.32,46.24 map 1424
+step
+  zone map 1416
+  only Rogue
+  turnin 96779
+step
+  when turnedin 503
+  tip Kill Lord Aliden Perenolde and ask his mistress, Elysa, about Taretha's pendant.
+  kill 2423 quest 507.1 @39.32,14.58 map 1416
+step
+  when turnedin 503
+  turnin 507
+step
+  when turnedin 503
+  accept 508
+step
+  only Warrior
+  when turnedin 1791
+  tip Bring the items on Bath'rah's Parchment to Bath'rah the Windwatcher in Alterac.
+  collect 3357 x8 quest 1712.1 @25.95,43.98 map 1416
+  collect 3901 x30 quest 1712.2 @34.04,16.78 map 1434 -- Drops from: Bloodscalp Warrior, Bloodscalp Scout, Bloodscalp Hunter
+  collect 3357 x8 quest 1712.1 -- Crafted or bought.
+  collect 3901 x30 quest 1712.2 -- Crafted or bought.
+  collect 6851 quest 1712.3 -- Crafted or bought.
+step
+  only Warrior
+  when turnedin 1791
+  turnin 1712
+step
+  only Warrior
+  when turnedin 1791
+  when level>=40
+  accept 1713
+step
+  only Warrior
+  when turnedin 1791
+  when onquest 1713
+  tip Bring the Whirlwind Heart to Bath'rah Windwatcher.
+  collect 6894 quest 1713.1 @80.32,62.14 map 1416 optional -- Cyclonian is elite: grouping up is advised.
+step
+  only Warrior
+  when turnedin 1791
+  when onquest 1713
+  turnin 1713
+step
+  only Warrior
+  when turnedin 1791
+  when turnedin 1713
+  accept 1792
+step
+  only Warrior
+  when turnedin 1791
+  when onquest 1792
+  turnin 1792
+step
+  zone map 1424
+  when turnedin 503
+  tip Return Taretha's pendant to Krusk in Tarren Mill.
+  turnin 508 -- Turn in at Hillsbrad Foothills
+step
+  zone map 1434
+  tip Zone complete! Travel to Stranglethorn Vale.
+  goto 35.66,10.53 map 1434
